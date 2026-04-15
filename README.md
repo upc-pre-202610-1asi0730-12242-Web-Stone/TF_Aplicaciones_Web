@@ -19,7 +19,7 @@ Aca iria una imagen de la upc
 | Nombre |Código|
 |:-------:|:----------:|
 |Huaco Oliva, Luis Alonso|U202417743|
-|X|X|
+|Sandoval Cueto, Fabian Jesus|U20221A132|
 |X|X|
 |X|X|
 |X|X|
