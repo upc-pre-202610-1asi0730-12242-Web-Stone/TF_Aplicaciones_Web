@@ -13,10 +13,11 @@ Ciclo: 2026-10
 **Nombre del Startup:** WebStone
 Docente: Angel Augusto Velasquez Nuñez
 **Integrantes:**
-|Nombres y Apellidos         |Código de estudiante |
-|          :---:             |        :---:        |
-|Fabian Jesus Sandoval Cueto |U20221a132           |
-|Oscar Diego Checa Burga     |U20231E492           |
+|Nombres y Apellidos                |Código de estudiante |
+|          :---:                    |        :---:        |
+|Fabian Jesus Sandoval Cueto        |U20221a132           |
+|Oscar Diego Checa Burga            |U20231E492           |
+|Andrea Khristina Correa Rodriguez  |U202412041           |
 
 ## Registro de Versiones del Informe
 
