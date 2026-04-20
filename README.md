@@ -385,8 +385,25 @@ KhipuTech enfoca su modelo de negocio en dos segmentos institucionales distintos
 ## Capítulo II: Requirements Elicitation & Analysis
 
 ### 2.1. Competidores
-  
+
 #### 2.1.1. Análisis competitivo
+- **Competitive Analysis Land Landscape**
+
+  _¿Por qué llevar a cabo este análisis?_
+
+    Este análisis no permite identificar las brechas de costo y funcionalidad en el mercado de tecnología museística, para validar el posicionamiento de KhipuTech como la opción líder en analítica de bajo costo y alta interacción. 
+
+|  Categoría | Sub Categpría | KhipuTech | Competidor 1: T.M.A.S. (Storetraffic) | Competidor 2: FootfallCam | Competidor 3: Muse Software AI | Competidor 4: SenseMax | Competidor 5: Living Museum | Competidor 6: Counterest
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Perfil | Overview | Solución híbrida de IoT y Web App para analítica y engagement. | Líder en conteo de personas y KPIs de tráfico para retail/museos. | Especialistas en conteo 3D avanzado y mapas de calor. | ERP/CRM integral para operaciones completas de museos. | Sistema de sensores inalámbricos con transmisión Cloud. | Plataforma experimental de IA para guías virtuales. | Analítica de flujo mediante WiFi y sensores térmicos. |
+| Perfil | Ventaja competitiva | Bajo costo operativo y hardware DIY con interacción QR/NFC. | Dashboard profesional y hardware inalámbrico de fácil instalación. | Alta precisión técnica en grandes flujos de personas. | Centralización de toda la administración del museo.| Simplicidad de uso y reportes automáticos. | Interacción conversacional inmersiva con IA. | Análisis de rutas y comportamiento del usuario. | 
+| P. Marketing | Mercado Objetivo | Museos medianos, galerías de arte y centros culturales. | Retail, bibliotecas y museos pequeños/medianos. | Centros comerciales, aeropuertos y grandes museos. | Museos de gran escala y organizaciones sin fines de lucro. | Retail, museos y centros de exhibición. | Estudiantes y visitantes de museos virtuales/físicos.| Espacios de eventos, museos y retail de lujo.|
+| P. Marketing | Estrategias de Marketing | Venta directa B2B y demostraciones de pilotos locales.| Posicionamiento SEO global y partnerships con hardware. | Marketing basado en precisión técnica y casos de éxito corporativos.| marketing	Inbound marketing y demostraciones enterprise.| Canal de distribuidores globales. | Difusión en comunidades tech y educativas.| Ventas consultivas para proyectos a medida. | 
+| P. Producto | Productos & Servicios | Sensores de flujo + Web App de contenido exclusivo. | Sensores infrarrojos (Pearl) + Plataforma SaaS. | Cámaras 3D con IA + Software de análisis de ruta.| CRM, Ticketing, POS y Fundraising. | Sensores infrarrojos y colectores de datos.| Chatbot Web basado en contenido de museos.| Sensores térmicos y rastreo de señales WiFi.|
+| P. Producto | Precios & Costos | <$500 Setup Total (Sin suscripciones obligatorias). | $1,100+ Hardware + $19.95/mes de suscripción. | $500+ por unidad de hardware + costos de instalación. | Premium (Alto, basado en cotización). | €330+ Kit inicial + cuota mensual.| Gratuito (Proyecto experimental). | Alto (Costo por proyecto/licencia).| 
+| P. Producto | Canales (Web & Movil) | Web App (Mobile-first) y Dashboard. | Cloud-based Dashboard y App móvil de monitoreo. | Software de escritorio y Dashboard. |Multiplataforma (SaaS).| Web Dashboard y escritorio.|Web App accesible desde cualquier navegador.| Dashboard Web de analítica avanzada.| 
+| Análisis SWOT | Fortalezas | Costo disruptivo y flexibilidad de automatización. | Marca establecida y hardware muy confiable. | Tecnología de punta y gran precisión en 3D.| Solución definitiva para administración.| Instalación rápida sin cables.| Innovación tecnológica (Generative AI).| Análisis de comportamiento profundo.|
+| Análisis SWOT | Debilidades | Percepción de marca nueva/tecnología DIY. | Costo elevado para instituciones públicas. | Instalación compleja y precio restrictivo. | Curva de aprendizaje y costo alto.| Dependencia de suscripciones SaaS.| No soluciona el flujo físico ni métricas.| Inversión técnica y económica alta.|
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
