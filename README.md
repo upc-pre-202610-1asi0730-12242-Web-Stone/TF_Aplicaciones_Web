@@ -1725,8 +1725,34 @@ Acceso temporales y con suscripción acceso permanente
 ### 3.2. Impact Mapping
 
 ### 3.3. Product Backlog
+Se detalla el backlog del producto, priorizando las historias de usuario y funcionalidades
+según su valor para el usuario y el negocio. Este backlog sirve como guía para la planificación
+de sprints y la gestión del desarrollo ágil.
 
----
+**Product Backlog –KhipuTech**
+
+| **# Orden** | **User Story Id** | **Título** | **Descripción** | **Story Points (1/2/3/5/8)** |
+|-------------|-------------------|------------|-----------------|------------------------------|
+| 1 | US01 | Acceso a contenido mediante QR | Como visitante quiero escanear un código QR para acceder al contenido digital de una obra para obtener información inmediata durante el recorrido. | 3 |
+| 2 | US33 | Acceso a contenido vía QR | Como visitante quiero escanear códigos QR sin fricción para visualizar contenido rápidamente y mejorar mi experiencia en el museo. | 3 |
+| 3 | US34 | Acceso sin descarga | Como visitante quiero acceder al contenido sin instalar aplicaciones para tener una experiencia rápida y sencilla. | 2 |
+| 4 | US49 | Acceso rápido sin fricción | Como visitante quiero acceder al contenido sin registro obligatorio para facilitar el uso inmediato del sistema. | 2 |
+| 5 | US03 | Visualización multimedia enriquecida | Como visitante quiero ver contenido multimedia (imagen, audio y video) para entender mejor las obras. | 5 |
+| 6 | US35 | Visualización multimedia | Como visitante quiero visualizar contenido multimedia para enriquecer mi experiencia dentro del museo. | 3 |
+| 7 | US40 | Carga rápida de contenido | Como visitante quiero que el contenido cargue en menos de 3 segundos para no perder tiempo durante mi recorrido. | 5 |
+| 8 | US04 | Selección de idioma | Como visitante quiero elegir el idioma del contenido para comprender mejor la información presentada. | 3 |
+| 9 | US50 | Accesibilidad del contenido | Como visitante quiero que el contenido sea accesible (texto claro, audio, móvil) para mejorar la experiencia de todos los usuarios. | 5 |
+| 10 | US05 | Contenido contextual por sala | Como visitante quiero recibir contenido específico según la sala para tener una experiencia personalizada. | 5 |
+| 11 | US02 | Acceso mediante NFC | Como visitante quiero acceder al contenido mediante NFC para una interacción más rápida y moderna. | 5 |
+| 12 | US36 | Navegación entre obras | Como visitante quiero navegar entre obras fácilmente para mejorar mi recorrido dentro del museo. | 3 |
+| 13 | US07 | Recomendaciones de obras | Como visitante quiero recibir recomendaciones de obras para descubrir contenido relevante. | 5 |
+| 14 | US37 | Recomendaciones de recorrido | Como visitante quiero recibir sugerencias de recorrido para optimizar mi visita. | 5 |
+| 15 | US08 | Marcar obras favoritas | Como visitante quiero marcar obras como favoritas para recordarlas después. | 2 |
+| 16 | US06 | Historial de obras visitadas | Como visitante quiero ver las obras que ya visité para seguir mi recorrido. | 3 |
+| 17 | US09 | Registro de visitas por obra | Como administrador quiero ver cuántas veces se accede a cada obra para analizar su popularidad. | 5 |
+| 18 | US10 | Tiempo de interacción | Como administrador quiero medir el tiempo de interacción para evaluar el engagement del contenido. | 5 |
+| 19 | US14 | Dashboard en tiempo real | Como administrador quiero visualizar métricas en tiempo real para tomar decisiones inmediatas. | 8 |
+| 20 | US11 | Ranking de obras | Como administrador quiero ver un ranking de obras más visitadas para optimizar exhibiciones. | 3 |
 
 ## Capítulo IV: Product Design
 
