@@ -1,4 +1,4 @@
-![Logo UPC](https://images.seeklogo.com/logo-png/40/2/universidad-peruana-de-ciencias-aplicadas-upc-logo-png_seeklogo-402620.png)
+gitgi![Logo UPC](https://images.seeklogo.com/logo-png/40/2/universidad-peruana-de-ciencias-aplicadas-upc-logo-png_seeklogo-402620.png)
 
 ## UNIVERSIDAD PERUANA DE CIENCIAS APLICADA, INGENIERÍA DE SOFTWARE, 2026-01
 
@@ -20,7 +20,7 @@
 |Fabian Jesus Sandoval Cueto |U20221a132 |
 |Oscar Diego Checa Burga |U20231E492 |
 |Andrea Khristina Correa Rodriguez |U202412041 |
-|x |x |
+|Luis Alonso Huaco Oliva |U202417743 |
 |x |x |
 
 Abril, 2026
@@ -1743,275 +1743,411 @@ Tras el análisis del panorama competitivo, KhipuTech ha definido las siguientes
     EP05
   </td>
 </tr>
-
-  <!-- US 40 -->
-  <tr>
-    <td style="text-align: center;">
+<!-- US 40 -->
+<tr>
+  <td style="text-align: center;">
     US40
-    </td>
-    <td style="text-align: center;">
+  </td>
+  <td style="text-align: center;">
     Carga rápida de contenido
-    </td>
-    <td style="text-align: center;">
-    Como visitante, quiero que el contenido se cargue rápido para no perder tiempo.
-    </td>
-    <td style="text-align: center;">
+  </td>
+  <td style="text-align: center;">
+    Como visitante del museo, quiero que el contenido digital cargue rápidamente, para no interrumpir mi experiencia durante el recorrido.
+  </td>
+  <td style="text-align: center;">
     Criterios de aceptación:
-    <br>Scenario 1: Rendimiento. Dado que el usuario accede, cuando se carga la página, entonces el tiempo es menor a 3 segundos.
-    </td>
-    <td style="text-align: center;">
+    <br>Given que el visitante accede a contenido digital
+    <br>When el sistema carga la información
+    <br>Then el tiempo de carga es menor a 3 segundos en condiciones normales de red
+    <br><br>Given que el visitante accede desde un dispositivo móvil
+    <br>When visualiza el contenido
+    <br>Then la carga es eficiente y optimizada para conexiones móviles
+    <br><br>Given que el contenido incluye elementos multimedia
+    <br>When se carga la página
+    <br>Then los elementos se muestran progresivamente sin bloquear la interacción
+  </td>
+  <td style="text-align: center;">
     EP05
-    </td>
-  </tr>
-Acceso temporales y con suscripción acceso permanente
-  <!-- US 41 -->
-  <tr>
-    <td style="text-align: center;">
+  </td>
+</tr>
+<!-- US 41 -->
+<tr>
+  <td style="text-align: center;">
     US41
-    </td>
-    <td style="text-align: center;">
-    Dashboard de afluencia
-    </td>
-    <td style="text-align: center;">
-    Como administrador, quiero visualizar la afluencia por sala para tomar decisiones rápidas.
-    </td>
-    <td style="text-align: center;">
+  </td>
+  <td style="text-align: center;">
+    Dashboard de afluencia por sala
+  </td>
+  <td style="text-align: center;">
+    Como gestor del museo, quiero visualizar la afluencia de visitantes por sala en un dashboard interactivo, para tomar decisiones rápidas y mejorar la gestión del flujo dentro del museo.
+  </td>
+  <td style="text-align: center;">
     Criterios de aceptación:
-    <br>Scenario 1:Visualización. Dado que los sensores están activos, cuando accede al dashboard, entonces se muestran datos en tiempo real.
-    </td>
-    <td style="text-align: center;">
+    <br>Given que los sensores de flujo están activos
+    <br>When el sistema recibe datos de visitantes
+    <br>Then el dashboard muestra la afluencia por sala en tiempo casi real
+    <br><br>Given que el gestor accede al dashboard
+    <br>When visualiza la información
+    <br>Then se presentan gráficos claros que facilitan la interpretación de los datos
+    <br><br>Given que el flujo de visitantes cambia
+    <br>When el sistema actualiza los datos
+    <br>Then la información se refresca automáticamente sin necesidad de recargar la página
+  </td>
+  <td style="text-align: center;">
     EP06
-    </td>
-  </tr>
-
-  <!-- US 42 -->
-  <tr>
-    <td style="text-align: center;">
+  </td>
+</tr>
+ <!-- US 42 -->
+<tr>
+  <td style="text-align: center;">
     US42
-    </td>
-    <td style="text-align: center;">
-    Permanencia en obras
-    </td>
-    <td style="text-align: center;">
-    Como administrador, quiero conocer el tiempo de permanencia por obra para medir el engagement.
-    </td>
-    <td style="text-align: center;">
+  </td>
+  <td style="text-align: center;">
+    Análisis de permanencia por obra
+  </td>
+  <td style="text-align: center;">
+    Como gestor del museo, quiero conocer el tiempo de permanencia de los visitantes en cada obra, para medir el nivel de engagement y evaluar el interés del público.
+  </td>
+  <td style="text-align: center;">
     Criterios de aceptación:
-    <br> Métrica. Dado que hay interacción, cuando consulta, entonces se muestra el tiempo promedio
-    </td>
-    <td style="text-align: center;">
+    <br>Given que los visitantes interactúan con el contenido de una obra
+    <br>When el sistema registra la duración de la interacción
+    <br>Then se calcula el tiempo de permanencia por visita
+    <br><br>Given que el gestor accede al dashboard
+    <br>When consulta una obra específica
+    <br>Then se muestra el tiempo promedio de permanencia
+    <br><br>Given que existen múltiples registros de interacción
+    <br>When el sistema procesa los datos
+    <br>Then se presentan métricas agregadas (promedio, máximo y mínimo) de permanencia
+  </td>
+  <td style="text-align: center;">
     EP06
-    </td>
-  </tr>
-
-  <!-- US 43 -->
-  <tr>
-    <td style="text-align: center;">
+  </td>
+</tr>
+ <!-- US 43 -->
+<tr>
+  <td style="text-align: center;">
     US43
-    </td>
-    <td style="text-align: center;">
-    Ranking de obras
-    </td>
-    <td style="text-align: center;">
-    Como curador, quiero identificar las obras más visitadas para optimizar las exhibiciones.
-    </td>
-    <td style="text-align: center;">
+  </td>
+  <td style="text-align: center;">
+    Ranking de obras más visitadas
+  </td>
+  <td style="text-align: center;">
+    Como curador del museo, quiero identificar las obras más visitadas mediante un ranking, para optimizar la disposición y planificación de las exhibiciones.
+  </td>
+  <td style="text-align: center;">
     Criterios de aceptación:
-    <br>Scenario 1: Ranking. Dado que existen datos, cuando accede al listado, entonces se ordenan por visitas.
-    </td>
-    <td style="text-align: center;">
+    <br>Given que existen datos de visitas por obra
+    <br>When el sistema procesa la información
+    <br>Then se genera un ranking ordenado de mayor a menor número de visitas
+    <br><br>Given que el curador accede al dashboard
+    <br>When visualiza el ranking
+    <br>Then puede identificar fácilmente las obras más populares
+    <br><br>Given que el curador necesita analizar diferentes periodos
+    <br>When aplica filtros por fecha
+    <br>Then el ranking se actualiza según el rango seleccionado
+  </td>
+  <td style="text-align: center;">
     EP06
-    </td>
-  </tr>
-
-  <!-- US 44 -->
-  <tr>
-    <td style="text-align: center;">
+  </td>
+</tr>
+<!-- US 44 -->
+<tr>
+  <td style="text-align: center;">
     US44
-    </td>
-    <td style="text-align: center;">
-    Detección de baja interacción
-    </td>
-    <td style="text-align: center;">
-    Como curador, quiero detectar obras con baja interacción para replantear su presentación.
-    </td>
-    <td style="text-align: center;">
+  </td>
+  <td style="text-align: center;">
+    Detección de obras con baja interacción
+  </td>
+  <td style="text-align: center;">
+    Como curador del museo, quiero identificar obras con baja interacción mediante métricas de visitas y permanencia, para replantear su presentación y mejorar el interés del público.
+  </td>
+  <td style="text-align: center;">
     Criterios de aceptación:
-    <br>Scenario 1: Identificación. Dado que una obra tiene bajo tráfico, cuando se analiza, entonces se marca como baja interacción.
-    </td>
-    <td style="text-align: center;">
+    <br>Given que existen datos de visitas y permanencia por obra
+    <br>When el sistema analiza las métricas
+    <br>Then identifica las obras con valores por debajo de un umbral definido como baja interacción
+    <br><br>Given que el curador accede al dashboard
+    <br>When consulta las obras con bajo rendimiento
+    <br>Then se muestra una lista clara de obras clasificadas como baja interacción
+    <br><br>Given que el sistema permite configuración
+    <br>When el curador ajusta el umbral de interacción
+    <br>Then la lista de obras se actualiza según los nuevos criterios
+  </td>
+  <td style="text-align: center;">
     EP06
-    </td>
-  </tr>
-
-  <!-- US 45 -->
-  <tr>
-    <td style="text-align: center;">
+  </td>
+</tr>
+ <!-- US 45 -->
+<tr>
+  <td style="text-align: center;">
     US45
-    </td>
-    <td style="text-align: center;">
-    Exportación de reportes
-    </td>
-    <td style="text-align: center;">
-    Como administrador, quiero exportar reportes para presentarlos a patrocinadores.
-    </td>
-    <td style="text-align: center;">
+  </td>
+  <td style="text-align: center;">
+    Exportación de reportes analíticos
+  </td>
+  <td style="text-align: center;">
+    Como administrador del museo, quiero exportar reportes analíticos de las exhibiciones, para presentarlos a patrocinadores y respaldar la toma de decisiones.
+  </td>
+  <td style="text-align: center;">
     Criterios de aceptación:
-    <br>Scenario 1: Exportación. Dado que hay datos, cuando solicita exportar, entonces se genera archivo descargable(PDF/Excel)
-    </td>
-    <td style="text-align: center;">
+    <br>Given que existen datos analíticos disponibles
+    <br>When el administrador solicita la exportación
+    <br>Then el sistema genera un archivo descargable en formato PDF o Excel
+    <br><br>Given que el administrador configura filtros (fecha, sala, obra)
+    <br>When genera el reporte
+    <br>Then el archivo contiene únicamente la información filtrada
+    <br><br>Given que el reporte ha sido generado
+    <br>When el administrador descarga el archivo
+    <br>Then este incluye métricas clave como visitas, permanencia y ranking de obras
+  </td>
+  <td style="text-align: center;">
     EP06
-    </td>
-  </tr>
-
-  <!-- US 46 -->
-  <tr>
-    <td style="text-align: center;">
-    US046
-    </td>
-    <td style="text-align: center;">
-    Alertas de saturación
-    </td>
-    <td style="text-align: center;">
-    Como administrador, quiero recibir alertas cuando una sala esté saturada para actuar rápidamente.
-    </td>
-    <td style="text-align: center;">
+  </td>
+</tr>
+<!-- US 46 -->
+<tr>
+  <td style="text-align: center;">
+    US46
+  </td>
+  <td style="text-align: center;">
+    Alertas inteligentes de saturación por sala
+  </td>
+  <td style="text-align: center;">
+    Como gestor del museo, quiero recibir alertas inteligentes cuando una sala alcance niveles críticos de ocupación, para tomar decisiones rápidas y optimizar la distribución de visitantes.
+  </td>
+  <td style="text-align: center;">
     Criterios de aceptación:
-    <br>Scenario 1:Alerta. Dado que la sala supera el límite, cuando ocurre, entonces se envía notificación en tiempo real.
-    </td>
-    <td style="text-align: center;">
+    <br>Given que existe un umbral de ocupación definido por sala
+    <br>When el número de visitantes supera el límite establecido
+    <br>Then el sistema genera una alerta en tiempo casi real
+    <br><br>Given que el gestor recibe una alerta
+    <br>When accede al dashboard
+    <br>Then puede visualizar la sala afectada y su nivel de ocupación
+    <br><br>Given que el sistema registra datos históricos de afluencia
+    <br>When analiza patrones de saturación
+    <br>Then puede anticipar posibles picos y generar alertas preventivas
+  </td>
+  <td style="text-align: center;">
     EP06
-    </td>
-  </tr>
-
-  <!-- US 47 -->
-  <tr>
-    <td style="text-align: center;">
+  </td>
+</tr>
+<!-- US 47 -->
+<tr>
+  <td style="text-align: center;">
     US47
-    </td>
-    <td style="text-align: center;">
-    Análisis histórico
-    </td>
-    <td style="text-align: center;">
-    Como administrador quiero comparar los datos históricos para mejorar la planificación.
-    </td>
-    <td style="text-align: center;">
+  </td>
+  <td style="text-align: center;">
+    Análisis histórico comparativo
+  </td>
+  <td style="text-align: center;">
+    Como gestor del museo, quiero comparar datos históricos de visitas e interacción entre diferentes periodos, para mejorar la planificación y toma de decisiones estratégicas.
+  </td>
+  <td style="text-align: center;">
     Criterios de aceptación:
-    <br>Scenario 1: Comparación. Dado que hay datos previos, cuando se selecciona fechas, entonces se muestran métricas comparativas.
-    </td>
-    <td style="text-align: center;">
+    <br>Given que existen datos históricos de visitas e interacción
+    <br>When el gestor selecciona diferentes rangos de fechas
+    <br>Then el sistema muestra métricas comparativas entre los periodos seleccionados
+    <br><br>Given que el gestor accede al dashboard
+    <br>When visualiza el análisis histórico
+    <br>Then se presentan gráficos claros que permiten identificar tendencias
+    <br><br>Given que existen variaciones en los datos
+    <br>When el sistema analiza los periodos
+    <br>Then se destacan incrementos o disminuciones en las métricas clave
+  </td>
+  <td style="text-align: center;">
     EP06
-    </td>
-  </tr>
-
-  <!-- US 48 -->
-  <tr>
-    <td style="text-align: center;">
+  </td>
+</tr>
+<!-- US 48 -->
+<tr>
+  <td style="text-align: center;">
     US48
-    </td>
-    <td style="text-align: center;">
-    Análisis de distribución de visitantes
-    </td>
-    <td style="text-align: center;">
-    Como administrador, quiero visualizar la distribución de visitantes en las diferentes salas del museo, para entender el flujo y tomar decisiones informadas.
-    </td>
-    <td style="text-align: center;">
+  </td>
+  <td style="text-align: center;">
+    Análisis de distribución y flujo de visitantes por sala
+  </td>
+  <td style="text-align: center;">
+    Como gestor del museo, quiero visualizar la distribución y el flujo de visitantes entre las diferentes salas, para entender los patrones de movimiento y optimizar la organización del espacio.
+  </td>
+  <td style="text-align: center;">
     Criterios de aceptación:
-    <br>Scenario 1:Visualización. Dado que hay datos registrados, cuando ingresa al dashboard, entonces se muestra la distribución de visitantes por sala
-    </td>
-    <td style="text-align: center;">
+    <br>Given que existen datos de visitantes por sala
+    <br>When el sistema procesa la información
+    <br>Then se muestra la distribución de visitantes en cada sala mediante una visualización clara
+    <br><br>Given que el gestor accede al dashboard
+    <br>When visualiza la información
+    <br>Then puede identificar las salas con mayor y menor concentración de visitantes
+    <br><br>Given que existen datos de movimiento entre salas
+    <br>When el sistema analiza los patrones de flujo
+    <br>Then se representan los recorridos o transiciones más frecuentes entre salas
+  </td>
+  <td style="text-align: center;">
     EP06
-    </td>
-  </tr>
-
-  <!-- US 49 -->
-  <tr>
-    <td style="text-align: center;">
+  </td>
+</tr>
+ <!-- US 49 -->
+<tr>
+  <td style="text-align: center;">
     US49
-    </td>
-    <td style="text-align: center;">
-    Acceso rápido sin fricción
-    </td>
-    <td style="text-align: center;">
-    Como museo privado, quiero que el acceso al contenido sin registro obligatorio para que todos puedan entrar rapidamente.
-    </td>
-    <td style="text-align: center;">
+  </td>
+  <td style="text-align: center;">
+    Acceso rápido sin registro obligatorio
+  </td>
+  <td style="text-align: center;">
+    Como visitante del museo, quiero acceder al contenido digital sin necesidad de registrarme, para tener una experiencia rápida y sin fricción.
+  </td>
+  <td style="text-align: center;">
     Criterios de aceptación:
-    <br>No se solicita login inicial
-    <br>El contenido es accesible directamente
-    <br>Opcional registro posterior
-    </td>
-    <td style="text-align: center;">
-    EP01
-    </td>
-  </tr>
-
-  <!-- US 50 -->
-  <tr>
-    <td style="text-align: center;">
+    <br>Given que el visitante accede al contenido mediante QR o enlace
+    <br>When abre el contenido en su dispositivo
+    <br>Then puede visualizarlo sin necesidad de iniciar sesión o registrarse
+    <br><br>Given que el visitante navega por el contenido
+    <br>When interactúa con las obras
+    <br>Then el sistema no bloquea funcionalidades básicas por falta de registro
+    <br><br>Given que el sistema ofrece registro opcional
+    <br>When el visitante decide registrarse
+    <br>Then puede hacerlo sin afectar su acceso inmediato al contenido
+  </td>
+  <td style="text-align: center;">
+    EP05
+  </td>
+</tr>
+<!-- US 50 -->
+<tr>
+  <td style="text-align: center;">
     US50
-    </td>
-    <td style="text-align: center;">
-    Accesibilidad del contenido
-    </td>
-    <td style="text-align: center;">
-    Como visitante, quiero que el contenido sea accesible para que sea más atractivo al público en general.
-    </td>
-    <td style="text-align: center;">
+  </td>
+  <td style="text-align: center;">
+    Accesibilidad del contenido digital
+  </td>
+  <td style="text-align: center;">
+    Como visitante del museo, quiero que el contenido digital sea accesible (texto legible, audio y adaptación a dispositivos), para comprender mejor la información y tener una experiencia inclusiva.
+  </td>
+  <td style="text-align: center;">
     Criterios de aceptación:
-    <br>Texto Legible.
-    <br>Opción de audio disponible.
-    <br>Compatible con dispositivos móviles.
-    </td>
-    <td style="text-align: center;">
-    EP07
-    </td>
-  </tr>
-
-  <!-- US 51 -->
-  <tr>
-    <td style="text-align: center;">
+    <br>Given que el visitante accede al contenido
+    <br>When visualiza la información
+    <br>Then el texto es legible y con tamaño adecuado en distintos dispositivos
+    <br><br>Given que el contenido incluye opciones de accesibilidad
+    <br>When el visitante lo requiere
+    <br>Then puede reproducir audio asociado a la obra
+    <br><br>Given que el visitante accede desde un dispositivo móvil
+    <br>When navega por el contenido
+    <br>Then la interfaz se adapta correctamente al tamaño de pantalla
+  </td>
+  <td style="text-align: center;">
+    EP05
+  </td>
+</tr>
+ <!-- US 51 -->
+<tr>
+  <td style="text-align: center;">
     US51
-    </td>
-    <td style="text-align: center;">
-    Alertas de comportamiento
-    </td>
-    <td style="text-align: center;">
-    Como administrador, quiero recibir alertas cuando una obra tenga alta o baja interacción para acciones más precisas.
-    </td>
-    <td style="text-align: center;">
+  </td>
+  <td style="text-align: center;">
+    Alertas de comportamiento por interacción
+  </td>
+  <td style="text-align: center;">
+    Como administrador del museo, quiero recibir alertas cuando una obra tenga niveles altos o bajos de interacción, para tomar acciones más precisas en la gestión de exhibiciones.
+  </td>
+  <td style="text-align: center;">
     Criterios de aceptación:
-    <br>Umbrales configurables
-    <br>Notificación visible
-    <br>Activación automática
-    </td>
-    <td style="text-align: center;">
+    <br>Given que existen umbrales configurables de interacción
+    <br>When una obra supera o cae por debajo de los valores definidos
+    <br>Then el sistema genera automáticamente una alerta
+    <br><br>Given que el administrador recibe una alerta
+    <br>When accede al sistema
+    <br>Then puede visualizar qué obra generó la alerta y su nivel de interacción
+    <br><br>Given que el sistema detecta cambios en la interacción
+    <br>When se actualizan los datos
+    <br>Then las alertas se activan en tiempo casi real
+  </td>
+  <td style="text-align: center;">
     EP02
-    </td>
-  </tr>
-
-  <!-- US 52 -->
-  <tr>
-    <td style="text-align: center;">
+  </td>
+</tr>
+<!-- US 52 -->
+<tr>
+  <td style="text-align: center;">
     US52
-    </td>
-    <td style="text-align: center;">
-    Tendencias históricas
-    </td>
-    <td style="text-align: center;">
-    Como administrador, quiero ver la evolución del interés en el tiempo para reportes más precisos.
-    </td>
-    <td style="text-align: center;">
+  </td>
+  <td style="text-align: center;">
+    Análisis de tendencias históricas de interacción
+  </td>
+  <td style="text-align: center;">
+    Como administrador del museo, quiero visualizar la evolución del interés de los visitantes a lo largo del tiempo, para identificar tendencias y mejorar la planificación de exhibiciones.
+  </td>
+  <td style="text-align: center;">
     Criterios de aceptación:
-    <br>Datos históricos almacenados
-    <br>Visualización por fechas
-    <br>Comparación entre periodos
-    </td>
-    <td style="text-align: center;">
+    <br>Given que el sistema almacena datos históricos de interacción
+    <br>When el administrador accede al dashboard
+    <br>Then se muestran gráficos que reflejan la evolución de las métricas a lo largo del tiempo
+    <br><br>Given que el administrador selecciona un rango de fechas
+    <br>When el sistema procesa la información
+    <br>Then se visualizan tendencias (incremento o disminución) en las métricas clave
+    <br><br>Given que existen variaciones significativas en los datos
+    <br>When el sistema analiza la información histórica
+    <br>Then se destacan patrones relevantes que facilitan la interpretación
+  </td>
+  <td style="text-align: center;">
     EP02
-    </td>
-  </tr>
- 
+  </td>
+</tr>
+<!-- US 53 -->
+<tr>
+  <td style="text-align: center;">
+    US53
+  </td>
+  <td style="text-align: center;">
+    Acceso temporal a contenido
+  </td>
+  <td style="text-align: center;">
+    Como visitante del museo, quiero acceder al contenido digital por un tiempo limitado, para disfrutar de la experiencia durante mi visita sin necesidad de un acceso permanente.
+  </td>
+  <td style="text-align: center;">
+    Criterios de aceptación:
+    <br>Given que el visitante accede al contenido mediante QR o NFC
+    <br>When el sistema valida el acceso
+    <br>Then se habilita el contenido por un tiempo limitado definido
+    <br><br>Given que el tiempo de acceso ha expirado
+    <br>When el visitante intenta acceder nuevamente
+    <br>Then el sistema restringe el acceso y muestra un mensaje informativo
+    <br><br>Given que el sistema gestiona accesos temporales
+    <br>When se registra una sesión
+    <br>Then el tiempo de acceso se controla automáticamente
+  </td>
+  <td style="text-align: center;">
+    EP07
+  </td>
+</tr>
+<!-- US 54 -->
+<tr>
+  <td style="text-align: center;">
+    US54
+  </td>
+  <td style="text-align: center;">
+    Acceso permanente mediante suscripción
+  </td>
+  <td style="text-align: center;">
+    Como visitante del museo, quiero acceder de forma permanente al contenido digital mediante una suscripción, para consultar las obras en cualquier momento sin restricciones de tiempo.
+  </td>
+  <td style="text-align: center;">
+    Criterios de aceptación:
+    <br>Given que el visitante cuenta con una suscripción activa
+    <br>When accede al contenido digital
+    <br>Then el sistema permite el acceso sin limitación de tiempo
+    <br><br>Given que la suscripción ha expirado
+    <br>When el visitante intenta acceder al contenido
+    <br>Then el sistema restringe el acceso y solicita renovación
+    <br><br>Given que el sistema valida el estado de la suscripción
+    <br>When el visitante inicia acceso
+    <br>Then se verifica automáticamente la vigencia de la suscripción
+  </td>
+  <td style="text-align: center;">
+    EP07
+  </td>
+</tr>
 </table>
 
 ### 3.2. Impact Mapping
@@ -2072,6 +2208,8 @@ Acceso temporales y con suscripción acceso permanente
 | 50          | US50              | Accesibilidad                     | Como visitante quiero contenido accesible para mejorar la experiencia general.                                                                     | 3                            |
 | 51          | US51              | Alertas de comportamiento         | Como administrador quiero recibir alertas de interacción para tomar decisiones.                                                                    | 3                            |
 | 52          | US52              | Tendencias de comportamiento      | Como administrador quiero analizar tendencias para mejorar la planificación.                                                                       | 5                            |
+| 53          | US53              | Acceso temporal a contenido       | Como visitante del museo, quiero acceder al contenido digital por un tiempo limitado, para disfrutar de la experiencia durante mi visita sin necesidad de un acceso permanente.| 5                            |
+| 54          | US54              | Acceso permanente mediante suscripción      | Como visitante del museo, quiero acceder de forma permanente al contenido digital mediante una suscripción, para consultar las obras en cualquier momento sin restricciones de tiempo.   | 5                            |
 
 ## Capítulo IV: Product Design
 
@@ -2126,10 +2264,90 @@ Acceso temporales y con suscripción acceso permanente
 #### 4.1.2. Web Style Guidelines
 
 #### 4.2. Information Architecture
+Esta sección describe la estructura de la información, estilos y sistemas que se utilizarán en la plataforma web de KhipuTech. Se consideran los sistemas de organización, etiquetado, búsqueda, navegación y SEO, con el fin de garantizar una experiencia clara y enfocada en la visualización de datos.
 
 #### 4.2.1. Organization Systems
 
+Tópico | Definición  
+---|---  
+Home | La página de inicio muestra una vista general del sistema, destacando métricas clave y accesos rápidos al dashboard.  
+Dashboard | La página principal de análisis donde se visualizan datos en tiempo real del flujo de visitantes.  
+Sensores | La página donde se visualizan y gestionan los dispositivos IoT instalados en el recinto.  
+Zonas | La página que representa las áreas monitoreadas mediante mapas o nodos conectados.  
+Reportes | La página que permite visualizar análisis históricos y exportar datos.  
+Contact | La página que permite a los usuarios comunicarse con soporte técnico.  
+Log In | La página donde el usuario puede iniciar sesión o registrarse para acceder al sistema.  
+
+
+### Página de Dashboard  
+
+Tópico | Definición  
+---|---  
+Métricas en tiempo real | Muestra datos actualizados sobre flujo y permanencia de visitantes.  
+Visualización gráfica | Presenta gráficos y diagramas para facilitar la interpretación de datos.  
+
+
+### Página de Sensores  
+
+Tópico | Definición  
+---|---  
+Lista de sensores | Muestra todos los dispositivos IoT activos en el sistema.  
+Estado de sensores | Indica el funcionamiento y estado de cada sensor.  
+
+
+### Página de Reportes  
+
+Tópico | Definición  
+---|---  
+Lista de reportes | Muestra los reportes generados por el sistema.  
+Detalles de reportes | Permite visualizar análisis detallados y exportar información.  
+
+
+### Página de Contact  
+
+Proporciona información de contacto y soporte técnico para consultas.  
+
+Tópico | Definición  
+---|---  
+Formulario de contacto | Permite enviar consultas directamente al equipo de soporte.  
+Información de contacto | Muestra canales como correo o asistencia técnica.  
+
+
+### Registro y autenticación  
+
+La página permite a los usuarios acceder al sistema mediante credenciales seguras o registrarse como nuevos usuarios.  
+
+
+### Otras páginas y funciones  
+
+Tópico | Definición  
+---|---  
+Perfil de usuario | Permite gestionar la información personal y accesos del usuario.  
+Configuraciones | Permite ajustar preferencias del sistema y parámetros de visualización.  
+Página acerca de nosotros | Información sobre KhipuTech y su propuesta tecnológica.  
+Ayuda y soporte | Recursos de ayuda, preguntas frecuentes y asistencia técnica.  
+
+
+Barra de navegación:  
+Una barra de navegación clara y consistente en la parte superior permite acceder a las secciones principales del sistema.  
+
+Responsive design:  
+La plataforma se adapta a dispositivos de escritorio y móviles, manteniendo la claridad en la visualización de datos.  
+
+
+
 #### 4.2.2. Labeling Systems
+
+Para los sistemas de etiquetado, se organiza el contenido mediante encabezados claros que agrupan las secciones disponibles dentro de la plataforma. Esto permite al usuario identificar fácilmente dónde acceder.  
+
+Tópico | Definición  
+---|---  
+Home | Sección principal donde el usuario visualiza el resumen general del sistema.  
+Dashboard | Sección donde se muestran métricas en tiempo real.  
+Sensores | Sección donde se gestionan los dispositivos IoT.  
+Zonas | Sección donde se visualizan las áreas monitoreadas.  
+Reportes | Sección donde se consultan análisis e información histórica.  
+Contacto | Sección donde el usuario puede comunicarse con soporte técnico.  
 
 #### 4.2.3. SEO Tags and Meta Tags
 
@@ -2143,7 +2361,7 @@ Acceso temporales y con suscripción acceso permanente
 
 #### 4.3.2. Landing Page Mock-up
 
-### 4.4. Web Applications UX/UI Design
+ ### 4.4. Web Applications UX/UI Design
 
 #### 4.4.1. Web Applications Wireframes
 
@@ -2151,7 +2369,248 @@ Acceso temporales y con suscripción acceso permanente
 
 #### 4.4.3. Web Applications Mock-ups
 
+##### Descripción general
+
+El mock-up presentado corresponde al Dashboard de monitoreo general del sistema, diseñado para administradores del museo. Su objetivo principal es ofrecer una visión centralizada, en tiempo real, del comportamiento de los visitantes, el uso de las exhibiciones y el estado operativo del museo.
+
+Este diseño responde a las épicas relacionadas con:
+
+- Analítica (EP02, EP06)
+- Operación (EP03, EP04)
+- Alertas inteligentes (US51)
+
+#### Principios de diseño aplicados
+
+#### 1. Jerarquía visual
+
+Se prioriza la información más relevante en la parte superior:
+
+- KPIs principales (visitantes, interacciones, permanencia, alertas)
+- Luego gráficos y análisis
+- Finalmente detalles (tablas y alertas)
+
+#### 2. Consistencia
+
+- Uso uniforme de colores (azules oscuros + acentos)
+- Tipografía homogénea
+- Componentes reutilizables (cards, tablas, alertas)
+
+#### 3. Feedback visual
+
+- Indicadores de crecimiento (+12%, +7%)
+- Colores de estado:
+  - 🔴 Saturación
+  - 🟡 Atención
+  - 🟢 Normal
+
+#### 4. Minimalismo funcional
+
+Se evita saturar la interfaz:
+
+- Solo métricas clave visibles
+- Espacios amplios
+- Separación clara por secciones
+
+#### Elementos de diseño
+
+#### Cards de métricas (KPIs)
+
+Ubicadas en la parte superior:
+
+- Visitantes
+- Interacciones QR/NFC
+- Tiempo de permanencia
+- Alertas activas
+
+#### Gráfico de afluencia por hora
+
+- Visualiza entradas y salidas
+- Permite detectar picos de tráfico
+
+####  Ocupación por sala
+
+Panel lateral con:
+
+- Capacidad vs ocupación
+- Estado visual (color + etiqueta)
+
+#### Alertas recientes
+
+Lista de eventos relevantes:
+
+- Aforo crítico
+- Umbrales superados
+- Baja interacción
+
+
+#### Diseño inclusivo
+
+El sistema considera accesibilidad mediante:
+
+- Contraste alto (modo oscuro)
+- Tipografía legible
+- Uso de colores + texto (no solo color)
+- Información jerárquica clara
+
+Mejora la experiencia para:
+
+- usuarios con fatiga visual
+- entornos con poca iluminación
+- distintos perfiles de usuarios
+
+#### Arquitectura de la información
+
+La navegación lateral está organizada en:
+
+#### 1. Principal
+
+- Dashboard
+- Afluencia en vivo
+- Mapa de salas
+
+#### 2. Analítica
+
+- Interacciones
+- Permanencia
+- Tendencias
+- Exportar reportes
+
+#### 3. Contenido
+
+- QR / NFC
+- Obras
+
+#### 4. Sistema
+
+- Acceso y roles
+- Configuración
+
+#### Relación con el Design System
+
+El mock-up evidencia un sistema de diseño consistente:
+
+#### Paleta:
+
+  - Azul oscuro (base)
+  - Verde (positivo)
+  - Amarillo (advertencia)
+  - Rojo (crítico)
+
+#### Componentes reutilizables:
+
+  - Cards
+  - Tabs (Hoy / Semana / Mes)
+  - Listas
+  - Indicadores de estado
+  - Espaciado uniforme
+  - Bordes redondeados (modern UI)
+#### Valor del diseño
+
+Este dashboard permite:
+
+- Monitoreo en tiempo real
+- Toma de decisiones basada en datos
+- Detección de problemas (aforo, interacción)
+- Optimización de la experiencia del visitante
+
 #### 4.4.4. Web Applications User Flow Diagrams
+
+#### USER FLOW 1 — Visitante accede a contenido
+
+#### User Persona
+
+Visitante del museo
+
+#### User Goal
+
+Acceder al contenido digital de una obra de forma rápida y sin fricción.
+
+#### 🟢 Happy Path
+
+1. Escanea QR
+2. Se abre contenido en navegador
+3. Visualiza contenido multimedia
+4. Navega a otra obra (opcional)
+
+#### 🔴 Unhappy Paths
+
+- QR inválido → “Contenido no disponible”
+- Sin internet → mensaje de error
+- Dispositivo no compatible → fallback
+
+#### Pantallas involucradas
+
+- Vista QR
+- Vista contenido
+
+#### Explicación
+
+El flujo inicia cuando el visitante escanea un código QR ubicado en la obra. El sistema redirige automáticamente a una vista web donde se presenta contenido multimedia. El usuario puede explorar información adicional o navegar a otras obras. En caso de errores, el sistema muestra mensajes claros para mantener la experiencia.
+
+#### 🟣 USER FLOW 2 — Administrador monitorea el museo
+
+#### User Persona
+
+Administrador del museo
+
+#### User Goal
+
+Supervisar en tiempo real el estado del museo para tomar decisiones rápidas.
+
+#### 🟢 Happy Path
+
+1. Accede al sistema
+2. Ingresa al dashboard
+3. Visualiza métricas principales
+4. Revisa ocupación por sala
+5. Identifica alertas
+6. Toma decisión
+
+#### 🔴 Unhappy Paths
+
+- Datos no cargan → mensaje de error
+- Sin datos → estado vacío
+- Error en sensores → alerta técnica
+
+#### Pantallas involucradas
+
+- Dashboard
+
+#### Explicación
+
+El flujo comienza cuando el administrador accede al sistema y visualiza el dashboard principal. Este presenta métricas clave como afluencia, interacción y alertas. El usuario puede identificar rápidamente situaciones críticas y tomar decisiones operativas. En caso de fallos en los datos, el sistema informa el problema sin afectar la navegación.
+
+#### 🟡 USER FLOW 3 — Acceso con suscripción
+
+#### User Persona
+
+Visitante recurrente
+
+#### User Goal
+
+Acceder a contenido premium sin restricciones mediante suscripción.
+
+#### 🟢 Happy Path
+
+1. Usuario accede al contenido
+2. Sistema valida suscripción
+3. Acceso permitido
+4. Navega libremente
+
+#### 🔴 Unhappy Paths
+
+- Suscripción vencida → pedir renovación
+- No suscrito → acceso limitado
+- Error de validación → mensaje
+
+#### Pantallas involucradas
+
+- Vista contenido
+- Pantalla de acceso/restricción
+
+#### Explicación
+
+El flujo inicia cuando el visitante intenta acceder a contenido digital. El sistema valida si cuenta con una suscripción activa. Si es válida, el acceso es ilimitado; de lo contrario, se restringe y se invita a renovar. Esto permite implementar un modelo de acceso controlado y monetización del contenido.
 
 ### 4.5. Web Applications Prototyping
 
@@ -2288,3 +2747,9 @@ Acceso temporales y con suscripción acceso permanente
 ### Conclusiones y recomendaciones
 
 ### Video About-the-Team
+
+## Bibliografía
+
+---
+
+## Anexos
