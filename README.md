@@ -2227,6 +2227,7 @@ Tras el análisis del panorama competitivo, KhipuTech ha definido las siguientes
   - _Títulos (H1 – H2):_ DM Sans Bold. Tamaño: 32px / 24px. Espaciado entre letras: -0.5px.
   - _Cuerpo de texto:_ DM Sans Regular. Tamaño: 16px. Altura de línea: 1.5.
   - _Datos / Labels:_ DM Sans SemiBold. Tamaño: 12px o 14px.
+  - _Tipografía Adicional:_ DM Mono Regular/Medium. Tamaño: 10-12px. Uso: valores de aforo, timestamps, IDs de sala, métricas de sensores. Mantiene legibilidad en tablas densas.
 
 - **Iconography**
 
@@ -2253,13 +2254,15 @@ Tras el análisis del panorama competitivo, KhipuTech ha definido las siguientes
   - _Prohibiciones:_ No se permite deformar la relación de aspecto, cambiar los colores fuera de la paleta oficial o aplicar sombras paralelas internas.
 
 - **Color Palette**
-  | Color | HEX | RGB | CMYK |
-  | :--- |:---:|:---:| :---:|
-  | Dark Navy |#0B1A3E|11, 26, 62|91, 80, 42, 45|
-  | Electric Blue |#00C8FF|0, 200, 255|65, 5, 0, 0|
-  | Ice Blue |#E8F0FF|232, 240, 255|8, 4, 0, 0|
-  | Sky Blue |#62B1FF|98, 177, 255|54, 24, 0, 0|
-  | Steel Blue |#4A7ABA|74, 122, 186|74, 49, 11, 1|
+
+  | Color             |   HEX   |      RGB      |      CMYK      |
+  | :---------------- | :-----: | :-----------: | :------------: |
+  | **Dark Navy**     | #0B1A3E |  11, 26, 62   | 91, 80, 42, 45 |
+  | **Electric Blue** | #00C8FF |  0, 200, 255  |  65, 5, 0, 0   |
+  | **Ice Blue**      | #E8F0FF | 232, 240, 255 |   8, 4, 0, 0   |
+  | **Sky Blue**      | #62B1FF | 98, 177, 255  |  54, 24, 0, 0  |
+  | **Inca Gold**     | #C8A84B | 200, 168, 75  | 22, 31, 62, 21 |
+  | **Steel Blue**    | #4A7ABA | 74, 122, 186  | 74, 49, 11, 1  |
 
 #### 4.1.2. Web Style Guidelines
 
@@ -2271,7 +2274,7 @@ A continuación todos los puntos exigidos:
   Grid de 12 columnas para desktop (máx. 1440px) y 4 columnas para mobile. Unidad base 8px. Todos los márgenes y paddings son múltiplos de 8.
 
 - **UI Components**
-  Botones (primario/secundario/ghost/danger en 3 tamaños + disabled), Cards KPI con hover animado, Alert cards, Inputs con todos los estados (default/hover/focus/error/disabled), Selects, Toggles, Checkboxes, Badges de estado, Navegación con ítem activo, Barras de progreso por aforo, Tabla de datos, y Tooltip.
+  Botones (primario/secundario/ghost/danger en 3 tamaños + disabled), Cards KPI con hover animado, Alert cards, Inputs con todos los estados (default/hover/focus/error/disabled), Selects, Toggles, Checkboxes, Badges de estado, Navegación con ítem activo, Barras de progreso por aforo, Tabla de datos, y Tooltip, Mapa visual de distribución de salas (room-card con estados crítico/moderado/seguro).
 
 - **Responsive**
   Tres breakpoints documentados (mobile 320–480px / tablet 481–1024px / desktop 1025px+) con mockups visuales de cada dispositivo y reglas de adaptación.
@@ -2422,7 +2425,28 @@ Explica las acciones y técnicas que guiarán a los Usuarios a traves del Landin
     - Footer de navegacion: Repite los enlaces principales y agrega links secundarios (Politica de privacidad, Terminos, Contacto).
 
   - _Dashboard Administrativo — Navegacion por Sidebar:_ El Dashboard usa una sidebar fija de navegacion vertical como patron principal, visible en el boceto. Permite al gestor acceder a cualquier modulo sin perder el contexto de donde se encuentra. El patron secundario es el breadcrumb en la topbar, que indica la ruta exacta dentro del sistema.
-  -
+
+        | Elemento      | Descripcion | Comportamiento de interaccion |
+        | :------------ | :---------- | :---------------------------- |
+        | Sidebar fija  | 240px de ancho. Agrupa items en secciones: Principal, Analitica, Contenido, Sistema. | |
+        | **Breadcrumb** | En la topbar. Muestra ruta completa: KhipuTech > Analítica > Interacciones. | Cada nivel es clickeable y regresa al nivel superior. Separador chevron icon 12px. |
+        | **Tabs internos** | Dentro de vistas con sub-secciones (ej: Hoy / Semana / Mes en gráficos). | Tab activo: pill con fondo cyan 15% y texto cyan. Transición instantánea de contenido. |
+
+  - _Web App del Visitante — Navegacion Mobile-First:_ La Web App está diseñada para ser usada en movilidad dentro del museo. El patrón principal es la **navegación por cards** tras escanear un QR o NFC. Sidebar con 4 items: Escanear QR/NFC, Detalle de obra, Mapa de recorrido, Logros y XP.
+
+    | Elemento               | Descripción                                                                  | Comportamiento                                                                     |
+    | :--------------------- | :--------------------------------------------------------------------------- | :--------------------------------------------------------------------------------- |
+    | **Entrada por QR/NFC** | El punto de entrada principal. No requiere navegación previa ni login.       | Carga el contenido de la obra en menos de 3 segundos directamente en el navegador. |
+    | **Panel de obra**      | Detalle multimedia (imagen, audio, video) + obras relacionadas.              | Cards deslizables con filtro por sala. Historial de obras recientes.               |
+    | **Mapa del museo**     | Vista de planta simplificada. Indica sala actual del visitante y congestión. | Tap en sala navega a las obras. Zonas en rojo indican alta ocupación.              |
+    | **Gamificación**       | Ranking semanal de visitantes con sistema de XP y niveles.                   | Visualización de logros desbloqueados y progreso hacia siguiente nivel.            |
+
+  - _Principios de Navegación KhipuTech:_
+    - Máximo 3 clics: Cualquier acción o dato desde el Dashboard.
+    - Máximo 2 taps (visitante): Nunca más de 2 taps para contenido de obra.
+    - Contexto siempre visible: Breadcrumb en dashboard, indicador de panel activo en sidebar.
+    - Sin login obligatorio: Web App del visitante accesible de forma inmediata.
+    - Estado activo siempre señalado: Item activo resaltado con color cyan #00C8FF.
 
 #### 4.3. Landing Page UI Design
 
