@@ -505,9 +505,74 @@ Tras el análisis del panorama competitivo, KhipuTech ha definido las siguientes
 
 ### 2.2. Entrevistas
 
+El objetivo de las entrevistas es comprender las experiencias y opiniones de dos segmentos clave: gestores de museos y visitantes. Esto permitirá identificar problemas en la gestión de exhibiciones y en la interacción del usuario.
+
+La información obtenida ayudará a validar las hipótesis del proyecto y ajustar la propuesta de KhipuTech según necesidades reales.
+
 #### 2.2.1. Diseño de entrevistas
+Las entrevistas fueron diseñadas para obtener información cualitativa sobre prácticas actuales, necesidades y expectativas.
+
+Se consideraron dos segmentos:
+
+- Gestores de museos  
+- Visitantes (estudiantes y turistas)
+
+Se utilizó un enfoque semiestructurado para permitir mayor profundidad en las respuestas.
+
+---
+
+### Segmento 1: Administración de museos
+
+1. Nombre y experiencia en museos.  
+2. ¿Cómo evalúa si una exhibición cumple su objetivo?  
+3. ¿Cómo usaría datos sobre interés o permanencia en futuras exhibiciones?  
+4. ¿Ha tomado decisiones basadas en datos del visitante? ¿Cómo los obtuvo?  
+5. ¿Qué herramientas usa para medir el éxito de una exposición?  
+6. ¿Existe presupuesto para tecnología? ¿Quién lo aprueba?  
+7. ¿Qué preguntas hace más el público que no están cubiertas?  
+8. ¿Ha visto visitantes buscar información en su celular? ¿Qué opina?  
+9. ¿Qué contenido extra agregaría a las obras?  
+10. ¿Ofrecen contenido accesible o en otros idiomas?  
+11. ¿Una solución digital ayudaría a atraer más público?  
+12. ¿Qué museos destacan en uso de tecnología?  
+
+---
+
+### Segmento 2: Visitantes
+
+1. Nombre, edad y último museo visitado.  
+2. ¿Cómo decide qué salas visitar o cuánto tiempo quedarse?  
+3. ¿Sintió saturación en alguna sala? ¿Qué hizo?  
+4. ¿Le faltó información en alguna obra?  
+5. ¿Buscó información en su celular durante la visita?  
+6. ¿Qué información le hubiera gustado tener?  
+7. ¿Usaría QR para ver contenido adicional?  
+8. ¿Prefiere audio, texto o video?  
+9. ¿Qué opina del contenido exclusivo dentro del museo?  
+10. ¿Seguiría recorridos temáticos desde su celular?  
 
 #### 2.2.2. Registro de entrevistas
+El registro de entrevistas permite recopilar y organizar la información obtenida durante las conversaciones con los usuarios. A través de este proceso, se documentan de forma estructurada sus respuestas, comentarios y observaciones más relevantes.
+
+Esto facilita el análisis posterior, ayudando a identificar patrones, necesidades y oportunidades de mejora. Además, sirve como un historial de las interacciones, lo que permite mantener el enfoque del proyecto alineado con las expectativas de los usuarios.
+
+### Segmento: Visitantes de museos
+
+#### Entrevista #1
+
+**Características:**
+- Nombre y apellidos: Alecia Luke  
+- Edad: 23 años  
+- Museo visitado recientemente: Museo del Arco  
+
+---
+
+#### Entrevista #2
+
+**Características:**
+- Nombre y apellidos: Gianmarco Correa  
+- Edad: 35 años  
+- Museo visitado recientemente: Museo de Arte de Lima (MALI)  
 
 #### 2.2.3. Análisis de entrevistas
 
