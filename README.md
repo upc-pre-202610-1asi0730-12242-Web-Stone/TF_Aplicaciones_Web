@@ -1792,6 +1792,50 @@ de sprints y la gestión del desarrollo ágil.
 
 #### 4.1.1. General Style Guidelines
 
+- **Branding:**
+
+  - _Concepto:_ El nombre "KhipuTech" une el Khipu (sistema de registro incaico basado en nudos) con la tecnología moderna. Visualmente, buscamos transmitir conexión, datos y herencia cultural.
+  - _Logotipo:_ Se utilizarán líneas minimalistas que emulen las cuerdas de un khipu, formando una red o nodo que simboliza los puntos de datos (sensores).
+
+- **Typography**
+
+  - _Títulos (H1 – H2):_ DM Sans Bold. Tamaño: 32px / 24px. Espaciado entre letras: -0.5px.
+  - _Cuerpo de texto:_ DM Sans Regular. Tamaño: 16px. Altura de línea: 1.5.
+  - _Datos / Labels:_ DM Sans SemiBold. Tamaño: 12px o 14px.
+
+- **Iconography**
+
+  - Los iconos del sistema usarán Lucide Icons con stroke de 2px — coherente con la geometría limpia del logo.
+  - Los iconos que representen sensores, zonas o puntos de conteo seguirán la estética de nodos conectados, alineada al concepto del Khipu: un nodo central con ramificaciones, sin relleno sólido, solo trazo.
+
+- **Logo communication tone**
+
+  - _Sustento:_
+    |Decision de Diseño |Señal de Tono|
+    | :---: | :--- |
+    | Paleta dark navy + cyan eléctrico | Entorno tecnológico, dashboards, datos. Evita lo corporativo genérico |
+    | Geometría de nodos con crosshair central | Precisión, monitoreo, tracking. No decorativo sino funcional |
+    | Peso 600 / 300 en el logotipo | Autoridad sin rigidez. La palabra fuerte ("Khipu") ancla, la palabra ligera ("Tech") abre |
+    | Tagline en caps espaciado | Claridad directa, sin adornos. Habla de lo que hace, no de lo que aspira |
+    | Referencia al khipu como sistema de datos | Herencia intelectual + innovación. No es nostalgia, es reencuadre |
+
+    El tono no es entusiasta ni cercano porque KhipuTech vende a tomadores de decisión (museos, espacios públicos, gestores) que necesitan confiar en la exactitud del dato antes que en la calidez de la marca. La emoción viene después, cuando el dashboard funciona.
+
+- **Logo Use**
+
+  - _Área de Reserva:_ Se debe mantener un espacio mínimo de seguridad equivalente al 20% del ancho del logo en todos sus lados para evitar interferencias visuales.
+  - _Uso en Fondos:_ Sobre fondos oscuros (Blue #1A2B48), se usará la versión en "Inca Gold" o blanco. Sobre fondos claros, se usará la versión azul marino.
+  - _Prohibiciones:_ No se permite deformar la relación de aspecto, cambiar los colores fuera de la paleta oficial o aplicar sombras paralelas internas.
+
+- **Color Palette**
+  | Color | HEX | RGB | CMYK |
+  | :--- |:---:|:---:| :---:|
+  | Dark Navy |#0B1A3E|11, 26, 62|91, 80, 42, 45|
+  | Electric Blue |#00C8FF|0, 200, 255|65, 5, 0, 0|
+  | Ice Blue |#E8F0FF|232, 240, 255|8, 4, 0, 0|
+  | Sky Blue |#62B1FF|98, 177, 255|54, 24, 0, 0|
+  | Steel Blue |#4A7ABA|74, 122, 186|74, 49, 11, 1|
+
 #### 4.1.2. Web Style Guidelines
 
 #### 4.2. Information Architecture
