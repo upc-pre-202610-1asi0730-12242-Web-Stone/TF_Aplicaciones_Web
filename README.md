@@ -1,4 +1,4 @@
-gitgi![Logo UPC](https://images.seeklogo.com/logo-png/40/2/universidad-peruana-de-ciencias-aplicadas-upc-logo-png_seeklogo-402620.png)
+![Logo UPC](https://images.seeklogo.com/logo-png/40/2/universidad-peruana-de-ciencias-aplicadas-upc-logo-png_seeklogo-402620.png)
 
 ## UNIVERSIDAD PERUANA DE CIENCIAS APLICADA, INGENIERÍA DE SOFTWARE, 2026-01
 
