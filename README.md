@@ -398,6 +398,35 @@ KhipuTech enfoca su modelo de negocio en dos segmentos institucionales distintos
 
 #### 2.2.3. Análisis de entrevistas
 
+Se documenta la información obtenida durante las entrevistas, incluyendo los perfiles de los participantes, 
+sus respuestas más relevantes y observaciones que aportan valor al análisis posterior. 
+Este registro permite tener una base sólida para la interpretación de resultados.
+
+<strong>Visitantes al museo (estudiantes, turistas): </strong>
+
+<strong>Entrevista 1: Alessia Ximena Luque Carlos</strong>
+
+Captura:
+
+<img src=""> img-Alessia Luque.png</img>
+
+Duración: 3:21 minutos
+
+Línea de Tiempo: 0:00 - 3:21
+
+Enlace a la entrevista: 
+
+Resumen:
+
+Alessia Ximena Luque Carlos, una joven de 23 años que reside en Pueblo Libre, es estudiante de Administración en la Universidad de Lima.
+
+Gestión y Desafíos: Actualmente, su experiencia dentro del museo es limitada, ya que depende únicamente de las descripciones físicas o guías generales, lo que dificulta profundizar en las obras que más le llaman la atención. Esto genera que, en ocasiones, no aproveche completamente la visita ni comprenda el contexto de ciertas piezas. Su principal frustración surge cuando encuentra obras interesantes pero no dispone de suficiente información para entender su significado o importancia. Por ello, valora positivamente una solución digital que le permita acceder de manera rápida, interactiva y sin fricción a contenido enriquecido, mejorando así su experiencia cultural dentro del museo.
+
+Tecnología y Habilidades: En su día a día utiliza herramientas digitales como Facebook, WhatsApp Business, Instagram, Tiktok y Twitter. Utiliza principalmente su celular con sistema operativo IOS y su laptop con sistema operativo Windows.
+
+Expectativas y Necesidades: Alessia desearía contar con una solución digital que le permita acceder a información en tiempo real sobre las obras que está observando dentro del museo. Le gustaría que, al escanear un código QR, pueda obtener detalles precisos como el contexto histórico, el significado de la obra, contenido multimedia y material exclusivo que enriquezca su experiencia. Entre las funcionalidades que le gustaría encontrar, destacan: acceso inmediato al contenido sin necesidad de instalar aplicaciones, disponibilidad de información en varios idiomas. Actualmente, no conoce soluciones específicas que integren este tipo de experiencia interactiva dentro de los museos que visita. Sus respuestas reflejan una personalidad curiosa, interesada en el aprendizaje y orientada a aprovechar al máximo su visita cultural, valorando especialmente herramientas tecnológicas que hagan la experiencia más dinámica, accesible y enriquecedora.
+
+
 ### 2.3. Needfinding
 
 #### 2.3.1. User Personas
