@@ -2125,6 +2125,22 @@ Acceso temporales y con suscripción acceso permanente
 
 #### 4.1.2. Web Style Guidelines
 
+Define los estándares visuales y de interacción para las interfaces web de KhipuTech, asegurando una experiencia óptima tanto en el Dashboard administrativo como en la Web App del visitante.
+
+A continuación todos los puntos exigidos:
+
+- **Grid & Spacing**
+  Grid de 12 columnas para desktop (máx. 1440px) y 4 columnas para mobile. Unidad base 8px. Todos los márgenes y paddings son múltiplos de 8.
+
+- **UI Components**
+  Botones (primario/secundario/ghost/danger en 3 tamaños + disabled), Cards KPI con hover animado, Alert cards, Inputs con todos los estados (default/hover/focus/error/disabled), Selects, Toggles, Checkboxes, Badges de estado, Navegación con ítem activo, Barras de progreso por aforo, Tabla de datos, y Tooltip.
+
+- **Responsive**
+  Tres breakpoints documentados (mobile 320–480px / tablet 481–1024px / desktop 1025px+) con mockups visuales de cada dispositivo y reglas de adaptación.
+
+- **Interacción & Feedback**
+  Skeleton screen animado con shimmer, Toasts (success/error/info), Indicador EN VIVO con pulso, tabla de especificaciones de transición por componente, y tabla de contraste WCAG AA con los ratios reales de la paleta (Navy+Cyan = 8.5:1, ideal para salas con luz tenue).
+
 #### 4.2. Information Architecture
 
 #### 4.2.1. Organization Systems
