@@ -1,8 +1,12 @@
-# CONFIGURACION
-# Configuración de Pandoc
-# (tipografías, colores, márgenes)
+# ============================================================================
+# Compatible con Pandoc 3.9+
+# ============================================================================
 
+# ----------------------------------------------------------------------------
+# ARCHIVOS DE ENTRADA
+# ----------------------------------------------------------------------------
 input-files:
+  - report/front-matter/00-cover.md
   - report/front-matter/01-collaboration-insights.md
   - report/front-matter/02-version-history.md
   - report/front-matter/03-student-outcome.md
@@ -13,4 +17,64 @@ input-files:
   - report/05-implementation.md
   - report/99-bibliography.md
 
-output-file: build/AV1-Report.pdf
+# ----------------------------------------------------------------------------
+# ARCHIVO DE SALIDA
+# ----------------------------------------------------------------------------
+output-file: build/TB1-Report.pdf
+
+# ----------------------------------------------------------------------------
+# MOTOR DE PDF
+# ----------------------------------------------------------------------------
+pdf-engine: lualatex
+
+# ----------------------------------------------------------------------------
+# METADATOS
+# ----------------------------------------------------------------------------
+metadata:
+  title: "KhipuTech — Real-Time Visitor Analytics"
+  subtitle: "TB1 Report — Aplicaciones Web"
+  author:
+    - "Fabian Jesus Sandoval Cueto (U20221a132)"
+    - "Oscar Diego Checa Burga (U20231E492)"
+    - "Andrea Khristina Correa Rodriguez (U202412041)"
+    - "Winnie Lisbeth Merino Ordinola (U20231E504)"
+    - "Luis Alonso Huaco Oliva (U202417743)"
+  institute: "Universidad Peruana de Ciencias Aplicadas"
+  date: "Abril 2026"
+
+# ----------------------------------------------------------------------------
+# TABLA DE CONTENIDOS
+# ----------------------------------------------------------------------------
+table-of-contents: true
+toc-depth: 3
+number-sections: true
+
+# ----------------------------------------------------------------------------
+# VARIABLES LATEX
+# ----------------------------------------------------------------------------
+variables:
+  mainfont: "Arial"
+  sansfont: "Arial"
+  monofont: "Courier New"
+  fontsize: "11pt"
+  linestretch: 1.5
+  geometry:
+    - margin=1in
+  papersize: letter
+  linkcolor: blue
+  urlcolor: blue
+  citecolor: blue
+
+# ----------------------------------------------------------------------------
+# RUTAS DE RECURSOS
+# ----------------------------------------------------------------------------
+resource-path:
+  - "."
+  - "assets"
+  - "assets/img"
+  - "assets/deliverables"
+
+# ----------------------------------------------------------------------------
+# OPCIONES DE FORMATEO
+# ----------------------------------------------------------------------------
+highlight-style: tango
