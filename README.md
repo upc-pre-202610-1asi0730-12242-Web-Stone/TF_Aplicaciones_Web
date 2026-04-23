@@ -20,8 +20,8 @@
 |Fabian Jesus Sandoval Cueto        |U20221a132           |
 |Oscar Diego Checa Burga            |U20231E492           |
 |Andrea Khristina Correa Rodriguez  |U202412041           |
-|x  |x           |
-|x  |x           |
+|Winnie Lisbeth Merino Ordinola     |U20231E504           |
+|Luis Alonso Huaco Oliva            |U202417743           |      
 
 Abril, 2026
 
@@ -414,7 +414,7 @@ KhipuTech enfoca su modelo de negocio en dos segmentos institucionales distintos
 
 #### 2.2.1. Diseño de entrevistas
 
-### Segmento objetivo 1: Gestores culturales o conocedores de administración de museos:
+##### Segmento objetivo 1: Gestores culturales o conocedores de administración de museos:
 1. Al terminar el montaje de una exhibición, ¿Cómo evalúas si la distribución de las piezas fue efectiva para transmitir la narrativa que planeas? 
 
 2. ¿Alguna vez tomaste una decisión de museografía o marketing basada en datos de comportamiento del visitante? ¿Cómo obtuviste los datos?
@@ -437,7 +437,8 @@ KhipuTech enfoca su modelo de negocio en dos segmentos institucionales distintos
 
 11. ¿Qué centros culturales consideras que están haciendo un buen trabajo tecnológico? 
 
-### Segmento objetivo 2: Visitantes a museos (estudiantes o turistas)
+##### Segmento objetivo 2: Visitantes a museos (estudiantes o turistas)
+
 1. Nombre, edad, museo visitado recientemente. 
 
 2. ¿Cómo decidiste qué salas visitar o cuánto tiempo quedarse en cada una?
@@ -467,8 +468,10 @@ KhipuTech enfoca su modelo de negocio en dos segmentos institucionales distintos
 | Sergio Salgado   | 20m   | 0:50m   | ![Evidencia_Entrevista](image-3.png)| [Click aquí](https://upcedupe-my.sharepoint.com/personal/u20231e504_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231e504_upc_edu_pe%2FDocuments%2FAplicaciones+Web%2FEntrevista_SergioSalgado_GestorCultural.mp4&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.3d210264-2355-468b-9d6d-fd33ab30ed2f)
 
 **Resumen:**
-
+<div style = "text-align: justify">
 Sergio es egresado de la UDEP en la carrera de Historia y Gestión Cultural. Afirma que en cuanto se trata de evaluar si una exposición cumplió en transmitir la narrativa esperada, es algo muy subjetivo porque cada persona que visita el museo es libre de impresionarse por la pieza de su elección. Asimismo, menciona que, en términos museográficos, es necesario identificar al público objetivo de la exposición y hacerla accesible acorde a sus necesidades. Considera que la “observación no participante” de los movimientos de un visitante es una de las muchas maneras en las que se puede evaluar las preferencias de un visitante. En sus palabras “la cultura se debe a la ciudadanía” por lo que considera fundamental investigar no solo como se comporta el público, sino también como piensa. Evocó un estudio de público realizado en un museo en Piura para conocer más a las familias que visitan museos. Ese estudio se realizó mediante encuestas y entrevistas. Considera que conocer cómo piensa el público corresponde a una parte importante para la museografía. Admite que el estudio de público es paradójicamente dejado de lado. En cuanto al presupuesto para las áreas de innovación y tecnología, la realidad es que los museos privados de lima cuentan con impulso suficiente para contar con dichas áreas, pero que la visión en museos regionales es desoladora en ese aspecto. En el mejor de los casos, se encuentran cámaras de seguridad. Por otro lado, cree que la experiencia mediador-visitante es muy valiosa y complementa con creces la experiencia en los museos/recorridos culturales para que las personas no se lleven una mirada rígida, sino que se lleven la exposición como una parte de sí mismos. Finalmente, cree que depende de que tan receptivo es un público en cuanto a capas adicionales de tecnología, pero que su preferencia es la realidad virtual y realidad aumentada. 
+</div>
+
 
 | Entrevista 2| Duración | Inicio | Imagen | URL |
 |:-----------:|:-----------:|:-----------:|:-------:|:----:|
@@ -476,11 +479,23 @@ Sergio es egresado de la UDEP en la carrera de Historia y Gestión Cultural. Afi
 
 **Resumen:**
 
+<div style = "text-align: justify">
 Lincoln es egresado de la UDEP en la carrera de Historia y Gestión Cultural.  Afirma que en cuanto se trata de evaluar si una exposición cumplió en transmitir la narrativa esperada, cree que el montaje es una parte de mucha importancia, ya que debe encontrarse en lugares estratégicos y en armonía con el entorno, la accesibilidad también es importante para que todos puedan acercarse a la exposición. Considera la pertinencia del reporte que contiene la información sobre las preferencias del visitante. Contó que para un trabajo de la universidad, tuvo que usar un portal del gobierno sobre la afluencia hacia el museo de Narihualá de Piura (el propio museo no contaba con esa información.) Además, contó que para medir el éxito de una exposición se cuenta con un cuaderno físico ofrecido por el mediador que reúne las opiniones de los visitantes al final de su recorrido, esta metodología la observó en el museo LUM. Por otro lado, en cuanto a las áreas de tecnología e innovación en los museos, cuenta que el sector privado cuenta con más libertades y tienen diferentes fuentes de financiamiento que les permite tener más capital de inversión. Sobre las preguntas que la gente le hace durante el recorrido, contó entre risas que la gente le pregunta cosas que no están en el guión, y que lo más recurrente es el contexto histórico (a veces existen objetos aislados sin un contexto en general) esa información extra les permitiría aprender. Al igual que Sergio, confirmó que existe muy poca investigación sobre los públicos de los museos. Dió el ejemplo de Narihualá, en el que se presenta la información en inglés, español y quechua. A su parecer, eso ayuda a derribar barreras, y por ello se debe profundizar en el estudio de públicos. 
+</div>
+
+
+| Entrevista 3| Duración | Inicio | Imagen | URL |
+|:-----------:|:-----------:|:-----------:|:-------:|:----:|
+| Jesus Hidalgo   | 24m   | 0:10m   | ![Evidencia_Entrevista](image-5.png) | [Click Aquí](https://upcedupe-my.sharepoint.com/personal/u20231e504_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231e504%5Fupc%5Fedu%5Fpe%2FDocuments%2FAplicaciones%20Web%2FEntrevista%5FJesusHidalgo%5FGestorCultural%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E6f0d7de8%2D4ef8%2D48ae%2D9f74%2D9ca448555fea)
+
+**Resumen:**
+
+<div style = "text-align: justify">
+Jesús es egresado de la UDEP en la carrera de Historia y Gestión Cultural. Nos contó que no existe un mecanismo específico para evaluar si una pieza en específico tuvo una buena performance, sino que se mide como un todo al final del recorrido, y que no se suele medir qué partes tuvieron más éxito. Cree que contar con un análisis de preferencias permitiría mejorar las exposiciones para futuras oportunidades, corregir errores y recibir feedback. Mencionó que algunas de las herramientas utilizadas para obtener data de los visitantes son entrevistas en google forms y cuadernos de visitantes. Sobre el presupuesto para las áreas de tecnología e innovación, no existen áreas de ese tipo en la mayoría de museos, pero el área de administración suele encargarse de gestionar ese presupuesto. Más adelante, hablando sobre sus experiencias como mediador, comentó que la gente busca profundizar en ciertos detalles que a veces no se encuentran en la exposición, le parece que sería útil mostrar material multimedia adicional. En cuanto a accesibilidad a personas con discapacidades, mencionó dispositivos de audio implementados en algunos centros culturales así como el material en braille, pero no va más allá. También recalcó la importancia de la presencia de los mediadores para guiar a los visitantes con discapacidades durante el recorrido para que puedan disfrutar de una experiencia completa. Considera que los QRs resultan inútiles en muchos casos para mejorar la experiencia inmersiva en los museos, y que no cree que se deba depender mucho de ellos. Él cree que se necesitan soluciones tradicionales para problemas que una solución no respondería a las necesidades de varias personas. Cree que los repositorios digitales de algunos centros son buenas maneras de aplicar tecnología en museos. 
+</div>
 
 #### 2.2.3. Análisis de entrevistas
 
-#### Análisis conjunto — gestión cultural y museos
 <div style = "text-align: justify">
 Los tres señalan que no existe un mecanismo preciso para medir qué partes de una exposición
 funcionan mejor. Jesús lo dice explícitamente; Sergio lo describe como algo subjetivo; Lincoln
@@ -489,15 +504,43 @@ lo ejemplifica con el cuaderno físico del museo LUM como único registro dispon
 Donde más valor tiene el análisis conjunto es en el tema del mediador: los tres lo mencionan espontáneamente como el elemento que más agrega valor a la experiencia. Lincoln incluso da el detalle más rico al decir que la gente pregunta cosas "fuera del guión", eso es evidencia directa de que la exposición no satisface la demanda de contexto del visitante. Esa brecha entre lo que el montaje ofrece y lo que el público necesita es el problema de diseño central que emerge de las tres voces.
 La divergencia en tecnología es interesante porque no es superficial: Jesús habla desde la experiencia de mediador en contextos con poco presupuesto y un público heterogéneo, por lo que su escepticismo ante los QRs tiene base práctica. Sergio habla más desde una visión museográfica ideal. Lincoln resuelve la tensión sin decirlo explícitamente: el multilingüismo en Narihualá es la única "tecnología" que los tres coincidirían en validar, porque responde directamente a las características del público, no a una tendencia de innovación.
 </div>
+
 ### 2.3. Needfinding
 
 #### 2.3.1. User Personas
+User Persona Segmento Objetivo 1: 
+
+![User-Persona-Segmento1](image-7.png)
+
+User Persona Segmento Objetivo 2: 
+
+![User-Persona-Segmento2](image-6.png)
 
 #### 2.3.2. User Task Matrix
 
+User Task Matrix Segmento Objetivo 1: 
+
+![User Task Matrix -1](image-9.png)
+
+User Task Matrix Segmento Objetivo 2: 
+
+![User Task Matrix - 2](image-8.png)
+
 #### 2.3.3. User Journey Mapping
 
+User Journey Map - Segmento 1 y 2 respectivamente
+
+![user journey map - 0102](image-12.png)
+
 #### 2.3.4. Empathy Mapping
+
+Empathy Mapping Segmento Objetivo 1: 
+
+![empathy mapping-01](image-10.png)
+
+Empathy Mapping Segmento Objetivo 2: 
+
+![empathy mapping-2](image-11.png)
 
 ### 2.4. Big Picture Event Storming
 
