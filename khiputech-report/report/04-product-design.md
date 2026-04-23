@@ -109,6 +109,8 @@ Alerta: ◉ (círculo con indicador)
 
 Esta iconografía refuerza visualmente el mensaje de "red de datos" inherente a la marca KhipuTech.
 
+![Uso de Logo](../assets/img/logos/khiputech-logo-use.png)
+
 ---
 
 ##### Color Palette
@@ -662,54 +664,9 @@ Estados de campos:
 
 ---
 
-##### Interacción & Feedback
-
-![Estados de Interacción](../assets/img/web-style/khiputech-interaction-states.png)
-
-**Animaciones y Transiciones:**
-
-| Elemento               | Propiedad               | Duration | Easing                         | Uso                     |
-| ---------------------- | ----------------------- | -------- | ------------------------------ | ----------------------- |
-| **Button Hover**       | `background, color`     | 200ms    | `ease-out`                     | Feedback inmediato      |
-| **Card Hover**         | `transform, box-shadow` | 300ms    | `ease-in-out`                  | Elevación sutil         |
-| **Page Transition**    | `opacity, transform`    | 400ms    | `cubic-bezier(0.4, 0, 0.2, 1)` | Cambio de vista         |
-| **Toast Notification** | `slide-in, opacity`     | 300ms    | `ease-out`                     | Entrada de notificación |
-| **Skeleton Loading**   | `shimmer`               | 1500ms   | `linear infinite`              | Estado de carga         |
-
-![Loading States](../assets/img/web-style/khiputech-loading-states.png)
-
-**Loading States:**
-
-```css
-/* Skeleton Screen */
-.skeleton {
-  background: linear-gradient(90deg, #e8f0ff 0%, #f2f6ff 50%, #e8f0ff 100%);
-  background-size: 200% 100%;
-  animation: shimmer 1.5s ease-in-out infinite;
-}
-
-@keyframes shimmer {
-  0% {
-    background-position: -200% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
-}
-```
-
-**Indicadores de Estado:**
-
-| Indicador        | Animación                   | Uso                  |
-| ---------------- | --------------------------- | -------------------- |
-| **EN VIVO**      | Pulso cyan 1.5s infinite    | Datos en tiempo real |
-| **Spinner**      | Rotación 1s linear infinite | Carga general        |
-| **Progress Bar** | Indeterminate slide 2s      | Proceso en curso     |
-| **Skeleton**     | Shimmer 1.5s                | Carga de contenido   |
+**Toast Notifications:**
 
 ![Toast Notifications](../assets/img/web-style/khiputech-toasts.png)
-
-**Toast Notifications:**
 
 | Tipo        | Icon | Background | Duration |
 | ----------- | ---- | ---------- | -------- |
@@ -822,90 +779,82 @@ Ideal para salas con luz tenue, garantiza legibilidad en ambientes de museo con 
 Consultar el archivo interactivo [Web Style Guide](../assets/deliverables/khiputech-web-style-guide.html) para visualización de todos los componentes en acción con hover states y animaciones funcionales.
 
 #### 4.2. Information Architecture
+
 Esta sección describe la estructura de la información, estilos y sistemas que se utilizarán en la plataforma web de KhipuTech. Se consideran los sistemas de organización, etiquetado, búsqueda, navegación y SEO, con el fin de garantizar una experiencia clara y enfocada en la visualización de datos.
 
 #### 4.2.1. Organization Systems
 
-Tópico | Definición  
----|---  
-Home | La página de inicio muestra una vista general del sistema, destacando métricas clave y accesos rápidos al dashboard.  
-Dashboard | La página principal de análisis donde se visualizan datos en tiempo real del flujo de visitantes.  
-Sensores | La página donde se visualizan y gestionan los dispositivos IoT instalados en el recinto.  
-Zonas | La página que representa las áreas monitoreadas mediante mapas o nodos conectados.  
-Reportes | La página que permite visualizar análisis históricos y exportar datos.  
-Contact | La página que permite a los usuarios comunicarse con soporte técnico.  
-Log In | La página donde el usuario puede iniciar sesión o registrarse para acceder al sistema.  
+| Tópico    | Definición                                                                                                           |
+| --------- | -------------------------------------------------------------------------------------------------------------------- |
+| Home      | La página de inicio muestra una vista general del sistema, destacando métricas clave y accesos rápidos al dashboard. |
+| Dashboard | La página principal de análisis donde se visualizan datos en tiempo real del flujo de visitantes.                    |
+| Sensores  | La página donde se visualizan y gestionan los dispositivos IoT instalados en el recinto.                             |
+| Zonas     | La página que representa las áreas monitoreadas mediante mapas o nodos conectados.                                   |
+| Reportes  | La página que permite visualizar análisis históricos y exportar datos.                                               |
+| Contact   | La página que permite a los usuarios comunicarse con soporte técnico.                                                |
+| Log In    | La página donde el usuario puede iniciar sesión o registrarse para acceder al sistema.                               |
 
+### Página de Dashboard
 
-### Página de Dashboard  
+| Tópico                  | Definición                                                               |
+| ----------------------- | ------------------------------------------------------------------------ |
+| Métricas en tiempo real | Muestra datos actualizados sobre flujo y permanencia de visitantes.      |
+| Visualización gráfica   | Presenta gráficos y diagramas para facilitar la interpretación de datos. |
 
-Tópico | Definición  
----|---  
-Métricas en tiempo real | Muestra datos actualizados sobre flujo y permanencia de visitantes.  
-Visualización gráfica | Presenta gráficos y diagramas para facilitar la interpretación de datos.  
+### Página de Sensores
 
+| Tópico             | Definición                                                |
+| ------------------ | --------------------------------------------------------- |
+| Lista de sensores  | Muestra todos los dispositivos IoT activos en el sistema. |
+| Estado de sensores | Indica el funcionamiento y estado de cada sensor.         |
 
-### Página de Sensores  
+### Página de Reportes
 
-Tópico | Definición  
----|---  
-Lista de sensores | Muestra todos los dispositivos IoT activos en el sistema.  
-Estado de sensores | Indica el funcionamiento y estado de cada sensor.  
+| Tópico               | Definición                                                     |
+| -------------------- | -------------------------------------------------------------- |
+| Lista de reportes    | Muestra los reportes generados por el sistema.                 |
+| Detalles de reportes | Permite visualizar análisis detallados y exportar información. |
 
+### Página de Contact
 
-### Página de Reportes  
+Proporciona información de contacto y soporte técnico para consultas.
 
-Tópico | Definición  
----|---  
-Lista de reportes | Muestra los reportes generados por el sistema.  
-Detalles de reportes | Permite visualizar análisis detallados y exportar información.  
+| Tópico                  | Definición                                                  |
+| ----------------------- | ----------------------------------------------------------- |
+| Formulario de contacto  | Permite enviar consultas directamente al equipo de soporte. |
+| Información de contacto | Muestra canales como correo o asistencia técnica.           |
 
+### Registro y autenticación
 
-### Página de Contact  
+La página permite a los usuarios acceder al sistema mediante credenciales seguras o registrarse como nuevos usuarios.
 
-Proporciona información de contacto y soporte técnico para consultas.  
+### Otras páginas y funciones
 
-Tópico | Definición  
----|---  
-Formulario de contacto | Permite enviar consultas directamente al equipo de soporte.  
-Información de contacto | Muestra canales como correo o asistencia técnica.  
-
-
-### Registro y autenticación  
-
-La página permite a los usuarios acceder al sistema mediante credenciales seguras o registrarse como nuevos usuarios.  
-
-
-### Otras páginas y funciones  
-
-Tópico | Definición  
----|---  
-Perfil de usuario | Permite gestionar la información personal y accesos del usuario.  
-Configuraciones | Permite ajustar preferencias del sistema y parámetros de visualización.  
-Página acerca de nosotros | Información sobre KhipuTech y su propuesta tecnológica.  
-Ayuda y soporte | Recursos de ayuda, preguntas frecuentes y asistencia técnica.  
-
+| Tópico                    | Definición                                                              |
+| ------------------------- | ----------------------------------------------------------------------- |
+| Perfil de usuario         | Permite gestionar la información personal y accesos del usuario.        |
+| Configuraciones           | Permite ajustar preferencias del sistema y parámetros de visualización. |
+| Página acerca de nosotros | Información sobre KhipuTech y su propuesta tecnológica.                 |
+| Ayuda y soporte           | Recursos de ayuda, preguntas frecuentes y asistencia técnica.           |
 
 Barra de navegación:  
-Una barra de navegación clara y consistente en la parte superior permite acceder a las secciones principales del sistema.  
+Una barra de navegación clara y consistente en la parte superior permite acceder a las secciones principales del sistema.
 
 Responsive design:  
-La plataforma se adapta a dispositivos de escritorio y móviles, manteniendo la claridad en la visualización de datos.  
-
-
+La plataforma se adapta a dispositivos de escritorio y móviles, manteniendo la claridad en la visualización de datos.
 
 #### 4.2.2. Labeling Systems
 
-Para los sistemas de etiquetado, se organiza el contenido mediante encabezados claros que agrupan las secciones disponibles dentro de la plataforma. Esto permite al usuario identificar fácilmente dónde acceder.  
+Para los sistemas de etiquetado, se organiza el contenido mediante encabezados claros que agrupan las secciones disponibles dentro de la plataforma. Esto permite al usuario identificar fácilmente dónde acceder.
 
-Tópico | Definición  
----|---  
-Home | Sección principal donde el usuario visualiza el resumen general del sistema.  
-Dashboard | Sección donde se muestran métricas en tiempo real.  
-Sensores | Sección donde se gestionan los dispositivos IoT.  
-Zonas | Sección donde se visualizan las áreas monitoreadas.  
-Reportes | Sección donde se consultan análisis e información histórica.  
-Contacto | Sección donde el usuario puede comunicarse con soporte técnico.  
+| Tópico    | Definición                                                                   |
+| --------- | ---------------------------------------------------------------------------- |
+| Home      | Sección principal donde el usuario visualiza el resumen general del sistema. |
+| Dashboard | Sección donde se muestran métricas en tiempo real.                           |
+| Sensores  | Sección donde se gestionan los dispositivos IoT.                             |
+| Zonas     | Sección donde se visualizan las áreas monitoreadas.                          |
+| Reportes  | Sección donde se consultan análisis e información histórica.                 |
+| Contacto  | Sección donde el usuario puede comunicarse con soporte técnico.              |
 
 #### 4.2.3. SEO Tags and Meta Tags
 
@@ -1077,7 +1026,33 @@ Explica las acciones y técnicas que guiarán a los Usuarios a traves del Landin
 
 #### 4.4.1. Web Applications Wireframes
 
+Se presentan los wireframes de la aplicación web de KhipuTech:
+
+<img src="../assets/img/wireframes/image_4.png" alt="Wireframe 1" style="width: 600px;" >
+
+<img src="../assets/img/wireframes/image_3.png" alt="Wireframe 2" style="width: 600px;" >
+
+<img src="../assets/img/wireframes/image_2.png" alt="Wireframe 3" style="width: 600px;" >
+
+<img src="../assets/img/wireframes/image_1.png" alt="Wireframe 4" style="width: 600px;" >
+
 #### 4.4.2. Web Applications Wireflow Diagrams
+
+Se presentan los Web Applications Wireflow Diagrams:
+
+<img src="../assets/img/wireflows/image_5.png" alt="Wireframe 1" style="width: 600px;" >
+
+<img src="../assets/img/wireflows/image_6.png" alt="Wireframe 2" style="width: 600px;" >
+
+<img src="../assets/img/wireflows/image_7.png" alt="Wireframe 3" style="width: 600px;" >
+
+<img src="../assets/img/wireflows/image_8.png" alt="Wireframe 4" style="width: 600px;" >
+
+<img src="../assets/img/wireflows/image_9.png" alt="Wireframe 1" style="width: 600px;" >
+
+<img src="../assets/img/wireflows/image_10.png" alt="Wireframe 2" style="width: 600px;" >
+
+<img src="../assets/img/wireflows/image_11.png" alt="Wireframe 3" style="width: 600px;" >
 
 #### 4.4.3. Web Applications Mock-ups
 
@@ -1139,7 +1114,7 @@ Ubicadas en la parte superior:
 - Visualiza entradas y salidas
 - Permite detectar picos de tráfico
 
-####  Ocupación por sala
+#### Ocupación por sala
 
 Panel lateral con:
 
@@ -1153,7 +1128,6 @@ Lista de eventos relevantes:
 - Aforo crítico
 - Umbrales superados
 - Baja interacción
-
 
 #### Diseño inclusivo
 
@@ -1203,19 +1177,20 @@ El mock-up evidencia un sistema de diseño consistente:
 
 #### Paleta:
 
-  - Azul oscuro (base)
-  - Verde (positivo)
-  - Amarillo (advertencia)
-  - Rojo (crítico)
+- Azul oscuro (base)
+- Verde (positivo)
+- Amarillo (advertencia)
+- Rojo (crítico)
 
 #### Componentes reutilizables:
 
-  - Cards
-  - Tabs (Hoy / Semana / Mes)
-  - Listas
-  - Indicadores de estado
-  - Espaciado uniforme
-  - Bordes redondeados (modern UI)
+- Cards
+- Tabs (Hoy / Semana / Mes)
+- Listas
+- Indicadores de estado
+- Espaciado uniforme
+- Bordes redondeados (modern UI)
+
 #### Valor del diseño
 
 Este dashboard permite:
@@ -1326,22 +1301,375 @@ El flujo inicia cuando el visitante intenta acceder a contenido digital. El sist
 
 ### 4.5. Web Applications Prototyping
 
-#### 4.6. Domain-Driven Software Architecture
+Enlance al Web applications Prototyping video: [Click Aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e492_upc_edu_pe/IQCnEyFKUKpBTKZ2yyOjUt3AAUSOVECJll4gyIoRlKTirW8?e=TV3cN5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-### 4.6.1. Design-Level Event Storming.
+### 4.6. Domain-Driven Software Architecture
+
+#### 4.6.1. Design-Level Event Storming.
 
 #### 4.6.2. Software Architecture Context Diagram
 
+![Diagrama de Contexto](../assets/img/diagrams/context-diagram.png)
+
 #### 4.6.3. Software Architecture Container Diagrams
+
+![Diagrama de Contenedores](../assets/img/diagrams/container-diagram.png)
 
 #### 4.6.4. Software Architecture Components Diagrams
 
-### 4.7. Software Object-Oriented Design
+![Diagrama de Componentes](../assets/img/diagrams/component-diagram.png)
 
-#### 4.7.1. Class Diagrams
+#### 4.7. Software Object-Oriented Design
 
-### 4.8. Database Design
+En esta sección se presenta el diseño orientado a objetos de KhipuTech, aplicando principios de Domain-Driven Design (DDD) para estructurar el sistema en bounded contexts cohesivos. Cada contexto encapsula lógica de negocio específica, separando claramente las capas de dominio, aplicación e infraestructura para facilitar la mantenibilidad, escalabilidad y evolución independiente del software.
 
-#### 4.8.1. Database Diagram
+---
+
+##### 4.7.1. Class Diagrams
+
+Los diagramas de clases de KhipuTech reflejan la arquitectura hexagonal implementada en cada bounded context, separando agregados, entidades y value objects (Domain Layer) de la lógica de aplicación (Command/Query Handlers) y la infraestructura de persistencia (Repositories). Esta separación permite que la lógica de negocio permanezca agnóstica a detalles técnicos, facilitando pruebas unitarias y migraciones tecnológicas futuras.
+
+---
+
+###### Identity and Access Management
+
+El bounded context de Identity and Access Management (IAM) se encarga de gestionar la autenticación, autorización y administración de usuarios dentro de la plataforma KhipuTech. Este contexto define las entidades principales como User (usuario) y Role (rol), estableciendo la base para controlar quién tiene acceso al sistema y qué permisos posee. Además, implementa servicios de hashing de contraseñas mediante BCryptPasswordHasher y generación de tokens JWT a través de JwtTokenService, asegurando la seguridad en cada interacción. Los repositorios y servicios de comandos/consultas facilitan la creación, actualización y consulta de usuarios, mientras que las políticas de autorización protegen los recursos críticos del sistema.
+
+![Identity and Access Management - Class Diagram](../assets/img/class-diagram/class-diagram-iam1.png)
+![Identity and Access Management - Class Diagram](../assets/img/class-diagram/class-diagram-iam2.png)
+![Identity and Access Management - Class Diagram](../assets/img/class-diagram/class-diagram-iam3.png)
+![Identity and Access Management - Class Diagram](../assets/img/class-diagram/class-diagram-iam4.png)
+
+**Capa de Dominio (Domain Layer):**
+
+**Agregados y Entidades:**
+
+- **User** (Aggregate Root): Representa un usuario del sistema con id, email, passwordHash, roles y timestamps. Métodos principales: `assignRole()`, `removeRole()`, `hasPermission()`.
+- **Role** (Entity): Define un rol con name y lista de permissions. Métodos: `grantPermission()`, `revokePermission()`.
+- **Permission** (Value Object): Encapsula un permiso mediante resource y action. Método: `matches()` para validar permisos.
+  **Servicios de Dominio:**
+- **BCryptPasswordHasher**: Servicio para hashear y verificar contraseñas usando BCrypt con factor de costo 12.
+- **JwtTokenService**: Generación y validación de tokens JWT para autenticación stateless.
+  **Capa de Aplicación (Application Layer):**
+- **CreateUserCommandHandler**: Maneja el comando de creación de usuarios, coordinando hasheado de contraseña y persistencia.
+- **GetUserByIdQueryHandler**: Procesa consultas de usuario por ID, retornando DTOs para la capa de presentación.
+  **Capa de Infraestructura (Infrastructure Layer):**
+- **PostgreSQLUserRepository**: Implementación concreta del repositorio de usuarios usando PostgreSQL y Entity Framework.
+  **Patrones aplicados:**
+- Aggregate Root para encapsular invariantes de User
+- CQRS mediante separación de Commands y Queries
+- Dependency Inversion mediante interfaces de repositorios
+
+---
+
+###### Content Management
+
+El bounded context de Content Management administra el catálogo de obras culturales y su contenido multimedia dentro de KhipuTech. El agregado principal Artwork encapsula información como título, artista, descripción y sala, permitiendo que curadores organicen y supervisen el contenido cultural del museo. Las entidades MultimediaContent representan archivos digitales (imágenes, audio) vinculados a obras, almacenados en CDN para optimizar tiempos de carga. El agregado QRCode gestiona códigos únicos por obra que facilitan la interacción sin fricción de visitantes mediante escaneo. Este contexto define servicios de comandos y consultas que permiten crear, actualizar, listar y eliminar obras, manteniendo una separación clara entre la lógica de dominio y la infraestructura de persistencia.
+
+![Content Management - Class Diagram](../assets/img/class-diagram/class-diagram-content1.png)
+![Content Management - Class Diagram](../assets/img/class-diagram/class-diagram-content2.png)
+![Content Management - Class Diagram](../assets/img/class-diagram/class-diagram-content3.png)
+
+**Capa de Dominio (Domain Layer):**
+
+**Agregados y Entidades:**
+
+- **Artwork** (Aggregate Root): Obra cultural con id, museumId, title, artist, description, room, lista de multimedia y qrCode. Métodos: `addMultimedia()`, `removeMultimedia()`, `generateQRCode()`, `updateDescription()`.
+- **MultimediaContent** (Entity): Contenido multimedia con type, cdnUrl, language, fileFormat. Métodos: `isImage()`, `isAudio()` para validación de tipo.
+- **QRCode** (Value Object): Código QR único con uuid, generatedAt, isActive. Métodos: `deactivate()`, `regenerate()`.
+  **Capa de Aplicación (Application Layer):**
+- **CreateArtworkCommandHandler**: Procesa creación de obras incluyendo generación automática de QR.
+- **GetArtworksByRoomQueryHandler**: Consulta obras filtradas por sala, retornando lista de DTOs.
+  **Capa de Infraestructura (Infrastructure Layer):**
+- **PostgreSQLArtworkRepository**: Persistencia de agregados Artwork en PostgreSQL.
+- **CloudflareCDNService**: Servicio externo para upload/delete de archivos multimedia en Cloudflare CDN.
+  **Patrones aplicados:**
+- Aggregate pattern para mantener consistencia de Artwork y sus MultimediaContent
+- Repository pattern con abstracción de infraestructura
+- External Service integration mediante interfaces
+
+---
+
+###### IoT Sensors and Visitor Tracking
+
+El bounded context de IoT Sensors and Visitor Tracking se enfoca en la administración y monitoreo de sensores IoT dentro de los espacios culturales. El agregado raíz Sensor representa cada dispositivo físico conectado (sensores de movimiento, contadores), almacenando su tipo, ubicación, estado operativo y configuración. Las entidades SensorTelemetry permiten registrar métricas en tiempo real (conteo de visitantes, tasa de ocupación), mientras que VisitorSession facilita el seguimiento de sesiones individuales con hora de entrada/salida y XP acumulado. Los servicios de comandos y consultas posibilitan el registro, actualización, eliminación y búsqueda de sensores, garantizando que gestores culturales puedan administrar su infraestructura IoT de forma centralizada y eficiente.
+
+![IoT Sensors and Visitor Tracking - Class Diagram](../assets/img/class-diagram/class-diagram-iote-sensors1.png)
+![IoT Sensors and Visitor Tracking - Class Diagram](../assets/img/class-diagram/class-diagram-iote-sensors2.png)
+![IoT Sensors and Visitor Tracking - Class Diagram](../assets/img/class-diagram/class-diagram-iote-sensors3.png)
+
+**Capa de Dominio (Domain Layer):**
+
+**Agregados y Entidades:**
+
+- **Sensor** (Aggregate Root): Dispositivo IoT con id, museumId, name, type, location, room, status, configuration (JSON). Métodos: `activate()`, `deactivate()`, `markAsMaintenance()`, `updateConfiguration()`.
+- **SensorTelemetry** (Entity): Datos de telemetría con sensorId, timestamp, visitorCount, occupancyRate, metadata (JSON).
+- **VisitorSession** (Aggregate Root): Sesión de visitante con visitorUuid, checkInTime, checkOutTime, lista de interactions, totalXP. Métodos: `checkOut()`, `addInteraction()`, `calculateDuration()`.
+- **ArtworkInteraction** (Entity): Interacción QR con artworkId, scannedAt, viewDuration, xpEarned.
+  **Capa de Aplicación (Application Layer):**
+- **RecordTelemetryCommandHandler**: Registra datos de telemetría desde sensores vía MQTT.
+- **GetOccupancyByRoomQueryHandler**: Consulta ocupación actual por sala para dashboard en tiempo real.
+  **Capa de Infraestructura (Infrastructure Layer):**
+- **TimeSeriesSensorRepository**: Base de datos optimizada para series temporales (TimescaleDB) para almacenar telemetría.
+- **MQTTBrokerService**: Integración con broker MQTT (Mosquitto/HiveMQ) para pub/sub de datos de sensores.
+  **Patrones aplicados:**
+- Event-driven architecture mediante MQTT
+- Time-series optimization para consultas históricas eficientes
+- Domain Events para notificar cambios de estado de sensores
+
+---
+
+###### Gamification and Visitor Engagement
+
+El bounded context de Gamification administra el sistema de recompensas y engagement de visitantes en KhipuTech. El agregado VisitorProfile encapsula datos como nombre de usuario, nivel actual y XP total acumulado, vinculándose directamente con el visitante anónimo identificado por UUID. Las entidades Achievement definen insignias desbloqueables con condiciones específicas (ej: escanear 50 obras), mientras que el agregado WeeklyLeaderboard mantiene rankings semanales reseteables cada lunes. Los servicios de comandos y consultas permiten actualizar perfiles, otorgar insignias y calcular rankings, garantizando que la experiencia del visitante sea personalizada y motivadora mediante mecánicas de juego que incrementan tiempo de permanencia y reexploración del museo.
+
+![Gamification and Visitor Engagement - Class Diagram](../assets/img/class-diagram/class-diagram-gamification1.png)
+![Gamification and Visitor Engagement - Class Diagram](../assets/img/class-diagram/class-diagram-gamification2.png)
+![Gamification and Visitor Engagement - Class Diagram](../assets/img/class-diagram/class-diagram-gamification3.png)
+
+**Capa de Dominio (Domain Layer):**
+
+**Agregados y Entidades:**
+
+- **VisitorProfile** (Aggregate Root): Perfil de visitante con visitorUuid, displayName, currentLevel, totalXP, lista de achievements. Métodos: `addXP()`, `checkLevelUp()`, `unlockAchievement()`.
+- **Achievement** (Entity): Logro con name, description, iconUrl, unlockCondition (JSON), xpReward. Método: `isUnlocked()` para validar condiciones.
+- **Level** (Value Object): Nivel con number, name, xpRequired. Método: `nextLevel()`.
+- **WeeklyLeaderboard** (Aggregate Root): Ranking semanal con museumId, weekStartDate, lista de entries. Métodos: `updateRankings()`, `resetWeekly()`.
+  **Capa de Aplicación (Application Layer):**
+- **AddXPCommandHandler**: Agrega XP al perfil y verifica subida de nivel automáticamente.
+- **GetLeaderboardQueryHandler**: Retorna top 10 visitantes del ranking semanal actual.
+  **Capa de Infraestructura (Infrastructure Layer):**
+- **PostgreSQLProfileRepository**: Persistencia de perfiles de visitantes.
+  **Patrones aplicados:**
+- Strategy pattern para diferentes condiciones de unlock de achievements
+- Scheduled jobs (cron) para reset semanal de leaderboard
+- Value Object para encapsular lógica de niveles
+
+---
+
+###### Analytics and Reporting
+
+El bounded context de Analytics se especializa en la recopilación, procesamiento y visualización de métricas operativas dentro de KhipuTech. Los agregados principales OccupancyAnalytics y ArtworkPopularityMetrics registran datos clave como el consumo de afluencia por sala y los niveles de interacción con obras en diferentes períodos de tiempo. Estos datos permiten a gestores culturales tomar decisiones informadas sobre distribución de contenido, optimización de flujos de visitantes y planificación de recursos basada en tendencias históricas. Los servicios de consulta y repositorios asociados facilitan la extracción de información histórica y la generación de reportes personalizados, contribuyendo al objetivo de crear museos inteligentes, sostenibles y eficientes mediante analítica avanzada.
+
+![Analytics and Reporting - Class Diagram](../assets/img/class-diagram/class-diagram-analytics1.png)
+![Analytics and Reporting - Class Diagram](../assets/img/class-diagram/class-diagram-analytics2.png)
+![Analytics and Reporting - Class Diagram](../assets/img/class-diagram/class-diagram-analytics3.png)
+
+**Capa de Dominio (Domain Layer):**
+
+**Agregados y Entidades:**
+
+- **OccupancyAnalytics** (Aggregate Root): Análisis de ocupación con museumId, room, date, avgOccupancy, peakOccupancy, avgDuration, totalVisitors. Método: `calculateMetrics()`.
+- **ArtworkPopularityMetrics** (Aggregate Root): Métricas de obra con artworkId, periodStart, periodEnd, totalScans, avgViewDuration, totalXPGenerated, popularityRank. Método: `recalculateRank()`.
+- **GeneratedReport** (Aggregate Root): Reporte generado con museumId, reportType, period, filters (JSON), reportData (JSON), generatedBy. Métodos: `exportToPDF()`, `exportToExcel()`.
+  **Capa de Aplicación (Application Layer):**
+- **GenerateReportCommandHandler**: Genera reportes bajo demanda aplicando filtros y agregaciones complejas.
+- **GetPopularArtworksQueryHandler**: Retorna ranking de obras más populares por período.
+  **Capa de Infraestructura (Infrastructure Layer):**
+- **PostgreSQLAnalyticsRepository**: Almacena métricas agregadas pre-calculadas para consultas rápidas.
+- **TableauReportingService**: Integración con Tableau/PowerBI para dashboards interactivos.
+  **Patrones aplicados:**
+- CQRS con queries optimizadas mediante vistas materializadas
+- Report generation con patrón Template Method
+- External BI integration mediante adapters
+
+---
+
+##### Consideraciones Generales de Diseño Orientado a Objetos
+
+**Principios SOLID aplicados:**
+
+- **Single Responsibility**: Cada clase tiene una única razón para cambiar (ej: User maneja solo lógica de usuario, no persistencia).
+- **Open/Closed**: Extensible mediante herencia/interfaces sin modificar código existente (ej: nuevos tipos de sensores).
+- **Liskov Substitution**: Implementaciones de repositorios son intercambiables sin afectar lógica de dominio.
+- **Interface Segregation**: Interfaces específicas por contexto (IUserRepository, IArtworkRepository).
+- **Dependency Inversion**: Capas superiores dependen de abstracciones, no de implementaciones concretas.
+  **Patrones de diseño clave:**
+- **Aggregate Pattern**: Encapsula invariantes de negocio y mantiene consistencia transaccional.
+- **Repository Pattern**: Abstrae persistencia permitiendo cambiar infraestructura sin afectar dominio.
+- **CQRS (Command Query Responsibility Segregation)**: Separa operaciones de escritura (Commands) de lectura (Queries).
+- **Domain Events**: Comunicación asíncrona entre bounded contexts.
+- **Factory Pattern**: Creación de agregados complejos (ej: Artwork con multimedia y QR).
+  **Manejo de transacciones:**
+- Unit of Work implementado a nivel de repositorio para garantizar atomicidad.
+- Transacciones distribuidas mediante Saga pattern para operaciones cross-context.
+- Optimistic locking para prevenir conflictos de concurrencia.
+  **Validación de dominio:**
+- Invariantes validadas en constructores de agregados.
+- Value Objects inmutables garantizan consistencia.
+- Domain Events publicados solo después de validación exitosa.
+
+---
+
+#### 4.8. Database Design
+
+En esta sección se presenta el diseño de la base de datos de KhipuTech, estructurada para soportar la gestión integral de museos inteligentes mediante analítica en tiempo real, gamificación de visitantes, control de aforo IoT y gestión de contenido cultural.
+
+---
+
+##### 4.8.1. Database Diagram
+
+El diseño de base de datos de KhipuTech está organizado en cinco dominios principales que reflejan los Bounded Contexts identificados durante el Event Storming: Identity and Access Management, Content Management, IoT Sensors and Visitor Tracking, Gamification and Visitor Engagement, y Analytics and Reporting. Cada dominio está optimizado para escalabilidad, rendimiento y cumplimiento de normativas de protección de datos.
+
+---
+
+###### Identity and Access Management
+
+El diagrama de base de datos de Identity and Access Management (IAM) modela la estructura para gestionar usuarios, roles y permisos dentro de la plataforma KhipuTech. La tabla **users** almacena la información básica de autenticación (nombre de usuario, email y hash de contraseña). Los **roles** definen conjuntos de permisos que pueden ser asignados a usuarios mediante la tabla intermedia **user_roles**. Los permisos específicos (**permissions**) detallan qué acciones están permitidas sobre qué recursos, y se vinculan a roles mediante **role_permissions**. Este diseño permite una gestión flexible y escalable de la seguridad, facilitando la asignación dinámica de permisos según el contexto y las necesidades del museo.
+
+![Identity and Access Management](../assets/img/database-diagram/identity-and-access-management.png)
+
+**Tablas principales:**
+
+- **users**: Información de autenticación (id, email, password_hash, created_at, updated_at)
+- **roles**: Definición de roles del sistema (id, name, description, created_at)
+- **permissions**: Permisos específicos sobre recursos (id, resource, action, description)
+- **user_roles**: Relación muchos-a-muchos entre usuarios y roles (id, user_id, role_id, assigned_at)
+- **role_permissions**: Relación muchos-a-muchos entre roles y permisos (id, role_id, permission_id, granted_at)
+
+**Índices estratégicos:**
+
+- `email_idx` en users para optimizar búsquedas de autenticación
+- Claves foráneas indexadas para joins eficientes
+
+---
+
+###### Content Management
+
+El diagrama de base de datos de Content Management modela la gestión de obras culturales y su contenido multimedia dentro de KhipuTech. La tabla **artworks** almacena información esencial de cada obra (título, artista, descripción, sala). La tabla **multimedia_content** vincula archivos multimedia (imágenes, audio) a las obras, especificando tipo de contenido, URL del CDN, idioma y formato. Los códigos QR/NFC se gestionan en **qr_codes**, asociando un UUID único a cada obra. Este diseño facilita la gestión curatorial de contenido, permite escalabilidad para nuevos idiomas y optimiza la entrega de multimedia mediante CDN.
+
+![Content Management](../assets/img/database-diagram/content-management.png)
+
+**Tablas principales:**
+
+- **museums**: Información de museos (id, name, location, timezone, created_at)
+- **artworks**: Catálogo de obras (id, museum_id, title, artist, description, room, created_at, updated_at)
+- **multimedia_content**: Archivos multimedia vinculados a obras (id, artwork_id, content_type, cdn_url, language, file_format, created_at)
+- **qr_codes**: Códigos únicos por obra (id, artwork_id, uuid, generated_at, is_active)
+
+**Índices estratégicos:**
+
+- `museum_id_idx` en artworks para filtrado por museo
+- `artwork_id_idx` en multimedia_content para carga rápida de contenido
+- `uuid_idx` en qr_codes para escaneos instantáneos
+
+**Consideraciones de diseño:**
+
+- `content_type` usa ENUM para validar tipos (image, audio, video, text)
+- `cdn_url` almacena URLs de CloudFront/Cloudflare para distribución global
+- `language` soporta códigos ISO 639-1 (es, en) con capacidad de extensión
+
+---
+
+###### IoT Sensors and Visitor Tracking
+
+El diagrama de base de datos de IoT Sensors and Visitor Tracking representa la gestión y monitoreo de sensores IoT dentro de la plataforma KhipuTech. La tabla **sensors** almacena información esencial de cada sensor (nombre, tipo, ubicación, sala, estado y configuración en formato JSON). Los datos de telemetría se registran en **sensor_telemetry**, capturando métricas en tiempo real con sus timestamps correspondientes. La tabla **visitor_sessions** registra las sesiones de visitantes con hora de entrada y salida. Las interacciones con obras se almacenan en **artwork_interactions**, vinculando visitantes con obras mediante tiempo de visualización y XP ganado. Este diseño permite control granular sobre el estado operativo de los sensores, facilita el análisis histórico de afluencia y soporta la toma de decisiones basada en datos para optimización de espacios y gestión de contenido.
+
+![IoT Sensors and Visitor Tracking](../assets/img/database-diagram/IoT-Sensors.png)
+![IoT Sensors and Visitor Tracking](../assets/img/database-diagram/Visitor-Tracking.png)
+
+**Tablas principales:**
+
+- **sensors**: Dispositivos IoT instalados (id, museum_id, name, sensor_type, location, room, status, configuration, created_at, updated_at)
+- **sensor_telemetry**: Datos de telemetría en tiempo real (id, sensor_id, timestamp, visitor_count, occupancy_rate, metadata)
+- **visitor_sessions**: Sesiones de visitantes (id, museum_id, visitor_uuid, check_in_time, check_out_time, total_xp, created_at)
+- **artwork_interactions**: Interacciones QR/NFC con obras (id, session_id, artwork_id, scanned_at, view_duration, xp_earned)
+
+**Índices estratégicos:**
+
+- `museum_id_idx`, `status_idx` en sensors para monitoreo por museo y filtrado por estado
+- `sensor_id_idx`, `timestamp_idx` en sensor_telemetry para series temporales
+- `visitor_uuid_idx` en visitor_sessions para recuperación rápida de perfil
+- `session_id_idx`, `artwork_id_idx` en artwork_interactions para análisis de popularidad
+
+**Consideraciones de diseño:**
+
+- `status` usa ENUM (active, inactive, maintenance, error) para monitoreo de salud
+- `configuration` en JSON permite parámetros flexibles por tipo de sensor (MQTT topics, umbrales)
+- `metadata` en sensor_telemetry almacena datos adicionales (temperatura, humedad) sin cambios de schema
+- `occupancy_rate` es DECIMAL(5,2) para porcentajes con precisión (ej: 87.53%)
+
+---
+
+###### Gamification and Visitor Engagement
+
+El diagrama de base de datos de Gamification modela el sistema de recompensas y engagement de visitantes en KhipuTech. La tabla **visitor_profiles** almacena información del perfil del visitante (nombre, nivel actual, XP total acumulado). Los **achievements** definen insignias y logros desbloqueables con sus condiciones. La tabla intermedia **visitor_achievements** registra qué insignias ha obtenido cada visitante y cuándo. El **weekly_leaderboard** mantiene el ranking semanal de visitantes por XP, reseteable cada lunes. Este diseño permite personalizar la experiencia del visitante, fomenta la reexploración del museo mediante desafíos y crea una capa de gamificación que incrementa engagement y tiempo de permanencia.
+
+![Gamification and Visitor Engagement](../assets/img/database-diagram/Gamification.png)
+
+**Tablas principales:**
+
+- **visitor_profiles**: Perfiles de visitantes (id, visitor_uuid, display_name, current_level, total_xp, created_at, updated_at)
+- **achievements**: Catálogo de logros (id, name, description, icon_url, unlock_condition, xp_reward)
+- **visitor_achievements**: Logros desbloqueados por visitante (id, visitor_id, achievement_id, unlocked_at)
+- **weekly_leaderboard**: Ranking semanal (id, museum_id, visitor_id, week_start_date, weekly_xp, rank_position, updated_at)
+
+**Índices estratégicos:**
+
+- `visitor_uuid_idx` en visitor_profiles para identificación anónima
+- `week_start_idx` en weekly_leaderboard para consultas de ranking actual
+
+**Consideraciones de diseño:**
+
+- `unlock_condition` en JSON define reglas (ej: `{"type": "scan_count", "threshold": 50}`)
+- `weekly_xp` se resetea cada lunes mediante cron job, pero `total_xp` persiste
+- `rank_position` se calcula mediante window functions de SQL para eficiencia
+- Niveles se calculan con umbrales: Nivel 1 (0-99 XP), Nivel 2 (100-499 XP), Nivel 3 (500+ XP)
+
+---
+
+###### Analytics and Reporting
+
+El diagrama de base de datos de Analytics modela la captura y análisis de métricas operativas en KhipuTech. La tabla **occupancy_analytics** registra estadísticas de ocupación por sala, incluyendo promedio de visitantes, picos de afluencia y tiempo promedio de permanencia. Las **artwork_popularity_metrics** capturan métricas de cada obra (total de escaneos, tiempo promedio de visualización, XP total generado, ranking de popularidad). Los **generated_reports** almacenan reportes generados bajo demanda, especificando tipo de reporte, período analizado, sala o museo asociado y datos completos en formato JSON. Este diseño permite a gestores culturales tomar decisiones informadas sobre distribución de obras, optimización de flujos de visitantes y planificación de recursos basada en datos históricos y tendencias detectadas.
+
+![Analytics and Reporting](../assets/img/database-diagram/Analytics.png)
+![Analytics and Reporting](../assets/img/database-diagram/Reporting.png)
+
+**Tablas principales:**
+
+- **occupancy_analytics**: Estadísticas de ocupación (id, museum_id, room, date, avg_occupancy, peak_occupancy, avg_duration, total_visitors)
+- **artwork_popularity_metrics**: Métricas de popularidad de obras (id, artwork_id, period_start, period_end, total_scans, avg_view_duration, total_xp_generated, popularity_rank)
+- **generated_reports**: Reportes generados (id, museum_id, report_type, period_start, period_end, filters, report_data, generated_at, generated_by)
+
+**Índices estratégicos:**
+
+- `date_idx`, `museum_room_idx` en occupancy_analytics para consultas temporales por sala
+- `artwork_period_idx` en artwork_popularity_metrics para rankings por período
+- `museum_id_idx`, `report_type_idx` en generated_reports para historial de reportes
+
+**Consideraciones de diseño:**
+
+- `report_type` define categorías: "weekly_attendance", "artwork_ranking", "hourly_flow", "room_heatmap"
+- `filters` en JSON almacena parámetros de filtrado aplicados (ej: `{"room": "S3", "min_scans": 100}`)
+- `report_data` en JSON contiene resultados agregados para exportación a PDF/Excel sin recalcular
+- `avg_duration` se mide en minutos (INT) calculado desde check_in/check_out de visitor_sessions
+
+---
+
+##### Consideraciones Generales de Diseño
+
+**Escalabilidad:**
+
+- Base de datos diseñada para crecer horizontalmente mediante particionamiento por `museum_id`
+- Telemetría de sensores usa tabla time-series optimizada con retention policies (7 días granular, 1 año agregado)
+- Índices compuestos en campos frecuentemente consultados juntos (museum_id + date, artwork_id + period)
+
+**Seguridad:**
+
+- Hashes de contraseñas mediante bcrypt con factor de costo 12
+- `visitor_uuid` anónimo (UUID v4) sin vincular a datos personales para cumplir GDPR
+- Campos sensibles cifrados a nivel de aplicación antes de persistir (AES-256)
+
+**Rendimiento:**
+
+- JSON usado estratégicamente para datos flexibles no consultables (configuration, metadata, report_data)
+- TIMESTAMP con zona horaria para sincronización global de museos en diferentes regiones
+- BIGINT para IDs primarios preparado para >4 mil millones de registros por tabla
+
+**Integridad Referencial:**
+
+- Foreign keys con ON DELETE CASCADE para limpieza automática (visitor_sessions → artwork_interactions)
+- ON DELETE SET NULL para preservar datos históricos (users → generated_reports.generated_by)
+- Check constraints para validar rangos (occupancy_rate BETWEEN 0 AND 100)
 
 ---

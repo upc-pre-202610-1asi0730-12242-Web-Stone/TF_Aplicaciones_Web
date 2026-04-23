@@ -1625,7 +1625,7 @@
 
 ### 3.2. Impact Mapping
 
-![Impact-Mapping](../assets/img/images/Impact%20Mapping.jpg)
+![Impact-Mapping](../assets/img/lean%20ux/Impact%20Mapping.jpg)
 
 ### 3.3. Product Backlog
 
