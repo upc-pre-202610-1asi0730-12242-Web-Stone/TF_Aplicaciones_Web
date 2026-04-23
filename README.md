@@ -519,9 +519,8 @@ Se consideraron dos segmentos:
 
 Se utilizó un enfoque semiestructurado para permitir mayor profundidad en las respuestas.
 
----
-
 ### Segmento 1: Administración de museos
+
 
 1. Nombre y experiencia en museos.  
 2. ¿Cómo evalúa si una exhibición cumple su objetivo?  
@@ -536,7 +535,6 @@ Se utilizó un enfoque semiestructurado para permitir mayor profundidad en las r
 11. ¿Una solución digital ayudaría a atraer más público?  
 12. ¿Qué museos destacan en uso de tecnología?  
 
----
 
 ### Segmento 2: Visitantes
 
@@ -565,7 +563,9 @@ Esto facilita el análisis posterior, ayudando a identificar patrones, necesidad
 - Edad: 23 años  
 - Museo visitado recientemente: Museo del Arco  
 
----
+**Imagen de referencia:**  
+<img src="./images/entrevista_Alecia.jpg" alt="Entrevista Alecia" width="200"/>
+
 
 #### Entrevista #2
 
@@ -573,6 +573,10 @@ Esto facilita el análisis posterior, ayudando a identificar patrones, necesidad
 - Nombre y apellidos: Gianmarco Correa  
 - Edad: 35 años  
 - Museo visitado recientemente: Museo de Arte de Lima (MALI)  
+
+**Imagen de referencia:**  
+<img src="./images/entrevista_Gianmarco.jpg" alt="Entrevista Gianmarco" width="200"/>
+
 
 #### 2.2.3. Análisis de entrevistas
 
