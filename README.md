@@ -1998,6 +1998,10 @@ Finalmente, se emplean herramientas como WebStorm para el desarrollo del fronten
 
 #### 5.1.4. Software Deployment Configuration
 
+Para gestionar el desarrollo de KhipuTech de manera colaborativa, el equipo utilizó la funcionalidad de forks en GitHub. Cada integrante creó una copia del repositorio principal en su cuenta personal, lo que permitió trabajar de forma independiente en nuevas funcionalidades o pruebas sin afectar el código base.
+
+Este enfoque permitió mantener la estabilidad del repositorio principal, al mismo tiempo que facilitó la organización del trabajo en equipo y la validación de cambios antes de su integración final.
+
 
 ### 5.2. Landing Page, Services & Applications Implementation
 
