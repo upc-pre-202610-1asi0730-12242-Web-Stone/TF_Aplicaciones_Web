@@ -1902,6 +1902,23 @@ Se presentan los wireframes de la aplicación web de KhipuTech:
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 
+Se presentan los Web Applications Wireflow Diagrams:
+
+<img src="images/image_5.png" alt="Wireframe 1" style="width: 600px;" >
+
+<img src="images/image_6.png" alt="Wireframe 2" style="width: 600px;" >
+
+<img src="images/image_7.png" alt="Wireframe 3" style="width: 600px;" >
+
+<img src="images/image_8.png" alt="Wireframe 4" style="width: 600px;" >
+
+<img src="images/image_9.png" alt="Wireframe 1" style="width: 600px;" >
+
+<img src="images/image_10.png" alt="Wireframe 2" style="width: 600px;" >
+
+<img src="images/image_11.png" alt="Wireframe 3" style="width: 600px;" >
+
+
 #### 4.4.3. Web Applications Mock-ups
 
 #### 4.4.4. Web Applications User Flow Diagrams
