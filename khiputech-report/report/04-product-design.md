@@ -1018,9 +1018,312 @@ Explica las acciones y técnicas que guiarán a los Usuarios a traves del Landin
 
 #### 4.3. Landing Page UI Design
 
-#### 4.3.1. Landing Page Wireframe
+La sección de Landing Page UI Design busca definir, estructurar y validar la interfaz visual de la página principal de KhipuTech, garantizando una experiencia clara, accesible y centrada en los distintos perfiles de usuario interesados en soluciones de analítica en tiempo real para museos. Para esta fase se diseñaron los primeros wireframes, los cuales permitieron organizar los contenidos clave como la propuesta de valor de la plataforma, los planes de servicio, información de contacto y un footer con enlaces institucionales. Posteriormente, se elaboraron mockups de alta fidelidad aplicando el sistema de diseño establecido en las guías de estilo, priorizando la jerarquía informativa, la coherencia visual y la consistencia entre dispositivos.
 
-#### 4.3.2. Landing Page Mock-up
+El sitio web de KhipuTech está construido como un viaje lógico y persuasivo, diseñado para guiar a un potencial cliente desde la primera impresión hasta la conversión final, construyendo valor y confianza en cada paso.
+
+El recorrido comienza en la sección de inicio, que capta la atención de inmediato con un titular audaz: "Transforma la experiencia museística con datos en tiempo real". Esta primera sección establece la propuesta de valor central, explicando que la plataforma beneficia tanto a los gestores culturales (con analítica centralizada) como a los visitantes (con experiencias digitales enriquecidas), posicionándose como una solución integral desde el principio.
+
+A continuación, la sección de "Nuestros paquetes" presenta los planes de suscripción disponibles, mostrando de manera clara las opciones de servicio y facilitando la comparación entre características. Esta sección ayuda al cliente a visualizar qué plan se adapta mejor a las necesidades de su institución cultural.
+
+Finalmente, el sitio se enfoca en eliminar las últimas barreras para el contacto. La página de "Contáctanos" permite a gestores culturales y administradores de museos solicitar información personalizada, capturando datos clave como nombre completo, cargo, institución, correo, teléfono y tipo de museo. El footer actúa como una red de seguridad, ofreciendo enlaces de navegación y copyright, asegurando que ninguna pregunta quede sin respuesta y que el camino para empezar sea siempre accesible.
+
+---
+
+##### 4.3.1. Landing Page Wireframe
+
+[Click here for Figma](https://www.figma.com/design/yV2GIBGGcJHqF0u7MGxCjz/Landing-Page-Wireframe?node-id=0-1&t=CNuvKFwrtBsLzTne-1)
+
+Los wireframes de la Landing Page de KhipuTech definen la estructura fundamental de la interfaz, priorizando la organización del contenido y la jerarquía visual antes de aplicar elementos de diseño detallados. Se diseñaron utilizando elementos esquemáticos en escala de grises para facilitar la evaluación de la arquitectura de información sin distracciones visuales.
+
+**1. Home (Hero Section)**
+
+La interfaz del wireframe Home presenta una estructura en Z que guía la vista del usuario de manera natural. En la parte superior, un header fijo contiene el logotipo de KhipuTech alineado a la izquierda, seguido de un menú de navegación principal con enlaces a "Inicio", "Planes", "Evidencias" y "Contacto". A la derecha del header se ubica un botón de llamado a la acción "Iniciar sesión" con mayor énfasis visual.
+
+El hero section ocupa aproximadamente el 60% del viewport inicial, dividido en dos columnas asimétricas. La columna izquierda contiene el titular principal "Transforma la experiencia museística con datos en tiempo real" en tipografía de gran tamaño, seguido de un subtítulo descriptivo en texto regular. Debajo se posiciona un botón CTA primario "Registrarse" con tratamiento destacado.
+
+La columna derecha del hero section reserva espacio para una imagen hero representativa (placeholder indicado con diagonales cruzadas), que ocupará aproximadamente 500×400px en resolución desktop. Esta imagen ilustrará el concepto de analítica de visitantes o dashboard de museo.
+
+El diseño es limpio, escaneable y enfocado en la conversión, guiando al usuario de manera natural desde el primer contacto hacia la acción de registro.
+
+![Landing Wireframe - Home Desktop](../assets/img/landing-page/lp-wireframe-desktop.png)
+
+![Landing Wireframe - Home Mobile](../assets/img/landing-page/lp-wireframe-mobile.png)
+
+---
+
+**2. Planes (Pricing Section)**
+
+La sección de "Nuestros paquetes" adopta un layout centrado que facilita la comparación visual entre opciones de suscripción. El wireframe muestra un título principal "Nuestros paquetes" centrado en la parte superior, seguido de un párrafo descriptivo en texto regular que explica brevemente las opciones disponibles.
+
+Debajo se presenta una grilla de tres columnas equitativas (grid de 3 columnas en desktop, apiladas en mobile), cada una representando un plan de suscripción. Cada tarjeta de plan contiene:
+
+- Placeholder de imagen cuadrada (indicado con diagonales cruzadas) de aproximadamente 200×200px
+- Botón de acción "Ver más información" centrado debajo de cada tarjeta
+  Esta estructura permite al usuario escanear rápidamente las opciones disponibles y acceder a información detallada mediante los CTAs individuales. El espaciado generoso entre tarjetas (aproximadamente 32px de gap) facilita la legibilidad y evita la sobrecarga visual.
+
+El footer de la sección incluye el copyright "© 2026 KhipuTech" centrado en una franja horizontal de fondo sólido, estableciendo el cierre visual de la landing page.
+
+![Landing Wireframe - Planes Desktop](../assets/img/landing-page/lp-paquetes-desktop.png)
+
+![Landing Wireframe - Planes Mobile](../assets/img/landing-page/lp-paquetes-mobile.png)
+
+---
+
+**3. Planes (Detalle Expandido)**
+
+El wireframe de la vista expandida de planes presenta una estructura vertical alternada que combina imagen y contenido descriptivo. Cada bloque de plan utiliza un layout de dos columnas con imagen a la izquierda (placeholder cuadrado de 300×300px) y contenido textual a la derecha.
+
+El contenido textual incluye:
+
+- Párrafo descriptivo del plan (4-5 líneas de texto)
+- Botón "Ver más información" alineado a la derecha del bloque de texto
+  Esta disposición se repite tres veces en la página, una por cada plan disponible (Basic, Pro, Enterprise). El espaciado vertical entre bloques es de aproximadamente 48px para establecer separación clara entre opciones.
+
+El footer mantiene la consistencia con "© 2026 KhipuTech" en la misma franja horizontal de cierre.
+
+![Landing Wireframe - Planes Detalle](../assets/img/landing-page/lp-planes-detalles.png)
+
+---
+
+**4. Contacto (Contact Form)**
+
+El wireframe de la sección de contacto presenta un formulario centrado en la página con un ancho máximo de 600px para optimizar la legibilidad. La estructura incluye:
+
+**Encabezado:**
+
+- Título principal "Contáctanos" centrado
+- Sin subtítulo adicional para mantener simplicidad
+  **Campos del formulario (apilados verticalmente):**
+- Nombre completo (input text)
+- Cargo (input text)
+- Nombre del museo o institución (input text)
+- Correo (input email)
+- Teléfono (input tel)
+- Tipo de museo (select dropdown)
+  Todos los campos tienen labels alineadas a la izquierda arriba de cada input, con placeholders sutiles dentro de los campos. El espaciado vertical entre campos es uniforme (24px) para mantener ritmo visual consistente.
+
+**Botón de envío:**
+
+- CTA "SEND" centrado debajo del último campo
+- Tratamiento destacado para indicar acción primaria
+  **Footer:**
+- Franja horizontal con "© 2026 KhipuTech" centrado
+  El diseño prioriza la facilidad de completado del formulario, reduciendo fricción mediante un flujo vertical claro y campos bien etiquetados.
+
+![Landing Wireframe - Contacto](../assets/img/landing-page/lp-planes-detalles.png)
+
+---
+
+##### 4.3.2. Landing Page Mock-up
+
+[Link de Landing Page Mock-up](https://www.figma.com/design/Qj8btan6UPcFOfTvSSsdpA/Untitled?node-id=87-152&t=qUeaejZg6K80xug7-1)
+
+Los mockups de alta fidelidad de la Landing Page de KhipuTech aplican el sistema de diseño establecido en las guías de estilo, incorporando la paleta de colores institucional, tipografías DM Sans y DM Mono, iconografía de Lucide Icons y componentes visuales consistentes con la identidad de marca.
+
+**1. Home (Hero Section) - Desktop**
+
+El mockup de la sección Home presenta una estética moderna y tecnológica que transmite innovación en el sector cultural.
+
+**Header:**
+
+- Fondo blanco (#FFFFFF) con sombra sutil para elevación
+- Logotipo KhipuTech (nodos interconectados) alineado a la izquierda con dimensiones 180×40px
+- Navegación principal en DM Sans Medium 16px, color Navy (#0B1A3E), espaciado horizontal de 32px entre enlaces
+- Botón "Iniciar sesión" con fondo Navy (#0B1A3E), texto blanco, padding 12px 24px, border-radius 6px
+  **Hero Section:**
+- Fondo degradado sutil de Ice (#E8F0FF) a blanco para profundidad visual
+- Columna izquierda (50% del ancho):
+  - Titular "Transforma la experiencia museística con datos en tiempo real" en DM Sans Bold 48px, color Navy (#0B1A3E), line-height 1.2
+  - Subtítulo descriptivo en DM Sans Regular 18px, color Steel (#4A7ABA), line-height 1.6, max-width 520px
+  - Botón CTA "Registrarse" con fondo Electric (#00C8FF), texto Navy (#0B1A3E), DM Sans SemiBold 18px, padding 16px 32px, border-radius 8px, hover state con fondo Sky (#62B1FF)
+- Columna derecha (50% del ancho):
+  - Imagen hero ilustrando dashboard de analítica de museo con gráficos en tiempo real
+  - Tratamiento visual con borde sutil en Sky (#62B1FF) de 2px
+  - Dimensiones: 600×450px
+  - La imagen muestra elementos de UI como gráficos de barras, mapas de calor y contadores de visitantes en la paleta de KhipuTech
+    El diseño transmite profesionalismo y claridad, estableciendo inmediatamente la propuesta de valor de la plataforma mediante un balance equilibrado entre texto e imagen.
+
+![Landing Mockup - Home Desktop](../assets/img/mockups/lp-home-mockup.png)
+
+---
+
+**2. Home (Hero Section) - Mobile**
+
+La versión mobile del hero section adapta el layout a un flujo vertical optimizado para pantallas táctiles:
+
+**Header:**
+
+- Fondo blanco con logotipo centrado (140×32px)
+- Menú hamburguesa icon (Lucide Menu) a la derecha, color Navy (#0B1A3E)
+- Botón "Iniciar sesión" compacto en esquina superior derecha, padding 8px 16px
+  **Hero Section (apilado verticalmente):**
+- Imagen hero arriba, ocupando 100% del ancho, height auto (ratio 4:3)
+- Titular reducido a DM Sans Bold 32px, centrado
+- Subtítulo en DM Sans Regular 16px, centrado, max-width 90%
+- Botón CTA "Registrarse" en ancho completo (100% width), padding 14px, centrado
+  El espaciado vertical entre elementos es de 24px para mantener respiración visual en viewport reducido.
+
+![Landing Mockup - Home Mobile](../assets/img/mockups/lp-home-mockup.png)
+
+---
+
+**3. Planes (Pricing Section) - Desktop**
+
+La sección de planes presenta las opciones de suscripción con tarjetas visuales diferenciadas:
+
+**Título de sección:**
+
+- "Nuestros paquetes" en DM Sans Bold 40px, color Navy (#0B1A3E), centrado
+- Fondo de título en color Ice (#E8F0FF) con padding 16px 32px, border-radius 8px
+- Párrafo descriptivo debajo en DM Sans Regular 16px, color Steel (#4A7ABA), max-width 800px centrado
+  **Grid de planes (3 columnas):**
+
+Cada tarjeta de plan tiene las siguientes características:
+
+- Fondo blanco (#FFFFFF)
+- Borde de 2px en color Sky (#62B1FF)
+- Border-radius de 12px
+- Padding interno de 24px
+- Box-shadow sutil: 0 4px 12px rgba(11, 26, 62, 0.08)
+  **Contenido de cada tarjeta:**
+- Imagen ilustrativa (placeholder) de 280×280px con border-radius 8px
+- Espaciado de 16px entre imagen y botón
+- Botón "Ver más información" con:
+  - Fondo Ice (#E8F0FF)
+  - Texto Navy (#0B1A3E) en DM Sans Medium 14px
+  - Padding 10px 20px
+  - Border-radius 6px
+  - Hover state con fondo Sky (#62B1FF) y texto blanco
+    **Espaciado:**
+- Gap entre tarjetas: 32px horizontal
+- Margen inferior de sección: 64px
+  **Footer:**
+- Fondo Steel (#4A7ABA)
+- Texto "© 2026 KhipuTech" en DM Sans Regular 14px, color blanco, centrado
+- Padding vertical: 24px
+  ![Landing Mockup - Planes Desktop](../assets/img/mockups/lp-planes-mockup.png)
+
+---
+
+**4. Planes (Detalle Expandido) - Desktop**
+
+La vista expandida de planes presenta una estructura alternada imagen-texto que facilita la lectura:
+
+**Bloques de plan (layout alternado):**
+
+Cada bloque utiliza un layout de dos columnas (50/50) con las siguientes características:
+
+**Columna de imagen:**
+
+- Placeholder de imagen cuadrada 400×400px
+- Border-radius de 12px
+- Borde de 2px en Sky (#62B1FF)
+  **Columna de contenido:**
+- Padding interno de 32px
+- Párrafo descriptivo en DM Sans Regular 16px, color Steel (#4A7ABA), line-height 1.7
+- Texto justificado para bloques de contenido extenso
+- Botón "Ver más información":
+  - Fondo Ice (#E8F0FF)
+  - Texto Navy (#0B1A3E) en DM Sans Medium 14px
+  - Padding 12px 24px
+  - Border-radius 6px
+  - Alineado a la derecha del bloque de texto
+    **Espaciado vertical entre bloques:**
+- Margen de 64px entre cada bloque de plan para separación clara
+  **Alternancia visual:**
+- Bloque 1: Imagen izquierda, contenido derecha
+- Bloque 2: Contenido izquierda, imagen derecha
+- Bloque 3: Imagen izquierda, contenido derecha
+  Esta alternancia crea un ritmo visual dinámico y evita la monotonía en el scrolleo.
+
+**Footer:**
+
+- Mantiene el mismo estilo que la sección anterior
+- Fondo Steel (#4A7ABA), texto centrado, padding 24px vertical
+  ![Landing Mockup - Planes Detalle](../assets/img/mockups/lp-planes-mockup.png)
+
+---
+
+**5. Contacto (Contact Form) - Desktop**
+
+El mockup del formulario de contacto presenta un diseño limpio y accesible optimizado para conversión:
+
+**Contenedor del formulario:**
+
+- Ancho máximo: 600px, centrado horizontalmente
+- Fondo Ice (#E8F0FF) con padding 48px
+- Border-radius 16px
+- Box-shadow: 0 8px 24px rgba(11, 26, 62, 0.12)
+  **Título:**
+- "Contáctanos" en DM Sans Bold 36px, color Navy (#0B1A3E), centrado
+- Margen inferior: 32px
+  **Campos del formulario:**
+
+Cada campo tiene el siguiente estilo consistente:
+
+- Label en DM Sans Medium 14px, color Navy (#0B1A3E)
+- Input field:
+  - Fondo blanco (#FFFFFF)
+  - Borde de 1px en color Steel (#4A7ABA)
+  - Border-radius 6px
+  - Padding 12px 16px
+  - Font: DM Sans Regular 16px
+  - Placeholder en color Steel (#4A7ABA) con opacidad 0.6
+  - Focus state: borde de 2px en Electric (#00C8FF) con box-shadow sutil
+    **Campos incluidos (en orden vertical):**
+
+1. Nombre completo
+2. Cargo
+3. Nombre del museo o institución
+4. Correo
+5. Teléfono
+6. Tipo de museo (dropdown con icono Lucide ChevronDown)
+   **Espaciado:**
+
+- Gap vertical entre campos: 24px
+- Margen entre label e input: 8px
+  **Botón de envío:**
+- Texto "SEND" en DM Sans SemiBold 16px, color blanco
+- Fondo Electric (#00C8FF)
+- Padding 16px 48px
+- Border-radius 8px
+- Width: 100% (full width del contenedor)
+- Hover state: fondo Sky (#62B1FF)
+- Centrado en el formulario
+- Margen superior: 32px
+  **Estados de validación:**
+- Error state: borde rojo (#E74C3C) con mensaje de error en DM Sans Regular 12px
+- Success state: borde verde (#27AE60) con icono Lucide Check
+  **Footer:**
+- Fondo Steel (#4A7ABA)
+- Texto "© 2026 KhipuTech" centrado en blanco
+- Padding 24px vertical
+  ![Landing Mockup - Contacto](../assets/img/mockups/lp-contacto-mockup.png)
+
+---
+
+**Consideraciones de Diseño Responsivo:**
+
+Todos los mockups han sido diseñados siguiendo un enfoque mobile-first con breakpoints definidos:
+
+- **Mobile:** 320px - 767px
+- **Tablet:** 768px - 1023px
+- **Desktop:** 1024px+
+  **Adaptaciones clave en mobile:**
+- Navegación colapsada en menú hamburguesa
+- Grid de planes se apila en columna única
+- Formulario de contacto mantiene ancho completo con padding lateral de 16px
+- Botones se expanden a full-width para facilitar interacción táctil
+- Imágenes hero se redimensionan manteniendo aspect ratio 4:3
+  **Accesibilidad:**
+- Contraste mínimo WCAG AAA (7:1) entre Navy (#0B1A3E) y fondos claros
+- Todos los inputs tienen labels asociados
+- Estados de focus claramente visibles
+- Tamaño de botones mínimo de 44×44px para touch targets
+- Iconografía complementada con texto descriptivo
+
+---
 
 ### 4.4. Web Applications UX/UI Design
 
