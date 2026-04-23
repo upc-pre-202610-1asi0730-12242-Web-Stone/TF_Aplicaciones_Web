@@ -564,7 +564,7 @@ Esto facilita el análisis posterior, ayudando a identificar patrones, necesidad
 - Museo visitado recientemente: Museo del Arco  
 
 **Imagen de referencia:**  
-<img src="./images/entrevista_Alecia.jpg" alt="Entrevista Alecia" width="200"/>
+<img src="./images/entrevista_Alessia.jpg" alt="Entrevista Alecia" width="200"/>
 
 
 #### Entrevista #2
