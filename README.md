@@ -300,7 +300,7 @@ Convertirnos en el estándar tecnológico de gestión y analítica para museos e
 | Luis Alonso Huaco Oliva (U202417743) ![Foto_Perfil](pegarURLaqui) |                                                                                                                                                                                                                                                                                              |
 | (Fabian Jesus Sandoval Cueto) [IMAGEN]                            | Especialista en automatización de procesos mediante n8n e integración de APIs (Meta, Shopify). Aporta experiencia en la configuración de infraestructura en la nube (GCP) y contenedores Docker, además de liderar la estrategia de captación de datos y marketing analítico de la solución. |
 | (U) [IMAGEN]                                                      |                                                                                                                                                                                                                                                                                              |
-| (U) [IMAGEN]                                                      |                                                                                                                                                                                                                                                                                              |
+| Andrea Khristina Correa Rodriguez [IMAGEN]                                                  |                                                                                                                                                                                                                                                                                              |
 | (U) [IMAGEN]                                                      |                                                                                                                                                                                                                                                                                              |
 
 ### 1.2. **Solution Profile.**
@@ -566,6 +566,8 @@ Esto facilita el análisis posterior, ayudando a identificar patrones, necesidad
 **Imagen de referencia:**  
 <img src="./images/entrevista_Alessia.jpg" alt="Entrevista Alecia" width="200"/>
 
+Transcripción: 
+
 
 #### Entrevista #2
 
@@ -577,8 +579,11 @@ Esto facilita el análisis posterior, ayudando a identificar patrones, necesidad
 **Imagen de referencia:**  
 <img src="./images/entrevista_Gianmarco.jpg" alt="Entrevista Gianmarco" width="200"/>
 
+Transcripción: 
+
 
 #### 2.2.3. Análisis de entrevistas
+El análisis de entrevistas permite comprender mejor las necesidades, expectativas y comportamientos de los usuarios. Esta información es clave para tomar decisiones más acertadas en el diseño y desarrollo de soluciones centradas en el usuario.
 
 ### 2.3. Needfinding
 
