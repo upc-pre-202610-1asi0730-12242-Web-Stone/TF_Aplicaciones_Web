@@ -1925,6 +1925,7 @@ Se presentan los Web Applications Wireflow Diagrams:
 
 ### 4.5. Web Applications Prototyping
 
+Enlance al Web applications Prototyping video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e492_upc_edu_pe/IQCnEyFKUKpBTKZ2yyOjUt3AAUSOVECJll4gyIoRlKTirW8?e=TV3cN5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 #### 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Design-Level Event Storming.
