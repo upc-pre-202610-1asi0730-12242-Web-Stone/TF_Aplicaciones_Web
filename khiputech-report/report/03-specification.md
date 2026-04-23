@@ -1625,6 +1625,8 @@
 
 ### 3.2. Impact Mapping
 
+![Impact-Mapping](../assets/img/images/Impact%20Mapping.jpg)
+
 ### 3.3. Product Backlog
 
 | **# Orden** | **User Story Id** | **Título**                        | **Descripción**                                                                                                                                    | **Story Points (1/2/3/5/8)** |

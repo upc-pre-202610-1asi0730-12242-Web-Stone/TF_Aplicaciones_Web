@@ -161,7 +161,7 @@ Hemos definido las siguientes hipótesis para validar el modelo de negocio:
 <center><strong>Figura 1</strong></center>
 <center>Lean UX Canvas</center>
 
-![FotoLeanUXCanvas](./images/Lean%20UX%20Canvas%20de%20KhipuTech.png)
+![FotoLeanUXCanvas](../assets/img/images/Lean%20UX%20Canvas%20de%20KhipuTech.png)
 
 ### 1.3. Segmento Objetivo
 

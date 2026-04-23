@@ -70,10 +70,90 @@ A continuación todos los puntos exigidos:
   Skeleton screen animado con shimmer, Toasts (success/error/info), Indicador EN VIVO con pulso, tabla de especificaciones de transición por componente, y tabla de contraste WCAG AA con los ratios reales de la paleta (Navy+Cyan = 8.5:1, ideal para salas con luz tenue).
 
 #### 4.2. Information Architecture
+Esta sección describe la estructura de la información, estilos y sistemas que se utilizarán en la plataforma web de KhipuTech. Se consideran los sistemas de organización, etiquetado, búsqueda, navegación y SEO, con el fin de garantizar una experiencia clara y enfocada en la visualización de datos.
 
 #### 4.2.1. Organization Systems
 
+Tópico | Definición  
+---|---  
+Home | La página de inicio muestra una vista general del sistema, destacando métricas clave y accesos rápidos al dashboard.  
+Dashboard | La página principal de análisis donde se visualizan datos en tiempo real del flujo de visitantes.  
+Sensores | La página donde se visualizan y gestionan los dispositivos IoT instalados en el recinto.  
+Zonas | La página que representa las áreas monitoreadas mediante mapas o nodos conectados.  
+Reportes | La página que permite visualizar análisis históricos y exportar datos.  
+Contact | La página que permite a los usuarios comunicarse con soporte técnico.  
+Log In | La página donde el usuario puede iniciar sesión o registrarse para acceder al sistema.  
+
+
+### Página de Dashboard  
+
+Tópico | Definición  
+---|---  
+Métricas en tiempo real | Muestra datos actualizados sobre flujo y permanencia de visitantes.  
+Visualización gráfica | Presenta gráficos y diagramas para facilitar la interpretación de datos.  
+
+
+### Página de Sensores  
+
+Tópico | Definición  
+---|---  
+Lista de sensores | Muestra todos los dispositivos IoT activos en el sistema.  
+Estado de sensores | Indica el funcionamiento y estado de cada sensor.  
+
+
+### Página de Reportes  
+
+Tópico | Definición  
+---|---  
+Lista de reportes | Muestra los reportes generados por el sistema.  
+Detalles de reportes | Permite visualizar análisis detallados y exportar información.  
+
+
+### Página de Contact  
+
+Proporciona información de contacto y soporte técnico para consultas.  
+
+Tópico | Definición  
+---|---  
+Formulario de contacto | Permite enviar consultas directamente al equipo de soporte.  
+Información de contacto | Muestra canales como correo o asistencia técnica.  
+
+
+### Registro y autenticación  
+
+La página permite a los usuarios acceder al sistema mediante credenciales seguras o registrarse como nuevos usuarios.  
+
+
+### Otras páginas y funciones  
+
+Tópico | Definición  
+---|---  
+Perfil de usuario | Permite gestionar la información personal y accesos del usuario.  
+Configuraciones | Permite ajustar preferencias del sistema y parámetros de visualización.  
+Página acerca de nosotros | Información sobre KhipuTech y su propuesta tecnológica.  
+Ayuda y soporte | Recursos de ayuda, preguntas frecuentes y asistencia técnica.  
+
+
+Barra de navegación:  
+Una barra de navegación clara y consistente en la parte superior permite acceder a las secciones principales del sistema.  
+
+Responsive design:  
+La plataforma se adapta a dispositivos de escritorio y móviles, manteniendo la claridad en la visualización de datos.  
+
+
+
 #### 4.2.2. Labeling Systems
+
+Para los sistemas de etiquetado, se organiza el contenido mediante encabezados claros que agrupan las secciones disponibles dentro de la plataforma. Esto permite al usuario identificar fácilmente dónde acceder.  
+
+Tópico | Definición  
+---|---  
+Home | Sección principal donde el usuario visualiza el resumen general del sistema.  
+Dashboard | Sección donde se muestran métricas en tiempo real.  
+Sensores | Sección donde se gestionan los dispositivos IoT.  
+Zonas | Sección donde se visualizan las áreas monitoreadas.  
+Reportes | Sección donde se consultan análisis e información histórica.  
+Contacto | Sección donde el usuario puede comunicarse con soporte técnico.  
 
 #### 4.2.3. SEO Tags and Meta Tags
 
@@ -249,7 +329,248 @@ Explica las acciones y técnicas que guiarán a los Usuarios a traves del Landin
 
 #### 4.4.3. Web Applications Mock-ups
 
+##### Descripción general
+
+El mock-up presentado corresponde al Dashboard de monitoreo general del sistema, diseñado para administradores del museo. Su objetivo principal es ofrecer una visión centralizada, en tiempo real, del comportamiento de los visitantes, el uso de las exhibiciones y el estado operativo del museo.
+
+Este diseño responde a las épicas relacionadas con:
+
+- Analítica (EP02, EP06)
+- Operación (EP03, EP04)
+- Alertas inteligentes (US51)
+
+#### Principios de diseño aplicados
+
+#### 1. Jerarquía visual
+
+Se prioriza la información más relevante en la parte superior:
+
+- KPIs principales (visitantes, interacciones, permanencia, alertas)
+- Luego gráficos y análisis
+- Finalmente detalles (tablas y alertas)
+
+#### 2. Consistencia
+
+- Uso uniforme de colores (azules oscuros + acentos)
+- Tipografía homogénea
+- Componentes reutilizables (cards, tablas, alertas)
+
+#### 3. Feedback visual
+
+- Indicadores de crecimiento (+12%, +7%)
+- Colores de estado:
+  - 🔴 Saturación
+  - 🟡 Atención
+  - 🟢 Normal
+
+#### 4. Minimalismo funcional
+
+Se evita saturar la interfaz:
+
+- Solo métricas clave visibles
+- Espacios amplios
+- Separación clara por secciones
+
+#### Elementos de diseño
+
+#### Cards de métricas (KPIs)
+
+Ubicadas en la parte superior:
+
+- Visitantes
+- Interacciones QR/NFC
+- Tiempo de permanencia
+- Alertas activas
+
+#### Gráfico de afluencia por hora
+
+- Visualiza entradas y salidas
+- Permite detectar picos de tráfico
+
+####  Ocupación por sala
+
+Panel lateral con:
+
+- Capacidad vs ocupación
+- Estado visual (color + etiqueta)
+
+#### Alertas recientes
+
+Lista de eventos relevantes:
+
+- Aforo crítico
+- Umbrales superados
+- Baja interacción
+
+
+#### Diseño inclusivo
+
+El sistema considera accesibilidad mediante:
+
+- Contraste alto (modo oscuro)
+- Tipografía legible
+- Uso de colores + texto (no solo color)
+- Información jerárquica clara
+
+Mejora la experiencia para:
+
+- usuarios con fatiga visual
+- entornos con poca iluminación
+- distintos perfiles de usuarios
+
+#### Arquitectura de la información
+
+La navegación lateral está organizada en:
+
+#### 1. Principal
+
+- Dashboard
+- Afluencia en vivo
+- Mapa de salas
+
+#### 2. Analítica
+
+- Interacciones
+- Permanencia
+- Tendencias
+- Exportar reportes
+
+#### 3. Contenido
+
+- QR / NFC
+- Obras
+
+#### 4. Sistema
+
+- Acceso y roles
+- Configuración
+
+#### Relación con el Design System
+
+El mock-up evidencia un sistema de diseño consistente:
+
+#### Paleta:
+
+  - Azul oscuro (base)
+  - Verde (positivo)
+  - Amarillo (advertencia)
+  - Rojo (crítico)
+
+#### Componentes reutilizables:
+
+  - Cards
+  - Tabs (Hoy / Semana / Mes)
+  - Listas
+  - Indicadores de estado
+  - Espaciado uniforme
+  - Bordes redondeados (modern UI)
+#### Valor del diseño
+
+Este dashboard permite:
+
+- Monitoreo en tiempo real
+- Toma de decisiones basada en datos
+- Detección de problemas (aforo, interacción)
+- Optimización de la experiencia del visitante
+
 #### 4.4.4. Web Applications User Flow Diagrams
+
+#### USER FLOW 1 — Visitante accede a contenido
+
+#### User Persona
+
+Visitante del museo
+
+#### User Goal
+
+Acceder al contenido digital de una obra de forma rápida y sin fricción.
+
+#### 🟢 Happy Path
+
+1. Escanea QR
+2. Se abre contenido en navegador
+3. Visualiza contenido multimedia
+4. Navega a otra obra (opcional)
+
+#### 🔴 Unhappy Paths
+
+- QR inválido → “Contenido no disponible”
+- Sin internet → mensaje de error
+- Dispositivo no compatible → fallback
+
+#### Pantallas involucradas
+
+- Vista QR
+- Vista contenido
+
+#### Explicación
+
+El flujo inicia cuando el visitante escanea un código QR ubicado en la obra. El sistema redirige automáticamente a una vista web donde se presenta contenido multimedia. El usuario puede explorar información adicional o navegar a otras obras. En caso de errores, el sistema muestra mensajes claros para mantener la experiencia.
+
+#### 🟣 USER FLOW 2 — Administrador monitorea el museo
+
+#### User Persona
+
+Administrador del museo
+
+#### User Goal
+
+Supervisar en tiempo real el estado del museo para tomar decisiones rápidas.
+
+#### 🟢 Happy Path
+
+1. Accede al sistema
+2. Ingresa al dashboard
+3. Visualiza métricas principales
+4. Revisa ocupación por sala
+5. Identifica alertas
+6. Toma decisión
+
+#### 🔴 Unhappy Paths
+
+- Datos no cargan → mensaje de error
+- Sin datos → estado vacío
+- Error en sensores → alerta técnica
+
+#### Pantallas involucradas
+
+- Dashboard
+
+#### Explicación
+
+El flujo comienza cuando el administrador accede al sistema y visualiza el dashboard principal. Este presenta métricas clave como afluencia, interacción y alertas. El usuario puede identificar rápidamente situaciones críticas y tomar decisiones operativas. En caso de fallos en los datos, el sistema informa el problema sin afectar la navegación.
+
+#### 🟡 USER FLOW 3 — Acceso con suscripción
+
+#### User Persona
+
+Visitante recurrente
+
+#### User Goal
+
+Acceder a contenido premium sin restricciones mediante suscripción.
+
+#### 🟢 Happy Path
+
+1. Usuario accede al contenido
+2. Sistema valida suscripción
+3. Acceso permitido
+4. Navega libremente
+
+#### 🔴 Unhappy Paths
+
+- Suscripción vencida → pedir renovación
+- No suscrito → acceso limitado
+- Error de validación → mensaje
+
+#### Pantallas involucradas
+
+- Vista contenido
+- Pantalla de acceso/restricción
+
+#### Explicación
+
+El flujo inicia cuando el visitante intenta acceder a contenido digital. El sistema valida si cuenta con una suscripción activa. Si es válida, el acceso es ilimitado; de lo contrario, se restringe y se invita a renovar. Esto permite implementar un modelo de acceso controlado y monetización del contenido.
 
 ### 4.5. Web Applications Prototyping
 
