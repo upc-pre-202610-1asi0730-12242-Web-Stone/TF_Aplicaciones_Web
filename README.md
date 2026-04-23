@@ -1,97 +1,152 @@
-# TF Aplicaciones Web — KhipuTech
+# KhipuTech — Documentación del Proyecto
 
-![Logo UPC](https://images.seeklogo.com/logo-png/40/2/universidad-peruana-de-ciencias-aplicadas-upc-logo-png_seeklogo-402620.png)
+**Real-Time Visitor Analytics para Museos y Espacios Culturales**
 
-## Universidad Peruana de Ciencias Aplicadas
-
-### Ingeniería de Software | 2026-01
-
-### Curso: Aplicaciones Web (1ASI0730)
-
-### Sección: 12242
-
-### Docente: Angel Augusto Velasquez Nuñez
+Plataforma de analítica en tiempo real que combina infraestructura IoT de bajo costo con experiencias digitales interactivas mediante QR/NFC.
 
 ---
 
-## 🚀 Startup: WebStone
+## 📚 Índice del Informe
 
-## 📱 Producto: KhipuTech
+### Front Matter
 
-**KhipuTech** es una plataforma de analítica en tiempo real para museos y espacios culturales que combina infraestructura IoT de bajo costo con experiencias digitales interactivas mediante QR/NFC.
-
----
-
-## 👥 Integrantes
-
-| Nombre                            | Código     |
-| --------------------------------- | ---------- |
-| Fabian Jesus Sandoval Cueto       | U20221a132 |
-| Oscar Diego Checa Burga           | U20231E492 |
-| Andrea Khristina Correa Rodriguez | U202412041 |
-| Winnie Lisbeth Merino Ordinola    | U20231E504 |
-| Luis Alonso Huaco Oliva           | U202417743 |
+- [Portada Institucional](report/front-matter/00-cover.md)
+- [Project Collaboration Insights](report/front-matter/01-collaboration-insights.md)
+- [Registro de Versiones](report/front-matter/02-version-history.md)
+- [Student Outcome](report/front-matter/03-student-outcome.md)
 
 ---
 
-## 📁 Estructura del Repositorio
+### [Capítulo I: Introducción](report/01-introduction.md)
 
-Este repositorio contiene:
-
-### 📚 [Documentación (khiputech-report/)](khiputech-report/)
-
-- Primer avance del proyecto en formato Markdown
-- Wireframes, mockups y guías de estilo
-- Documentación técnica y de diseño
-
-<!-- AUN NO DESPLEGADO O AVANZADO PARA ESTE AV1
-### 💻 [Aplicación Web (khiputech-webapp/)](khiputech-webapp/)
-
-- Código fuente del frontend
-- Código fuente del backend
-- Configuración y deployment
-- Aun no desplegado para este avance
--->
+- 1.1. Startup Profile
+  - 1.1.1. Descripción del Startup
+  - 1.1.2. Perfiles de los Integrantes del Equipo
+- 1.2. Solution Profile
+  - 1.2.1. Antecedentes y Problemática
+  - 1.2.2. Lean UX Process
+- 1.3. Segmentos Objetivo
 
 ---
 
-## 📄 Entregables
+### [Capítulo II: Requirements Elicitation & Analysis](report/02-requirements.md)
 
-### TB1 - Primera Entrega
-
-- 📖 [Informe TB1](khiputech-report/build/TB1-Report.pdf)
-- 🎨 [Web Style Guide](khiputech-report/assets/deliverables/khiputech-web-style-guide.html)
-- 🗺️ [Navigation Systems](khiputech-report/assets/deliverables/khiputech-navigation-systems.pdf)
-- 🔍 [Searching Systems](khiputech-report/assets/deliverables/khiputech-searching-systems.pdf)
-
----
-
-## 📊 Project Collaboration Insights
-
-[Aquí se agregarán los insights de GitHub cuando estén disponibles]
+- 2.1. Competidores
+- 2.2. Entrevistas
+- 2.3. Needfinding
+- 2.4. Big Picture Event Storming
+- 2.5. Ubiquitous Language
 
 ---
 
-## 🎯 Student Outcome
+### [Capítulo III: Requirements Specification](report/03-specification.md)
 
-| Criterio Específico                                                                             | Acciones Realizadas | Conclusiones |
-| ----------------------------------------------------------------------------------------------- | ------------------- | ------------ |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | [Pendiente]         | [Pendiente]  |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | [Pendiente]         | [Pendiente]  |
-
----
-
-## 📌 Registro de Versiones
-
-| Versión | Fecha      | Autor/es        | Descripción                   | Estado     |
-| ------- | ---------- | --------------- | ----------------------------- | ---------- |
-| 1.0     | 11/04/2026 | Equipo WebStone | Realización del documento TB1 | EN PROCESO |
+- 3.1. User Stories
+- 3.2. Impact Mapping
+- 3.3. Product Backlog
 
 ---
 
-## 📝 Licencia
+### [Capítulo IV: Product Design](report/04-product-design.md)
 
-Este proyecto es material académico para el curso de Aplicaciones Web en UPC.
+- 4.1. Style Guidelines
+  - 4.1.1. General Style Guidelines
+  - 4.1.2. Web Style Guidelines
+- 4.2. Information Architecture
+- 4.3. Landing Page UI Design
+- 4.4. Web Applications UX/UI Design
+- 4.5. Web Applications Prototyping
+- 4.6. Domain-Driven Software Architecture
+- 4.7. Software Object-Oriented Design
+- 4.8. Database Design
+
+---
+
+### [Capítulo V: Product Implementation, Validation & Deployment](report/05-implementation.md)
+
+- 5.1. Software Configuration Management
+- 5.2. Landing Page, Services & Applications Implementation
+- 5.3. Validation Interviews
+- 5.4. Video About-the-Product
+
+---
+
+### Secciones Finales
+
+- [Bibliografía y Anexos](report/99-bibliography.md)
+
+---
+
+## 📄 Entregables de Diseño
+
+### Recursos Interactivos
+
+- 🎨 [General Style Guide](assets/deliverables/khiputech-general-style-guide.html) — Branding, logo, tipografía, iconografía
+- 🎨 [Web Style Guide](assets/deliverables/khiputech-web-style-guide.html) — Componentes UI, grid, responsive
+
+### Documento Compilado
+
+- 📖 **TB1-Report.pdf** — Informe completo en PDF (generado con Pandoc)
+
+---
+
+## 🔧 Compilación del Documento
+
+Este proyecto utiliza **Pandoc** con **Docs-as-Code** para compilación reproducible.
+
+### Requisitos
+
+- [Pandoc](https://pandoc.org/installing.html) >= 3.0
+- LuaLaTeX (incluido en [TeX Live](https://www.tug.org/texlive/) o [MiKTeX](https://miktex.org/))
+
+### Compilar el PDF
+
+```bash
+# Opción 1: Usando Make
+make pdf
+
+# Opción 2: Comando directo
+pandoc --defaults=config/defaults.yaml
+```
+
+El PDF se genera en `build/TB1-Report.pdf`.
+
+Ver [guía completa de compilación](INSTRUCTIONS.md) _(si existe)_.
+
+---
+
+## 📁 Estructura de Archivos
+
+```
+khiputech-report/
+├── README.md                    # Este archivo
+├── report/                      # Contenido Markdown por capítulos
+│   ├── front-matter/
+│   ├── 01-introduction.md
+│   ├── 02-requirements.md
+│   ├── 03-specification.md
+│   ├── 04-product-design.md
+│   ├── 05-implementation.md
+│   └── 99-bibliography.md
+├── assets/                      # Recursos visuales
+│   ├── img/
+│   └── deliverables/
+├── config/                      # Configuración de compilación
+│   └── defaults.yaml
+└── build/                       # PDF generado
+    └── TB1-Report.pdf
+```
+
+---
+
+## 📌 Información del Proyecto
+
+**Versión:** 1.0.0 (TB1)  
+**Fecha:** Abril 2026  
+**Equipo:** WebStone (5 integrantes)  
+**Estado:** ✅ Completado
+
+Ver [registro de versiones completo](report/front-matter/02-version-history.md)
 
 ---
 

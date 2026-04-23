@@ -1,4 +1,16 @@
- # CONFIGURACION
- # Configuración de Pandoc
- # (tipografías, colores, márgenes)
+# CONFIGURACION
+# Configuración de Pandoc
+# (tipografías, colores, márgenes)
 
+input-files:
+  - report/front-matter/01-collaboration-insights.md
+  - report/front-matter/02-version-history.md
+  - report/front-matter/03-student-outcome.md
+  - report/01-introduction.md
+  - report/02-requirements.md
+  - report/03-specification.md
+  - report/04-product-design.md
+  - report/05-implementation.md
+  - report/99-bibliography.md
+
+output-file: build/AV1-Report.pdf
