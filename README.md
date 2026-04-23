@@ -1889,6 +1889,17 @@ de sprints y la gestión del desarrollo ágil.
 
 #### 4.4.1. Web Applications Wireframes
 
+Se presentan los wireframes de la aplicación web de KhipuTech:
+
+<img src="images/image_4.png" alt="Wireframe 1" style="width: 600px;" >
+
+<img src="images/image_3.png" alt="Wireframe 2" style="width: 600px;" >
+
+<img src="images/image_2.png" alt="Wireframe 3" style="width: 600px;" >
+
+<img src="images/image_1.png" alt="Wireframe 4" style="width: 600px;" >
+
+
 #### 4.4.2. Web Applications Wireflow Diagrams
 
 #### 4.4.3. Web Applications Mock-ups
