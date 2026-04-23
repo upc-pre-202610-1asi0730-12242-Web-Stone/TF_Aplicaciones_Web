@@ -408,13 +408,13 @@ Este registro permite tener una base sólida para la interpretación de resultad
 
 Captura:
 
-<img src=""> img-Alessia Luque.png</img>
+<img src="images/ img-AlessiaLuque.png"></img>
 
 Duración: 3:21 minutos
 
 Línea de Tiempo: 0:00 - 3:21
 
-Enlace a la entrevista: 
+Enlace a la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e504_upc_edu_pe/IQDTSY8YUP-DT7YoqylJBb3jAWksMgbDf7lQ0mpIavfGdNI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ckg95p
 
 Resumen:
 
