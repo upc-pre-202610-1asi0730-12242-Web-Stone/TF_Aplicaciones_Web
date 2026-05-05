@@ -32,7 +32,7 @@ date: "Abril 2026"
 
 ---
 
-## 🚀 Startup: WebStone
+## Startup: WebStone
 
 **KhipuTech** es una plataforma de analítica en tiempo real para museos y espacios culturales que combina infraestructura IoT de bajo costo con experiencias digitales interactivas mediante QR/NFC.
 
