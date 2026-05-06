@@ -142,20 +142,6 @@ En el ecosistema cultural actual, los museos enfrentan el reto de modernizar la 
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
-Vas muy bien 🔥, pero aquí sí hay un error importante:
-
-👉 **Tus hipótesis NO siguen el formato Lean UX**
-(te faltan los dos componentes clave: *estructura estándar + métrica explícita clara*)
-
-Además:
-
-* mezclas hipótesis (valor, interacción, costo, retención) sin alinearlas a las 4 categorías
-* algunas están bien pensadas, pero **no están escritas como hipótesis validables**
-
----
-
-# 🔥 LEAN UX HYPOTHESIS STATEMENTS (VERSIÓN CORREGIDA)
-
 ##### **a) Hipótesis de Negocio (Business)**
 
 Creemos que los **administradores de museos y gestores culturales** adoptarán KhipuTech si **les permite optimizar recursos operativos mediante datos de flujo y comportamiento del visitante**.
