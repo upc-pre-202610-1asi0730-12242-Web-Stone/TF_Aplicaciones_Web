@@ -1,6 +1,6 @@
 ---
 title: "KhipuTech — Real-Time Visitor Analytics"
-subtitle: "TB1 Report — Aplicaciones Web"
+subtitle: "AV1 Report — Aplicaciones Web"
 author:
   - Fabian Jesus Sandoval Cueto (U20221a132)
   - Oscar Diego Checa Burga (U20231E492)
@@ -14,31 +14,27 @@ instructor: "Angel Augusto Velasquez Nuñez"
 date: "Abril 2026"
 ---
 
-# KhipuTech
-
-## Real-Time Visitor Analytics
-
 ![Logo UPC](https://images.seeklogo.com/logo-png/40/2/universidad-peruana-de-ciencias-aplicadas-upc-logo-png_seeklogo-402620.png)
 
-### Universidad Peruana de Ciencias Aplicadas
+# Universidad Peruana de Ciencias Aplicadas
 
-**Ingeniería de Software | 2026-01**
+## **Ingeniería de Software | 2026-01**
 
 ---
 
-**Curso:** Aplicaciones Web (1ASI0730)  
-**Sección:** 12242  
+**Curso:** Aplicaciones Web (1ASI0730)
+
+**Sección:** 12242
+
 **Docente:** Angel Augusto Velasquez Nuñez
 
 ---
 
+## "Informe del Trabajo Final"
+
 ## Startup: WebStone
 
-**KhipuTech** es una plataforma de analítica en tiempo real para museos y espacios culturales que combina infraestructura IoT de bajo costo con experiencias digitales interactivas mediante QR/NFC.
-
----
-
-## 👥 Integrantes del Equipo
+### Integrantes del Equipo
 
 | Nombre                            |   Código   |              Rol               |
 | --------------------------------- | :--------: | :----------------------------: |
@@ -50,6 +46,6 @@ date: "Abril 2026"
 
 ---
 
-**Entrega:** TB1 (Trabajo de Base 1)  
+**Entrega:** AV1 (Avance 1)  
 **Fecha:** Abril 2026  
-**Versión del Documento:** 1.0.0
+**Versión del Documento:** 1.0.1
