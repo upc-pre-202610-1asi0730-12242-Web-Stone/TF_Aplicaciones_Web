@@ -849,6 +849,7 @@ Expectativas y Necesidades: Alessia desearía contar con una solución digital q
  <td style="text-align: center;">US15</td>
  <td style="text-align: center;">Exportación de reportes</td>
  <td style="text-align: center;"> Como museo privado, quiero exportar datos para análisis externo.</td>
+  <td style="text-align: center;">
  <br><br>Scenario 1: Exportación válida
  <br>Given datos disponibles
  <br>When se solicita exportación
@@ -1195,7 +1196,6 @@ Expectativas y Necesidades: Alessia desearía contar con una solución digital q
  <br>Given un enlace de contenido
  <br>When el usuario accede
  <br>Then el sistema muestra contenido sin instalación
- </td>
  <br><br>Scenario 2: Compatibilidad de dispositivos
  <br>Given un dispositivo móvil o desktop
  <br>When el usuario abre el enlace
@@ -1214,7 +1214,6 @@ Expectativas y Necesidades: Alessia desearía contar con una solución digital q
  <br>Given contenido multimedia
  <br>When el usuario lo abre
  <br>Then el sistema lo reproduce correctamente
- </td>
  <br><br>Scenario 2: Control de reproducción
  <br>Given un video o audio en reproducción
  <br>When el usuario pausa o ajusta volumen
@@ -1235,7 +1234,6 @@ Expectativas y Necesidades: Alessia desearía contar con una solución digital q
  <br>Given varias obras disponibles
  <br>When el usuario selecciona otra
  <br>Then el sistema carga el nuevo contenido
- </td>
  <br><br>Scenario 2: Historial de navegación
  <br>Given múltiples obras visitadas
  <br>When el usuario retrocede
@@ -1254,7 +1252,6 @@ Expectativas y Necesidades: Alessia desearía contar con una solución digital q
  <br>Given datos de visitas
  <br>When el sistema analiza patrones
  <br>Then genera recomendaciones de recorrido
- </td>
  <br><br>Scenario 2: Personalización de recomendaciones
  <br>Given el historial del usuario
  <br>When el sistema identifica preferencias
@@ -1291,7 +1288,6 @@ Expectativas y Necesidades: Alessia desearía contar con una solución digital q
  <br>Given interacción completada
  <br>When el usuario cumple condiciones
  <br>Then el sistema otorga una insignia
- </td>
  <br><br>Scenario 2: Visualización de insignias
  <br>Given insignias otorgadas al usuario
  <br>When el usuario accede a su perfil
@@ -1310,7 +1306,6 @@ Expectativas y Necesidades: Alessia desearía contar con una solución digital q
  <br>Given una solicitud de contenido
  <br>When el sistema responde
  <br>Then la carga es menor a 3 segundos
- </td>
  <br><br>Scenario 2: Optimización de recursos
  <br>Given múltiples usuarios accediendo simultáneamente
  <br>When el sistema distribuye la carga
@@ -1517,8 +1512,6 @@ Expectativas y Necesidades: Alessia desearía contar con una solución digital q
  <br>When se detecta comportamiento anómalo
  <br>Then el sistema genera una alerta
  </td>
- <td style="text-align: center;">EP02</td>
- </tr>
  <br><br>Scenario 2: Desactivación de alertas
  <br>Given una alerta activa
  <br>When el administrador ajusta o desactiva los umbrales
