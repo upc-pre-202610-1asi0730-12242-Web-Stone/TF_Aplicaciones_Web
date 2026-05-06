@@ -161,10 +161,10 @@ Hemos definido las siguientes hipótesis para validar el modelo de negocio:
 <center><strong>Figura 1</strong></center>
 <center>Lean UX Canvas</center>
 
+![FotoLeanUXCanvas](../assets/img/images/Lean%20UX%20Canvas%20de%20KhipuTech.png)
+
 La siguiente imagen presenta un Lean UX Canvas que plantea digitalizar museos usando sensores y códigos QR para medir el interés de los visitantes y mejorar la interacción.
 Propone como beneficio reducir costos y modernizar la experiencia, iniciando con una prueba piloto en una sola sala antes de expandirse.
-
-![FotoLeanUXCanvas](../assets/img/images/Lean%20UX%20Canvas%20de%20KhipuTech.png)
 
 ### 1.3. Segmento Objetivo
 
