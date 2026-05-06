@@ -529,12 +529,88 @@ KhipuTech enfoca su modelo de negocio en dos segmentos institucionales distintos
 #### 2.2.3. Análisis de entrevistas
 
 <div style = "text-align: justify">
-Los tres señalan que no existe un mecanismo preciso para medir qué partes de una exposición
-funcionan mejor. Jesús lo dice explícitamente; Sergio lo describe como algo subjetivo; Lincoln
-lo ejemplifica con el cuaderno físico del museo LUM como único registro disponible. Sergio y Lincoln lo afirman directamente: el estudio de públicos es "paradójicamente dejado de lado" a pesar de ser fundamental. Jesús lo refuerza al valorar el análisis de preferencias para corregir errores futuros. Los tres mencionan herramientas actuales (encuestas, entrevistas, cuadernos físicos, observación no participante) como insuficientes o subutilizadas.Los tres coinciden en la brecha privado/público. Jesús señala que la mayoría de museos no tiene
-áreas de tecnología. Sergio describe los museos regionales como "desoladores" en ese aspecto (en el mejor caso, cámaras de seguridad). Lincoln confirma que el sector privado tiene más fuentes de financiamiento; el contexto estructural que condiciona cualquier propuesta tecnológica. Los tres valoran al mediador por encima de cualquier herramienta digital. Jesús lo señala como necesario para accesibilidad. Sergio lo describe como generador de experiencia profunda. Lincoln indica que la gente pregunta cosas "fuera del guión", evidenciando una demanda de contexto adicional que el montaje actual no cubre. En conclusión, Los tres entrevistados comparten el mismo diagnóstico de fondo: los museos peruanos, especialmente los regionales y públicos, operan sin sistemas de retroalimentación reales. Recopilan opiniones al final del recorrido (cuando ya no se puede hacer nada) y casi no investigan a sus públicos de manera sistemática. Eso no es un descuido aislado, es una carencia estructural.
-Donde más valor tiene el análisis conjunto es en el tema del mediador: los tres lo mencionan espontáneamente como el elemento que más agrega valor a la experiencia. Lincoln incluso da el detalle más rico al decir que la gente pregunta cosas "fuera del guión", eso es evidencia directa de que la exposición no satisface la demanda de contexto del visitante. Esa brecha entre lo que el montaje ofrece y lo que el público necesita es el problema de diseño central que emerge de las tres voces.
-La divergencia en tecnología es interesante porque no es superficial: Jesús habla desde la experiencia de mediador en contextos con poco presupuesto y un público heterogéneo, por lo que su escepticismo ante los QRs tiene base práctica. Sergio habla más desde una visión museográfica ideal. Lincoln resuelve la tensión sin decirlo explícitamente: el multilingüismo en Narihualá es la única "tecnología" que los tres coincidirían en validar, porque responde directamente a las características del público, no a una tendencia de innovación.
+
+## 2.3. Análisis de entrevistas por segmento objetivo
+
+### Segmento objetivo 1: Profesionales de museografía y mediación cultural
+
+El análisis se realizó sobre la base de 3 entrevistas registradas correspondientes a este 
+segmento (Sergio, Lincoln y Jesús), todos egresados de la carrera de Historia y Gestión 
+Cultural de la UDEP con experiencia en museografía y mediación cultural.
+
+#### Características objetivas
+
+**Formación académica:**
+El 100% (3/3) de los entrevistados son egresados de Historia y Gestión Cultural en la UDEP, 
+lo que establece un perfil homogéneo en términos de formación base.
+
+**Experiencia como mediadores:**
+El 100% (3/3) cuenta con experiencia directa como mediadores en museos o centros culturales 
+peruanos, con exposición a contextos tanto regionales como limeños.
+
+**Herramientas de recolección de datos que conocen o han utilizado:**
+El 100% (3/3) menciona herramientas de recolección de opiniones del visitante: encuestas 
+(Sergio), cuadernos físicos de visitantes (Lincoln — museo LUM, Jesús), Google Forms (Jesús) 
+y observación no participante (Sergio). Sin embargo, el 100% coincide en que estas 
+herramientas son insuficientes o subutilizadas en la práctica.
+
+**Conocimiento de portales o fuentes externas de datos:**
+El 33% (1/3) ha recurrido a portales gubernamentales para obtener datos de afluencia 
+museística ante la ausencia de registros propios del museo (Lincoln — museo de Narihualá).
+
+#### Características subjetivas
+
+**Ausencia de mecanismos de medición precisos:**
+El 100% (3/3) señala que no existe un mecanismo específico para evaluar qué partes de una 
+exposición funcionan mejor. Jesús lo afirma explícitamente; Sergio lo describe como un 
+proceso subjetivo; Lincoln lo ejemplifica con el cuaderno físico del museo LUM como único 
+registro disponible.
+
+**Estudio de públicos dejado de lado:**
+El 100% (3/3) reconoce que el estudio de públicos es fundamental pero está estructuralmente 
+descuidado. Sergio lo describe como "paradójicamente dejado de lado"; Jesús señala que un 
+análisis de preferencias permitiría corregir errores futuros; Lincoln refuerza la necesidad 
+de profundizar en el estudio de públicos a partir del caso de Narihualá.
+
+**Brecha tecnológica entre museos privados y públicos/regionales:**
+El 100% (3/3) reconoce la brecha entre museos privados de Lima y museos regionales o 
+públicos. Sergio describe los museos regionales como "desoladores" en infraestructura 
+tecnológica; Jesús señala que la mayoría carece de áreas de tecnología e innovación; Lincoln 
+confirma que el sector privado cuenta con más fuentes de financiamiento.
+
+**Valoración del mediador por encima de la tecnología:**
+El 100% (3/3) menciona espontáneamente al mediador como el elemento que más valor agrega a 
+la experiencia museística. Sergio lo describe como generador de experiencia profunda y 
+personal; Jesús lo señala como indispensable para la accesibilidad de personas con 
+discapacidad; Lincoln aporta el dato más concreto al indicar que los visitantes preguntan 
+cosas "fuera del guión", evidenciando que el montaje actual no satisface la demanda de 
+contexto del público.
+
+**Postura frente a la tecnología:**
+El 67% (2/3) muestra apertura hacia tecnologías inmersivas como realidad virtual y realidad 
+aumentada (Sergio) o repositorios digitales (Jesús), siempre que respondan a las necesidades 
+reales del público. El 33% (1/3) muestra escepticismo explícito ante soluciones como los 
+códigos QR por considerarlos ineficaces en contextos heterogéneos (Jesús). El 100% (3/3) 
+converge en validar soluciones que respondan directamente a las características del público, 
+como el multilingüismo implementado en el museo de Narihualá (español, inglés y quechua).
+
+**Accesibilidad como valor transversal:**
+El 67% (2/3) menciona explícitamente la accesibilidad como criterio clave en el diseño 
+museográfico: Lincoln desde la perspectiva lingüística y cultural; Jesús desde la inclusión 
+de personas con discapacidad (dispositivos de audio, material en braille, presencia del 
+mediador).
+
+#### Conclusión del análisis
+
+Los tres entrevistados comparten el mismo diagnóstico estructural: los museos peruanos, 
+especialmente los regionales y públicos, operan sin sistemas reales de retroalimentación. 
+La recopilación de opiniones se realiza al final del recorrido y de forma no sistemática, 
+lo que impide tomar decisiones de mejora basadas en datos. El elemento de mayor consenso 
+entre los entrevistados es el rol del mediador, mencionado espontáneamente por el 100% como 
+el componente que más enriquece la experiencia, por encima de cualquier herramienta digital. 
+La brecha entre lo que el montaje ofrece y lo que el público necesita — evidenciada por las 
+preguntas "fuera del guión" que reciben los mediadores — constituye el problema de diseño 
+central identificado en este segmento.
 </div>
 
 ### 2.3. Needfinding
