@@ -1627,7 +1627,7 @@
 
 ![Impact-Mapping](../assets/img/lean%20ux/Impact%20Mapping.jpg)
 
-Este gráfico de Impact Mapping define como objetivo principal convertir el flujo de visitantes en inteligencia estratégica y experiencias interactivas, con el fin de optimizar la gestión cultural. Identifica tres actores clave: los gestores de museos privados, interesados en obtener datos que respalden inversiones y atraigan patrocinadores; los administradores públicos, enfocados en la seguridad y la justificación del presupuesto; y el personal de TI y seguridad, encargado de gestionar una plataforma centralizada que garantice la protección y el uso eficiente de la información.
+Nota: Este gráfico de Impact Mapping define como objetivo principal convertir el flujo de visitantes en inteligencia estratégica y experiencias interactivas, con el fin de optimizar la gestión cultural. Identifica tres actores clave: los gestores de museos privados, interesados en obtener datos que respalden inversiones y atraigan patrocinadores; los administradores públicos, enfocados en la seguridad y la justificación del presupuesto; y el personal de TI y seguridad, encargado de gestionar una plataforma centralizada que garantice la protección y el uso eficiente de la información.
 
 ### 3.3. Product Backlog
 
