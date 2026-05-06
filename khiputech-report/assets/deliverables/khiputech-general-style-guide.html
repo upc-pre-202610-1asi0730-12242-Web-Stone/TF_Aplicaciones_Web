@@ -1,0 +1,1525 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KhipuTech — General Style Guidelines</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --navy: #0b1a3e;
+        --electric: #00c8ff;
+        --ice: #e8f0ff;
+        --sky: #62b1ff;
+        --steel: #4a7aba;
+        --gold: #c8a84b;
+        --white: #ffffff;
+        --border: #cbd8f0;
+        --muted: #6b89b4;
+        --bg-light: #f2f6ff;
+
+        --font-sans: "DM Sans", sans-serif;
+        --font-mono: "DM Mono", monospace;
+      }
+
+      body {
+        font-family: var(--font-sans);
+        background: linear-gradient(135deg, #0b1a3e 0%, #132660 100%);
+        color: var(--ice);
+        line-height: 1.6;
+        padding: 60px 40px;
+      }
+
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+      }
+
+      /* Hero Header */
+      .hero {
+        text-align: center;
+        padding: 80px 0 60px;
+        border-bottom: 1px solid rgba(0, 200, 255, 0.2);
+        margin-bottom: 60px;
+        position: relative;
+      }
+
+      .hero::before {
+        content: "";
+        position: absolute;
+        top: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 300px;
+        height: 300px;
+        background: radial-gradient(
+          circle,
+          rgba(0, 200, 255, 0.15) 0%,
+          transparent 70%
+        );
+        border-radius: 50%;
+        z-index: 0;
+      }
+
+      .hero-content {
+        position: relative;
+        z-index: 1;
+      }
+
+      .hero h1 {
+        font-size: 64px;
+        font-weight: 700;
+        margin-bottom: 16px;
+        background: linear-gradient(
+          135deg,
+          var(--ice) 0%,
+          var(--electric) 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .hero-subtitle {
+        font-size: 20px;
+        color: var(--sky);
+        font-weight: 400;
+        margin-bottom: 12px;
+      }
+
+      .hero-tagline {
+        font-family: var(--font-mono);
+        font-size: 11px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: rgba(232, 240, 255, 0.4);
+        margin-top: 24px;
+      }
+
+      /* Section Containers */
+      .section {
+        background: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(0, 200, 255, 0.1);
+        border-radius: 16px;
+        padding: 48px;
+        margin-bottom: 40px;
+      }
+
+      .section-header {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 32px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid rgba(0, 200, 255, 0.2);
+      }
+
+      .section-icon {
+        width: 48px;
+        height: 48px;
+        background: linear-gradient(
+          135deg,
+          var(--electric) 0%,
+          var(--sky) 100%
+        );
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+      }
+
+      .section-title {
+        font-size: 32px;
+        font-weight: 700;
+        color: var(--ice);
+      }
+
+      .section-subtitle {
+        font-size: 14px;
+        color: var(--sky);
+        margin-top: 4px;
+      }
+
+      /* Logo Showcase */
+      .logo-showcase {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        margin-bottom: 40px;
+      }
+
+      .logo-display {
+        background: rgba(11, 26, 62, 0.5);
+        border: 1px solid rgba(0, 200, 255, 0.2);
+        border-radius: 12px;
+        padding: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 300px;
+      }
+
+      .logo-label {
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--sky);
+        margin-bottom: 32px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      /* Khipu Logo SVG */
+      .khipu-logo {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+
+      .khipu-icon {
+        position: relative;
+        width: 80px;
+        height: 80px;
+      }
+
+      .khipu-node {
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        background: var(--electric);
+        border-radius: 50%;
+        box-shadow: 0 0 20px rgba(0, 200, 255, 0.6);
+      }
+
+      .khipu-center {
+        width: 24px;
+        height: 24px;
+        border: 3px solid var(--electric);
+        background: var(--navy);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .khipu-center::after {
+        content: "";
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        background: var(--electric);
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .khipu-line {
+        position: absolute;
+        height: 2px;
+        background: linear-gradient(
+          90deg,
+          var(--electric) 0%,
+          transparent 100%
+        );
+        transform-origin: center;
+        opacity: 0.6;
+      }
+
+      .logo-wordmark {
+        font-size: 48px;
+        line-height: 1;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .logo-word-khipu {
+        font-weight: 600;
+        color: var(--ice);
+        letter-spacing: -1px;
+      }
+
+      .logo-word-tech {
+        font-weight: 300;
+        color: var(--electric);
+        letter-spacing: -0.5px;
+      }
+
+      /* Logo Variations */
+      .logo-variations {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+        margin-top: 32px;
+      }
+
+      .logo-variant {
+        padding: 32px;
+        border-radius: 8px;
+        text-align: center;
+        border: 1px solid rgba(0, 200, 255, 0.1);
+      }
+
+      .logo-variant-dark {
+        background: var(--navy);
+      }
+
+      .logo-variant-light {
+        background: var(--ice);
+      }
+
+      .logo-variant-gold {
+        background: #1a2b48;
+      }
+
+      .logo-variant-label {
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-top: 16px;
+        color: var(--sky);
+      }
+
+      /* Typography Specimens */
+      .type-specimen {
+        padding: 32px;
+        background: rgba(11, 26, 62, 0.3);
+        border-radius: 8px;
+        margin-bottom: 16px;
+        border-left: 4px solid var(--electric);
+      }
+
+      .type-meta {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 16px;
+        font-size: 11px;
+        font-family: var(--font-mono);
+        color: var(--sky);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      .type-meta-tag {
+        padding: 4px 12px;
+        background: rgba(0, 200, 255, 0.1);
+        border-radius: 4px;
+      }
+
+      .type-display-h1 {
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+        line-height: 1.2;
+      }
+
+      .type-display-h2 {
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+        line-height: 1.3;
+      }
+
+      .type-display-body {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: var(--ice);
+      }
+
+      .type-display-label {
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--sky);
+      }
+
+      .type-display-mono {
+        font-family: var(--font-mono);
+        font-size: 14px;
+        color: var(--electric);
+      }
+
+      /* Icon Grid */
+      .icon-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 24px;
+        margin-top: 32px;
+      }
+
+      .icon-sample {
+        text-align: center;
+        padding: 24px;
+        background: rgba(11, 26, 62, 0.3);
+        border-radius: 8px;
+        border: 1px solid rgba(0, 200, 255, 0.1);
+        transition: all 300ms ease;
+      }
+
+      .icon-sample:hover {
+        background: rgba(0, 200, 255, 0.05);
+        border-color: var(--electric);
+        transform: translateY(-4px);
+      }
+
+      .icon-display {
+        width: 48px;
+        height: 48px;
+        margin: 0 auto 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+        color: var(--electric);
+      }
+
+      .icon-label {
+        font-size: 11px;
+        color: var(--sky);
+        font-weight: 500;
+      }
+
+      /* Color Palette */
+      .color-palette {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 24px;
+        margin-top: 32px;
+      }
+
+      .color-card {
+        background: rgba(11, 26, 62, 0.3);
+        border-radius: 12px;
+        overflow: hidden;
+        border: 1px solid rgba(0, 200, 255, 0.1);
+        transition: transform 300ms ease;
+      }
+
+      .color-card:hover {
+        transform: translateY(-8px);
+      }
+
+      .color-swatch {
+        height: 140px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .color-swatch::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(
+          circle at center,
+          transparent 30%,
+          rgba(0, 0, 0, 0.2) 100%
+        );
+      }
+
+      .color-info {
+        padding: 20px;
+      }
+
+      .color-name {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 8px;
+        color: var(--ice);
+      }
+
+      .color-codes {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      .color-code {
+        font-family: var(--font-mono);
+        font-size: 11px;
+        color: var(--sky);
+      }
+
+      .color-code strong {
+        color: var(--electric);
+        font-weight: 500;
+      }
+
+      /* Tone Analysis Table */
+      .tone-table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+        margin-top: 32px;
+      }
+
+      .tone-table thead th {
+        background: rgba(0, 200, 255, 0.1);
+        padding: 16px;
+        text-align: left;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: var(--electric);
+        border-bottom: 2px solid var(--electric);
+      }
+
+      .tone-table tbody td {
+        padding: 20px 16px;
+        border-bottom: 1px solid rgba(0, 200, 255, 0.1);
+        font-size: 14px;
+      }
+
+      .tone-table tbody tr:hover {
+        background: rgba(0, 200, 255, 0.03);
+      }
+
+      .tone-table tbody td:first-child {
+        font-weight: 600;
+        color: var(--electric);
+        width: 30%;
+      }
+
+      /* Logo Usage Rules */
+      .usage-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+        margin-top: 32px;
+      }
+
+      .usage-card {
+        background: rgba(11, 26, 62, 0.3);
+        border-radius: 12px;
+        padding: 32px;
+        border: 1px solid rgba(0, 200, 255, 0.1);
+      }
+
+      .usage-title {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 16px;
+        color: var(--electric);
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .usage-title::before {
+        content: "✓";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        background: rgba(45, 255, 160, 0.2);
+        color: #2dffa0;
+        border-radius: 50%;
+        font-size: 14px;
+      }
+
+      .usage-title.usage-dont::before {
+        content: "✗";
+        background: rgba(255, 77, 106, 0.2);
+        color: #ff4d6a;
+      }
+
+      .usage-description {
+        font-size: 14px;
+        color: var(--ice);
+        line-height: 1.6;
+      }
+
+      .usage-description ul {
+        margin-top: 12px;
+        padding-left: 20px;
+      }
+
+      .usage-description li {
+        margin-bottom: 8px;
+        color: var(--sky);
+      }
+
+      /* Clearspace Demo */
+      .clearspace-demo {
+        position: relative;
+        padding: 80px;
+        background: rgba(11, 26, 62, 0.3);
+        border-radius: 12px;
+        margin-top: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .clearspace-box {
+        position: absolute;
+        border: 2px dashed var(--electric);
+        opacity: 0.3;
+      }
+
+      .clearspace-label {
+        position: absolute;
+        font-size: 11px;
+        font-family: var(--font-mono);
+        color: var(--electric);
+        background: rgba(11, 26, 62, 0.9);
+        padding: 4px 8px;
+        border-radius: 4px;
+      }
+
+      /* Brand Essence */
+      .brand-essence {
+        text-align: center;
+        padding: 60px 40px;
+        background: linear-gradient(
+          135deg,
+          rgba(0, 200, 255, 0.05) 0%,
+          rgba(98, 177, 255, 0.05) 100%
+        );
+        border-radius: 16px;
+        margin-top: 32px;
+        border: 1px solid rgba(0, 200, 255, 0.2);
+      }
+
+      .brand-essence-quote {
+        font-size: 24px;
+        font-style: italic;
+        line-height: 1.6;
+        color: var(--ice);
+        margin-bottom: 24px;
+        font-weight: 300;
+      }
+
+      .brand-essence-author {
+        font-size: 14px;
+        color: var(--electric);
+        font-weight: 600;
+      }
+
+      /* Responsive */
+      @media (max-width: 1024px) {
+        .logo-showcase {
+          grid-template-columns: 1fr;
+        }
+
+        .logo-variations {
+          grid-template-columns: 1fr;
+        }
+
+        .usage-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 768px) {
+        body {
+          padding: 40px 20px;
+        }
+
+        .hero h1 {
+          font-size: 40px;
+        }
+
+        .section {
+          padding: 32px 24px;
+        }
+
+        .color-palette {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Hero -->
+      <div class="hero">
+        <div class="hero-content">
+          <h1>KhipuTech</h1>
+          <div class="hero-subtitle">General Style Guidelines</div>
+          <div class="hero-tagline">Real-Time Visitor Analytics</div>
+        </div>
+      </div>
+
+      <!-- Branding & Logo -->
+      <div class="section">
+        <div class="section-header">
+          <div class="section-icon">🎨</div>
+          <div>
+            <div class="section-title">Branding</div>
+            <div class="section-subtitle">
+              Concepto, identidad visual y aplicaciones del logo
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-bottom: 40px">
+          <h3
+            style="
+              font-size: 20px;
+              font-weight: 600;
+              margin-bottom: 16px;
+              color: var(--electric);
+            "
+          >
+            Concepto de Marca
+          </h3>
+          <p style="font-size: 16px; line-height: 1.8; color: var(--ice)">
+            El nombre
+            <strong style="color: var(--electric)">"KhipuTech"</strong> une el
+            <em>Khipu</em> (sistema de registro incaico basado en nudos) con la
+            tecnología moderna. Visualmente, buscamos transmitir
+            <strong>conexión</strong>, <strong>datos</strong> y
+            <strong>herencia cultural</strong>.
+          </p>
+          <p
+            style="
+              font-size: 16px;
+              line-height: 1.8;
+              color: var(--ice);
+              margin-top: 16px;
+            "
+          >
+            Se utilizarán líneas minimalistas que emulen las cuerdas de un
+            khipu, formando una
+            <strong style="color: var(--electric)">red o nodo</strong> que
+            simboliza los puntos de datos (sensores).
+          </p>
+        </div>
+
+        <div class="logo-showcase">
+          <div class="logo-display">
+            <div class="logo-label">Logotipo Principal</div>
+            <div class="khipu-logo">
+              <div class="khipu-icon">
+                <!-- Center node -->
+                <div class="khipu-node khipu-center"></div>
+
+                <!-- Satellite nodes -->
+                <div class="khipu-node" style="top: 10px; left: 10px"></div>
+                <div class="khipu-node" style="top: 10px; right: 10px"></div>
+                <div
+                  class="khipu-node"
+                  style="top: 50%; right: 10px; transform: translateY(-50%)"
+                ></div>
+                <div class="khipu-node" style="bottom: 10px; right: 10px"></div>
+                <div class="khipu-node" style="bottom: 10px; left: 10px"></div>
+                <div
+                  class="khipu-node"
+                  style="top: 50%; left: 10px; transform: translateY(-50%)"
+                ></div>
+
+                <!-- Connection lines -->
+                <div
+                  class="khipu-line"
+                  style="
+                    width: 35px;
+                    top: 15px;
+                    left: 22px;
+                    transform: rotate(-30deg);
+                  "
+                ></div>
+                <div
+                  class="khipu-line"
+                  style="
+                    width: 35px;
+                    top: 15px;
+                    right: 22px;
+                    transform: rotate(30deg);
+                  "
+                ></div>
+                <div
+                  class="khipu-line"
+                  style="
+                    width: 25px;
+                    top: 50%;
+                    right: 22px;
+                    transform: translateY(-50%);
+                  "
+                ></div>
+                <div
+                  class="khipu-line"
+                  style="
+                    width: 35px;
+                    bottom: 15px;
+                    right: 22px;
+                    transform: rotate(-30deg);
+                  "
+                ></div>
+                <div
+                  class="khipu-line"
+                  style="
+                    width: 35px;
+                    bottom: 15px;
+                    left: 22px;
+                    transform: rotate(30deg);
+                  "
+                ></div>
+                <div
+                  class="khipu-line"
+                  style="
+                    width: 25px;
+                    top: 50%;
+                    left: 22px;
+                    transform: translateY(-50%);
+                  "
+                ></div>
+              </div>
+              <div class="logo-wordmark">
+                <span class="logo-word-khipu">Khipu</span>
+                <span class="logo-word-tech">Tech</span>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="logo-display"
+            style="background: rgba(232, 240, 255, 0.05)"
+          >
+            <div class="logo-label">Versión con Tagline</div>
+            <div style="text-align: center">
+              <div
+                class="khipu-logo"
+                style="margin-bottom: 16px; justify-content: center"
+              >
+                <div class="khipu-icon">
+                  <div class="khipu-node khipu-center"></div>
+                  <div class="khipu-node" style="top: 10px; left: 10px"></div>
+                  <div class="khipu-node" style="top: 10px; right: 10px"></div>
+                  <div
+                    class="khipu-node"
+                    style="top: 50%; right: 10px; transform: translateY(-50%)"
+                  ></div>
+                  <div
+                    class="khipu-node"
+                    style="bottom: 10px; right: 10px"
+                  ></div>
+                  <div
+                    class="khipu-node"
+                    style="bottom: 10px; left: 10px"
+                  ></div>
+                  <div
+                    class="khipu-node"
+                    style="top: 50%; left: 10px; transform: translateY(-50%)"
+                  ></div>
+                  <div
+                    class="khipu-line"
+                    style="
+                      width: 35px;
+                      top: 15px;
+                      left: 22px;
+                      transform: rotate(-30deg);
+                    "
+                  ></div>
+                  <div
+                    class="khipu-line"
+                    style="
+                      width: 35px;
+                      top: 15px;
+                      right: 22px;
+                      transform: rotate(30deg);
+                    "
+                  ></div>
+                  <div
+                    class="khipu-line"
+                    style="
+                      width: 25px;
+                      top: 50%;
+                      right: 22px;
+                      transform: translateY(-50%);
+                    "
+                  ></div>
+                  <div
+                    class="khipu-line"
+                    style="
+                      width: 35px;
+                      bottom: 15px;
+                      right: 22px;
+                      transform: rotate(-30deg);
+                    "
+                  ></div>
+                  <div
+                    class="khipu-line"
+                    style="
+                      width: 35px;
+                      bottom: 15px;
+                      left: 22px;
+                      transform: rotate(30deg);
+                    "
+                  ></div>
+                  <div
+                    class="khipu-line"
+                    style="
+                      width: 25px;
+                      top: 50%;
+                      left: 22px;
+                      transform: translateY(-50%);
+                    "
+                  ></div>
+                </div>
+                <div class="logo-wordmark">
+                  <span class="logo-word-khipu">Khipu</span>
+                  <span class="logo-word-tech">Tech</span>
+                </div>
+              </div>
+              <div
+                style="
+                  font-family: var(--font-mono);
+                  font-size: 10px;
+                  letter-spacing: 0.2em;
+                  text-transform: uppercase;
+                  color: rgba(232, 240, 255, 0.4);
+                "
+              >
+                Real-Time Visitor Analytics
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Logo Variations -->
+        <h3
+          style="
+            font-size: 20px;
+            font-weight: 600;
+            margin: 48px 0 24px;
+            color: var(--electric);
+          "
+        >
+          Variaciones de Color
+        </h3>
+        <div class="logo-variations">
+          <div class="logo-variant logo-variant-dark">
+            <div class="khipu-logo" style="scale: 0.6; justify-content: center">
+              <div class="khipu-icon">
+                <div class="khipu-node khipu-center"></div>
+                <div class="khipu-node" style="top: 10px; left: 10px"></div>
+                <div class="khipu-node" style="top: 10px; right: 10px"></div>
+                <div
+                  class="khipu-node"
+                  style="top: 50%; right: 10px; transform: translateY(-50%)"
+                ></div>
+              </div>
+              <div class="logo-wordmark">
+                <span class="logo-word-khipu">Khipu</span>
+                <span class="logo-word-tech">Tech</span>
+              </div>
+            </div>
+            <div class="logo-variant-label">Fondo Oscuro (Principal)</div>
+          </div>
+
+          <div class="logo-variant logo-variant-light">
+            <div class="khipu-logo" style="scale: 0.6; justify-content: center">
+              <div class="khipu-icon">
+                <div
+                  class="khipu-node khipu-center"
+                  style="border-color: var(--navy); background: var(--ice)"
+                ></div>
+                <div
+                  class="khipu-node"
+                  style="top: 10px; left: 10px; background: var(--navy)"
+                ></div>
+                <div
+                  class="khipu-node"
+                  style="top: 10px; right: 10px; background: var(--navy)"
+                ></div>
+                <div
+                  class="khipu-node"
+                  style="
+                    top: 50%;
+                    right: 10px;
+                    transform: translateY(-50%);
+                    background: var(--navy);
+                  "
+                ></div>
+              </div>
+              <div class="logo-wordmark">
+                <span class="logo-word-khipu" style="color: var(--navy)"
+                  >Khipu</span
+                >
+                <span class="logo-word-tech" style="color: var(--steel)"
+                  >Tech</span
+                >
+              </div>
+            </div>
+            <div class="logo-variant-label" style="color: var(--steel)">
+              Fondo Claro
+            </div>
+          </div>
+
+          <div class="logo-variant logo-variant-gold">
+            <div class="khipu-logo" style="scale: 0.6; justify-content: center">
+              <div class="khipu-icon">
+                <div
+                  class="khipu-node khipu-center"
+                  style="
+                    border-color: var(--gold);
+                    box-shadow: 0 0 20px rgba(200, 168, 75, 0.6);
+                  "
+                ></div>
+                <div
+                  class="khipu-node"
+                  style="
+                    top: 10px;
+                    left: 10px;
+                    background: var(--gold);
+                    box-shadow: 0 0 20px rgba(200, 168, 75, 0.6);
+                  "
+                ></div>
+                <div
+                  class="khipu-node"
+                  style="
+                    top: 10px;
+                    right: 10px;
+                    background: var(--gold);
+                    box-shadow: 0 0 20px rgba(200, 168, 75, 0.6);
+                  "
+                ></div>
+                <div
+                  class="khipu-node"
+                  style="
+                    top: 50%;
+                    right: 10px;
+                    transform: translateY(-50%);
+                    background: var(--gold);
+                    box-shadow: 0 0 20px rgba(200, 168, 75, 0.6);
+                  "
+                ></div>
+              </div>
+              <div class="logo-wordmark">
+                <span class="logo-word-khipu" style="color: var(--gold)"
+                  >Khipu</span
+                >
+                <span
+                  class="logo-word-tech"
+                  style="color: rgba(200, 168, 75, 0.7)"
+                  >Tech</span
+                >
+              </div>
+            </div>
+            <div class="logo-variant-label">Versión Inca Gold</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Typography -->
+      <div class="section">
+        <div class="section-header">
+          <div class="section-icon">Aa</div>
+          <div>
+            <div class="section-title">Tipografía</div>
+            <div class="section-subtitle">
+              DM Sans para texto, DM Mono para datos técnicos
+            </div>
+          </div>
+        </div>
+
+        <div class="type-specimen">
+          <div class="type-meta">
+            <span class="type-meta-tag">DM Sans Bold</span>
+            <span class="type-meta-tag">32px / -0.5px</span>
+          </div>
+          <div class="type-display-h1">
+            Títulos H1 — Dashboard de Analítica en Tiempo Real
+          </div>
+        </div>
+
+        <div class="type-specimen">
+          <div class="type-meta">
+            <span class="type-meta-tag">DM Sans Bold</span>
+            <span class="type-meta-tag">24px / -0.5px</span>
+          </div>
+          <div class="type-display-h2">
+            Títulos H2 — Control de Aforo por Sala
+          </div>
+        </div>
+
+        <div class="type-specimen">
+          <div class="type-meta">
+            <span class="type-meta-tag">DM Sans Regular</span>
+            <span class="type-meta-tag">16px / 1.5</span>
+          </div>
+          <div class="type-display-body">
+            Cuerpo de Texto — KhipuTech revoluciona la gestión de espacios
+            culturales mediante analítica IoT de bajo costo, permitiendo a los
+            museos tomar decisiones informadas basadas en datos de visitantes en
+            tiempo real.
+          </div>
+        </div>
+
+        <div class="type-specimen">
+          <div class="type-meta">
+            <span class="type-meta-tag">DM Sans SemiBold</span>
+            <span class="type-meta-tag">12-14px</span>
+          </div>
+          <div class="type-display-label">
+            Labels / Datos — Visitantes Hoy • Sala Central • 94% Ocupación
+          </div>
+        </div>
+
+        <div class="type-specimen">
+          <div class="type-meta">
+            <span class="type-meta-tag">DM Mono Regular</span>
+            <span class="type-meta-tag">12-14px</span>
+          </div>
+          <div class="type-display-mono">
+            Datos Técnicos — 1,248 • 14:32:08 • S3 • #0B1A3E
+          </div>
+        </div>
+      </div>
+
+      <!-- Iconography -->
+      <div class="section">
+        <div class="section-header">
+          <div class="section-icon">◈</div>
+          <div>
+            <div class="section-title">Iconografía</div>
+            <div class="section-subtitle">
+              Lucide Icons con stroke 2px — estética de nodos conectados
+            </div>
+          </div>
+        </div>
+
+        <p
+          style="
+            font-size: 16px;
+            line-height: 1.8;
+            color: var(--ice);
+            margin-bottom: 24px;
+          "
+        >
+          Los iconos del sistema usarán
+          <strong style="color: var(--electric)">Lucide Icons</strong> con
+          stroke de 2px, coherente con la geometría limpia del logo. Los iconos
+          que representen sensores, zonas o puntos de conteo seguirán la
+          estética de <strong>nodos conectados</strong>, alineada al concepto
+          del Khipu: un nodo central con ramificaciones, sin relleno sólido,
+          solo trazo.
+        </p>
+
+        <div class="icon-grid">
+          <div class="icon-sample">
+            <div class="icon-display">◈</div>
+            <div class="icon-label">Dashboard</div>
+          </div>
+          <div class="icon-sample">
+            <div class="icon-display">⬡</div>
+            <div class="icon-label">Sensor / Nodo</div>
+          </div>
+          <div class="icon-sample">
+            <div class="icon-display">◎</div>
+            <div class="icon-label">Ubicación</div>
+          </div>
+          <div class="icon-sample">
+            <div class="icon-display">◫</div>
+            <div class="icon-label">Obra / Contenido</div>
+          </div>
+          <div class="icon-sample">
+            <div class="icon-display">◉</div>
+            <div class="icon-label">Alerta / Estado</div>
+          </div>
+          <div class="icon-sample">
+            <div class="icon-display">◬</div>
+            <div class="icon-label">Notificación</div>
+          </div>
+          <div class="icon-sample">
+            <div class="icon-display">⚙</div>
+            <div class="icon-label">Configuración</div>
+          </div>
+          <div class="icon-sample">
+            <div class="icon-display">📊</div>
+            <div class="icon-label">Analítica</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Color Palette -->
+      <div class="section">
+        <div class="section-header">
+          <div class="section-icon">🎨</div>
+          <div>
+            <div class="section-title">Paleta de Colores</div>
+            <div class="section-subtitle">
+              Basada en herencia cultural incaica y tecnología moderna
+            </div>
+          </div>
+        </div>
+
+        <div class="color-palette">
+          <div class="color-card">
+            <div class="color-swatch" style="background: #0b1a3e">
+              <span
+                style="
+                  position: relative;
+                  z-index: 1;
+                  font-family: var(--font-mono);
+                  font-size: 32px;
+                  font-weight: 700;
+                  color: var(--ice);
+                "
+                >#0B1A3E</span
+              >
+            </div>
+            <div class="color-info">
+              <div class="color-name">Dark Navy</div>
+              <div class="color-codes">
+                <div class="color-code"><strong>RGB:</strong> 11, 26, 62</div>
+                <div class="color-code">
+                  <strong>CMYK:</strong> 91, 80, 42, 45
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="color-card">
+            <div class="color-swatch" style="background: #00c8ff">
+              <span
+                style="
+                  position: relative;
+                  z-index: 1;
+                  font-family: var(--font-mono);
+                  font-size: 32px;
+                  font-weight: 700;
+                  color: var(--navy);
+                "
+                >#00C8FF</span
+              >
+            </div>
+            <div class="color-info">
+              <div class="color-name">Electric Blue</div>
+              <div class="color-codes">
+                <div class="color-code"><strong>RGB:</strong> 0, 200, 255</div>
+                <div class="color-code"><strong>CMYK:</strong> 65, 5, 0, 0</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="color-card">
+            <div class="color-swatch" style="background: #e8f0ff">
+              <span
+                style="
+                  position: relative;
+                  z-index: 1;
+                  font-family: var(--font-mono);
+                  font-size: 32px;
+                  font-weight: 700;
+                  color: var(--navy);
+                "
+                >#E8F0FF</span
+              >
+            </div>
+            <div class="color-info">
+              <div class="color-name">Ice Blue</div>
+              <div class="color-codes">
+                <div class="color-code">
+                  <strong>RGB:</strong> 232, 240, 255
+                </div>
+                <div class="color-code"><strong>CMYK:</strong> 8, 4, 0, 0</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="color-card">
+            <div class="color-swatch" style="background: #62b1ff">
+              <span
+                style="
+                  position: relative;
+                  z-index: 1;
+                  font-family: var(--font-mono);
+                  font-size: 32px;
+                  font-weight: 700;
+                  color: var(--navy);
+                "
+                >#62B1FF</span
+              >
+            </div>
+            <div class="color-info">
+              <div class="color-name">Sky Blue</div>
+              <div class="color-codes">
+                <div class="color-code"><strong>RGB:</strong> 98, 177, 255</div>
+                <div class="color-code">
+                  <strong>CMYK:</strong> 54, 24, 0, 0
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="color-card">
+            <div class="color-swatch" style="background: #4a7aba">
+              <span
+                style="
+                  position: relative;
+                  z-index: 1;
+                  font-family: var(--font-mono);
+                  font-size: 32px;
+                  font-weight: 700;
+                  color: white;
+                "
+                >#4A7ABA</span
+              >
+            </div>
+            <div class="color-info">
+              <div class="color-name">Steel Blue</div>
+              <div class="color-codes">
+                <div class="color-code"><strong>RGB:</strong> 74, 122, 186</div>
+                <div class="color-code">
+                  <strong>CMYK:</strong> 74, 49, 11, 1
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="color-card">
+            <div class="color-swatch" style="background: #c8a84b">
+              <span
+                style="
+                  position: relative;
+                  z-index: 1;
+                  font-family: var(--font-mono);
+                  font-size: 32px;
+                  font-weight: 700;
+                  color: var(--navy);
+                "
+                >#C8A84B</span
+              >
+            </div>
+            <div class="color-info">
+              <div class="color-name">Inca Gold</div>
+              <div class="color-codes">
+                <div class="color-code"><strong>RGB:</strong> 200, 168, 75</div>
+                <div class="color-code">
+                  <strong>CMYK:</strong> 22, 31, 62, 21
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Logo Communication Tone -->
+      <div class="section">
+        <div class="section-header">
+          <div class="section-icon">💬</div>
+          <div>
+            <div class="section-title">Tono de Comunicación del Logo</div>
+            <div class="section-subtitle">
+              Decisiones de diseño y su señal de marca
+            </div>
+          </div>
+        </div>
+
+        <table class="tone-table">
+          <thead>
+            <tr>
+              <th>Decisión de Diseño</th>
+              <th>Señal de Tono</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Paleta dark navy + cyan eléctrico</td>
+              <td>
+                Entorno tecnológico, dashboards, datos. Evita lo corporativo
+                genérico
+              </td>
+            </tr>
+            <tr>
+              <td>Geometría de nodos con crosshair central</td>
+              <td>
+                Precisión, monitoreo, tracking. No decorativo sino funcional
+              </td>
+            </tr>
+            <tr>
+              <td>Peso 600 / 300 en el logotipo</td>
+              <td>
+                Autoridad sin rigidez. La palabra fuerte ("Khipu") ancla, la
+                palabra ligera ("Tech") abre
+              </td>
+            </tr>
+            <tr>
+              <td>Tagline en caps espaciado</td>
+              <td>
+                Claridad directa, sin adornos. Habla de lo que hace, no de lo
+                que aspira
+              </td>
+            </tr>
+            <tr>
+              <td>Referencia al khipu como sistema de datos</td>
+              <td>
+                Herencia intelectual + innovación. No es nostalgia, es
+                reencuadre
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="brand-essence">
+          <div class="brand-essence-quote">
+            "El tono no es entusiasta ni cercano porque KhipuTech vende a
+            tomadores de decisión (museos, espacios públicos, gestores) que
+            necesitan confiar en la exactitud del dato antes que en la calidez
+            de la marca. La emoción viene después, cuando el dashboard
+            funciona."
+          </div>
+          <div class="brand-essence-author">— Filosofía de Marca KhipuTech</div>
+        </div>
+      </div>
+
+      <!-- Logo Usage Rules -->
+      <div class="section">
+        <div class="section-header">
+          <div class="section-icon">📐</div>
+          <div>
+            <div class="section-title">Uso del Logo</div>
+            <div class="section-subtitle">
+              Reglas de aplicación y restricciones
+            </div>
+          </div>
+        </div>
+
+        <div class="usage-grid">
+          <div class="usage-card">
+            <div class="usage-title">Área de Reserva</div>
+            <div class="usage-description">
+              Se debe mantener un espacio mínimo de seguridad equivalente al
+              <strong style="color: var(--electric)"
+                >20% del ancho del logo</strong
+              >
+              en todos sus lados para evitar interferencias visuales.
+            </div>
+          </div>
+
+          <div class="usage-card">
+            <div class="usage-title">Uso en Fondos</div>
+            <div class="usage-description">
+              <ul>
+                <li>
+                  <strong>Fondos oscuros:</strong> Versión en Inca Gold
+                  (#C8A84B) o blanco
+                </li>
+                <li>
+                  <strong>Fondos claros:</strong> Versión en azul marino
+                  (#0B1A3E)
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="usage-card">
+            <div class="usage-title usage-dont">Prohibiciones</div>
+            <div class="usage-description">
+              <ul>
+                <li>No deformar la relación de aspecto</li>
+                <li>No cambiar colores fuera de la paleta oficial</li>
+                <li>No aplicar sombras paralelas internas</li>
+                <li>No rotar el logo</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="usage-card">
+            <div class="usage-title">Tamaño Mínimo</div>
+            <div class="usage-description">
+              El logo no debe reproducirse en tamaños menores a:
+              <ul>
+                <li><strong>Digital:</strong> 120px de ancho</li>
+                <li><strong>Impreso:</strong> 25mm de ancho</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Clearspace Demonstration -->
+        <div class="clearspace-demo">
+          <div
+            class="clearspace-box"
+            style="top: 20px; left: 20px; right: 20px; bottom: 20px"
+          ></div>
+          <div
+            class="clearspace-label"
+            style="top: 30px; left: 50%; transform: translateX(-50%)"
+          >
+            20% del ancho del logo
+          </div>
+          <div
+            class="clearspace-label"
+            style="bottom: 30px; left: 50%; transform: translateX(-50%)"
+          >
+            Área de seguridad
+          </div>
+          <div
+            class="clearspace-label"
+            style="top: 50%; left: 30px; transform: translateY(-50%)"
+          >
+            20%
+          </div>
+          <div
+            class="clearspace-label"
+            style="top: 50%; right: 30px; transform: translateY(-50%)"
+          >
+            20%
+          </div>
+
+          <div class="khipu-logo" style="scale: 0.8">
+            <div class="khipu-icon">
+              <div class="khipu-node khipu-center"></div>
+              <div class="khipu-node" style="top: 10px; left: 10px"></div>
+              <div class="khipu-node" style="top: 10px; right: 10px"></div>
+              <div
+                class="khipu-node"
+                style="top: 50%; right: 10px; transform: translateY(-50%)"
+              ></div>
+              <div class="khipu-node" style="bottom: 10px; right: 10px"></div>
+              <div class="khipu-node" style="bottom: 10px; left: 10px"></div>
+              <div
+                class="khipu-node"
+                style="top: 50%; left: 10px; transform: translateY(-50%)"
+              ></div>
+            </div>
+            <div class="logo-wordmark">
+              <span class="logo-word-khipu">Khipu</span>
+              <span class="logo-word-tech">Tech</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div
+        style="
+          text-align: center;
+          padding: 60px 0 40px;
+          border-top: 1px solid rgba(0, 200, 255, 0.2);
+          margin-top: 60px;
+        "
+      >
+        <p style="font-size: 14px; color: var(--sky); margin-bottom: 8px">
+          KhipuTech General Style Guidelines v1.0
+        </p>
+        <p
+          style="
+            font-size: 12px;
+            font-family: var(--font-mono);
+            color: rgba(232, 240, 255, 0.4);
+          "
+        >
+          Real-Time Visitor Analytics • 2026
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

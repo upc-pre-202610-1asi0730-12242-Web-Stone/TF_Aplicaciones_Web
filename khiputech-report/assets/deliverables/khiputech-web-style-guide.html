@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KhipuTech — Web Style Guide</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        /* KhipuTech Color Palette */
+        --navy: #0b1a3e;
+        --electric: #00c8ff;
+        --ice: #e8f0ff;
+        --sky: #62b1ff;
+        --steel: #4a7aba;
+        --gold: #c8a84b;
+
+        /* Semantic Colors */
+        --success: #2dffa0;
+        --warning: #ffb547;
+        --danger: #ff4d6a;
+        --info: #62b1ff;
+
+        /* Neutrals */
+        --white: #ffffff;
+        --border: #cbd8f0;
+        --muted: #6b89b4;
+        --bg-light: #f2f6ff;
+
+        /* Spacing */
+        --spacing-xs: 8px;
+        --spacing-sm: 16px;
+        --spacing-md: 24px;
+        --spacing-lg: 32px;
+        --spacing-xl: 48px;
+
+        /* Typography */
+        --font-sans: "DM Sans", sans-serif;
+        --font-mono: "DM Mono", monospace;
+
+        /* Shadows */
+        --shadow-sm: 0 2px 4px rgba(11, 26, 62, 0.08);
+        --shadow-md: 0 4px 12px rgba(11, 26, 62, 0.12);
+        --shadow-lg: 0 8px 24px rgba(11, 26, 62, 0.16);
+      }
+
+      body {
+        font-family: var(--font-sans);
+        color: var(--navy);
+        background: var(--bg-light);
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 40px;
+      }
+
+      /* Section Headers */
+      .section {
+        background: white;
+        border-radius: 12px;
+        padding: var(--spacing-xl);
+        margin-bottom: var(--spacing-lg);
+        box-shadow: var(--shadow-sm);
+      }
+
+      .section-title {
+        font-size: 32px;
+        font-weight: 700;
+        color: var(--navy);
+        margin-bottom: var(--spacing-sm);
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .section-title::before {
+        content: "";
+        width: 4px;
+        height: 32px;
+        background: var(--electric);
+        border-radius: 2px;
+      }
+
+      .section-subtitle {
+        font-size: 14px;
+        color: var(--muted);
+        margin-bottom: var(--spacing-lg);
+        font-weight: 400;
+      }
+
+      /* Typography Scale */
+      .typography-grid {
+        display: grid;
+        gap: var(--spacing-md);
+      }
+
+      .type-sample {
+        padding: var(--spacing-md);
+        background: var(--bg-light);
+        border-radius: 8px;
+        border-left: 3px solid var(--electric);
+      }
+
+      .type-label {
+        font-size: 10px;
+        font-weight: 600;
+        color: var(--steel);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 8px;
+      }
+
+      .type-display {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1.2;
+      }
+
+      .type-h1 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 1.25;
+      }
+      .type-h2 {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.3;
+      }
+      .type-h3 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.4;
+      }
+      .type-h4 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.35;
+      }
+      .type-body-large {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+      .type-body {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.4;
+      }
+      .type-small {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+      .type-caption {
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 1.4;
+      }
+      .type-mono {
+        font-family: var(--font-mono);
+        font-size: 12px;
+      }
+
+      /* Color Palette */
+      .color-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: var(--spacing-sm);
+        margin-bottom: var(--spacing-lg);
+      }
+
+      .color-swatch {
+        text-align: center;
+      }
+
+      .color-box {
+        height: 80px;
+        border-radius: 8px;
+        margin-bottom: 8px;
+        box-shadow: var(--shadow-sm);
+      }
+
+      .color-name {
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 4px;
+      }
+
+      .color-hex {
+        font-family: var(--font-mono);
+        font-size: 11px;
+        color: var(--muted);
+      }
+
+      /* Buttons */
+      .button-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--spacing-sm);
+        margin-bottom: var(--spacing-md);
+      }
+
+      .btn {
+        font-family: var(--font-sans);
+        font-weight: 600;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 200ms ease-out;
+        font-size: 14px;
+      }
+
+      .btn-large {
+        height: 48px;
+        padding: 0 24px;
+        font-size: 16px;
+      }
+      .btn-medium {
+        height: 40px;
+        padding: 0 20px;
+        font-size: 14px;
+      }
+      .btn-small {
+        height: 32px;
+        padding: 0 16px;
+        font-size: 12px;
+      }
+
+      .btn-primary {
+        background: var(--electric);
+        color: var(--navy);
+      }
+      .btn-primary:hover {
+        background: var(--sky);
+        transform: translateY(-1px);
+        box-shadow: var(--shadow-md);
+      }
+
+      .btn-secondary {
+        background: transparent;
+        color: var(--electric);
+        border: 1px solid var(--electric);
+      }
+      .btn-secondary:hover {
+        background: var(--ice);
+      }
+
+      .btn-ghost {
+        background: transparent;
+        color: var(--steel);
+      }
+      .btn-ghost:hover {
+        background: var(--ice);
+      }
+
+      .btn-danger {
+        background: var(--danger);
+        color: white;
+      }
+      .btn-danger:hover {
+        background: #ff6b82;
+      }
+
+      .btn-disabled {
+        background: var(--border);
+        color: var(--muted);
+        cursor: not-allowed;
+      }
+
+      /* Cards */
+      .card-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: var(--spacing-md);
+        margin-bottom: var(--spacing-lg);
+      }
+
+      .card {
+        background: white;
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: var(--spacing-md);
+        transition: all 300ms ease;
+      }
+
+      .card:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-lg);
+      }
+
+      .card-kpi {
+        text-align: center;
+      }
+
+      .card-kpi-label {
+        font-size: 12px;
+        color: var(--muted);
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+
+      .card-kpi-value {
+        font-size: 48px;
+        font-weight: 700;
+        font-family: var(--font-mono);
+        color: var(--electric);
+        margin-bottom: 8px;
+      }
+
+      .card-kpi-delta {
+        font-size: 14px;
+        color: var(--success);
+      }
+
+      .card-alert {
+        background: #fff5f5;
+        border: 1px solid var(--danger);
+      }
+
+      .alert-icon {
+        width: 40px;
+        height: 40px;
+        background: var(--danger);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 20px;
+        margin-bottom: var(--spacing-sm);
+      }
+
+      .alert-title {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 4px;
+      }
+
+      .alert-description {
+        font-size: 14px;
+        color: var(--muted);
+        margin-bottom: var(--spacing-sm);
+      }
+
+      /* Badges */
+      .badge-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--spacing-sm);
+        margin-bottom: var(--spacing-md);
+      }
+
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        padding: 4px 12px;
+        border-radius: 16px;
+        font-size: 12px;
+        font-weight: 600;
+      }
+
+      .badge-success {
+        background: rgba(45, 255, 160, 0.12);
+        color: #00c896;
+      }
+
+      .badge-warning {
+        background: rgba(200, 168, 75, 0.12);
+        color: var(--gold);
+      }
+
+      .badge-danger {
+        background: rgba(255, 77, 106, 0.12);
+        color: var(--danger);
+      }
+
+      .badge-info {
+        background: rgba(0, 200, 255, 0.12);
+        color: var(--electric);
+      }
+
+      /* Progress Bars */
+      .progress-container {
+        margin-bottom: var(--spacing-md);
+      }
+
+      .progress-label {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        margin-bottom: 8px;
+        font-weight: 600;
+      }
+
+      .progress-track {
+        height: 8px;
+        background: var(--border);
+        border-radius: 4px;
+        overflow: hidden;
+      }
+
+      .progress-fill {
+        height: 100%;
+        border-radius: 4px;
+        transition: width 600ms ease;
+      }
+
+      .progress-critical {
+        background: linear-gradient(90deg, #ff4d6a 0%, #ff6b82 100%);
+      }
+
+      .progress-warning {
+        background: linear-gradient(90deg, #c8a84b 0%, #ffb547 100%);
+      }
+
+      .progress-success {
+        background: linear-gradient(90deg, #2dffa0 0%, #62ffb8 100%);
+      }
+
+      /* Room Cards */
+      .room-map {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: var(--spacing-sm);
+        margin-bottom: var(--spacing-lg);
+      }
+
+      .room-card {
+        padding: var(--spacing-md);
+        border-radius: 8px;
+        border: 2px solid;
+        text-align: center;
+      }
+
+      .room-card-critical {
+        background: rgba(255, 77, 106, 0.08);
+        border-color: var(--danger);
+      }
+
+      .room-card-moderate {
+        background: rgba(200, 168, 75, 0.08);
+        border-color: var(--gold);
+      }
+
+      .room-card-safe {
+        background: rgba(45, 255, 160, 0.08);
+        border-color: var(--success);
+      }
+
+      .room-name {
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+
+      .room-count {
+        font-family: var(--font-mono);
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 4px;
+      }
+
+      .room-pct {
+        font-size: 12px;
+        font-family: var(--font-mono);
+      }
+
+      /* Inputs */
+      .input-group {
+        margin-bottom: var(--spacing-md);
+      }
+
+      .input-label {
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 8px;
+        color: var(--navy);
+      }
+
+      .input {
+        width: 100%;
+        height: 40px;
+        padding: 0 16px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        font-family: var(--font-sans);
+        font-size: 14px;
+        transition: all 200ms ease;
+      }
+
+      .input:hover {
+        border-color: var(--steel);
+      }
+
+      .input:focus {
+        outline: none;
+        border: 2px solid var(--electric);
+        border-color: var(--electric);
+      }
+
+      .input-error {
+        border: 2px solid var(--danger);
+        background: #fff5f5;
+      }
+
+      /* Toast Notifications */
+      .toast-container {
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-sm);
+        margin-bottom: var(--spacing-lg);
+      }
+
+      .toast {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: var(--spacing-sm);
+        border-radius: 8px;
+        box-shadow: var(--shadow-md);
+        animation: slideIn 300ms ease-out;
+      }
+
+      @keyframes slideIn {
+        from {
+          opacity: 0;
+          transform: translateX(100px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+
+      .toast-success {
+        background: var(--success);
+        color: var(--navy);
+      }
+      .toast-error {
+        background: var(--danger);
+        color: white;
+      }
+      .toast-warning {
+        background: var(--warning);
+        color: var(--navy);
+      }
+      .toast-info {
+        background: var(--info);
+        color: white;
+      }
+
+      .toast-icon {
+        font-size: 20px;
+        font-weight: 700;
+      }
+
+      /* Live Indicator */
+      .live-indicator {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 12px;
+        background: rgba(0, 200, 255, 0.1);
+        border-radius: 16px;
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--electric);
+      }
+
+      .live-dot {
+        width: 8px;
+        height: 8px;
+        background: var(--electric);
+        border-radius: 50%;
+        animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+      }
+
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.3;
+        }
+      }
+
+      /* Skeleton Loading */
+      .skeleton {
+        background: linear-gradient(
+          90deg,
+          var(--ice) 0%,
+          var(--bg-light) 50%,
+          var(--ice) 100%
+        );
+        background-size: 200% 100%;
+        animation: shimmer 1.5s ease-in-out infinite;
+        border-radius: 8px;
+      }
+
+      @keyframes shimmer {
+        0% {
+          background-position: -200% 0;
+        }
+        100% {
+          background-position: 200% 0;
+        }
+      }
+
+      .skeleton-text {
+        height: 16px;
+        margin-bottom: 8px;
+      }
+
+      .skeleton-title {
+        height: 24px;
+        width: 60%;
+        margin-bottom: var(--spacing-sm);
+      }
+
+      /* Table */
+      .table-container {
+        overflow-x: auto;
+        margin-bottom: var(--spacing-lg);
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background: white;
+        border-radius: 12px;
+        overflow: hidden;
+      }
+
+      thead {
+        background: var(--navy);
+        color: var(--ice);
+      }
+
+      th {
+        padding: 12px 16px;
+        text-align: left;
+        font-size: 10px;
+        font-weight: 600;
+        font-family: var(--font-mono);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      tbody tr:nth-child(odd) {
+        background: #f5f8ff;
+      }
+
+      tbody tr:nth-child(even) {
+        background: #ebf1fb;
+      }
+
+      tbody tr:hover {
+        background: var(--ice);
+        cursor: pointer;
+      }
+
+      td {
+        padding: 12px 16px;
+        font-size: 14px;
+        border-bottom: 1px solid var(--border);
+      }
+
+      /* Responsive Grid Demo */
+      .grid-demo {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 16px;
+        margin-bottom: var(--spacing-lg);
+      }
+
+      .grid-col {
+        background: var(--electric);
+        height: 40px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--navy);
+        font-weight: 600;
+        font-size: 12px;
+      }
+
+      .col-4 {
+        grid-column: span 4;
+      }
+      .col-6 {
+        grid-column: span 6;
+      }
+      .col-8 {
+        grid-column: span 8;
+      }
+      .col-12 {
+        grid-column: span 12;
+      }
+
+      /* Spacing Demo */
+      .spacing-demo {
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-sm);
+        margin-bottom: var(--spacing-lg);
+      }
+
+      .spacing-item {
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-sm);
+      }
+
+      .spacing-box {
+        background: var(--electric);
+        height: 40px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--navy);
+        font-weight: 600;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <div class="section">
+        <h1 style="font-size: 48px; font-weight: 700; margin-bottom: 8px">
+          KhipuTech Web Style Guide
+        </h1>
+        <p style="font-size: 16px; color: var(--muted)">
+          Sistema de diseño completo para plataforma de analítica museística en
+          tiempo real
+        </p>
+      </div>
+
+      <!-- Typography -->
+      <div class="section">
+        <h2 class="section-title">Tipografía</h2>
+        <p class="section-subtitle">
+          DM Sans para contenido general, DM Mono para datos numéricos
+        </p>
+
+        <div class="typography-grid">
+          <div class="type-sample">
+            <div class="type-label">Display — 48px / 700</div>
+            <div class="type-display">Transformando Museos</div>
+          </div>
+
+          <div class="type-sample">
+            <div class="type-label">H1 — 32px / 700</div>
+            <div class="type-h1">Dashboard de Analítica en Tiempo Real</div>
+          </div>
+
+          <div class="type-sample">
+            <div class="type-label">H2 — 24px / 600</div>
+            <div class="type-h2">Control de Aforo por Sala</div>
+          </div>
+
+          <div class="type-sample">
+            <div class="type-label">H3 — 20px / 600</div>
+            <div class="type-h3">Métricas de Visitantes Hoy</div>
+          </div>
+
+          <div class="type-sample">
+            <div class="type-label">Body Large — 16px / 400</div>
+            <div class="type-body-large">
+              KhipuTech revoluciona la gestión cultural mediante analítica IoT
+              de bajo costo y experiencias digitales sin fricción.
+            </div>
+          </div>
+
+          <div class="type-sample">
+            <div class="type-label">Body — 14px / 400</div>
+            <div class="type-body">
+              Visualiza el flujo de visitantes en tiempo real con dashboards
+              personalizables y alertas inteligentes.
+            </div>
+          </div>
+
+          <div class="type-sample">
+            <div class="type-label">Data/Mono — DM Mono 12px</div>
+            <div class="type-mono">
+              1,248 visitantes • 94% ocupación • 14:32:08
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Colors -->
+      <div class="section">
+        <h2 class="section-title">Paleta de Colores</h2>
+        <p class="section-subtitle">
+          Basada en khipu incaico — precisión técnica con herencia cultural
+        </p>
+
+        <h3 style="font-size: 18px; font-weight: 600; margin-bottom: 16px">
+          Colores Primarios
+        </h3>
+        <div class="color-grid">
+          <div class="color-swatch">
+            <div class="color-box" style="background: #0b1a3e"></div>
+            <div class="color-name">Dark Navy</div>
+            <div class="color-hex">#0B1A3E</div>
+          </div>
+          <div class="color-swatch">
+            <div class="color-box" style="background: #00c8ff"></div>
+            <div class="color-name">Electric Blue</div>
+            <div class="color-hex">#00C8FF</div>
+          </div>
+          <div class="color-swatch">
+            <div class="color-box" style="background: #e8f0ff"></div>
+            <div class="color-name">Ice Blue</div>
+            <div class="color-hex">#E8F0FF</div>
+          </div>
+          <div class="color-swatch">
+            <div class="color-box" style="background: #62b1ff"></div>
+            <div class="color-name">Sky Blue</div>
+            <div class="color-hex">#62B1FF</div>
+          </div>
+          <div class="color-swatch">
+            <div class="color-box" style="background: #4a7aba"></div>
+            <div class="color-name">Steel Blue</div>
+            <div class="color-hex">#4A7ABA</div>
+          </div>
+          <div class="color-swatch">
+            <div class="color-box" style="background: #c8a84b"></div>
+            <div class="color-name">Inca Gold</div>
+            <div class="color-hex">#C8A84B</div>
+          </div>
+        </div>
+
+        <h3 style="font-size: 18px; font-weight: 600; margin: 32px 0 16px">
+          Colores Semánticos
+        </h3>
+        <div class="color-grid">
+          <div class="color-swatch">
+            <div class="color-box" style="background: #2dffa0"></div>
+            <div class="color-name">Success</div>
+            <div class="color-hex">#2DFFA0</div>
+          </div>
+          <div class="color-swatch">
+            <div class="color-box" style="background: #ffb547"></div>
+            <div class="color-name">Warning</div>
+            <div class="color-hex">#FFB547</div>
+          </div>
+          <div class="color-swatch">
+            <div class="color-box" style="background: #ff4d6a"></div>
+            <div class="color-name">Danger</div>
+            <div class="color-hex">#FF4D6A</div>
+          </div>
+          <div class="color-swatch">
+            <div class="color-box" style="background: #62b1ff"></div>
+            <div class="color-name">Info</div>
+            <div class="color-hex">#62B1FF</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Buttons -->
+      <div class="section">
+        <h2 class="section-title">Botones</h2>
+        <p class="section-subtitle">
+          Variantes y tamaños con estados hover optimizados
+        </p>
+
+        <h3 style="font-size: 16px; font-weight: 600; margin-bottom: 16px">
+          Tamaño Large (48px)
+        </h3>
+        <div class="button-grid">
+          <button class="btn btn-primary btn-large">Solicitar Demo</button>
+          <button class="btn btn-secondary btn-large">
+            Ver Características
+          </button>
+          <button class="btn btn-ghost btn-large">Cancelar</button>
+          <button class="btn btn-danger btn-large">Gestionar Alerta</button>
+          <button class="btn btn-disabled btn-large">Deshabilitado</button>
+        </div>
+
+        <h3 style="font-size: 16px; font-weight: 600; margin: 24px 0 16px">
+          Tamaño Medium (40px)
+        </h3>
+        <div class="button-grid">
+          <button class="btn btn-primary btn-medium">Guardar Cambios</button>
+          <button class="btn btn-secondary btn-medium">Ver Más</button>
+          <button class="btn btn-ghost btn-medium">Cancelar</button>
+        </div>
+
+        <h3 style="font-size: 16px; font-weight: 600; margin: 24px 0 16px">
+          Tamaño Small (32px)
+        </h3>
+        <div class="button-grid">
+          <button class="btn btn-primary btn-small">Aplicar</button>
+          <button class="btn btn-secondary btn-small">Filtrar</button>
+          <button class="btn btn-ghost btn-small">Cerrar</button>
+        </div>
+      </div>
+
+      <!-- Cards -->
+      <div class="section">
+        <h2 class="section-title">Cards & KPIs</h2>
+        <p class="section-subtitle">
+          Tarjetas con hover elevado y métricas destacadas
+        </p>
+
+        <div class="card-grid">
+          <div class="card card-kpi">
+            <div class="card-kpi-label">Visitantes Hoy</div>
+            <div class="card-kpi-value">1,248</div>
+            <div class="card-kpi-delta">↑ 12% vs ayer</div>
+          </div>
+
+          <div class="card card-kpi">
+            <div class="card-kpi-label">Permanencia Media</div>
+            <div class="card-kpi-value">
+              47<span style="font-size: 18px; font-weight: 400">min</span>
+            </div>
+            <div class="card-kpi-delta">↑ 5 min</div>
+          </div>
+
+          <div class="card card-kpi">
+            <div class="card-kpi-label">Obras Escaneadas</div>
+            <div class="card-kpi-value">3,891</div>
+            <div class="card-kpi-delta">↑ 8%</div>
+          </div>
+        </div>
+
+        <h3 style="font-size: 18px; font-weight: 600; margin: 32px 0 16px">
+          Alert Cards
+        </h3>
+        <div class="card card-alert">
+          <div class="alert-icon">⚠</div>
+          <div class="alert-title">Sala Central — Aforo CRÍTICO</div>
+          <div class="alert-description">
+            188 / 200 visitantes · 94% capacidad · Hace 5 min
+          </div>
+          <button class="btn btn-danger btn-small">Gestionar Alerta</button>
+        </div>
+      </div>
+
+      <!-- Badges -->
+      <div class="section">
+        <h2 class="section-title">Badges de Estado</h2>
+        <p class="section-subtitle">Indicadores semánticos con transparencia</p>
+
+        <div class="badge-container">
+          <span class="badge badge-success">✓ Top</span>
+          <span class="badge badge-success">✓ Libre</span>
+          <span class="badge badge-warning">⚠ Moderado</span>
+          <span class="badge badge-danger">⚠ Crítico</span>
+          <span class="badge badge-info">ℹ En Vivo</span>
+        </div>
+      </div>
+
+      <!-- Progress Bars -->
+      <div class="section">
+        <h2 class="section-title">Barras de Progreso</h2>
+        <p class="section-subtitle">
+          Visualización de aforo con gradientes semánticos
+        </p>
+
+        <div class="progress-container">
+          <div class="progress-label">
+            <span>Sala Central</span>
+            <span style="font-family: var(--font-mono); color: var(--danger)"
+              >94% · CRÍTICO</span
+            >
+          </div>
+          <div class="progress-track">
+            <div
+              class="progress-fill progress-critical"
+              style="width: 94%"
+            ></div>
+          </div>
+        </div>
+
+        <div class="progress-container">
+          <div class="progress-label">
+            <span>Jardín</span>
+            <span style="font-family: var(--font-mono); color: var(--gold)"
+              >75% · Moderado</span
+            >
+          </div>
+          <div class="progress-track">
+            <div
+              class="progress-fill progress-warning"
+              style="width: 75%"
+            ></div>
+          </div>
+        </div>
+
+        <div class="progress-container">
+          <div class="progress-label">
+            <span>Sala 4</span>
+            <span style="font-family: var(--font-mono); color: var(--success)"
+              >35% · Normal</span
+            >
+          </div>
+          <div class="progress-track">
+            <div
+              class="progress-fill progress-success"
+              style="width: 35%"
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Room Cards -->
+      <div class="section">
+        <h2 class="section-title">Room Cards — Mapa de Salas</h2>
+        <p class="section-subtitle">
+          Visualización de distribución de visitantes por sala
+        </p>
+
+        <div class="room-map">
+          <div class="room-card room-card-critical">
+            <div class="room-name">Sala Central</div>
+            <div class="room-count" style="color: var(--danger)">188</div>
+            <div class="room-pct">94% · CRÍTICO</div>
+          </div>
+
+          <div class="room-card room-card-moderate">
+            <div class="room-name">Jardín</div>
+            <div class="room-count" style="color: var(--gold)">376</div>
+            <div class="room-pct">75% · Moderado</div>
+          </div>
+
+          <div class="room-card room-card-safe">
+            <div class="room-name">Sala 4</div>
+            <div class="room-count" style="color: var(--success)">42</div>
+            <div class="room-pct">35% · Libre</div>
+          </div>
+
+          <div class="room-card room-card-critical">
+            <div class="room-name">Sala 2</div>
+            <div class="room-count" style="color: var(--danger)">143</div>
+            <div class="room-pct">95% · CRÍTICO</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Inputs -->
+      <div class="section">
+        <h2 class="section-title">Inputs & Forms</h2>
+        <p class="section-subtitle">
+          Campos de formulario con estados focus y error
+        </p>
+
+        <div
+          style="
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+          "
+        >
+          <div class="input-group">
+            <label class="input-label">Email del Gestor</label>
+            <input type="email" class="input" placeholder="gestor@museo.pe" />
+          </div>
+
+          <div class="input-group">
+            <label class="input-label">Umbral de Alerta (%)</label>
+            <input type="number" class="input" value="85" />
+          </div>
+
+          <div class="input-group">
+            <label class="input-label">Nombre del Museo</label>
+            <input
+              type="text"
+              class="input input-error"
+              value="Error de validación"
+              placeholder="Museo Nacional"
+            />
+            <small
+              style="
+                color: var(--danger);
+                font-size: 12px;
+                margin-top: 4px;
+                display: block;
+              "
+              >Este campo es requerido</small
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Toast Notifications -->
+      <div class="section">
+        <h2 class="section-title">Toast Notifications</h2>
+        <p class="section-subtitle">Notificaciones con animación de entrada</p>
+
+        <div class="toast-container">
+          <div class="toast toast-success">
+            <div class="toast-icon">✓</div>
+            <div>Configuración guardada correctamente</div>
+          </div>
+
+          <div class="toast toast-error">
+            <div class="toast-icon">✗</div>
+            <div>Error al conectar con el sensor de Sala 3</div>
+          </div>
+
+          <div class="toast toast-warning">
+            <div class="toast-icon">⚠</div>
+            <div>Sala Central alcanzando capacidad máxima</div>
+          </div>
+
+          <div class="toast toast-info">
+            <div class="toast-icon">ℹ</div>
+            <div>Actualización de firmware disponible</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Live Indicator & Skeleton -->
+      <div class="section">
+        <h2 class="section-title">Indicadores de Estado</h2>
+        <p class="section-subtitle">Loading states y feedback en tiempo real</p>
+
+        <h3 style="font-size: 16px; font-weight: 600; margin-bottom: 16px">
+          Indicador EN VIVO
+        </h3>
+        <div class="live-indicator">
+          <div class="live-dot"></div>
+          <span>Datos en Tiempo Real</span>
+        </div>
+
+        <h3 style="font-size: 16px; font-weight: 600; margin: 32px 0 16px">
+          Skeleton Loading
+        </h3>
+        <div class="skeleton skeleton-title"></div>
+        <div class="skeleton skeleton-text"></div>
+        <div class="skeleton skeleton-text"></div>
+        <div class="skeleton skeleton-text" style="width: 80%"></div>
+      </div>
+
+      <!-- Table -->
+      <div class="section">
+        <h2 class="section-title">Tablas de Datos</h2>
+        <p class="section-subtitle">Ranking de obras con hover interactivo</p>
+
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Obra</th>
+                <th>Sala</th>
+                <th>Escaneos</th>
+                <th>Permanencia</th>
+                <th>Estado</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="font-weight: 600">Sin título #042</td>
+                <td style="font-family: var(--font-mono)">S3</td>
+                <td style="font-family: var(--font-mono)">892</td>
+                <td style="font-family: var(--font-mono)">4:30 min</td>
+                <td><span class="badge badge-success">🔥 Top</span></td>
+              </tr>
+              <tr>
+                <td style="font-weight: 600">Composición VII</td>
+                <td style="font-family: var(--font-mono)">S3</td>
+                <td style="font-family: var(--font-mono)">678</td>
+                <td style="font-family: var(--font-mono)">3:15 min</td>
+                <td><span class="badge badge-success">⬆ Alto</span></td>
+              </tr>
+              <tr>
+                <td style="font-weight: 600">Horizonte K</td>
+                <td style="font-family: var(--font-mono)">S2</td>
+                <td style="font-family: var(--font-mono)">412</td>
+                <td style="font-family: var(--font-mono)">2:40 min</td>
+                <td><span class="badge badge-warning">— Medio</span></td>
+              </tr>
+              <tr>
+                <td style="font-weight: 600">Dualidad</td>
+                <td style="font-family: var(--font-mono)">S1</td>
+                <td style="font-family: var(--font-mono)">187</td>
+                <td style="font-family: var(--font-mono)">1:50 min</td>
+                <td><span class="badge badge-danger">⬇ Bajo</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Grid System -->
+      <div class="section">
+        <h2 class="section-title">Sistema de Grid</h2>
+        <p class="section-subtitle">
+          Grid de 12 columnas con espaciado de 16px
+        </p>
+
+        <div class="grid-demo">
+          <div class="grid-col col-12">12 Columnas</div>
+        </div>
+        <div class="grid-demo">
+          <div class="grid-col col-6">6 Columnas</div>
+          <div class="grid-col col-6">6 Columnas</div>
+        </div>
+        <div class="grid-demo">
+          <div class="grid-col col-4">4 Columnas</div>
+          <div class="grid-col col-4">4 Columnas</div>
+          <div class="grid-col col-4">4 Columnas</div>
+        </div>
+      </div>
+
+      <!-- Spacing System -->
+      <div class="section">
+        <h2 class="section-title">Sistema de Espaciado</h2>
+        <p class="section-subtitle">
+          Unidad base 8px — todos los espacios son múltiplos
+        </p>
+
+        <div class="spacing-demo">
+          <div class="spacing-item">
+            <div class="spacing-box" style="width: 8px">8px</div>
+            <span style="font-family: var(--font-mono); font-size: 12px"
+              >--spacing-xs</span
+            >
+          </div>
+          <div class="spacing-item">
+            <div class="spacing-box" style="width: 16px">16px</div>
+            <span style="font-family: var(--font-mono); font-size: 12px"
+              >--spacing-sm</span
+            >
+          </div>
+          <div class="spacing-item">
+            <div class="spacing-box" style="width: 24px">24px</div>
+            <span style="font-family: var(--font-mono); font-size: 12px"
+              >--spacing-md</span
+            >
+          </div>
+          <div class="spacing-item">
+            <div class="spacing-box" style="width: 32px">32px</div>
+            <span style="font-family: var(--font-mono); font-size: 12px"
+              >--spacing-lg</span
+            >
+          </div>
+          <div class="spacing-item">
+            <div class="spacing-box" style="width: 48px">48px</div>
+            <span style="font-family: var(--font-mono); font-size: 12px"
+              >--spacing-xl</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div
+        class="section"
+        style="text-align: center; background: var(--navy); color: var(--ice)"
+      >
+        <p style="font-size: 14px; margin-bottom: 8px">
+          KhipuTech Web Style Guide v1.0
+        </p>
+        <p style="font-size: 12px; color: var(--steel)">
+          Real-Time Visitor Analytics · 2026
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
