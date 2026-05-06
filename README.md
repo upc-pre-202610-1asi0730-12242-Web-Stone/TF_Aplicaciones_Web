@@ -8,7 +8,7 @@
 
 ## Docente: Angel Augusto Velasquez Nuñez
 
-### "Informe del TB1"
+### "Informe del AV1"
 
 ### **Nombre del Startup:** WebStone
 
@@ -469,9 +469,19 @@ KhipuTech enfoca su modelo de negocio en dos segmentos institucionales distintos
 
 **Resumen:**
 <div style = "text-align: justify">
-Sergio es egresado de la UDEP en la carrera de Historia y Gestión Cultural. Afirma que en cuanto se trata de evaluar si una exposición cumplió en transmitir la narrativa esperada, es algo muy subjetivo porque cada persona que visita el museo es libre de impresionarse por la pieza de su elección. Asimismo, menciona que, en términos museográficos, es necesario identificar al público objetivo de la exposición y hacerla accesible acorde a sus necesidades. Considera que la “observación no participante” de los movimientos de un visitante es una de las muchas maneras en las que se puede evaluar las preferencias de un visitante. En sus palabras “la cultura se debe a la ciudadanía” por lo que considera fundamental investigar no solo como se comporta el público, sino también como piensa. Evocó un estudio de público realizado en un museo en Piura para conocer más a las familias que visitan museos. Ese estudio se realizó mediante encuestas y entrevistas. Considera que conocer cómo piensa el público corresponde a una parte importante para la museografía. Admite que el estudio de público es paradójicamente dejado de lado. En cuanto al presupuesto para las áreas de innovación y tecnología, la realidad es que los museos privados de lima cuentan con impulso suficiente para contar con dichas áreas, pero que la visión en museos regionales es desoladora en ese aspecto. En el mejor de los casos, se encuentran cámaras de seguridad. Por otro lado, cree que la experiencia mediador-visitante es muy valiosa y complementa con creces la experiencia en los museos/recorridos culturales para que las personas no se lleven una mirada rígida, sino que se lleven la exposición como una parte de sí mismos. Finalmente, cree que depende de que tan receptivo es un público en cuanto a capas adicionales de tecnología, pero que su preferencia es la realidad virtual y realidad aumentada. 
+
+
+* **Personalidad:** Reflexivo, crítico y humanista. Orientado al visitante, con una visión centrada en que "la cultura se debe a la ciudadanía."
+* **Marcas e influencias:** [No mencionado en entrevista]
+* **Tecnología:** Muestra preferencia por la realidad virtual y realidad aumentada como herramientas para enriquecer la experiencia museística.
+* **Dispositivos:** [No mencionado en entrevista]
+* **Browser:** [No mencionado en entrevista]
+* **Canales de interacción:** Encuestas y entrevistas como métodos de estudio de público. Valora la observación no participante como canal de análisis del comportamiento del visitante.
+* **Características objetivas:** Egresado de UDEP, carrera de Historia y Gestión Cultural. Tiene experiencia en museografía y ha referenciado un estudio de público realizado en un museo de Piura orientado a familias visitantes.
+* **Características subjetivas:** Considera que evaluar si una exposición transmitió su narrativa es subjetivo. Cree que el estudio de público es fundamental pero paradójicamente dejado de lado. Valora profundamente la experiencia mediador-visitante como complemento para que el visitante se lleve la exposición como parte de sí mismo. Reconoce la brecha tecnológica entre museos privados de Lima y museos regionales.
 </div>
 
+---
 
 | Entrevista 2| Duración | Inicio | Imagen | URL |
 |:-----------:|:-----------:|:-----------:|:-------:|:----:|
@@ -480,8 +490,19 @@ Sergio es egresado de la UDEP en la carrera de Historia y Gestión Cultural. Afi
 **Resumen:**
 
 <div style = "text-align: justify">
-Lincoln es egresado de la UDEP en la carrera de Historia y Gestión Cultural.  Afirma que en cuanto se trata de evaluar si una exposición cumplió en transmitir la narrativa esperada, cree que el montaje es una parte de mucha importancia, ya que debe encontrarse en lugares estratégicos y en armonía con el entorno, la accesibilidad también es importante para que todos puedan acercarse a la exposición. Considera la pertinencia del reporte que contiene la información sobre las preferencias del visitante. Contó que para un trabajo de la universidad, tuvo que usar un portal del gobierno sobre la afluencia hacia el museo de Narihualá de Piura (el propio museo no contaba con esa información.) Además, contó que para medir el éxito de una exposición se cuenta con un cuaderno físico ofrecido por el mediador que reúne las opiniones de los visitantes al final de su recorrido, esta metodología la observó en el museo LUM. Por otro lado, en cuanto a las áreas de tecnología e innovación en los museos, cuenta que el sector privado cuenta con más libertades y tienen diferentes fuentes de financiamiento que les permite tener más capital de inversión. Sobre las preguntas que la gente le hace durante el recorrido, contó entre risas que la gente le pregunta cosas que no están en el guión, y que lo más recurrente es el contexto histórico (a veces existen objetos aislados sin un contexto en general) esa información extra les permitiría aprender. Al igual que Sergio, confirmó que existe muy poca investigación sobre los públicos de los museos. Dió el ejemplo de Narihualá, en el que se presenta la información en inglés, español y quechua. A su parecer, eso ayuda a derribar barreras, y por ello se debe profundizar en el estudio de públicos. 
+
+* **Personalidad:** Cercano y con sentido del humor (contó entre risas anécdotas de su experiencia como mediador). Orientado a la accesibilidad e inclusión, con una visión práctica de la museografía.
+* **Marcas e influencias:** Museo LUM (donde observó la metodología del cuaderno físico de opiniones). Museo de Narihualá de Piura (referenciado tanto en su trabajo universitario como en su reflexión sobre accesibilidad lingüística).
+* **Tecnología:** Reconoce que el sector privado tiene mayor capacidad de inversión en tecnología e innovación gracias a diversas fuentes de financiamiento. [No mencionó preferencias tecnológicas personales]
+* **Dispositivos:** [No mencionado en entrevista]
+* **Browser:** [No mencionado en entrevista]
+* **Canales de interacción:** Portal web del gobierno para datos de afluencia museística. Cuaderno físico de opiniones ofrecido por el mediador al final del recorrido (observado en el museo LUM).
+* **Características objetivas:** Egresado de UDEP en Historia y Gestión Cultural. Tiene experiencia como mediador en museos y ha realizado trabajo de campo universitario consultando portales gubernamentales sobre afluencia al museo de Narihualá.
+* **Características subjetivas:** Considera que el montaje es clave para transmitir la narrativa de una exposición, y debe estar en lugares estratégicos y en armonía con el entorno. Valora la accesibilidad para que todos puedan acercarse a la exposición. Cree que derribar barreras lingüísticas — como presentar información en español, inglés y quechua — es fundamental y justifica profundizar en el estudio de públicos. Coincide con Sergio en que existe muy poca investigación sobre los públicos de los museos.
+
 </div>
+
+---
 
 
 | Entrevista 3| Duración | Inicio | Imagen | URL |
@@ -491,8 +512,19 @@ Lincoln es egresado de la UDEP en la carrera de Historia y Gestión Cultural.  A
 **Resumen:**
 
 <div style = "text-align: justify">
-Jesús es egresado de la UDEP en la carrera de Historia y Gestión Cultural. Nos contó que no existe un mecanismo específico para evaluar si una pieza en específico tuvo una buena performance, sino que se mide como un todo al final del recorrido, y que no se suele medir qué partes tuvieron más éxito. Cree que contar con un análisis de preferencias permitiría mejorar las exposiciones para futuras oportunidades, corregir errores y recibir feedback. Mencionó que algunas de las herramientas utilizadas para obtener data de los visitantes son entrevistas en google forms y cuadernos de visitantes. Sobre el presupuesto para las áreas de tecnología e innovación, no existen áreas de ese tipo en la mayoría de museos, pero el área de administración suele encargarse de gestionar ese presupuesto. Más adelante, hablando sobre sus experiencias como mediador, comentó que la gente busca profundizar en ciertos detalles que a veces no se encuentran en la exposición, le parece que sería útil mostrar material multimedia adicional. En cuanto a accesibilidad a personas con discapacidades, mencionó dispositivos de audio implementados en algunos centros culturales así como el material en braille, pero no va más allá. También recalcó la importancia de la presencia de los mediadores para guiar a los visitantes con discapacidades durante el recorrido para que puedan disfrutar de una experiencia completa. Considera que los QRs resultan inútiles en muchos casos para mejorar la experiencia inmersiva en los museos, y que no cree que se deba depender mucho de ellos. Él cree que se necesitan soluciones tradicionales para problemas que una solución no respondería a las necesidades de varias personas. Cree que los repositorios digitales de algunos centros son buenas maneras de aplicar tecnología en museos. 
+
+* **Personalidad:** Pragmático y crítico. Prefiere soluciones tradicionales y accesibles sobre tecnología por el simple hecho de innovar. Muestra sensibilidad hacia la inclusión de personas con discapacidades.
+* **Marcas e influencias:** Google Forms (mencionado como herramienta de recolección de datos). Repositorios digitales de centros culturales (los menciona como ejemplo positivo de tecnología aplicada en museos).
+* **Tecnología:** Menciona Google Forms y cuadernos de visitantes como herramientas actuales de recolección de data. Propone material multimedia adicional para complementar exposiciones. Valora los repositorios digitales de centros culturales. Es escéptico respecto al uso de QRs, considerándolos inútiles en muchos casos para mejorar la experiencia inmersiva.
+* **Dispositivos:** Menciona dispositivos de audio implementados en centros culturales para personas con discapacidad visual, y material en braille como herramientas de accesibilidad.
+* **Browser:** [No mencionado en entrevista]
+* **Canales de interacción:** Google Forms, cuadernos de visitantes, repositorios digitales, material multimedia, dispositivos de audio y braille.
+* **Características objetivas:** Egresado de UDEP en Historia y Gestión Cultural. Tiene experiencia como mediador en museos y centros culturales. Conoce de primera mano la estructura administrativa de los museos en cuanto a gestión de presupuesto tecnológico.
+* **Características subjetivas:** Considera que actualmente no existe un mecanismo específico para evaluar el rendimiento de piezas individuales, sino que se mide la exposición como un todo al final del recorrido. Cree que un análisis de preferencias permitiría mejorar futuras exposiciones, corregir errores y recibir feedback. Opina que los visitantes buscan profundizar en detalles que no siempre están disponibles en la exposición. Recalca la importancia de la presencia del mediador para guiar a visitantes con discapacidades y garantizarles una experiencia completa. Cree que se necesitan soluciones que respondan a las necesidades de la mayoría, no soluciones tecnológicas que excluyan a parte del público.
+
 </div>
+
+---
 
 #### 2.2.3. Análisis de entrevistas
 
