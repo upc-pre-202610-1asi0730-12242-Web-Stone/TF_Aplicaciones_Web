@@ -152,13 +152,13 @@ User Persona Segmento Objetivo 1:
 
 ![User-Persona-Segmento1](../assets/img/needfinding/user-persona-segmento1.png)
 
-En nuestro primer segmento tenemos a Antonio, un curador y gestor cultural que busca mejorar las exposiciones del museo apoyándose en datos, aunque enfrenta limitaciones tecnológicas y de presupuesto.
+Note: En nuestro primer segmento tenemos a Antonio, un curador y gestor cultural que busca mejorar las exposiciones del museo apoyándose en datos, aunque enfrenta limitaciones tecnológicas y de presupuesto.
 
 User Persona Segmento Objetivo 2:
 
 ![User-Persona-Segmento2](../assets/img/needfinding/user-persona-segmento2.png)
 
-En nuestro segundo segmento tenemos a Alessia, una estudiante universitaria que visita museos ocasionalmente y prefiere acceder a información clara y rápida sin depender de aplicaciones complejas.
+Note: En nuestro segundo segmento tenemos a Alessia, una estudiante universitaria que visita museos ocasionalmente y prefiere acceder a información clara y rápida sin depender de aplicaciones complejas.
 
 #### 2.3.2. User Task Matrix
 
@@ -166,13 +166,13 @@ User Task Matrix Segmento Objetivo 1:
 
 ![User Task Matrix -1](../assets/img/needfinding/user-task-matrix1.png)
 
-En nuestro primer segmento tenemos al curador/gestor cultural, donde el User Task Matrix muestra tareas como monitorear la afluencia por sala, analizar la permanencia de los visitantes, actualizar contenido y redistribuir grupos, siendo la mayoría de alta importancia para la toma de decisiones.
+Note: En nuestro primer segmento tenemos al curador/gestor cultural, donde el User Task Matrix muestra tareas como monitorear la afluencia por sala, analizar la permanencia de los visitantes, actualizar contenido y redistribuir grupos, siendo la mayoría de alta importancia para la toma de decisiones.
 
 User Task Matrix Segmento Objetivo 2:
 
 ![User Task Matrix - 2](../assets/img/needfinding/user-task-matrix2.png)
 
-En nuestro segundo segmento tenemos a los visitantes del museo (estudiantes y turistas), donde el User Task Matrix muestra tareas como escanear QR, ver contenido multimedia, cambiar idioma y recorrer las obras de forma autónoma, todas con alta frecuencia e importancia para una experiencia más accesible y enriquecida.
+Note: En nuestro segundo segmento tenemos a los visitantes del museo (estudiantes y turistas), donde el User Task Matrix muestra tareas como escanear QR, ver contenido multimedia, cambiar idioma y recorrer las obras de forma autónoma, todas con alta frecuencia e importancia para una experiencia más accesible y enriquecida.
 
 #### 2.3.3. User Journey Mapping
 
@@ -180,7 +180,7 @@ User Journey Map - Segmento 1 y 2 respectivamente
 
 ![user journey map - 0102](../assets/img/needfinding/user-journey-map.png)
 
-En este gráfico del User Journey Map para ambos segmentos, se observa que el personal del museo busca optimizar tareas manuales como la gestión de contenidos y reportes mediante herramientas digitales que generen datos automáticos. Por otro lado, los visitantes inician su recorrido con entusiasmo, pero su satisfacción decae al tener que buscar información externa, lo que representa una oportunidad para ofrecer contenido multimedia inmediato mediante códigos QR. En conjunto, la imagen destaca la necesidad de digitalizar procesos para mejorar la eficiencia operativa del museo y enriquecer la experiencia informativa del público.
+Note: En este gráfico del User Journey Map para ambos segmentos, se observa que el personal del museo busca optimizar tareas manuales como la gestión de contenidos y reportes mediante herramientas digitales que generen datos automáticos. Por otro lado, los visitantes inician su recorrido con entusiasmo, pero su satisfacción decae al tener que buscar información externa, lo que representa una oportunidad para ofrecer contenido multimedia inmediato mediante códigos QR. En conjunto, la imagen destaca la necesidad de digitalizar procesos para mejorar la eficiencia operativa del museo y enriquecer la experiencia informativa del público.
 
 #### 2.3.4. Empathy Mapping
 
@@ -188,13 +188,13 @@ Empathy Mapping Segmento Objetivo 1:
 
 ![empathy mapping-01](../assets/img/needfinding/empathy-mapping1.png)
 
-En nuestro primer segmento tenemos al curador/gestor cultural, donde el mapa de empatía refleja que enfrenta limitaciones de recursos y falta de datos concretos, lo que lo lleva a tomar decisiones basadas en experiencia, aunque busca herramientas simples que le permitan medir mejor el impacto de sus exposiciones.
+Note: En nuestro primer segmento tenemos al curador/gestor cultural, donde el mapa de empatía refleja que enfrenta limitaciones de recursos y falta de datos concretos, lo que lo lleva a tomar decisiones basadas en experiencia, aunque busca herramientas simples que le permitan medir mejor el impacto de sus exposiciones.
 
 Empathy Mapping Segmento Objetivo 2:
 
 ![empathy mapping-2](../assets/img/needfinding/empathy-mapping2.png)
 
-En nuestro segundo segmento tenemos a los visitantes del museo, donde el mapa de empatía muestra que buscan entender mejor las obras de forma rápida y sencilla, evitando herramientas complejas, y valoran experiencias que despierten su curiosidad sin interrumpir su recorrido.
+Note: En nuestro segundo segmento tenemos a los visitantes del museo, donde el mapa de empatía muestra que buscan entender mejor las obras de forma rápida y sencilla, evitando herramientas complejas, y valoran experiencias que despierten su curiosidad sin interrumpir su recorrido.
 
 ### 2.4. Big Picture Event Storming
 
