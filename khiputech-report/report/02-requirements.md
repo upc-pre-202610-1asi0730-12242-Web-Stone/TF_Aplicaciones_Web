@@ -105,33 +105,74 @@ Se consideraron dos segmentos:
 
 |  Entrevista 1  | Duración | Inicio |                                     Imagen                                     |                                                                                                                                                                URL                                                                                                                                                                |
 | :------------: | :------: | :----: | :----------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Sergio Salgado |   20m    | 0:50m  | ![Evidencia_Entrevista](../assets/img/interviews/interview_sergio_salgado.png) | [Click aquí](https://upcedupe-my.sharepoint.com/personal/u20231e504_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231e504_upc_edu_pe%2FDocuments%2FAplicaciones+Web%2FEntrevista_SergioSalgado_GestorCultural.mp4&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.3d210264-2355-468b-9d6d-fd33ab30ed2f) |
+| Sergio Salgado |   20m    | 0:50m  | ![Evidencia_Entrevista](../assets/img/2_2_2-entrevista/interview_sergio_salgado.png) | (https://upcedupe-my.sharepoint.com/personal/u20231e504_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231e504_upc_edu_pe%2FDocuments%2FAplicaciones+Web%2FEntrevista_SergioSalgado_GestorCultural.mp4&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.3d210264-2355-468b-9d6d-fd33ab30ed2f) |
 
 **Resumen:**
 
 <div style = "text-align: justify">
-Sergio es egresado de la UDEP en la carrera de Historia y Gestión Cultural. Afirma que en cuanto se trata de evaluar si una exposición cumplió en transmitir la narrativa esperada, es algo muy subjetivo porque cada persona que visita el museo es libre de impresionarse por la pieza de su elección. Asimismo, menciona que, en términos museográficos, es necesario identificar al público objetivo de la exposición y hacerla accesible acorde a sus necesidades. Considera que la “observación no participante” de los movimientos de un visitante es una de las muchas maneras en las que se puede evaluar las preferencias de un visitante. En sus palabras “la cultura se debe a la ciudadanía” por lo que considera fundamental investigar no solo como se comporta el público, sino también como piensa. Evocó un estudio de público realizado en un museo en Piura para conocer más a las familias que visitan museos. Ese estudio se realizó mediante encuestas y entrevistas. Considera que conocer cómo piensa el público corresponde a una parte importante para la museografía. Admite que el estudio de público es paradójicamente dejado de lado. En cuanto al presupuesto para las áreas de innovación y tecnología, la realidad es que los museos privados de lima cuentan con impulso suficiente para contar con dichas áreas, pero que la visión en museos regionales es desoladora en ese aspecto. En el mejor de los casos, se encuentran cámaras de seguridad. Por otro lado, cree que la experiencia mediador-visitante es muy valiosa y complementa con creces la experiencia en los museos/recorridos culturales para que las personas no se lleven una mirada rígida, sino que se lleven la exposición como una parte de sí mismos. Finalmente, cree que depende de que tan receptivo es un público en cuanto a capas adicionales de tecnología, pero que su preferencia es la realidad virtual y realidad aumentada. 
+**Entrevistado:** Sergio  
+**Formación:** Historia y Gestión Cultural – UDEP
+
+* **Personalidad:** Reflexivo, crítico y humanista. Orientado al visitante, con una visión centrada en que "la cultura se debe a la ciudadanía."
+* **Marcas e influencias:** [No mencionado en entrevista]
+* **Tecnología:** Muestra preferencia por la realidad virtual y realidad aumentada como herramientas para enriquecer la experiencia museística.
+* **Dispositivos:** [No mencionado en entrevista]
+* **Browser:** [No mencionado en entrevista]
+* **Canales de interacción:** Encuestas y entrevistas como métodos de estudio de público. Valora la observación no participante como canal de análisis del comportamiento del visitante.
+* **Características objetivas:** Egresado de UDEP, carrera de Historia y Gestión Cultural. Tiene experiencia en museografía y ha referenciado un estudio de público realizado en un museo de Piura orientado a familias visitantes.
+* **Características subjetivas:** Considera que evaluar si una exposición transmitió su narrativa es subjetivo. Cree que el estudio de público es fundamental pero paradójicamente dejado de lado. Valora profundamente la experiencia mediador-visitante como complemento para que el visitante se lleve la exposición como parte de sí mismo. Reconoce la brecha tecnológica entre museos privados de Lima y museos regionales.
+ 
 </div>
+
+---
+
 
 |  Entrevista 2   | Duración | Inicio |                                     Imagen                                      |                                                                                                                                                                URL                                                                                                                                                                |
 | :-------------: | :------: | :----: | :-----------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Linconl Ramírez |   11m    | 0:30m  | ![Evidencia_de_entrevista](../assets/img/interviews/interview_linconl_alex.png) | [Click aquí](https://upcedupe-my.sharepoint.com/personal/u20231e504_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231e504_upc_edu_pe%2FDocuments%2FAplicaciones+Web%2FEntrevista_LiconlRamirez_GestorCultural.mp4&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.6f95e2ba-db5a-40f9-8852-81acc63fbf75) |
+| Linconl Ramírez |   11m    | 0:30m  | ![Evidencia_de_entrevista](../assets/img/2_2_2-entrevista/interview_linconl_alex.png) | (https://upcedupe-my.sharepoint.com/personal/u20231e504_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231e504_upc_edu_pe%2FDocuments%2FAplicaciones+Web%2FEntrevista_LiconlRamirez_GestorCultural.mp4&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.6f95e2ba-db5a-40f9-8852-81acc63fbf75) |
 
 **Resumen:**
 
 <div style = "text-align: justify">
-Lincoln es egresado de la UDEP en la carrera de Historia y Gestión Cultural.  Afirma que en cuanto se trata de evaluar si una exposición cumplió en transmitir la narrativa esperada, cree que el montaje es una parte de mucha importancia, ya que debe encontrarse en lugares estratégicos y en armonía con el entorno, la accesibilidad también es importante para que todos puedan acercarse a la exposición. Considera la pertinencia del reporte que contiene la información sobre las preferencias del visitante. Contó que para un trabajo de la universidad, tuvo que usar un portal del gobierno sobre la afluencia hacia el museo de Narihualá de Piura (el propio museo no contaba con esa información.) Además, contó que para medir el éxito de una exposición se cuenta con un cuaderno físico ofrecido por el mediador que reúne las opiniones de los visitantes al final de su recorrido, esta metodología la observó en el museo LUM. Por otro lado, en cuanto a las áreas de tecnología e innovación en los museos, cuenta que el sector privado cuenta con más libertades y tienen diferentes fuentes de financiamiento que les permite tener más capital de inversión. Sobre las preguntas que la gente le hace durante el recorrido, contó entre risas que la gente le pregunta cosas que no están en el guión, y que lo más recurrente es el contexto histórico (a veces existen objetos aislados sin un contexto en general) esa información extra les permitiría aprender. Al igual que Sergio, confirmó que existe muy poca investigación sobre los públicos de los museos. Dió el ejemplo de Narihualá, en el que se presenta la información en inglés, español y quechua. A su parecer, eso ayuda a derribar barreras, y por ello se debe profundizar en el estudio de públicos. 
+**Entrevistado:** Lincoln  
+**Formación:** Historia y Gestión Cultural – UDEP
+
+* **Personalidad:** Cercano y con sentido del humor (contó entre risas anécdotas de su experiencia como mediador). Orientado a la accesibilidad e inclusión, con una visión práctica de la museografía.
+* **Marcas e influencias:** Museo LUM (donde observó la metodología del cuaderno físico de opiniones). Museo de Narihualá de Piura (referenciado tanto en su trabajo universitario como en su reflexión sobre accesibilidad lingüística).
+* **Tecnología:** Reconoce que el sector privado tiene mayor capacidad de inversión en tecnología e innovación gracias a diversas fuentes de financiamiento. [No mencionó preferencias tecnológicas personales]
+* **Dispositivos:** [No mencionado en entrevista]
+* **Browser:** [No mencionado en entrevista]
+* **Canales de interacción:** Portal web del gobierno para datos de afluencia museística. Cuaderno físico de opiniones ofrecido por el mediador al final del recorrido (observado en el museo LUM).
+* **Características objetivas:** Egresado de UDEP en Historia y Gestión Cultural. Tiene experiencia como mediador en museos y ha realizado trabajo de campo universitario consultando portales gubernamentales sobre afluencia al museo de Narihualá.
+* **Características subjetivas:** Considera que el montaje es clave para transmitir la narrativa de una exposición, y debe estar en lugares estratégicos y en armonía con el entorno. Valora la accesibilidad para que todos puedan acercarse a la exposición. Cree que derribar barreras lingüísticas — como presentar información en español, inglés y quechua — es fundamental y justifica profundizar en el estudio de públicos. Coincide con Sergio en que existe muy poca investigación sobre los públicos de los museos.
+
+---
+
 </div>
 
 | Entrevista 3  | Duración | Inicio |                                    Imagen                                     |                                                                                                                                                                             URL                                                                                                                                                                              |
 | :-----------: | :------: | :----: | :---------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Jesus Hidalgo |   24m    | 0:10m  | ![Evidencia_Entrevista](../assets/img/interviews/interview_jesus_hidalgo.png) | [Click Aquí](https://upcedupe-my.sharepoint.com/personal/u20231e504_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231e504%5Fupc%5Fedu%5Fpe%2FDocuments%2FAplicaciones%20Web%2FEntrevista%5FJesusHidalgo%5FGestorCultural%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E6f0d7de8%2D4ef8%2D48ae%2D9f74%2D9ca448555fea) |
+| Jesus Hidalgo |   24m    | 0:10m  | ![Evidencia_Entrevista](../assets/img/2_2_2-entrevista/interview_jesus_hidalgo.png) | (https://upcedupe-my.sharepoint.com/personal/u20231e504_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231e504%5Fupc%5Fedu%5Fpe%2FDocuments%2FAplicaciones%20Web%2FEntrevista%5FJesusHidalgo%5FGestorCultural%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E6f0d7de8%2D4ef8%2D48ae%2D9f74%2D9ca448555fea) |
 
 **Resumen:**
 
 <div style = "text-align: justify">
-Jesús es egresado de la UDEP en la carrera de Historia y Gestión Cultural. Nos contó que no existe un mecanismo específico para evaluar si una pieza en específico tuvo una buena performance, sino que se mide como un todo al final del recorrido, y que no se suele medir qué partes tuvieron más éxito. Cree que contar con un análisis de preferencias permitiría mejorar las exposiciones para futuras oportunidades, corregir errores y recibir feedback. Mencionó que algunas de las herramientas utilizadas para obtener data de los visitantes son entrevistas en google forms y cuadernos de visitantes. Sobre el presupuesto para las áreas de tecnología e innovación, no existen áreas de ese tipo en la mayoría de museos, pero el área de administración suele encargarse de gestionar ese presupuesto. Más adelante, hablando sobre sus experiencias como mediador, comentó que la gente busca profundizar en ciertos detalles que a veces no se encuentran en la exposición, le parece que sería útil mostrar material multimedia adicional. En cuanto a accesibilidad a personas con discapacidades, mencionó dispositivos de audio implementados en algunos centros culturales así como el material en braille, pero no va más allá. También recalcó la importancia de la presencia de los mediadores para guiar a los visitantes con discapacidades durante el recorrido para que puedan disfrutar de una experiencia completa. Considera que los QRs resultan inútiles en muchos casos para mejorar la experiencia inmersiva en los museos, y que no cree que se deba depender mucho de ellos. Él cree que se necesitan soluciones tradicionales para problemas que una solución no respondería a las necesidades de varias personas. Cree que los repositorios digitales de algunos centros son buenas maneras de aplicar tecnología en museos. 
+ 
+**Entrevistado:** Jesús  
+**Formación:** Historia y Gestión Cultural – UDEP
+
+* **Personalidad:** Pragmático y crítico. Prefiere soluciones tradicionales y accesibles sobre tecnología por el simple hecho de innovar. Muestra sensibilidad hacia la inclusión de personas con discapacidades.
+* **Marcas e influencias:** Google Forms (mencionado como herramienta de recolección de datos). Repositorios digitales de centros culturales (los menciona como ejemplo positivo de tecnología aplicada en museos).
+* **Tecnología:** Menciona Google Forms y cuadernos de visitantes como herramientas actuales de recolección de data. Propone material multimedia adicional para complementar exposiciones. Valora los repositorios digitales de centros culturales. Es escéptico respecto al uso de QRs, considerándolos inútiles en muchos casos para mejorar la experiencia inmersiva.
+* **Dispositivos:** Menciona dispositivos de audio implementados en centros culturales para personas con discapacidad visual, y material en braille como herramientas de accesibilidad.
+* **Browser:** [No mencionado en entrevista]
+* **Canales de interacción:** Google Forms, cuadernos de visitantes, repositorios digitales, material multimedia, dispositivos de audio y braille.
+* **Características objetivas:** Egresado de UDEP en Historia y Gestión Cultural. Tiene experiencia como mediador en museos y centros culturales. Conoce de primera mano la estructura administrativa de los museos en cuanto a gestión de presupuesto tecnológico.
+* **Características subjetivas:** Considera que actualmente no existe un mecanismo específico para evaluar el rendimiento de piezas individuales, sino que se mide la exposición como un todo al final del recorrido. Cree que un análisis de preferencias permitiría mejorar futuras exposiciones, corregir errores y recibir feedback. Opina que los visitantes buscan profundizar en detalles que no siempre están disponibles en la exposición. Recalca la importancia de la presencia del mediador para guiar a visitantes con discapacidades y garantizarles una experiencia completa. Cree que se necesitan soluciones que respondan a las necesidades de la mayoría, no soluciones tecnológicas que excluyan a parte del público.
+
 </div>
+
+xxx
 
 #### 2.2.3. Análisis de entrevistas
 
@@ -144,19 +185,49 @@ Donde más valor tiene el análisis conjunto es en el tema del mediador: los tre
 La divergencia en tecnología es interesante porque no es superficial: Jesús habla desde la experiencia de mediador en contextos con poco presupuesto y un público heterogéneo, por lo que su escepticismo ante los QRs tiene base práctica. Sergio habla más desde una visión museográfica ideal. Lincoln resuelve la tensión sin decirlo explícitamente: el multilingüismo en Narihualá es la única "tecnología" que los tres coincidirían en validar, porque responde directamente a las características del público, no a una tendencia de innovación.
 </div>
 
+<strong>Visitantes al museo (estudiantes, turistas): </strong>
+
+<strong>Entrevista 1: Alessia Ximena Luque Carlos</strong>
+
+Captura:
+
+<img src="../assets/img/2_2_2-entrevista/interview_alessia.jpeg"></img>
+
+Duración: 3:21 minutos
+
+Línea de Tiempo: 0:00 - 3:21
+
+Enlace a la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e504_upc_edu_pe/IQDTSY8YUP-DT7YoqylJBb3jAWksMgbDf7lQ0mpIavfGdNI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ckg95p
+
+Resumen:
+
+Alessia Ximena Luque Carlos, una joven de 23 años que reside en Pueblo Libre, es estudiante de Administración en la Universidad de Lima.
+
+Gestión y Desafíos: Actualmente, su experiencia dentro del museo es limitada, ya que depende únicamente de las descripciones físicas o guías generales, lo que dificulta profundizar en las obras que más le llaman la atención. Esto genera que, en ocasiones, no aproveche completamente la visita ni comprenda el contexto de ciertas piezas. Su principal frustración surge cuando encuentra obras interesantes pero no dispone de suficiente información para entender su significado o importancia. Por ello, valora positivamente una solución digital que le permita acceder de manera rápida, interactiva y sin fricción a contenido enriquecido, mejorando así su experiencia cultural dentro del museo.
+
+Tecnología y Habilidades: En su día a día utiliza herramientas digitales como Facebook, WhatsApp Business, Instagram, Tiktok y Twitter. Utiliza principalmente su celular con sistema operativo IOS y su laptop con sistema operativo Windows.
+
+Expectativas y Necesidades: Alessia desearía contar con una solución digital que le permita acceder a información en tiempo real sobre las obras que está observando dentro del museo. Le gustaría que, al escanear un código QR, pueda obtener detalles precisos como el contexto histórico, el significado de la obra, contenido multimedia y material exclusivo que enriquezca su experiencia. Entre las funcionalidades que le gustaría encontrar, destacan: acceso inmediato al contenido sin necesidad de instalar aplicaciones, disponibilidad de información en varios idiomas. Actualmente, no conoce soluciones específicas que integren este tipo de experiencia interactiva dentro de los museos que visita. Sus respuestas reflejan una personalidad curiosa, interesada en el aprendizaje y orientada a aprovechar al máximo su visita cultural, valorando especialmente herramientas tecnológicas que hagan la experiencia más dinámica, accesible y enriquecedora.
+
+
+
 ### 2.3. Needfinding
 
 #### 2.3.1. User Personas
 
 User Persona Segmento Objetivo 1:
 
-![User-Persona-Segmento1](../assets/img/needfinding/user-persona-segmento1.png)
+![User-Persona-Segmento1](../assets/img/2_3_1-Persona/user-persona-segmento1.png)
+
+Note: En nuestro primer segmento tenemos a Antonio, un curador y gestor cultural que busca mejorar las exposiciones del museo apoyándose en datos, aunque enfrenta limitaciones tecnológicas y de presupuesto.
 
 Note: En nuestro primer segmento tenemos a Antonio, un curador y gestor cultural que busca mejorar las exposiciones del museo apoyándose en datos, aunque enfrenta limitaciones tecnológicas y de presupuesto.
 
 User Persona Segmento Objetivo 2:
 
-![User-Persona-Segmento2](../assets/img/needfinding/user-persona-segmento2.png)
+![User-Persona-Segmento2](../assets/img/2_3_1-Persona/user-persona-segmento2.png)
+
+Note: En nuestro segundo segmento tenemos a Alessia, una estudiante universitaria que visita museos ocasionalmente y prefiere acceder a información clara y rápida sin depender de aplicaciones complejas.
 
 Note: En nuestro segundo segmento tenemos a Alessia, una estudiante universitaria que visita museos ocasionalmente y prefiere acceder a información clara y rápida sin depender de aplicaciones complejas.
 
@@ -164,13 +235,17 @@ Note: En nuestro segundo segmento tenemos a Alessia, una estudiante universitari
 
 User Task Matrix Segmento Objetivo 1:
 
-![User Task Matrix -1](../assets/img/needfinding/user-task-matrix1.png)
+![User Task Matrix -1](../assets/img/2_3_2-Task/user-task-matrix1.png)
+
+Note: En nuestro primer segmento tenemos al curador/gestor cultural, donde el User Task Matrix muestra tareas como monitorear la afluencia por sala, analizar la permanencia de los visitantes, actualizar contenido y redistribuir grupos, siendo la mayoría de alta importancia para la toma de decisiones.
 
 Note: En nuestro primer segmento tenemos al curador/gestor cultural, donde el User Task Matrix muestra tareas como monitorear la afluencia por sala, analizar la permanencia de los visitantes, actualizar contenido y redistribuir grupos, siendo la mayoría de alta importancia para la toma de decisiones.
 
 User Task Matrix Segmento Objetivo 2:
 
-![User Task Matrix - 2](../assets/img/needfinding/user-task-matrix2.png)
+![User Task Matrix - 2](../assets/img/2_3_2-Task/user-task-matrix2.png)
+
+Note: En nuestro segundo segmento tenemos a los visitantes del museo (estudiantes y turistas), donde el User Task Matrix muestra tareas como escanear QR, ver contenido multimedia, cambiar idioma y recorrer las obras de forma autónoma, todas con alta frecuencia e importancia para una experiencia más accesible y enriquecida.
 
 Note: En nuestro segundo segmento tenemos a los visitantes del museo (estudiantes y turistas), donde el User Task Matrix muestra tareas como escanear QR, ver contenido multimedia, cambiar idioma y recorrer las obras de forma autónoma, todas con alta frecuencia e importancia para una experiencia más accesible y enriquecida.
 
@@ -178,7 +253,9 @@ Note: En nuestro segundo segmento tenemos a los visitantes del museo (estudiante
 
 User Journey Map - Segmento 1 y 2 respectivamente
 
-![user journey map - 0102](../assets/img/needfinding/user-journey-map.png)
+![user journey map - 0102](../assets/img/2_3_3-Journey/user-journey-map.png)
+
+Note: En este gráfico del User Journey Map para ambos segmentos, se observa que el personal del museo busca optimizar tareas manuales como la gestión de contenidos y reportes mediante herramientas digitales que generen datos automáticos. Por otro lado, los visitantes inician su recorrido con entusiasmo, pero su satisfacción decae al tener que buscar información externa, lo que representa una oportunidad para ofrecer contenido multimedia inmediato mediante códigos QR. En conjunto, la imagen destaca la necesidad de digitalizar procesos para mejorar la eficiencia operativa del museo y enriquecer la experiencia informativa del público.
 
 Note: En este gráfico del User Journey Map para ambos segmentos, se observa que el personal del museo busca optimizar tareas manuales como la gestión de contenidos y reportes mediante herramientas digitales que generen datos automáticos. Por otro lado, los visitantes inician su recorrido con entusiasmo, pero su satisfacción decae al tener que buscar información externa, lo que representa una oportunidad para ofrecer contenido multimedia inmediato mediante códigos QR. En conjunto, la imagen destaca la necesidad de digitalizar procesos para mejorar la eficiencia operativa del museo y enriquecer la experiencia informativa del público.
 
@@ -186,13 +263,17 @@ Note: En este gráfico del User Journey Map para ambos segmentos, se observa que
 
 Empathy Mapping Segmento Objetivo 1:
 
-![empathy mapping-01](../assets/img/needfinding/empathy-mapping1.png)
+![empathy mapping-01](../assets/img/2_3_4-Emphathy/empathy-mapping1.png)
+
+Note: En nuestro primer segmento tenemos al curador/gestor cultural, donde el mapa de empatía refleja que enfrenta limitaciones de recursos y falta de datos concretos, lo que lo lleva a tomar decisiones basadas en experiencia, aunque busca herramientas simples que le permitan medir mejor el impacto de sus exposiciones.
 
 Note: En nuestro primer segmento tenemos al curador/gestor cultural, donde el mapa de empatía refleja que enfrenta limitaciones de recursos y falta de datos concretos, lo que lo lleva a tomar decisiones basadas en experiencia, aunque busca herramientas simples que le permitan medir mejor el impacto de sus exposiciones.
 
 Empathy Mapping Segmento Objetivo 2:
 
-![empathy mapping-2](../assets/img/needfinding/empathy-mapping2.png)
+![empathy mapping-2](../assets/img/2_3_4-Emphathy/empathy-mapping2.png)
+
+Note: En nuestro segundo segmento tenemos a los visitantes del museo, donde el mapa de empatía muestra que buscan entender mejor las obras de forma rápida y sencilla, evitando herramientas complejas, y valoran experiencias que despierten su curiosidad sin interrumpir su recorrido.
 
 Note: En nuestro segundo segmento tenemos a los visitantes del museo, donde el mapa de empatía muestra que buscan entender mejor las obras de forma rápida y sencilla, evitando herramientas complejas, y valoran experiencias que despierten su curiosidad sin interrumpir su recorrido.
 
@@ -202,7 +283,7 @@ Para el desarrollo del Big Picture Event Storming de KhipuTech, se utilizó la h
 
 Primero, se definieron las leyendas para los diferentes elementos que se van a usar en el Event Storming:
 
-![Leyenda Event Storming](../assets/img/event-storming/event-storming-legend.png)
+![Leyenda Event Storming](../assets/img/2_4-Event-Storming/01-event-storming-legend.png)
 
 - **Domain Events:** Representa un hecho del negocio que ya ocurrió y no puede cambiarse.
 - **Hotspot Question Improvement:** Señala un punto de incertidumbre, duda o posible conflicto en el proceso. Se utiliza para visibilizar preguntas que aún no tienen respuesta clara, de modo que el equipo pueda discutirlas y mejorarlas más adelante.
@@ -221,7 +302,7 @@ El Event Storming permitió identificar de forma colaborativa los eventos clave 
 
 Para el desarrollo del primer Event Storming se identifican los domain events relacionados con la experiencia del visitante en el museo, como el escaneo de códigos QR/NFC en obras, el acceso a contenido multimedia y la acumulación de puntos de gamificación. Luego se reconocen los pasos que ejecuta el actor principal (el visitante), como ingresar al museo, aproximarse a una obra, escanear el código QR y visualizar información adicional. También se muestran las validaciones del sistema, por ejemplo, cuando una obra no tiene contenido disponible, lo que genera una notificación. Finalmente, se plantean preguntas para mejorar el flujo, como cómo hacer más atractiva la gamificación o cómo personalizar recomendaciones de obras según el perfil del visitante.
 
-![Big Picture Event Storming 1](../assets/img/event-storming/big-picture-1.png)
+![Big Picture Event Storming 1](../assets/img/2_4-Event-Storming/02-big-picture-1.png)
 
 ---
 
@@ -229,7 +310,7 @@ Para el desarrollo del primer Event Storming se identifican los domain events re
 
 Para el desarrollo del segundo Event Storming se identifican los domain events relacionados con el monitoreo de aforo, como la detección de entrada/salida de visitantes mediante sensores IoT, el cálculo de ocupación en tiempo real y la generación de alertas cuando se superan umbrales. El actor principal (gestor cultural/administrador) realiza acciones como acceder al dashboard, visualizar métricas de aforo por sala y configurar umbrales de alerta. El sistema interviene validando los datos de sensores a través de algoritmos de conteo y actualizando el dashboard según el resultado. Además, se incluyen notificaciones push para informar al gestor y preguntas clave para manejar casos especiales, como qué sucede si los sensores fallan temporalmente o cómo ajustar umbrales dinámicamente según eventos especiales.
 
-![Big Picture Event Storming 2](../assets/img/event-storming/big-picture-2.png)
+![Big Picture Event Storming 2](../assets/img/2_4-Event-Storming/03-big-picture-2.png)
 
 ---
 
@@ -237,7 +318,7 @@ Para el desarrollo del segundo Event Storming se identifican los domain events r
 
 Para el desarrollo del tercer Event Storming se identifican los domain events relacionados con la administración de contenido cultural en la plataforma. El actor principal (curador/gestor de contenido) inicia con la carga de información de una nueva obra: título, artista, descripción, imágenes de alta resolución y archivos de audio. Posteriormente, se asignan códigos QR/NFC únicos a cada obra y se valida que el contenido cumpla con estándares de calidad (resolución mínima, duración de audio, texto descriptivo). El sistema interviene en la generación automática de códigos, la compresión de imágenes para optimizar tiempos de carga y la sincronización con la base de datos central. Finalmente, se abordan preguntas como: ¿qué sucede si una obra tiene contenido multimedia en varios idiomas? ¿cómo gestionar versiones del contenido (por ejemplo, contenido infantil vs. adultos)?
 
-![Big Picture Event Storming 3](../assets/img/event-storming/big-picture-3.png)
+![Big Picture Event Storming 3](../assets/img/2_4-Event-Storming/04-big-picture-3.png)
 
 ---
 
@@ -245,7 +326,7 @@ Para el desarrollo del tercer Event Storming se identifican los domain events re
 
 Para el desarrollo del cuarto Event Storming se identifican los domain events de análisis de datos y generación de insights, como la creación de reportes de afluencia semanal, la identificación de obras más populares y el envío de alertas por patrones anómalos. El actor principal (administrador del museo) realiza acciones como iniciar sesión en el dashboard, seleccionar filtros de fecha/sala, configurar parámetros de reporte y exportar datos a PDF/Excel. El sistema valida los datos históricos almacenados, procesa métricas mediante algoritmos de agregación y notifica automáticamente cuando se detectan tendencias relevantes (por ejemplo, caída drástica en interacciones con ciertas obras). Finalmente, surgen preguntas clave sobre métricas a considerar, detección de patrones estacionales y definición de KPIs críticos para la toma de decisiones.
 
-![Big Picture Event Storming 4](../assets/img/event-storming/big-picture-4.png)
+![Big Picture Event Storming 4](../assets/img/2_4-Event-Storming/05-big-picture-4.png)
 
 ---
 
@@ -253,7 +334,7 @@ Para el desarrollo del cuarto Event Storming se identifican los domain events de
 
 Para el desarrollo del quinto Event Storming se identifican los domain events relacionados con el sistema de gamificación, como la acumulación de puntos XP por interacción con obras, el avance de nivel del visitante y la actualización del ranking semanal. El actor principal (visitante) inicia sesión mediante QR/NFC, escanea múltiples obras durante su recorrido y acumula experiencia según el tiempo de permanencia y la cantidad de contenido consumido. El sistema valida la acumulación de XP, verifica si el visitante alcanzó un nuevo nivel (umbrales: 10, 50, 100 obras) y actualiza su posición en el ranking público. Se notifica al visitante cuando obtiene una insignia o sube de nivel. Surgen preguntas clave sobre cómo evitar comportamientos fraudulentos (escaneos rápidos sin interacción real), qué recompensas ofrecer a los visitantes más activos y cómo incluir desafíos semanales para aumentar engagement.
 
-![Big Picture Event Storming 5](../assets/img/event-storming/big-picture-5.png)
+![Big Picture Event Storming 5](../assets/img/2_4-Event-Storming/06-big-picture-5.png)
 
 ---
 

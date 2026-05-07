@@ -16,19 +16,19 @@ El logotipo utiliza líneas minimalistas que emulen las cuerdas de un khipu, for
 
 **Logotipo Principal:**
 
-![Logo KhipuTech](../assets/img/logos/khiputech-logo-principal.png)
+![Logo KhipuTech](../assets/img/4_1_1-General-Style/01-khiputech-logo-principal.png)
 
 _Logotipo principal: Nodo central con ramificaciones conectadas, wordmark "Khipu" (peso 600) + "Tech" (peso 300)_
 
 **Versión con Tagline:**
 
-![Logo KhipuTech con Tagline](../assets/img/logos/khiputech-logo-tagline.png)
+![Logo KhipuTech con Tagline](../assets/img/4_1_1-General-Style/02-khiputech-logo-tagline.png)
 
 _Versión completa con tagline "REAL-TIME VISITOR ANALYTICS" en DM Mono, caps espaciado_
 
 **Variaciones de Color:**
 
-![Logo Variaciones](../assets/img/logos/khiputech-logo-variations.png)
+![Logo Variaciones](../assets/img/4_1_1-General-Style/03-khiputech-logo-variations.png)
 
 _De izquierda a derecha: Versión fondo oscuro (principal), fondo claro (navy), versión Inca Gold_
 
@@ -47,7 +47,7 @@ KhipuTech utiliza un sistema tipográfico dual que separa contenido editorial de
   - Weights disponibles: 400 (Regular), 500 (Medium)
     **Especificaciones:**
 
-![Especímenes Tipográficos](../assets/img/typography/khiputech-typography-specimens.png)
+![Especímenes Tipográficos](../assets/img/4_1_1-General-Style/04-khiputech-typography-specimens.png)
 
 | Uso            | Familia | Weight  | Tamaño | Line Height | Letter Spacing | Aplicación                                    |
 | -------------- | ------- | ------- | ------ | ----------- | -------------- | --------------------------------------------- |
@@ -79,7 +79,7 @@ La tipografía monoespaciada se reserva exclusivamente para:
 
 **Sistema de Iconos:**
 
-![Grid de Iconografía](../assets/img/iconography/khiputech-icons-grid.png)
+![Grid de Iconografía](../assets/img/4_1_1-General-Style/05-khiputech-icons-grid.png)
 
 _Sistema de iconos: Dashboard, Sensor/Nodo, Ubicación, Obra, Alerta, Notificación, Configuración, Analítica_
 
@@ -109,7 +109,7 @@ Alerta: ◉ (círculo con indicador)
 
 Esta iconografía refuerza visualmente el mensaje de "red de datos" inherente a la marca KhipuTech.
 
-![Uso de Logo](../assets/img/logos/khiputech-logo-use.png)
+![Uso de Logo](../assets/img/4_1_1-General-Style/06-khiputech-logo-use.png)
 
 ---
 
@@ -117,7 +117,7 @@ Esta iconografía refuerza visualmente el mensaje de "red de datos" inherente a 
 
 **Paleta Principal:**
 
-![Paleta de Colores](../assets/img/color-palette/khiputech-color-palette.png)
+![Paleta de Colores](../assets/img/4_1_1-General-Style/07-khiputech-color-palette.png)
 
 | Color             | HEX     | RGB           | CMYK           | Uso Principal                                             |
 | ----------------- | ------- | ------------- | -------------- | --------------------------------------------------------- |
@@ -227,8 +227,6 @@ Para garantizar legibilidad óptima:
 **Referencia Visual Completa:**
 
 Consultar el archivo interactivo [General Style Guide](../assets/deliverables/khiputech-general-style-guide.html) para visualización de todas las aplicaciones de marca y especificaciones técnicas detalladas.
-
-#### 4.1.2. Web Style Guidelines
 
 #### 4.1.2. Web Style Guidelines
 
@@ -522,7 +520,7 @@ Barra fija inferior con 4 iconos:
 
 ##### UI Components
 
-![Componentes UI - Botones](../assets/img/web-style/khiputech-buttons.png)
+![Componentes UI - Botones](../assets/img/4_1_2-Web-Style/01-khiputech-buttons.png)
 
 **Botones:**
 
@@ -540,7 +538,7 @@ Barra fija inferior con 4 iconos:
 - **Medium:** Height 40px, Padding 20px horizontal, Font 14px
 - **Small:** Height 32px, Padding 16px horizontal, Font 12px
 
-  ![Componentes UI - Cards y KPIs](../assets/img/web-style/khiputech-cards-kpis.png)
+  ![Componentes UI - Cards y KPIs](../assets/img/4_1_2-Web-Style/02-khiputech-cards-kpis.png)
 
 **Cards:**
 
@@ -551,7 +549,7 @@ Barra fija inferior con 4 iconos:
 | **Info Card**  | #F2F6FF    | None        | None                          | 20px    | Información contextual         |
 | **Obra Card**  | #F2F6FF    | 1px #E8F0FF | 0 2px 4px rgba(11,26,62,0.04) | 16px    | Cards de obras relacionadas    |
 
-![Componentes UI - Badges](../assets/img/web-style/khiputech-badges.png)
+![Componentes UI - Badges](../assets/img/4_1_2-Web-Style/03-khiputech-badges.png)
 
 **Badges de Estado:**
 
@@ -562,7 +560,7 @@ Barra fija inferior con 4 iconos:
 | **Moderado** | rgba(200,168,75,0.12) | #C8A84B | Aforo 50-85%, pendiente      |
 | **Normal**   | rgba(0,200,255,0.12)  | #00C8FF | Aforo <50%, información      |
 
-![Componentes UI - Barras de Progreso](../assets/img/web-style/khiputech-progress-bars.png)
+![Componentes UI - Barras de Progreso](../assets/img/4_1_2-Web-Style/04-khiputech-progress-bars.png)
 
 **Barras de Progreso (Aforo):**
 
@@ -583,7 +581,7 @@ Barra fija inferior con 4 iconos:
 }
 ```
 
-![Componentes UI - Room Cards](../assets/img/web-style/khiputech-room-cards.png)
+![Componentes UI - Room Cards](../assets/img/4_1_2-Web-Style/05-khiputech-room-cards.png)
 
 **Room-Cards (Mapa de Salas):**
 
@@ -602,7 +600,7 @@ Estados visuales:
 - **Crítico:** Border rojo 2px, background rgba(255,77,106,0.08)
 - **Moderado:** Border amarillo 2px, background rgba(200,168,75,0.08)
 - **Seguro:** Border verde 2px, background rgba(45,255,160,0.08)
-  ![Componentes UI - Inputs](../assets/img/web-style/khiputech-inputs.png)
+  ![Componentes UI - Inputs](../assets/img/4_1_2-Web-Style/06-khiputech-inputs.png)
 
 **Inputs y Campos de Formulario:**
 
@@ -616,7 +614,7 @@ Estados de campos:
 | **Error**    | 2px #FF4D6A | #FFF5F5    | #0B1A3E | #FF4D6A |
 | **Disabled** | 1px #CBD8F0 | #F2F6FF    | #6B89B4 | #CBD8F0 |
 
-![Componentes UI - Tablas](../assets/img/web-style/khiputech-tables.png)
+![Componentes UI - Tablas](../assets/img/4_1_2-Web-Style/07-khiputech-tables.png)
 
 **Tablas de Datos:**
 
@@ -666,7 +664,7 @@ Estados de campos:
 
 **Toast Notifications:**
 
-![Toast Notifications](../assets/img/web-style/khiputech-toasts.png)
+![Toast Notifications](../assets/img/4_1_2-Web-Style/08-khiputech-toasts.png)
 
 | Tipo        | Icon | Background | Duration |
 | ----------- | ---- | ---------- | -------- |
@@ -1046,9 +1044,9 @@ La columna derecha del hero section reserva espacio para una imagen hero represe
 
 El diseño es limpio, escaneable y enfocado en la conversión, guiando al usuario de manera natural desde el primer contacto hacia la acción de registro.
 
-![Landing Wireframe - Home Desktop](../assets/img/landing-page/lp-wireframe-desktop.png)
+![Landing Wireframe - Home Desktop](../assets/img/4_3_1-Landing-Wireframe/01-lp-wireframe-desktop.png)
 
-![Landing Wireframe - Home Mobile](../assets/img/landing-page/lp-wireframe-mobile.png)
+![Landing Wireframe - Home Mobile](../assets/img/4_3_1-Landing-Wireframe/02-lp-wireframe-mobile.png)
 
 ---
 
@@ -1064,9 +1062,9 @@ Debajo se presenta una grilla de tres columnas equitativas (grid de 3 columnas e
 
 El footer de la sección incluye el copyright "© 2026 KhipuTech" centrado en una franja horizontal de fondo sólido, estableciendo el cierre visual de la landing page.
 
-![Landing Wireframe - Planes Desktop](../assets/img/landing-page/lp-paquetes-desktop.png)
+![Landing Wireframe - Planes Desktop](../assets/img/4_3_1-Landing-Wireframe/03-lp-paquetes-desktop.png)
 
-![Landing Wireframe - Planes Mobile](../assets/img/landing-page/lp-paquetes-mobile.png)
+![Landing Wireframe - Planes Mobile](../assets/img/4_3_1-Landing-Wireframe/04-lp-paquetes-mobile.png)
 
 ---
 
@@ -1082,7 +1080,7 @@ El contenido textual incluye:
 
 El footer mantiene la consistencia con "© 2026 KhipuTech" en la misma franja horizontal de cierre.
 
-![Landing Wireframe - Planes Detalle](../assets/img/landing-page/lp-planes-detalles.png)
+![Landing Wireframe - Planes Detalle](../assets/img/4_3_1-Landing-Wireframe/05-lp-planes-detalles.png)
 
 ---
 
@@ -1111,7 +1109,7 @@ El wireframe de la sección de contacto presenta un formulario centrado en la p�
 - Franja horizontal con "© 2026 KhipuTech" centrado
   El diseño prioriza la facilidad de completado del formulario, reduciendo fricción mediante un flujo vertical claro y campos bien etiquetados.
 
-![Landing Wireframe - Contacto](../assets/img/landing-page/lp-planes-detalles.png)
+![Landing Wireframe - Contacto](../assets/img/4_3_1-Landing-Wireframe/05-lp-planes-detalles.png.png)
 
 ---
 
@@ -1144,7 +1142,8 @@ El mockup de la sección Home presenta una estética moderna y tecnológica que 
   - La imagen muestra elementos de UI como gráficos de barras, mapas de calor y contadores de visitantes en la paleta de KhipuTech
     El diseño transmite profesionalismo y claridad, estableciendo inmediatamente la propuesta de valor de la plataforma mediante un balance equilibrado entre texto e imagen.
 
-![Landing Mockup - Home Desktop](../assets/img/mockups/lp-home-mockup.png)
+![Landing Mockup - Home Desktop](../assets/img/4_3_2-Landing-Mock-up/01-lp-home-mockup.png)
+
 
 ---
 
@@ -1164,7 +1163,7 @@ La versión mobile del hero section adapta el layout a un flujo vertical optimiz
 - Botón CTA "Registrarse" en ancho completo (100% width), padding 14px, centrado
   El espaciado vertical entre elementos es de 24px para mantener respiración visual en viewport reducido.
 
-![Landing Mockup - Home Mobile](../assets/img/mockups/lp-home-mockup.png)
+![Landing Mockup - Home Mobile](../assets/img/4_3_2-Landing-Mock-up/01-lp-home-mockup.png)
 
 ---
 
@@ -1202,8 +1201,7 @@ Cada tarjeta de plan tiene las siguientes características:
 - Fondo Steel (#4A7ABA)
 - Texto "© 2026 KhipuTech" en DM Sans Regular 14px, color blanco, centrado
 - Padding vertical: 24px
-  ![Landing Mockup - Planes Desktop](../assets/img/mockups/lp-planes-mockup.png)
-
+  ![Landing Mockup - Planes Desktop](../assets/img/4_3_2-Landing-Mock-up/02-lp-planes-mockup.png)
 ---
 
 **4. Planes (Detalle Expandido) - Desktop**
@@ -1241,7 +1239,7 @@ Cada bloque utiliza un layout de dos columnas (50/50) con las siguientes caracte
 
 - Mantiene el mismo estilo que la sección anterior
 - Fondo Steel (#4A7ABA), texto centrado, padding 24px vertical
-  ![Landing Mockup - Planes Detalle](../assets/img/mockups/lp-planes-mockup.png)
+  ![Landing Mockup - Planes Detalle](../assets/img/4_3_2-Landing-Mock-up/02-lp-planes-mockup.png)
 
 ---
 
@@ -1299,7 +1297,7 @@ Cada campo tiene el siguiente estilo consistente:
 - Fondo Steel (#4A7ABA)
 - Texto "© 2026 KhipuTech" centrado en blanco
 - Padding 24px vertical
-  ![Landing Mockup - Contacto](../assets/img/mockups/lp-contacto-mockup.png)
+  ![Landing Mockup - Contacto](../assets/img/4_3_2-Landing-Mock-up/03-lp-contacto-mockup.png)
 
 ---
 
@@ -1331,31 +1329,31 @@ Todos los mockups han sido diseñados siguiendo un enfoque mobile-first con brea
 
 Se presentan los wireframes de la aplicación web de KhipuTech:
 
-<img src="../assets/img/wireframes/image_4.png" alt="Wireframe 1" style="width: 600px;" >
+<img src="../assets/img/4_4_1-Web-Wireframes/01-image_4.png" alt="Wireframe 1" style="width: 600px;" >
 
-<img src="../assets/img/wireframes/image_3.png" alt="Wireframe 2" style="width: 600px;" >
+<img src="../assets/img/4_4_1-Web-Wireframes/02-image_3.png" alt="Wireframe 2" style="width: 600px;" >
 
-<img src="../assets/img/wireframes/image_2.png" alt="Wireframe 3" style="width: 600px;" >
+<img src="../assets/img/4_4_1-Web-Wireframes/03-image_2.png" alt="Wireframe 3" style="width: 600px;" >
 
-<img src="../assets/img/wireframes/image_1.png" alt="Wireframe 4" style="width: 600px;" >
+<img src="../assets/img/4_4_1-Web-Wireframes/04-image_1.png" alt="Wireframe 4" style="width: 600px;" >
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 
 Se presentan los Web Applications Wireflow Diagrams:
 
-<img src="../assets/img/wireflows/image_5.png" alt="Wireframe 1" style="width: 600px;" >
+<img src="../assets/img/4_4_2-Web-Wireflow/01-image_5.png" alt="Wirefra me 1" style="width: 600px;" >
 
-<img src="../assets/img/wireflows/image_6.png" alt="Wireframe 2" style="width: 600px;" >
+<img src="../assets/img/4_4_2-Web-Wireflow/02-image_6.png" alt="Wireframe 2" style="width: 600px;" >
 
-<img src="../assets/img/wireflows/image_7.png" alt="Wireframe 3" style="width: 600px;" >
+<img src="../assets/img/4_4_2-Web-Wireflow/03-image_7.png" alt="Wireframe 3" style="width: 600px;" >
 
-<img src="../assets/img/wireflows/image_8.png" alt="Wireframe 4" style="width: 600px;" >
+<img src="../assets/img/4_4_2-Web-Wireflow/04-image_8.png" alt="Wireframe 4" style="width: 600px;" >
 
-<img src="../assets/img/wireflows/image_9.png" alt="Wireframe 1" style="width: 600px;" >
+<img src="../assets/img/4_4_2-Web-Wireflow/05-image_9.png" alt="Wireframe 1" style="width: 600px;" >
 
-<img src="../assets/img/wireflows/image_10.png" alt="Wireframe 2" style="width: 600px;" >
+<img src="../assets/img/4_4_2-Web-Wireflow/06-image_10.png" alt="Wireframe 2" style="width: 600px;" >
 
-<img src="../assets/img/wireflows/image_11.png" alt="Wireframe 3" style="width: 600px;" >
+<img src="../assets/img/4_4_2-Web-Wireflow/07-image_11.png" alt="Wireframe 3" style="width: 600px;" >
 
 #### 4.4.3. Web Applications Mock-ups
 
@@ -1612,19 +1610,19 @@ Enlance al Web applications Prototyping video: [Click Aqui](https://upcedupe-my.
 
 #### 4.6.2. Software Architecture Context Diagram
 
-![Diagrama de Contexto](../assets/img/diagrams/context-diagram.png)
+![Diagrama de Contexto](../assets/img/4_6-Software-Architecture/01-context-diagram.png)
 
 Note: En este diagrama del ecosistema tecnológico, se detalla cómo la plataforma KhipuInsight actúa como el núcleo central que conecta a los gestores culturales y a los visitantes con diversas herramientas digitales para mejorar la experiencia en el museo. El sistema utiliza servicios externos como Firebase Auth y SendGrid para garantizar la seguridad y comunicación, mientras que herramientas como AWS S3 y Google Translate API facilitan la gestión de contenidos multimedia e idiomas. Finalmente, la integración con sensores QR/NFC y Google Analytics permite capturar datos reales sobre el comportamiento del público, transformando la infraestructura técnica en una solución integral para la toma de decisiones estratégicas.
 
 #### 4.6.3. Software Architecture Container Diagrams
 
-![Diagrama de Contenedores](../assets/img/diagrams/container-diagram.png)
+![Diagrama de Contenedores](../assets/img/4_6-Software-Architecture/02-container-diagram.png)
 
 Note: En este diagrama de contenedores de arquitectura de software, se detalla la infraestructura técnica que soporta la interacción entre los gestores culturales del museo y los visitantes. El sistema se compone de un front-end dividido en una página de aterrizaje web para solicitudes generales y una aplicación web interactiva para usuarios registrados, que canalizan todas las peticiones a través de un API Gateway. Esta API, construida sobre Node.js, centraliza la lógica de negocio y gestiona el flujo de información hacia una base de datos MySQL, donde se almacenan y procesan todos los datos del sistema. En conjunto, la arquitectura muestra un flujo estructurado y seguro, diseñado para ofrecer una experiencia digital eficiente y centralizada para ambos tipos de usuarios.
 
 #### 4.6.4. Software Architecture Components Diagrams
 
-![Diagrama de Componentes](../assets/img/diagrams/component-diagram.png)
+![Diagrama de Componentes](../assets/img/4_6-Software-Architecture/03-component-diagram.png)
 
 Note: En este diagrama de componentes de software, se detalla la estructura interna del API Gateway que gestiona las funciones clave del sistema mediante módulos especializados en Node.js. El componente de Identidad y Acceso centraliza la seguridad validando roles y permisos, mientras que otros módulos específicos manejan la experiencia del visitante, la analítica de datos, el control de aforo y las operaciones de ingresos. Finalmente, el sistema integra diversos servicios externos y una base de datos central para procesar interacciones en tiempo real, garantizando que cada acción del usuario se transforme en información valiosa para la gestión del museo.
 
@@ -1644,10 +1642,10 @@ Los diagramas de clases de KhipuTech reflejan la arquitectura hexagonal implemen
 
 El bounded context de Identity and Access Management (IAM) se encarga de gestionar la autenticación, autorización y administración de usuarios dentro de la plataforma KhipuTech. Este contexto define las entidades principales como User (usuario) y Role (rol), estableciendo la base para controlar quién tiene acceso al sistema y qué permisos posee. Además, implementa servicios de hashing de contraseñas mediante BCryptPasswordHasher y generación de tokens JWT a través de JwtTokenService, asegurando la seguridad en cada interacción. Los repositorios y servicios de comandos/consultas facilitan la creación, actualización y consulta de usuarios, mientras que las políticas de autorización protegen los recursos críticos del sistema.
 
-![Identity and Access Management - Class Diagram](../assets/img/class-diagram/class-diagram-iam1.png)
-![Identity and Access Management - Class Diagram](../assets/img/class-diagram/class-diagram-iam2.png)
-![Identity and Access Management - Class Diagram](../assets/img/class-diagram/class-diagram-iam3.png)
-![Identity and Access Management - Class Diagram](../assets/img/class-diagram/class-diagram-iam4.png)
+![Identity and Access Management - Class Diagram](../assets/img/4_7_1-Class-Diagrams/01-class-diagram-iam1.png)
+![Identity and Access Management - Class Diagram](../assets/img/4_7_1-Class-Diagrams/02-class-diagram-iam2.png)
+![Identity and Access Management - Class Diagram](../assets/img/4_7_1-Class-Diagrams/03-class-diagram-iam3.png)
+![Identity and Access Management - Class Diagram](../assets/img/4_7_1-Class-Diagrams/04-class-diagram-iam4.png)
 
 **Capa de Dominio (Domain Layer):**
 
@@ -1675,9 +1673,9 @@ El bounded context de Identity and Access Management (IAM) se encarga de gestion
 
 El bounded context de Content Management administra el catálogo de obras culturales y su contenido multimedia dentro de KhipuTech. El agregado principal Artwork encapsula información como título, artista, descripción y sala, permitiendo que curadores organicen y supervisen el contenido cultural del museo. Las entidades MultimediaContent representan archivos digitales (imágenes, audio) vinculados a obras, almacenados en CDN para optimizar tiempos de carga. El agregado QRCode gestiona códigos únicos por obra que facilitan la interacción sin fricción de visitantes mediante escaneo. Este contexto define servicios de comandos y consultas que permiten crear, actualizar, listar y eliminar obras, manteniendo una separación clara entre la lógica de dominio y la infraestructura de persistencia.
 
-![Content Management - Class Diagram](../assets/img/class-diagram/class-diagram-content1.png)
-![Content Management - Class Diagram](../assets/img/class-diagram/class-diagram-content2.png)
-![Content Management - Class Diagram](../assets/img/class-diagram/class-diagram-content3.png)
+![Content Management - Class Diagram](../assets/img/4_7_1-Class-Diagrams/05-class-diagram-content1.png)
+![Content Management - Class Diagram](../assets/img/4_7_1-Class-Diagrams/06-class-diagram-content2.png)
+![Content Management - Class Diagram](../assets/img/4_7_1-Class-Diagrams/07-class-diagram-content3.png)
 
 **Capa de Dominio (Domain Layer):**
 
@@ -1703,9 +1701,9 @@ El bounded context de Content Management administra el catálogo de obras cultur
 
 El bounded context de IoT Sensors and Visitor Tracking se enfoca en la administración y monitoreo de sensores IoT dentro de los espacios culturales. El agregado raíz Sensor representa cada dispositivo físico conectado (sensores de movimiento, contadores), almacenando su tipo, ubicación, estado operativo y configuración. Las entidades SensorTelemetry permiten registrar métricas en tiempo real (conteo de visitantes, tasa de ocupación), mientras que VisitorSession facilita el seguimiento de sesiones individuales con hora de entrada/salida y XP acumulado. Los servicios de comandos y consultas posibilitan el registro, actualización, eliminación y búsqueda de sensores, garantizando que gestores culturales puedan administrar su infraestructura IoT de forma centralizada y eficiente.
 
-![IoT Sensors and Visitor Tracking - Class Diagram](../assets/img/class-diagram/class-diagram-iote-sensors1.png)
-![IoT Sensors and Visitor Tracking - Class Diagram](../assets/img/class-diagram/class-diagram-iote-sensors2.png)
-![IoT Sensors and Visitor Tracking - Class Diagram](../assets/img/class-diagram/class-diagram-iote-sensors3.png)
+![IoT Sensors and Visitor Tracking - Class Diagram](../assets/img/4_7_1-Class-Diagrams/08-class-diagram-iote-sensors1.png)
+![IoT Sensors and Visitor Tracking - Class Diagram](../assets/img/4_7_1-Class-Diagrams/09-class-diagram-iote-sensors2.png)
+![IoT Sensors and Visitor Tracking - Class Diagram](../assets/img/4_7_1-Class-Diagrams/10-class-diagram-iote-sensors3.png)
 
 **Capa de Dominio (Domain Layer):**
 
@@ -1732,9 +1730,9 @@ El bounded context de IoT Sensors and Visitor Tracking se enfoca en la administr
 
 El bounded context de Gamification administra el sistema de recompensas y engagement de visitantes en KhipuTech. El agregado VisitorProfile encapsula datos como nombre de usuario, nivel actual y XP total acumulado, vinculándose directamente con el visitante anónimo identificado por UUID. Las entidades Achievement definen insignias desbloqueables con condiciones específicas (ej: escanear 50 obras), mientras que el agregado WeeklyLeaderboard mantiene rankings semanales reseteables cada lunes. Los servicios de comandos y consultas permiten actualizar perfiles, otorgar insignias y calcular rankings, garantizando que la experiencia del visitante sea personalizada y motivadora mediante mecánicas de juego que incrementan tiempo de permanencia y reexploración del museo.
 
-![Gamification and Visitor Engagement - Class Diagram](../assets/img/class-diagram/class-diagram-gamification1.png)
-![Gamification and Visitor Engagement - Class Diagram](../assets/img/class-diagram/class-diagram-gamification2.png)
-![Gamification and Visitor Engagement - Class Diagram](../assets/img/class-diagram/class-diagram-gamification3.png)
+![Gamification and Visitor Engagement - Class Diagram](../assets/img/4_7_1-Class-Diagrams/11-class-diagram-gamification1.png)
+![Gamification and Visitor Engagement - Class Diagram](../assets/img/4_7_1-Class-Diagrams/12-class-diagram-gamification2.png)
+![Gamification and Visitor Engagement - Class Diagram](../assets/img/4_7_1-Class-Diagrams/13-class-diagram-gamification3.png)
 
 **Capa de Dominio (Domain Layer):**
 
@@ -1760,9 +1758,9 @@ El bounded context de Gamification administra el sistema de recompensas y engage
 
 El bounded context de Analytics se especializa en la recopilación, procesamiento y visualización de métricas operativas dentro de KhipuTech. Los agregados principales OccupancyAnalytics y ArtworkPopularityMetrics registran datos clave como el consumo de afluencia por sala y los niveles de interacción con obras en diferentes períodos de tiempo. Estos datos permiten a gestores culturales tomar decisiones informadas sobre distribución de contenido, optimización de flujos de visitantes y planificación de recursos basada en tendencias históricas. Los servicios de consulta y repositorios asociados facilitan la extracción de información histórica y la generación de reportes personalizados, contribuyendo al objetivo de crear museos inteligentes, sostenibles y eficientes mediante analítica avanzada.
 
-![Analytics and Reporting - Class Diagram](../assets/img/class-diagram/class-diagram-analytics1.png)
-![Analytics and Reporting - Class Diagram](../assets/img/class-diagram/class-diagram-analytics2.png)
-![Analytics and Reporting - Class Diagram](../assets/img/class-diagram/class-diagram-analytics3.png)
+![Analytics and Reporting - Class Diagram](../assets/img/4_7_1-Class-Diagrams/14-class-diagram-analytics1.png)
+![Analytics and Reporting - Class Diagram](../assets/img/4_7_1-Class-Diagrams/15-class-diagram-analytics2.png)
+![Analytics and Reporting - Class Diagram](../assets/img/4_7_1-Class-Diagrams/16-class-diagram-analytics3.png)
 
 **Capa de Dominio (Domain Layer):**
 
@@ -1826,7 +1824,7 @@ El diseño de base de datos de KhipuTech está organizado en cinco dominios prin
 
 El diagrama de base de datos de Identity and Access Management (IAM) modela la estructura para gestionar usuarios, roles y permisos dentro de la plataforma KhipuTech. La tabla **users** almacena la información básica de autenticación (nombre de usuario, email y hash de contraseña). Los **roles** definen conjuntos de permisos que pueden ser asignados a usuarios mediante la tabla intermedia **user_roles**. Los permisos específicos (**permissions**) detallan qué acciones están permitidas sobre qué recursos, y se vinculan a roles mediante **role_permissions**. Este diseño permite una gestión flexible y escalable de la seguridad, facilitando la asignación dinámica de permisos según el contexto y las necesidades del museo.
 
-![Identity and Access Management](../assets/img/database-diagram/identity-and-access-management.png)
+![Identity and Access Management](../assets/img/4_8_1-Database-Diagram/01-identity-and-access-management.png)
 
 **Tablas principales:**
 
@@ -1847,7 +1845,7 @@ El diagrama de base de datos de Identity and Access Management (IAM) modela la e
 
 El diagrama de base de datos de Content Management modela la gestión de obras culturales y su contenido multimedia dentro de KhipuTech. La tabla **artworks** almacena información esencial de cada obra (título, artista, descripción, sala). La tabla **multimedia_content** vincula archivos multimedia (imágenes, audio) a las obras, especificando tipo de contenido, URL del CDN, idioma y formato. Los códigos QR/NFC se gestionan en **qr_codes**, asociando un UUID único a cada obra. Este diseño facilita la gestión curatorial de contenido, permite escalabilidad para nuevos idiomas y optimiza la entrega de multimedia mediante CDN.
 
-![Content Management](../assets/img/database-diagram/content-management.png)
+![Content Management](../assets/img/4_8_1-Database-Diagram/02-content-management.png)
 
 **Tablas principales:**
 
@@ -1874,8 +1872,8 @@ El diagrama de base de datos de Content Management modela la gestión de obras c
 
 El diagrama de base de datos de IoT Sensors and Visitor Tracking representa la gestión y monitoreo de sensores IoT dentro de la plataforma KhipuTech. La tabla **sensors** almacena información esencial de cada sensor (nombre, tipo, ubicación, sala, estado y configuración en formato JSON). Los datos de telemetría se registran en **sensor_telemetry**, capturando métricas en tiempo real con sus timestamps correspondientes. La tabla **visitor_sessions** registra las sesiones de visitantes con hora de entrada y salida. Las interacciones con obras se almacenan en **artwork_interactions**, vinculando visitantes con obras mediante tiempo de visualización y XP ganado. Este diseño permite control granular sobre el estado operativo de los sensores, facilita el análisis histórico de afluencia y soporta la toma de decisiones basada en datos para optimización de espacios y gestión de contenido.
 
-![IoT Sensors and Visitor Tracking](../assets/img/database-diagram/IoT-Sensors.png)
-![IoT Sensors and Visitor Tracking](../assets/img/database-diagram/Visitor-Tracking.png)
+![IoT Sensors and Visitor Tracking](../assets/img/4_8_1-Database-Diagram/03-IoT-Sensors.png)
+![IoT Sensors and Visitor Tracking](../assets/img/4_8_1-Database-Diagram/04-Visitor-Tracking.png)
 
 **Tablas principales:**
 
@@ -1904,7 +1902,8 @@ El diagrama de base de datos de IoT Sensors and Visitor Tracking representa la g
 
 El diagrama de base de datos de Gamification modela el sistema de recompensas y engagement de visitantes en KhipuTech. La tabla **visitor_profiles** almacena información del perfil del visitante (nombre, nivel actual, XP total acumulado). Los **achievements** definen insignias y logros desbloqueables con sus condiciones. La tabla intermedia **visitor_achievements** registra qué insignias ha obtenido cada visitante y cuándo. El **weekly_leaderboard** mantiene el ranking semanal de visitantes por XP, reseteable cada lunes. Este diseño permite personalizar la experiencia del visitante, fomenta la reexploración del museo mediante desafíos y crea una capa de gamificación que incrementa engagement y tiempo de permanencia.
 
-![Gamification and Visitor Engagement](../assets/img/database-diagram/Gamification.png)
+![Gamification](../assets/img/4_8_1-Database-Diagram/05-Gamification.png)
+![Visitor Engagement](../assets/img/4_8_1-Database-Diagram/06-Visitor-engagement.png)
 
 **Tablas principales:**
 
@@ -1931,8 +1930,8 @@ El diagrama de base de datos de Gamification modela el sistema de recompensas y 
 
 El diagrama de base de datos de Analytics modela la captura y análisis de métricas operativas en KhipuTech. La tabla **occupancy_analytics** registra estadísticas de ocupación por sala, incluyendo promedio de visitantes, picos de afluencia y tiempo promedio de permanencia. Las **artwork_popularity_metrics** capturan métricas de cada obra (total de escaneos, tiempo promedio de visualización, XP total generado, ranking de popularidad). Los **generated_reports** almacenan reportes generados bajo demanda, especificando tipo de reporte, período analizado, sala o museo asociado y datos completos en formato JSON. Este diseño permite a gestores culturales tomar decisiones informadas sobre distribución de obras, optimización de flujos de visitantes y planificación de recursos basada en datos históricos y tendencias detectadas.
 
-![Analytics and Reporting](../assets/img/database-diagram/Analytics.png)
-![Analytics and Reporting](../assets/img/database-diagram/Reporting.png)
+![Analytics and Reporting](../assets/img/4_8_1-Database-Diagram/07-Analytics.png)
+![Analytics and Reporting](../assets/img/4_8_1-Database-Diagram/08-Reporting.png)
 
 **Tablas principales:**
 
