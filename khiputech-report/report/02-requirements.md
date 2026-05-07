@@ -176,11 +176,11 @@ User Journey Map - Segmento 1 y 2 respectivamente
 
 Empathy Mapping Segmento Objetivo 1:
 
-![empathy mapping-01](../assets/img/needfinding/empathy-mapping1.png)
+![empathy mapping-01](../assets/img/needfinding/empathy-mapping-1.png)
 
 Empathy Mapping Segmento Objetivo 2:
 
-![empathy mapping-2](../assets/img/needfinding/empathy-mapping2.png)
+![empathy mapping-2](../assets/img/needfinding/empathy-mapping-2.png)
 
 ### 2.4. Big Picture Event Storming
 
