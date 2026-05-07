@@ -1,37 +1,192 @@
 ## 🎯 Student Outcome
 
-| Criterio Específico                                                                                 | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|                                                                                                     | AV1:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta**                                 | <div style="text-align: justify"><ul><li>Fabian Sandoval (Team Leader) coordinó la distribución de responsabilidades según expertise:<ul><li>Oscar en diseño UX/UI, Andrea en análisis de dominio, Winnie en desarrollo, y Luis en documentación técnica.</li><li>Se implementó un sistema rotativo de liderazgo en reuniones semanales donde cada miembro presentaba avances de su área (ej: Oscar lideró sesiones de wireframing, Andrea dirigió sesiones de Event Storming).</li><li>Se estableció un canal de comunicación horizontal en Slack con espacios de decisión compartida, donde propuestas técnicas requerían consenso de al menos 3 miembros antes de implementarse.</li><li>Luis y Winnie co-lideraron la definición de la arquitectura de software, combinando perspectivas de QA y desarrollo para garantizar calidad desde el diseño.</li></ul></div>                                                                                                                                                                                                                                                                                                                                                                                                                                         | <div style="text-align: justify">El liderazgo conjunto permitió aprovechar las fortalezas individuales sin crear dependencias críticas en una sola persona. La rotación de roles de facilitador en reuniones incrementó el sentido de ownership del proyecto en cada integrante. Se evidenció que las decisiones técnicas tomadas colaborativamente (como la elección de DDD y la arquitectura de microservicios) tuvieron mayor adherencia durante la implementación porque todos participaron en su definición.</div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.** | <ul><li>Se estableció una estructura de trabajo colaborativa donde cada integrante asumió responsabilidades específicas: Fabian (Capítulo I - Introducción y coordinación general), Oscar (Capítulo IV - Product Design y wireframes), Winnie (Capítulo II - Requirements y Domain Analysis), todos (Capítulo V - Implementation y arquitectura técnica), Luis (Capítulo III - Specification y documentación técnica).</li><li>Se implementó un repositorio Git con estructura Docs-as-Code que permitió trabajo simultáneo en diferentes capítulos sin conflictos, utilizando la convención de archivos numerados (01-introduction.md, 02-requirements.md, etc.).</li><li>Oscar definió las General y Web Style Guidelines que sirvieron como base común para que Winnie implementara componentes UI consistentes y Andrea diseñara User Stories alineadas con la identidad visual.</li><li>Luis estableció el formato de documentación en Markdown con Pandoc, facilitando que los 5 integrantes contribuyeran al informe de forma estructurada y versionada.</li><li>Se realizaron revisiones cruzadas donde cada capítulo fue validado por al menos 2 integrantes diferentes a su autor, asegurando coherencia narrativa entre Introducción, Requirements, Specification, Design e Implementation.</li></ul> | El entorno colaborativo se materializó en la consistencia entre capítulos: las User Stories del Cap. III reflejan los segmentos objetivo del Cap. I, los wireframes del Cap. IV implementan los requisitos del Cap. II, y la arquitectura del Cap. V responde a las especificaciones del Cap. III. La planificación por capítulos permitió avances paralelos: mientras Oscar diseñaba mockups (Cap. IV), Andrea documentaba competidores (Cap. II) y Luis especificaba el Product Backlog (Cap. III). Se cumplió el 100% de los entregables TB1: 5 capítulos completos, 52 User Stories, wireframes de 3 aplicaciones (Landing/Dashboard/WebApp), arquitectura DDD con 4 Bounded Contexts, Style Guidelines profesionales, y documentación técnica lista para compilación PDF. La inclusividad se evidenció en que propuestas de cualquier miembro eran incorporadas si mejoraban la calidad: la sugerencia de Winnie de agregar diagramas C4 enriqueció el Cap. V, y la propuesta de Luis de documentar Navigation Systems fortaleció el Cap. IV. |
-
-
 <table style="width: 100%; border-collapse: collapse;">
     <!-- Fila 1 -->
-  <tr>
-    <td>Criterio específico</td>
-    <td>Acciones realizadas</td>
-    <td>Conclusiones</td>
-  </tr>
+<tr>
+        <th style="width: 20%; border: 1px solid #ddd; padding: 8px; text-align: left;">Criterio específico</th>
+        <th style="width: 55%; border: 1px solid #ddd; padding: 8px; text-align: left;">Acciones realizadas</th>
+        <th style="width: 25%; border: 1px solid #ddd; padding: 8px; text-align: left;">Conclusiones</th>
+    </tr>
   <!-- Fila 2 -->
   <tr>
-    <td rowspan="5">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
-    <td>Fabian</td>
-    <td rowspan="5">El liderazgo conjunto permitió aprovechar las fortalezas individuales sin crear dependencias críticas en una sola persona. La rotación de roles de facilitador en reuniones incrementó el sentido de ownership del proyecto en cada integrante. Se evidenció que las decisiones técnicas tomadas colaborativamente (como la elección de DDD y la arquitectura de microservicios) tuvieron mayor adherencia durante la implementación porque todos participaron en su definición.</td>
+    <td>
+    Trabaja en equipo para proporcionar liderazgo en forma conjunta
+    </td>
+    <td>
+    <div class="container">
+        <!-- Fabian Sandoval -->
+        <div class="persona">
+            <div class="nombre">👤 Fabian Sandoval (Team Leader)</div>
+            <div class="av1">
+                <span class="label">AV1 :</span> 
+                Coordinó la distribución de responsabilidades según expertise.
+            </div>
+            <div class="tb1">
+                <span class="label">TB1 :</span> 
+                <span class="vacio">[VACIO]</span>
+            </div>
+        </div>
+        <!-- Oscar -->
+        <div class="persona">
+            <div class="nombre">👤 Oscar</div>
+            <div class="av1">
+                <span class="label">AV1 :</span> 
+                Diseño UX/UI. Lideró sesiones de wireframing.
+            </div>
+            <div class="tb1">
+                <span class="label">TB1 :</span> 
+                <span class="vacio">[VACIO]</span>
+            </div>
+        </div>
+        <!-- Andrea -->
+        <div class="persona">
+            <div class="nombre">👤 Andrea</div>
+            <div class="av1">
+                <span class="label">AV1 :</span> 
+                Análisis de dominio. Dirigió sesiones de Event Storming.
+            </div>
+            <div class="tb1">
+                <span class="label">TB1 :</span> 
+                <span class="vacio">[VACIO]</span>
+            </div>
+        </div>
+        <!-- Winnie -->
+        <div class="persona">
+            <div class="nombre">👤 Winnie</div>
+            <div class="av1">
+                <span class="label">AV1 :</span> 
+                Desarrollo. Co-lideró la definición de arquitectura de software.
+            </div>
+            <div class="tb1">
+                <span class="label">TB1 :</span> 
+                <span class="vacio">[VACIO]</span>
+            </div>
+        </div>
+        <!-- Luis -->
+        <div class="persona">
+            <div class="nombre">👤 Luis</div>
+            <div class="av1">
+                <span class="label">AV1 :</span> 
+                Documentación técnica. Co-lideró la definición de arquitectura de software (perspectiva QA).
+            </div>
+            <div class="tb1">
+                <span class="label">TB1 :</span> 
+                <span class="vacio">[VACIO]</span>
+            </div>
+        </div>
+    </div>
+    </td>
+    <td>
+    <div style="text-align: justify">El liderazgo conjunto permitió aprovechar las fortalezas individuales sin crear dependencias críticas en una sola persona. La rotación de roles de facilitador en reuniones incrementó el sentido de ownership del proyecto en cada integrante. Se evidenció que las decisiones técnicas tomadas colaborativamente (como la elección de DDD y la arquitectura de microservicios) tuvieron mayor adherencia durante la implementación porque todos participaron en su definición.</div>
+    </td>
   </tr>
-  <tr><td>Winnie</td></tr>
-  <tr><td>Huaco</td></tr>
-  <tr><td>Oscar</td></tr>
-  <tr><td>Andrea</td></tr>
   <!-- Fila 7 -->
   <tr>
-    <td rowspan="5">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
-    <td>Fabian</td>
-    <td rowspan="5">El entorno colaborativo se materializó en la consistencia entre capítulos: las User Stories del Cap. III reflejan los segmentos objetivo del Cap. I, los wireframes del Cap. IV implementan los requisitos del Cap. II, y la arquitectura del Cap. V responde a las especificaciones del Cap. III. La planificación por capítulos permitió avances paralelos: mientras Oscar diseñaba mockups (Cap. IV), Andrea documentaba competidores (Cap. II) y Luis especificaba el Product Backlog (Cap. III). Se cumplió el 100% de los entregables TB1: 5 capítulos completos, 52 User Stories, wireframes de 3 aplicaciones (Landing/Dashboard/WebApp), arquitectura DDD con 4 Bounded Contexts, Style Guidelines profesionales, y documentación técnica lista para compilación PDF. La inclusividad se evidenció en que propuestas de cualquier miembro eran incorporadas si mejoraban la calidad: la sugerencia de Winnie de agregar diagramas C4 enriqueció el Cap. V, y la propuesta de Luis de documentar Navigation Systems fortaleció el Cap. IV.</td>
+    <td>
+    Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.
+    </td>
+    <td>
+<div class="container">
+    <!-- Fabian Sandoval -->
+    <div class="persona">
+        <div class="nombre">👤 Fabian Sandoval (Team Leader)</div>
+        <div class="av1">
+            <span class="label">AV1 :</span> 
+            Capítulo I - Introducción y coordinación general.
+        </div>
+        <div class="tb1">
+            <span class="label">TB1 :</span> 
+            <span class="vacio">[VACIO]</span>
+        </div>
+    </div>
+    <!-- Oscar -->
+    <div class="persona">
+        <div class="nombre">👤 Oscar</div>
+        <div class="av1">
+            <span class="label">AV1 :</span> 
+            Capítulo IV - Product Design y wireframes. Además definió las General y Web Style Guidelines.
+        </div>
+        <div class="tb1">
+            <span class="label">TB1 :</span> 
+            <span class="vacio">[VACIO]</span>
+        </div>
+    </div>
+    <!-- Winnie -->
+    <div class="persona">
+        <div class="nombre">👤 Winnie</div>
+        <div class="av1">
+            <span class="label">AV1 :</span> 
+            Capítulo II - Requirements y Domain Analysis. También implementó componentes UI consistentes basados en las Style Guidelines de Oscar.
+        </div>
+        <div class="tb1">
+            <span class="label">TB1 :</span> 
+            <span class="vacio">[VACIO]</span>
+        </div>
+    </div>
+    <!-- Todos (equipo) -->
+    <div class="persona">
+        <div class="nombre">👤 Todos (equipo)</div>
+        <div class="av1">
+            <span class="label">AV1 :</span> 
+            Capítulo V - Implementation y arquitectura técnica.
+        </div>
+        <div class="tb1">
+            <span class="label">TB1 :</span> 
+            <span class="vacio">[VACIO]</span>
+        </div>
+    </div>
+    <!-- Luis -->
+    <div class="persona">
+        <div class="nombre">👤 Luis</div>
+        <div class="av1">
+            <span class="label">AV1 :</span> 
+            Capítulo III - Specification y documentación técnica. También estableció el formato de documentación en Markdown con Pandoc.
+        </div>
+        <div class="tb1">
+            <span class="label">TB1 :</span> 
+            <span class="vacio">[VACIO]</span>
+        </div>
+    </div>
+    <!-- Andrea -->
+    <div class="persona">
+        <div class="nombre">👤 Andrea</div>
+        <div class="av1">
+            <span class="label">AV1 :</span> 
+            Diseñó User Stories alineadas con la identidad visual (basadas en las Style Guidelines de Oscar).
+        </div>
+        <div class="tb1">
+            <span class="label">TB1 :</span> 
+            <span class="vacio">[VACIO]</span>
+        </div>
+    </div>
+    <!-- Repositorio Git (concepto) -->
+    <div class="persona">
+        <div class="nombre">📁 Repositorio Git (Docs-as-Code)</div>
+        <div class="av1">
+            <span class="label">AV1 :</span> 
+            Trabajo simultáneo en diferentes capítulos sin conflictos, usando archivos numerados.
+        </div>
+        <div class="tb1">
+            <span class="label">TB1 :</span> 
+            <span class="vacio">[VACIO]</span>
+        </div>
+    </div>
+    <!-- Revisiones cruzadas -->
+    <div class="persona">
+        <div class="nombre">✅ Revisiones cruzadas</div>
+        <div class="av1">
+            <span class="label">AV1 :</span> 
+            Cada capítulo fue validado por al menos 2 integrantes diferentes a su autor, asegurando coherencia narrativa entre Introducción, Requirements, Specification, Design e Implementation.
+        </div>
+        <div class="tb1">
+            <span class="label">TB1 :</span> 
+            <span class="vacio">[VACIO]</span>
+        </div>
+    </div>
+</div>
+    </td>
+    <td>
+    <div style="text-align: justify">El entorno colaborativo se materializó en la consistencia entre capítulos: las User Stories del Cap. III reflejan los segmentos objetivo del Cap. I, los wireframes del Cap. IV implementan los requisitos del Cap. II, y la arquitectura del Cap. V responde a las especificaciones del Cap. III. La planificación por capítulos permitió avances paralelos: mientras Oscar diseñaba mockups (Cap. IV), Andrea documentaba competidores (Cap. II) y Luis especificaba el Product Backlog (Cap. III). Se cumplió el 100% de los entregables TB1: 5 capítulos completos, 52 User Stories, wireframes de 3 aplicaciones (Landing/Dashboard/WebApp), arquitectura DDD con 4 Bounded Contexts, Style Guidelines profesionales, y documentación técnica lista para compilación PDF. La inclusividad se evidenció en que propuestas de cualquier miembro eran incorporadas si mejoraban la calidad: la sugerencia de Winnie de agregar diagramas C4 enriqueció el Cap. V, y la propuesta de Luis de documentar Navigation Systems fortaleció el Cap. IV.</div>
+    </td>
   </tr>
-  <tr><td>Winnie</td></tr>
-  <tr><td>Huaco</td></tr>
-  <tr><td>Oscar</td></tr>
-  <tr><td>Andrea</td></tr>
 </table>

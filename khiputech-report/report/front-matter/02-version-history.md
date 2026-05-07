@@ -1,18 +1,10 @@
 ### Registro de Versiones del Informe
 
-Este documento mantiene un historial de todas las versiones del informe, siguiendo versionado semántico (SemVer).
+Este documento mantiene un historial de todas las versiones del informe.
 
 ---
 
 #### Tabla de Versiones
-
-# CORREGIR DESPUES
-
-| Versión   | Fecha       | Autor                                                                                         | Descripción de modificación                                                                                                                                                                                                                                             |
-| --------- | ----------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **1.0.0** | 11/04/2026  | <ul><li>Fabian Sandoval</li><li>Oscar Checa</li><li>Winnie Merino</li><li>Luis Huaco</li><li>Andrea Correa</li> | **AV1 - Primera Entrega Completa**<br>• Capítulos I-V documentados<br>• 52 User Stories especificadas<br>• Wireframes de 3 aplicaciones<br>• Arquitectura DDD con 4 Bounded Contexts<br>• General & Web Style Guidelines<br>• Event Storming y Ubiquitous Language |
-| **1.1.0** | [Pendiente] | Equipo WebStone                                                                                                 | **TP - Entrega Parcial**<br>• Sprints 2-4 completados<br>•Landing Page desplegada <br>• Testing completo y documentado<br>• Video About-the-Product                                                                                                                |
-| **2.0.0** | [Pendiente] | Equipo WebStone                                                                                                 | **AV2 - Segunda Entrega**<br>• Sprint 1 implementado<br>• Aplicación desplegada<br>• Primeros componentes del Dashboard<br>• Validation Interviews registradas                                                                                                     |
 
 
 <table style="width: 100%; border-collapse: collapse;">

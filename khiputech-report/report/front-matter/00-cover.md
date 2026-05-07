@@ -1,20 +1,4 @@
----
-title: "KhipuTech — Real-Time Visitor Analytics"
-subtitle: "TB1 Report — Aplicaciones Web"
-author:
-  - Fabian Jesus Sandoval Cueto (U20221a132)
-  - Oscar Diego Checa Burga (U20231E492)
-  - Andrea Khristina Correa Rodriguez (U202412041)
-  - Winnie Lisbeth Merino Ordinola (U20231E504)
-  - Luis Alonso Huaco Oliva (U202417743)
-institute: "Universidad Peruana de Ciencias Aplicadas"
-course: "Aplicaciones Web (1ASI0730)"
-section: "12242"
-instructor: "Angel Augusto Velasquez Nuñez"
-date: "Abril 2026"
----
-
-![Logo UPC](https://images.seeklogo.com/logo-png/40/2/universidad-peruana-de-ciencias-aplicadas-upc-logo-png_seeklogo-402620.png)
+![](../../assets/img/0_00-cover/01-Logo.png)
 
 ### Universidad Peruana de Ciencias Aplicadas|Ingeniería de Software|2026-01
 
