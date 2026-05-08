@@ -105,10 +105,11 @@ En el ecosistema cultural actual, los museos enfrentan el reto de modernizar la 
 
 ##### 1.2.2.1. Lean UX Problem Statements
 
-- El estado actual de la gestión en museos y galerías depende principalmente de **conteos generales de visitantes y contenido informativo estático**, sin visibilidad sobre el comportamiento del usuario dentro de las salas.
-- Esto genera una **falta de datos sobre el flujo por sala**, una **baja comprensión del engagement por obra** y una **experiencia limitada para el visitante**, especialmente en públicos jóvenes que no interactúan con formatos tradicionales.
-- Creemos que al implementar una **solución digital accesible basada en QR/NFC y sensores de bajo costo**, que permita registrar interacciones y analizar el comportamiento en tiempo real, podremos **mejorar la toma de decisiones del museo y enriquecer la experiencia del visitante**.
-- Sabremos que esto es cierto cuando observemos **un aumento en la interacción con el contenido digital**, **una reducción de zonas congestionadas**, y **una mayor disponibilidad de métricas accionables para la gestión del museo**.
+- El estado actual de la gestión en museos y galerías depende principalmente de conteos manuales y subjetivos, sin visibilidad sobre el comportamiento del usuario dentro de las salas, lo que deja a los curadores sin datos para defender sus decisiones. Especialmente en públicos jóvenes que no interactúan con formatos tradicionales.
+
+- Creemos que al implementar una solución digital accesible basada en QR/NFC y sensores de bajo costo, que permita registrar interacciones y analizar el comportamiento en tiempo real, lograremos mejorar la toma de decisiones del museo y enriquecer la experiencia del visitante.
+
+- Sabremos que esto es cierto cuando el museo pueda generar su primer informe de impacto basado en interacciones digitales, logrando una reducción del tiempo dedicado a tareas administrativas manuales y un incremento medible en la satisfacción del visitante.
 
 ##### 1.2.2.2. Lean UX Assumptions
 
