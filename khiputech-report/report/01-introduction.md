@@ -165,7 +165,7 @@ Sabremos que esto es cierto cuando observemos **un incremento ≥25% en el tiemp
 <center><strong>Figura 1</strong></center>
 <center>Lean UX Canvas</center>
 
-![FotoLeanUXCanvas](../assets/img/1_2_2_4-Lean-UX-Canvas/1_2_2_4_Lean_UX_Canvas.png)
+![FotoLeanUXCanvas](../assets/img/lean%20ux/Lean-UX-Canvas.png)
 
 ### 1.3. Segmento Objetivo
 
