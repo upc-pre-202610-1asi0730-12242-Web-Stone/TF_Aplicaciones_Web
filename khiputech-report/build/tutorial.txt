@@ -1,4 +1,4 @@
-Para crear el archivo pdf copiar y pegar el codigo en consola
+PDF GENERADO COLOCAR AQUI
+EN ESTA CARPETA VA EL PDF FINAL COMPILADO Y ELIMINAR ESTE TXT
+SE GENERA CON MAKE:PDF
 
-
-pandoc front-matter/00-cover.md front-matter/01-collaboration-insights.md front-matter/02-version-history.md 01-introduction.md 02-requirements.md 03-specification.md 04-product-design.md 05-implementation.md 99-bibliography.md -o ../build/upc-pre-202610-1asi0730-12242-webstone-report-av1.pdf
