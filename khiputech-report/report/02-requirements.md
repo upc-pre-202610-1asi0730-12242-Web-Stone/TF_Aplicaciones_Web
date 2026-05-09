@@ -169,7 +169,25 @@ Se consideraron dos segmentos:
 - **Características objetivas:** Egresado de UDEP en Historia y Gestión Cultural. Tiene experiencia como mediador en museos y centros culturales. Conoce de primera mano la estructura administrativa de los museos en cuanto a gestión de presupuesto tecnológico.
 - **Características subjetivas:** Considera que actualmente no existe un mecanismo específico para evaluar el rendimiento de piezas individuales, sino que se mide la exposición como un todo al final del recorrido. Cree que un análisis de preferencias permitiría mejorar futuras exposiciones, corregir errores y recibir feedback. Opina que los visitantes buscan profundizar en detalles que no siempre están disponibles en la exposición. Recalca la importancia de la presencia del mediador para guiar a visitantes con discapacidades y garantizarles una experiencia completa. Cree que se necesitan soluciones que respondan a las necesidades de la mayoría, no soluciones tecnológicas que excluyan a parte del público.
 
-</div>
+## </div>
+
+---
+
+##### Registro de entrevistas del segmento objetivo 2:
+
+| Entrevista 4  | Duración | Inicio |                                  Imagen                                  |                                                                                                                                                                    URL                                                                                                                                                                     |
+| :-----------: | :------: | :----: | :----------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Alessia Luque |  3:21m   | 0:13m  | ![Evidencia_Entrevista](../assets/img/interviews/interview_alessia.jpeg) | [Click Aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e504_upc_edu_pe/IQDTSY8YUP-DT7YoqylJBb3jAWksMgbDf7lQ0mpIavfGdNI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ckg95p) |
+
+Resumen:
+
+Alessia Ximena Luque Carlos, una joven de 23 años que reside en Pueblo Libre, es estudiante de Administración en la Universidad de Lima.
+
+Gestión y Desafíos: Actualmente, su experiencia dentro del museo es limitada, ya que depende únicamente de las descripciones físicas o guías generales, lo que dificulta profundizar en las obras que más le llaman la atención. Esto genera que, en ocasiones, no aproveche completamente la visita ni comprenda el contexto de ciertas piezas. Su principal frustración surge cuando encuentra obras interesantes pero no dispone de suficiente información para entender su significado o importancia. Por ello, valora positivamente una solución digital que le permita acceder de manera rápida, interactiva y sin fricción a contenido enriquecido, mejorando así su experiencia cultural dentro del museo.
+
+Tecnología y Habilidades: En su día a día utiliza herramientas digitales como Facebook, WhatsApp Business, Instagram, Tiktok y Twitter. Utiliza principalmente su celular con sistema operativo IOS y su laptop con sistema operativo Windows.
+
+Expectativas y Necesidades: Alessia desearía contar con una solución digital que le permita acceder a información en tiempo real sobre las obras que está observando dentro del museo. Le gustaría que, al escanear un código QR, pueda obtener detalles precisos como el contexto histórico, el significado de la obra, contenido multimedia y material exclusivo que enriquezca su experiencia. Entre las funcionalidades que le gustaría encontrar, destacan: acceso inmediato al contenido sin necesidad de instalar aplicaciones, disponibilidad de información en varios idiomas. Actualmente, no conoce soluciones específicas que integren este tipo de experiencia interactiva dentro de los museos que visita. Sus respuestas reflejan una personalidad curiosa, interesada en el aprendizaje y orientada a aprovechar al máximo su visita cultural, valorando especialmente herramientas tecnológicas que hagan la experiencia más dinámica, accesible y enriquecedora.
 
 #### 2.2.3. Análisis de entrevistas
 
