@@ -29,9 +29,9 @@ Temporary Items
 node_modules/
 
 # IDEs
-.vscode/
 .idea/
 *.swp
 *.swo
 *~
 EOF
+config.bat
