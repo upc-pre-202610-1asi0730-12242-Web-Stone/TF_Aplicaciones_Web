@@ -230,141 +230,80 @@ Consultar el archivo interactivo [General Style Guide](../assets/deliverables/kh
 
 #### 4.1.2. Web Style Guidelines
 
-#### 4.1.2. Web Style Guidelines
-
-Define los estándares visuales y de interacción para las interfaces web de KhipuTech, asegurando una experiencia óptima tanto en el Dashboard administrativo como en la Web App del visitante. Este diseño corresponde a una plataforma que revoluciona la gestión de espacios culturales mediante analítica en tiempo real e interacción digital con visitantes.
+Define los estándares visuales y de interacción para las interfaces web de KhipuTech, asegurando consistencia entre la Landing Page, el Dashboard Administrativo y la Web App del Visitante. Esta sección establece reglas generales de diseño, comportamiento responsive, accesibilidad y componentes reutilizables que posteriormente se aplican en wireframes, mockups y prototipos funcionales.
 
 ---
 
 ##### Descripción General
 
-La interfaz de KhipuTech busca brindar a gestores de museos, administradores culturales y visitantes una experiencia clara, funcional y sin fricción. El dashboard administrativo optimiza la toma de decisiones mediante visualización de datos en tiempo real, mientras que la Web App del visitante facilita el acceso inmediato a contenido cultural mediante QR/NFC, sin necesidad de instalación o registro previo.
+La interfaz de KhipuTech busca brindar a gestores culturales, administradores de museos y visitantes una experiencia clara, funcional y sin fricción. El sistema prioriza la visualización de información en tiempo real, la accesibilidad en entornos de iluminación reducida y la navegación intuitiva tanto en desktop como en dispositivos móviles.
 
 La plataforma se divide en tres experiencias principales:
 
-1. **Landing Page** — Presentación institucional del producto para potenciales clientes
-2. **Dashboard Administrativo** — Panel de control con analítica en tiempo real para gestores
-3. **Web App del Visitante** — Experiencia móvil para acceso a contenido de obras durante el recorrido
+| Experiencia | Propósito | Usuario principal |
+| :--- | :--- | :--- |
+| **Landing Page** | Presentar la propuesta de valor y convertir visitantes en potenciales clientes | Directores y gestores culturales |
+| **Dashboard Administrativo** | Visualizar métricas, aforo y alertas en tiempo real | Administradores y operadores |
+| **Web App del Visitante** | Acceder rápidamente a contenido cultural mediante QR/NFC | Visitantes del museo |
+
+Todas las interfaces comparten los siguientes principios:
+
+- Uso consistente de la paleta de colores institucional.
+- Jerarquía visual clara para destacar información importante.
+- Diseño responsive adaptable a desktop, tablet y mobile.
+- Componentes reutilizables y navegación consistente.
+- Reducción de carga cognitiva mediante layouts simples y claros.
+- Accesibilidad mediante contraste adecuado, estados de foco visibles y tamaños táctiles mínimos.
 
 ---
 
-##### 1. Pantalla Principal — Landing Page
+##### Landing Page
 
-**Header:**
+La Landing Page está orientada a presentar la propuesta de valor de KhipuTech a directores de museos, gestores culturales y potenciales clientes institucionales.
 
-- Logo de KhipuTech (esquina superior izquierda) — Nodo central con ramificaciones tipo khipu
-- Menú de navegación con las opciones: **Características**, **Cómo Funciona**, **Casos de Uso**, **Precios**, **Contacto**
-- Selector de idioma (español e inglés)
-- Botón "Solicitar Demo" con color Electric Blue (#00C8FF)
-  **Hero Section:**
+La estructura de navegación utiliza un flujo lineal descendente que guía al usuario a través de:
 
-Mostramos nuestra propuesta de valor con el mensaje central: **"Transforma la experiencia de tu museo con analítica en tiempo real"**
+1. Hero Section
+2. Características
+3. Cómo funciona
+4. Casos de uso
+5. Planes
+6. Contacto
 
-Contamos con dos botones claros para guiar al usuario (CTAs):
+La interfaz utiliza:
 
-- **"Solicitar Demo"**: Llamado a la acción primario y directo (Electric Blue #00C8FF)
-- **"Ver Características"**: Opción secundaria para usuarios que necesitan más información (Ghost button con borde Steel Blue)
-  **Características Clave:**
+- Header sticky con navegación principal.
+- Hero section con CTA principal.
+- Cards informativas para funcionalidades.
+- Secciones con jerarquía visual clara.
+- Footer con navegación complementaria.
 
-Esta sección presenta las funcionalidades principales de KhipuTech y tiene como objetivo convencer al usuario de por qué debe elegir nuestra plataforma.
-
-Beneficios clave presentados en tarjetas (cards), cada uno explicando una característica específica:
-
-- **Analítica en Tiempo Real** — Visualiza el flujo de visitantes al instante
-- **Interacción QR/NFC** — Contenido digital sin apps ni registros
-- **Alertas Inteligentes** — Notificaciones automáticas por saturación de salas
-- **Control de Aforo** — Gestión de capacidad según normativas
-- **Dashboards Personalizables** — Métricas adaptadas a tu museo
-- **Soporte Especializado** — Acompañamiento técnico continuo
-  El botón **"Conocer Más"** es el paso clave que se quiere que el usuario realice.
-
-**Cómo Funciona:**
-
-En esta sección presentamos el flujo de uso de KhipuTech, dirigido específicamente a gestores culturales:
-
-1. **Instalación de Sensores IoT** — Hardware de bajo costo en cada sala
-2. **Dashboard en Tiempo Real** — Visualización instantánea de métricas
-3. **Códigos QR en Obras** — Acceso inmediato a contenido para visitantes
-4. **Analítica Histórica** — Reportes y tendencias para planificación
-   **Casos de Uso:**
-
-Presentamos ejemplos reales de instituciones que han transformado su gestión con KhipuTech:
-
-- **Museo de Arte Contemporáneo** — Reducción de 40% en congestión de salas
-- **Galería Nacional** — Incremento de 60% en interacción con obras
-- **Centro Cultural Municipal** — Optimización de recursos en horarios pico
-  Cada caso de uso incluye un botón **"Ver Caso Completo"** que redirige a un estudio detallado.
-
-**Planes Diseñados para tu Escala:**
-
-Se presentan tres planes escalonados con diferentes niveles de funcionalidad y precio:
-
-- **Museo Pequeño** ($299/mes): Hasta 5 salas, 2000 visitantes/mes, soporte email
-- **Museo Mediano** ($599/mes): Hasta 15 salas, 10,000 visitantes/mes, soporte prioritario — Etiquetado como **"Más Popular"**
-- **Museo Grande** ($1,299/mes): Salas ilimitadas, visitantes ilimitados, API personalizada, soporte dedicado
-  Cada plan incluye un botón **"Empezar Ahora"** para conversión inmediata.
-
-**Call to Action Final:**
-
-Esta sección actúa como el cierre final de la presentación, diseñado para convertir al visitante en cliente:
-
-- **"Solicitar Demo Gratuita"**: Para usuarios decididos
-- **"Hablar con Ventas"**: Para quienes necesitan consultoría antes de comprometerse
-  **Footer:**
-
-Proporciona navegación adicional e información institucional.
-
-Estructura organizada en cuatro columnas temáticas:
-
-- **Producto**: Características, Precios, Documentación Técnica, API
-- **Empresa**: Sobre Nosotros, Equipo, Blog, Prensa
-- **Soporte**: FAQ, Contacto, Centro de Ayuda, Estado del Sistema
-- **Legal**: Términos de Servicio, Política de Privacidad, Cumplimiento GDPR
-  Incluye enlaces a redes sociales y sello de certificaciones de seguridad (ISO 27001).
+Los CTAs principales utilizan el color Electric Blue (#00C8FF) para reforzar prioridad visual y aumentar conversión.
 
 ---
 
-##### 2. Dashboard Administrativo
+##### Dashboard Administrativo
 
-**Pantalla Principal — Métricas en Tiempo Real:**
+El Dashboard Administrativo está orientado a la supervisión operativa y toma de decisiones en tiempo real.
 
-El dashboard presenta KPIs clave en cards destacadas en la parte superior:
+Las interfaces utilizan:
 
-- **Visitantes Hoy** — Número total con comparativa vs. ayer (↑ 12%)
-- **Interacciones QR/NFC** — Total de escaneos realizados
-- **Permanencia Media** — Tiempo promedio por visitante (47 min)
-- **Alertas Activas** — Número de salas en estado crítico (badge rojo si >0)
-  Cada card usa **iconos de Lucide** con stroke 2px y colores semánticos:
-- Verde (#2DFFA0) para métricas positivas
-- Rojo (#FF4D6A) para alertas
-- Cyan (#00C8FF) para datos neutrales
-  **Gráficos de Afluencia:**
+- Cards de KPIs para métricas prioritarias.
+- Gráficos de afluencia y ocupación.
+- Alertas visuales mediante colores semánticos.
+- Sidebar fija para navegación rápida.
+- Tablas densas optimizadas mediante DM Mono.
 
-Visualización de datos mediante:
+La estructura visual prioriza:
 
-- **Gráfico de Barras** — Visitantes por hora del día (uso de gradientes Electric Blue)
-- **Gráfico de Líneas** — Tendencia semanal de visitantes
-- **Mapa de Calor** — Distribución de visitantes por sala con estados:
-  - Verde: Ocupación normal (<50%)
-  - Amarillo/Gold: Ocupación moderada (50-85%)
-  - Rojo: Ocupación crítica (>85%)
-    **Tabla de Obras Más Populares:**
+1. KPIs principales.
+2. Visualización analítica.
+3. Alertas y estados críticos.
+4. Información histórica.
 
-Presenta un ranking de obras con mayor interacción:
+**Ejemplo conceptual simplificado de alertas en tiempo real:**
 
-| Obra            | Sala | Escaneos | Permanencia | Estado  |
-| --------------- | ---- | -------- | ----------- | ------- |
-| Sin título #042 | S3   | 892      | 4:30 min    | 🔥 Top  |
-| Composición VII | S3   | 678      | 3:15 min    | ⬆ Alto  |
-| Horizonte K     | S2   | 412      | 2:40 min    | — Medio |
-
-La tabla usa **DM Mono** para valores numéricos y badges de estado con colores semánticos.
-
-**Panel de Alertas:**
-
-Muestra notificaciones en tiempo real:
-
-```
+```txt
 🔴 Sala Central — CRÍTICO
 188 / 200 visitantes · 94% capacidad · Hace 5 min
 [Gestionar Alerta]
@@ -374,38 +313,29 @@ Muestra notificaciones en tiempo real:
 [Monitorear]
 ```
 
-Cada alerta incluye:
+Los estados utilizan colores semánticos:
 
-- Icono de estado (círculo con color semántico)
-- Título descriptivo (Bold DM Sans 14px)
-- Detalles en DM Mono 12px
-- Timestamp relativo
-- Botón de acción contextual
-  **Sidebar de Navegación:**
-
-Menú lateral fijo (240px desktop, colapsable a 64px en tablet):
-
-- **Dashboard** (icono ◈)
-- **Afluencia** (icono ⬡)
-- **Mapa de Salas** (icono ◎)
-- **Obras** (icono ◫)
-- **Ranking** (icono ◉)
-- **Reportes** (icono ◬)
-- **Configuración** (icono ⚙)
-  El ítem activo se resalta con:
-- Fondo cyan con opacidad 8%
-- Borde izquierdo cyan 3px
-- Texto Electric Blue (#00C8FF)
+- Verde → Estado seguro.
+- Amarillo → Atención moderada.
+- Rojo → Estado crítico.
 
 ---
 
-##### 3. Web App del Visitante
+##### Web App del Visitante
 
-**Pantalla de Entrada — Escaneo QR/NFC:**
+La Web App del visitante está diseñada bajo un enfoque mobile-first para minimizar fricción durante el recorrido dentro del museo.
 
-Pantalla inicial minimalista tras escanear código:
+El sistema permite:
 
-```
+- Acceso inmediato mediante QR/NFC.
+- Visualización de contenido multimedia.
+- Navegación rápida entre obras relacionadas.
+- Consulta de mapas del museo.
+- Interacción mediante gamificación y logros.
+
+**Representación conceptual simplificada de la pantalla inicial tras escaneo QR/NFC:**
+
+```txt
 ┌──────────────────────┐
 │   Logo KhipuTech     │
 │                      │
@@ -415,23 +345,11 @@ Pantalla inicial minimalista tras escanear código:
 └──────────────────────┘
 ```
 
-**Tiempo de carga objetivo:** <3 segundos desde escaneo hasta visualización
+**Tiempo de carga objetivo:** menos de 3 segundos desde el escaneo hasta la visualización del contenido.
 
-**Detalle de Obra:**
+**Representación conceptual simplificada de obras relacionadas:**
 
-Presentación del contenido multimedia de la obra:
-
-- **Imagen principal** — Hero image de la obra (aspect ratio 4:3)
-- **Título de la obra** — DM Sans Bold 24px, Dark Navy
-- **Artista y fecha** — DM Sans Regular 14px, Steel Blue
-- **Descripción** — DM Sans Regular 16px, line-height 1.6
-- **Audio explicativo** — Player con controles simples (play/pause, progress bar)
-- **Galería adicional** — Carousel horizontal con thumbnails
-  **Obras Relacionadas:**
-
-Cards deslizables (swipe horizontal) con:
-
-```
+```txt
 ┌─────────┐ ┌─────────┐ ┌─────────┐
 │ [img]   │ │ [img]   │ │ [img]   │
 │ Título  │ │ Título  │ │ Título  │
@@ -439,27 +357,9 @@ Cards deslizables (swipe horizontal) con:
 └─────────┘ └─────────┘ └─────────┘
 ```
 
-Cada card tiene:
+**Representación conceptual simplificada del sistema de gamificación:**
 
-- Imagen thumbnail (180×180px)
-- Título de la obra (DM Sans SemiBold 14px)
-- Ubicación de sala (DM Mono 12px)
-- Tap para navegar al detalle
-  **Mapa del Museo:**
-
-Vista simplificada de planta con:
-
-- **Indicador "Estás aquí"** — Pin cyan con pulso animado
-- **Salas con código de color:**
-  - Verde: Baja ocupación
-  - Amarillo: Ocupación moderada
-  - Rojo: Alta ocupación (evitar)
-- **Tap en sala** — Navega a lista de obras de esa sala
-  **Gamificación — Sistema de Logros:**
-
-Panel de progreso del visitante:
-
-```
+```txt
 ┌───────────────────────────┐
 │ 🏆 Explorador Nivel 3     │
 │ ▓▓▓▓▓▓▓▓░░ 850 / 1000 XP │
@@ -471,19 +371,12 @@ Panel de progreso del visitante:
 └───────────────────────────┘
 ```
 
-**Bottom Navigation (Mobile):**
+La navegación principal mobile utiliza una bottom navigation bar con:
 
-Barra fija inferior con 4 iconos:
-
-- **QR** — Escanear nueva obra
-- **Obra** — Detalle actual
-- **Mapa** — Plano del museo
-- **Logros** — Gamificación
-  Cada ícono tiene:
-- Tamaño touch target: 44×44px
-- Spacing: 8px entre íconos
-- Color activo: Electric Blue (#00C8FF)
-- Color inactivo: Steel Blue (#4A7ABA)
+- QR.
+- Obra actual.
+- Mapa.
+- Logros.
 
 ---
 
@@ -493,30 +386,25 @@ Barra fija inferior con 4 iconos:
 
 **Sistema de Grid:**
 
-- **Desktop (1025px+):** Grid de 12 columnas, ancho máximo contenedor 1440px
-- **Tablet (481px - 1024px):** Grid de 8 columnas
-- **Mobile (320px - 480px):** Grid de 4 columnas
-  **Unidad Base de Espaciado:**
+| Dispositivo | Rango | Columnas | Márgenes |
+| :--- | :--- | :--- | :--- |
+| **Mobile** | 320px - 480px | 4 columnas | 16px |
+| **Tablet** | 481px - 1024px | 8 columnas | 32px |
+| **Desktop** | 1025px+ | 12 columnas | 40px |
 
-- Unidad base: **8px**
-- Espaciados estándar: 8px, 16px, 24px, 32px, 40px, 48px, 64px
-- Todos los márgenes y paddings son múltiplos de 8
-  **Aplicación:**
+**Unidad base de espaciado:**
+
+- Base: 8px.
+- Espaciados estándar: 8px, 16px, 24px, 32px, 48px y 64px.
+- Todos los márgenes, paddings y gaps mantienen múltiplos de 8px para conservar consistencia visual.
 
 ```css
-/* Ejemplo de espaciado modular */
 .card {
-  padding: 24px; /* 3 × 8px */
-  margin-bottom: 32px; /* 4 × 8px */
-  gap: 16px; /* 2 × 8px */
+  padding: 24px;
+  margin-bottom: 32px;
+  gap: 16px;
 }
 ```
-
-**Márgenes de contenedor:**
-
-- Desktop: 40px laterales
-- Tablet: 32px laterales
-- Mobile: 16px laterales
 
 ---
 
@@ -526,41 +414,41 @@ Barra fija inferior con 4 iconos:
 
 **Botones:**
 
-| Variante      | Background  | Text    | Border      | Hover      | Uso                                     |
-| ------------- | ----------- | ------- | ----------- | ---------- | --------------------------------------- |
-| **Primary**   | #00C8FF     | #0B1A3E | None        | #62B1FF    | Solicitar Demo, CTAs principales        |
-| **Secondary** | Transparent | #00C8FF | 1px #00C8FF | bg #E8F0FF | Ver Características                     |
-| **Ghost**     | Transparent | #4A7ABA | None        | bg #E8F0FF | Navegación terciaria                    |
-| **Danger**    | #FF4D6A     | #FFFFFF | None        | #FF6B82    | Gestionar Alerta, acciones destructivas |
-| **Disabled**  | #CBD8F0     | #6B89B4 | None        | —          | Estado deshabilitado                    |
+| Variante | Background | Text | Border | Hover | Uso |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Primary** | #00C8FF | #0B1A3E | None | #62B1FF | CTAs principales |
+| **Secondary** | Transparent | #00C8FF | 1px #00C8FF | bg #E8F0FF | Acciones secundarias |
+| **Ghost** | Transparent | #4A7ABA | None | bg #E8F0FF | Navegación terciaria |
+| **Danger** | #FF4D6A | #FFFFFF | None | #FF6B82 | Acciones críticas |
+| **Disabled** | #CBD8F0 | #6B89B4 | None | — | Estado deshabilitado |
 
 **Tamaños de botones:**
 
-- **Large:** Height 48px, Padding 24px horizontal, Font 16px
-- **Medium:** Height 40px, Padding 20px horizontal, Font 14px
-- **Small:** Height 32px, Padding 16px horizontal, Font 12px
+- **Large:** 48px de alto, padding horizontal 24px, fuente 16px.
+- **Medium:** 40px de alto, padding horizontal 20px, fuente 14px.
+- **Small:** 32px de alto, padding horizontal 16px, fuente 12px.
 
-  ![Componentes UI - Cards y KPIs](../assets/img/web-style/khiputech-cards-kpis.png)
+![Componentes UI - Cards y KPIs](../assets/img/web-style/khiputech-cards-kpis.png)
 
 **Cards:**
 
-| Tipo           | Background | Border      | Shadow                        | Padding | Uso                            |
-| -------------- | ---------- | ----------- | ----------------------------- | ------- | ------------------------------ |
-| **KPI Card**   | #FFFFFF    | 1px #CBD8F0 | 0 2px 8px rgba(11,26,62,0.08) | 24px    | Métricas principales dashboard |
-| **Alert Card** | #FFF5F5    | 1px #FF4D6A | None                          | 16px    | Notificaciones críticas        |
-| **Info Card**  | #F2F6FF    | None        | None                          | 20px    | Información contextual         |
-| **Obra Card**  | #F2F6FF    | 1px #E8F0FF | 0 2px 4px rgba(11,26,62,0.04) | 16px    | Cards de obras relacionadas    |
+| Tipo | Background | Border | Shadow | Padding | Uso |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **KPI Card** | #FFFFFF | 1px #CBD8F0 | 0 2px 8px rgba(11,26,62,0.08) | 24px | Métricas principales |
+| **Alert Card** | #FFF5F5 | 1px #FF4D6A | None | 16px | Notificaciones críticas |
+| **Info Card** | #F2F6FF | None | None | 20px | Información contextual |
+| **Obra Card** | #F2F6FF | 1px #E8F0FF | 0 2px 4px rgba(11,26,62,0.04) | 16px | Obras relacionadas |
 
 ![Componentes UI - Badges](../assets/img/web-style/khiputech-badges.png)
 
 **Badges de Estado:**
 
-| Estado       | Background            | Text    | Uso                          |
-| ------------ | --------------------- | ------- | ---------------------------- |
-| **Top**      | rgba(45,255,160,0.12) | #00C896 | Obra más popular, completado |
-| **Crítico**  | rgba(255,77,106,0.12) | #FF4D6A | Aforo >85%, alertas          |
-| **Moderado** | rgba(200,168,75,0.12) | #C8A84B | Aforo 50-85%, pendiente      |
-| **Normal**   | rgba(0,200,255,0.12)  | #00C8FF | Aforo <50%, información      |
+| Estado | Background | Text | Uso |
+| :--- | :--- | :--- | :--- |
+| **Top** | rgba(45,255,160,0.12) | #00C896 | Obra popular o completado |
+| **Crítico** | rgba(255,77,106,0.12) | #FF4D6A | Aforo crítico o alerta |
+| **Moderado** | rgba(200,168,75,0.12) | #C8A84B | Estado de advertencia |
+| **Normal** | rgba(0,200,255,0.12) | #00C8FF | Información general |
 
 ![Componentes UI - Barras de Progreso](../assets/img/web-style/khiputech-progress-bars.png)
 
@@ -587,9 +475,9 @@ Barra fija inferior con 4 iconos:
 
 **Room-Cards (Mapa de Salas):**
 
-Componente específico para visualización de distribución de visitantes:
+Componente específico para visualizar distribución de visitantes por sala.
 
-```
+```txt
 ┌───────────────┐
 │ Sala Central  │
 │   188 / 200   │
@@ -599,81 +487,79 @@ Componente específico para visualización de distribución de visitantes:
 
 Estados visuales:
 
-- **Crítico:** Border rojo 2px, background rgba(255,77,106,0.08)
-- **Moderado:** Border amarillo 2px, background rgba(200,168,75,0.08)
-- **Seguro:** Border verde 2px, background rgba(45,255,160,0.08)
-  ![Componentes UI - Inputs](../assets/img/web-style/khiputech-inputs.png)
+- **Crítico:** border rojo 2px, background rgba(255,77,106,0.08).
+- **Moderado:** border amarillo 2px, background rgba(200,168,75,0.08).
+- **Seguro:** border verde 2px, background rgba(45,255,160,0.08).
+
+![Componentes UI - Inputs](../assets/img/web-style/khiputech-inputs.png)
 
 **Inputs y Campos de Formulario:**
 
-Estados de campos:
-
-| Estado       | Border      | Background | Text    | Icon    |
-| ------------ | ----------- | ---------- | ------- | ------- |
-| **Default**  | 1px #CBD8F0 | #FFFFFF    | #0B1A3E | #6B89B4 |
-| **Hover**    | 1px #4A7ABA | #FFFFFF    | #0B1A3E | #4A7ABA |
-| **Focus**    | 2px #00C8FF | #FFFFFF    | #0B1A3E | #00C8FF |
-| **Error**    | 2px #FF4D6A | #FFF5F5    | #0B1A3E | #FF4D6A |
-| **Disabled** | 1px #CBD8F0 | #F2F6FF    | #6B89B4 | #CBD8F0 |
+| Estado | Border | Background | Text | Icon |
+| :--- | :--- | :--- | :--- | :--- |
+| **Default** | 1px #CBD8F0 | #FFFFFF | #0B1A3E | #6B89B4 |
+| **Hover** | 1px #4A7ABA | #FFFFFF | #0B1A3E | #4A7ABA |
+| **Focus** | 2px #00C8FF | #FFFFFF | #0B1A3E | #00C8FF |
+| **Error** | 2px #FF4D6A | #FFF5F5 | #0B1A3E | #FF4D6A |
+| **Disabled** | 1px #CBD8F0 | #F2F6FF | #6B89B4 | #CBD8F0 |
 
 ![Componentes UI - Tablas](../assets/img/web-style/khiputech-tables.png)
 
 **Tablas de Datos:**
 
-| Elemento        | Estilo                                                            |
-| --------------- | ----------------------------------------------------------------- |
-| **Header**      | Background `#0B1A3E`, Text `#E8F0FF`, Font DM Mono 10px uppercase |
-| **Row (par)**   | Background `#F5F8FF`                                              |
-| **Row (impar)** | Background `#EBF1FB`                                              |
-| **Border**      | `1px #CBD8F0`                                                     |
-| **Hover**       | Background `#E8F0FF`, Cursor pointer                              |
+| Elemento | Estilo |
+| :--- | :--- |
+| **Header** | Background `#0B1A3E`, Text `#E8F0FF`, Font DM Mono 10px uppercase |
+| **Row par** | Background `#F5F8FF` |
+| **Row impar** | Background `#EBF1FB` |
+| **Border** | `1px #CBD8F0` |
+| **Hover** | Background `#E8F0FF`, cursor pointer |
 
 ---
 
 ##### Responsive Breakpoints
 
-**Breakpoints del Sistema:**
+| Dispositivo | Rango | Columnas Grid | Gutter | Margins |
+| :--- | :--- | :--- | :--- | :--- |
+| **Mobile** | 320px - 480px | 4 | 16px | 16px |
+| **Tablet** | 481px - 1024px | 8 | 24px | 32px |
+| **Desktop** | 1025px+ | 12 | 32px | 40px |
 
-| Dispositivo | Rango          | Columnas Grid | Gutter | Margins |
-| ----------- | -------------- | ------------- | ------ | ------- |
-| **Mobile**  | 320px - 480px  | 4             | 16px   | 16px    |
-| **Tablet**  | 481px - 1024px | 8             | 24px   | 32px    |
-| **Desktop** | 1025px+        | 12            | 32px   | 40px    |
+**Adaptaciones principales por dispositivo:**
 
-**Adaptaciones por Dispositivo:**
+**Mobile:**
 
-**Mobile (320-480px):**
+- Navegación simplificada mediante menú hamburguesa o bottom navigation.
+- Cards apiladas verticalmente.
+- Botones full-width cuando sea necesario.
+- Sidebar reemplazada por menú móvil.
+- Tablas adaptadas mediante scroll horizontal o cards resumidas.
 
-- Navegación: Bottom navigation bar (4 items)
-- Cards: Stack vertical, width 100%
-- Typography: Reducir H1 a 24px, Body a 14px
-- Spacing: Reducir a 12px/16px/24px
-- Sidebar: Oculto, accesible via hamburger menu
-  **Tablet (481-1024px):**
-- Navegación: Sidebar colapsada a iconos (64px)
-- Cards: Grid 2 columnas
-- Typography: Mantener escala base
-- Spacing: Escala estándar
-- Touch targets: Mínimo 44px
-  **Desktop (1025px+):**
-- Navegación: Sidebar completa (240px)
-- Cards: Grid 3-4 columnas
-- Typography: Escala completa
-- Hover states: Activados
-- Max width: 1440px centrado
+**Tablet:**
+
+- Sidebar colapsable a íconos.
+- Cards distribuidas en dos columnas.
+- Touch targets mínimos de 44px.
+
+**Desktop:**
+
+- Sidebar completa.
+- Grillas de 3 a 4 columnas.
+- Hover states activos.
+- Layout expandido con ancho máximo de 1440px.
 
 ---
 
-**Toast Notifications:**
+##### Toast Notifications
 
 ![Toast Notifications](../assets/img/web-style/khiputech-toasts.png)
 
-| Tipo        | Icon | Background | Duration |
-| ----------- | ---- | ---------- | -------- |
-| **Success** | ✓    | #2DFFA0    | 3s       |
-| **Error**   | ✗    | #FF4D6A    | 5s       |
-| **Warning** | ⚠    | #FFB547    | 4s       |
-| **Info**    | ℹ    | #00C8FF    | 3s       |
+| Tipo | Icon | Background | Duration |
+| :--- | :--- | :--- | :--- |
+| **Success** | ✓ | #2DFFA0 | 3s |
+| **Error** | ✗ | #FF4D6A | 5s |
+| **Warning** | ⚠ | #FFB547 | 4s |
+| **Info** | ℹ | #00C8FF | 3s |
 
 **Tooltips:**
 
@@ -693,40 +579,28 @@ Estados de campos:
 
 ##### Accessibility Standards
 
-**Contraste WCAG AA/AAA:**
+Todos los pares de color principales cumplen con WCAG AA como mínimo.
 
-Todos los pares de color cumplen con WCAG AA (mínimo 4.5:1 para texto normal, 3:1 para texto grande).
+| Par de Colores | Ratio | Nivel WCAG |
+| :--- | :--- | :--- |
+| Navy + Ice Blue | 14.8:1 | AAA |
+| Navy + Electric Blue | 8.5:1 | AAA |
+| Navy + White | 15.2:1 | AAA |
+| Steel Blue + White | 4.9:1 | AA |
 
-| Par de Colores       | Ratio  | Nivel WCAG |
-| -------------------- | ------ | ---------- |
-| Navy + Ice Blue      | 14.8:1 | AAA ✅     |
-| Navy + Electric Blue | 8.5:1  | AAA ✅     |
-| Navy + White         | 15.2:1 | AAA ✅     |
-| Steel Blue + White   | 4.9:1  | AA ✅      |
+**Criterios aplicados:**
 
-**Justificación del contraste Navy+Cyan (8.5:1):**  
-Ideal para salas con luz tenue, garantiza legibilidad en ambientes de museo con iluminación controlada donde los visitantes interactúan con dispositivos móviles.
-
-**Touch Targets:**
-
-- Mínimo: **44px × 44px** (WCAG 2.1 Level AAA)
-- Spacing entre targets: Mínimo **8px**
-  **Focus States:**
-- Outline visible en todos los elementos interactivos
-- Color: `#00C8FF` (Electric Blue)
-- Width: `2px`
-- Offset: `2px`
-  **Keyboard Navigation:**
-- Tab order lógico siguiendo flujo visual
-- Skip links para navegación rápida a contenido principal
-- Focus trap en modales y overlays
-- Escape key cierra overlays y modales
+- Tamaño mínimo táctil: **44px × 44px**.
+- Estados de focus visibles en todos los elementos interactivos.
+- Navegación por teclado con orden lógico.
+- Uso de texto adicional junto con color para comunicar estados.
+- Labels visibles en formularios.
+- Mensajes claros para errores y estados vacíos.
+- Contraste adecuado para entornos de museo con iluminación reducida.
 
 ---
 
 ##### Design Tokens
-
-**Tokens CSS Variables:**
 
 ```css
 :root {
@@ -776,7 +650,7 @@ Ideal para salas con luz tenue, garantiza legibilidad en ambientes de museo con 
 ---
 
 **Referencia Visual Completa:**  
-Consultar el archivo interactivo [Web Style Guide](../assets/deliverables/khiputech-web-style-guide.html) para visualización de todos los componentes en acción con hover states y animaciones funcionales.
+Consultar el archivo interactivo [Web Style Guide](../assets/deliverables/khiputech-web-style-guide.html) para visualizar los componentes, estados hover y animaciones funcionales.
 
 #### 4.2. Information Architecture
 
@@ -1329,34 +1203,67 @@ Todos los mockups han sido diseñados siguiendo un enfoque mobile-first con brea
 
 #### 4.4.1. Web Applications Wireframes
 
-Se presentan los wireframes de la aplicación web de KhipuTech:
+Los wireframes de las aplicaciones web de KhipuTech definen la estructura base de las interfaces antes de aplicar elementos visuales de alta fidelidad. Su objetivo principal es validar la organización de la información, la jerarquía de contenidos y la navegación entre pantallas para las experiencias principales del sistema: el Dashboard Administrativo y la Web App del Visitante.
 
-<img src="../assets/img/wireframes/image_4.png" alt="Wireframe 1" style="width: 600px;" >
+Estos wireframes permiten representar cómo los usuarios interactúan con las funcionalidades principales de la plataforma, priorizando la claridad, la rapidez de acceso a la información y la reducción de carga cognitiva. En el caso del Dashboard Administrativo, se busca que el gestor pueda consultar métricas, visualizar alertas y acceder a reportes de manera eficiente. En el caso de la Web App del Visitante, se prioriza una experiencia simple, móvil y directa, orientada al acceso rápido a contenido cultural mediante QR o NFC.
 
-<img src="../assets/img/wireframes/image_3.png" alt="Wireframe 2" style="width: 600px;" >
+Los wireframes consideran los siguientes criterios de diseño:
 
-<img src="../assets/img/wireframes/image_2.png" alt="Wireframe 3" style="width: 600px;" >
+- Organización clara de módulos, cards, tablas y secciones informativas.
+- Jerarquía visual para destacar métricas, alertas y acciones principales.
+- Navegación consistente entre las vistas del sistema.
+- Adaptación responsive para desktop, tablet y mobile.
+- Accesibilidad mediante tamaños adecuados de botones, contraste y lectura clara.
+- Relación directa con los flujos de usuario definidos para la plataforma.
 
-<img src="../assets/img/wireframes/image_1.png" alt="Wireframe 4" style="width: 600px;" >
+Asimismo, las pantallas fueron planteadas tomando como base las necesidades identificadas en los segmentos objetivo y las decisiones establecidas en la arquitectura de información. De esta manera, los wireframes funcionan como puente entre los requisitos funcionales, los user flows y los mockups de alta fidelidad.
+
+A continuación, se presentan los wireframes principales de la aplicación web de KhipuTech:
+
+<img src="../assets/img/wireframes/image_4.png" alt="Wireframe Dashboard Administrativo" style="width: 600px;" >
+
+<img src="../assets/img/wireframes/image_3.png" alt="Wireframe Vista de Métricas" style="width: 600px;" >
+
+<img src="../assets/img/wireframes/image_2.png" alt="Wireframe Vista de Contenido" style="width: 600px;" >
+
+<img src="../assets/img/wireframes/image_1.png" alt="Wireframe Web App del Visitante" style="width: 600px;" >
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 
-Se presentan los Web Applications Wireflow Diagrams:
+Los wireflow diagrams de KhipuTech muestran la relación entre las pantallas principales de la aplicación y las acciones que permiten avanzar dentro de cada flujo. A diferencia de los wireframes individuales, los wireflows permiten visualizar la continuidad de la experiencia, es decir, cómo el usuario pasa de una pantalla a otra según sus decisiones e interacciones.
 
-<img src="../assets/img/wireflows/image_5.png" alt="Wireframe 1" style="width: 600px;" >
+Estos diagramas fueron elaborados considerando los user goals principales de la plataforma:
 
-<img src="../assets/img/wireflows/image_6.png" alt="Wireframe 2" style="width: 600px;" >
+- El visitante accede al contenido digital de una obra mediante QR/NFC.
+- El administrador monitorea métricas y alertas del museo.
+- El gestor consulta reportes y filtra información histórica.
+- El usuario navega entre contenido, salas y datos relevantes sin perder contexto.
 
-<img src="../assets/img/wireflows/image_7.png" alt="Wireframe 3" style="width: 600px;" >
+Cada wireflow evidencia:
 
-<img src="../assets/img/wireflows/image_8.png" alt="Wireframe 4" style="width: 600px;" >
+- Pantallas involucradas en el flujo.
+- Acción que activa el cambio de pantalla.
+- Estados principales del sistema.
+- Secuencia esperada de navegación.
+- Relación entre interfaz, tarea y objetivo del usuario.
 
-<img src="../assets/img/wireflows/image_9.png" alt="Wireframe 1" style="width: 600px;" >
+Los wireflows permiten validar que la navegación sea clara, que las acciones principales estén visibles y que el usuario pueda cumplir sus objetivos con la menor cantidad posible de pasos.
 
-<img src="../assets/img/wireflows/image_10.png" alt="Wireframe 2" style="width: 600px;" >
+A continuación, se presentan los wireflow diagrams desarrollados para la aplicación web de KhipuTech:
 
-<img src="../assets/img/wireflows/image_11.png" alt="Wireframe 3" style="width: 600px;" >
+<img src="../assets/img/wireflows/image_5.png" alt="Wireflow 1 - Acceso a contenido por QR/NFC" style="width: 600px;" >
 
+<img src="../assets/img/wireflows/image_6.png" alt="Wireflow 2 - Navegación de contenido cultural" style="width: 600px;" >
+
+<img src="../assets/img/wireflows/image_7.png" alt="Wireflow 3 - Dashboard administrativo" style="width: 600px;" >
+
+<img src="../assets/img/wireflows/image_8.png" alt="Wireflow 4 - Revisión de métricas" style="width: 600px;" >
+
+<img src="../assets/img/wireflows/image_9.png" alt="Wireflow 5 - Gestión de alertas" style="width: 600px;" >
+
+<img src="../assets/img/wireflows/image_10.png" alt="Wireflow 6 - Consulta de reportes" style="width: 600px;" >
+
+<img src="../assets/img/wireflows/image_11.png" alt="Wireflow 7 - Navegación complementaria" style="width: 600px;" >
 #### 4.4.3. Web Applications Mock-ups
 
 ##### Descripción general
