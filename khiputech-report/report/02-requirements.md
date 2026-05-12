@@ -219,6 +219,17 @@ Donde más valor tiene el análisis conjunto es en el tema del mediador: los tre
 La divergencia en tecnología es interesante porque no es superficial: Jesús habla desde la experiencia de mediador en contextos con poco presupuesto y un público heterogéneo, por lo que su escepticismo ante los QRs tiene base práctica. Sergio habla más desde una visión museográfica ideal. Lincoln resuelve la tensión sin decirlo explícitamente: el multilingüismo en Narihualá es la única "tecnología" que los tres coincidirían en validar, porque responde directamente a las características del público, no a una tendencia de innovación.
 </div>
 
+<div>
+El análisis de las experiencias de Alessia y Gianmarco revela una desconexión crítica entre el interés visual del visitante y la profundidad de la información disponible en sala. Ambos perfiles, a pesar de sus distintas ocupaciones y edades, presentan patrones de comportamiento y frustraciones casi idénticos durante su recorrido museístico.
+
+Existe una "frustración del descubrimiento" compartida; los visitantes encuentran piezas que captan su atención pero se sienten limitados por descripciones físicas que consideran insuficientes para comprender el contexto o la historia real detrás de la obra. Esta carencia informativa provoca que la visita no se aproveche completamente, dejando una sensación de curiosidad insatisfecha.
+
+En cuanto a la interacción tecnológica, hay un rechazo absoluto hacia la fricción operativa. Ambos entrevistados manifiestan una clara preferencia por el uso de sus propios dispositivos (BYOD) para evitar depender de guías físicos o descripciones estáticas, pero bajo la condición estricta de no tener que instalar aplicaciones adicionales. El uso de códigos QR se identifica como la solución ideal para acceder de forma rápida y autónoma a una "capa extra" de contenido, que debería incluir material multimedia, curiosidades y contexto histórico.
+
+Finalmente, se observa que para el visitante peruano la aglomeración no es actualmente una preocupación primordial, lo que desplaza el valor percibido de la tecnología desde el control de aforo hacia la mejora sustancial de la experiencia informativa y dinámica. La demanda no es de innovación por el simple hecho de innovar, sino de herramientas que actúen como un mediador digital capaz de responder preguntas que el montaje físico deja abiertas.
+
+</div>
+
 ### 2.3. Needfinding
 
 #### 2.3.1. User Personas
