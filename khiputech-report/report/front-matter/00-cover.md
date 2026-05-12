@@ -1,25 +1,47 @@
-![](../../assets/img/0_00-cover/01-Logo.png)
+---
+title: "KhipuTech — Real-Time Visitor Analytics"
+subtitle: "TB1 Report — Aplicaciones Web"
+author:
+  - Fabian Jesus Sandoval Cueto (U20221a132)
+  - Oscar Diego Checa Burga (U20231E492)
+  - Andrea Khristina Correa Rodriguez (U202412041)
+  - Winnie Lisbeth Merino Ordinola (U20231E504)
+  - Luis Alonso Huaco Oliva (U202417743)
+institute: "Universidad Peruana de Ciencias Aplicadas"
+course: "Aplicaciones Web (1ASI0730)"
+section: "12242"
+instructor: "Angel Augusto Velasquez Nuñez"
+date: "Mayo 2026"
+---
 
-### Universidad Peruana de Ciencias Aplicadas|Ingeniería de Software|2026-01
+![Logo UPC](https://images.seeklogo.com/logo-png/40/2/universidad-peruana-de-ciencias-aplicadas-upc-logo-png_seeklogo-402620.png)
 
-### 1ASI0730 | Aplicaciones Web
+# Universidad Peruana de Ciencias Aplicadas
 
-### NRC: 12242
+## **Ingeniería de Software | 2026-01**
 
-### Docente: Angel Augusto Velasquez Nuñez
+**Curso:** Aplicaciones Web (1ASI0730)
 
-### "Informe de TB1"
+**Sección:** 12242
 
-### Startup: WebStone
+**Docente:** Angel Augusto Velasquez Nuñez
 
-### Producto: KhipuTech
+## "Informe del Trabajo Final"
 
-|   Código   |       Apellidos y Nombres        |
-| :--------: |  :----------------------------:  |
-| U20221a132 |   Sandoval Cueto, Fabian Jesus   |
-| U20231E492 |   Checa Burga, Oscar Diego       |
-| U202412041 |Correa Rodriguez, Andrea Khristina|
-| U20231E504 |  Merino Ordinola, Winnie Lisbeth |
-| U202417743 |    Huaco Oliva, Luis Alonso      |
+## Startup: WebStone
 
-### Mayo, 2026
+### Integrantes del Equipo
+
+| Nombre                            |   Código   |              Rol               |
+| --------------------------------- | :--------: | :----------------------------: |
+| Fabian Jesus Sandoval Cueto       | U20221a132 |          Team Leader           |
+| Oscar Diego Checa Burga           | U20231E492 |         UX/UI Designer         |
+| Andrea Khristina Correa Rodriguez | U202412041 |         Domain Analyst         |
+| Winnie Lisbeth Merino Ordinola    | U20231E504 |       Software Developer       |
+| Luis Alonso Huaco Oliva           | U202417743 | Technical Writer & QA Engineer |
+
+---
+
+**Entrega:** TB1  
+**Fecha:** Mayo 2026  
+**Versión del Documento:** 1.0.1

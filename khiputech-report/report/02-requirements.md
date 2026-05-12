@@ -59,7 +59,7 @@ Se consideraron dos segmentos:
 
 2. ¿Alguna vez tomaste una decisión de museografía o marketing basada en datos de comportamiento del visitante? ¿Cómo obtuviste los datos?
 
-3.Si pudieras ver un reporte de qué piezas de la exposición fueron las preferidas o generaron más tiempo de permanencia, ¿Cómo influiría eso en tu próximo proyecto de museografía?
+3. Si pudieras ver un reporte de qué piezas de la exposición fueron las preferidas o generaron más tiempo de permanencia, ¿Cómo influiría eso en tu próximo proyecto de museografía?
 
 4. ¿Qué herramientas usas hoy para medir el éxito de una exposición? ¿Con qué frecuencia las usas?
 
@@ -172,7 +172,44 @@ Se consideraron dos segmentos:
 
 </div>
 
-xxx
+##### Registro de entrevistas del segmento objetivo 2:
+
+| Entrevista 4  | Duración | Inicio |                                  Imagen                                  |                                                                                                                                                                    URL                                                                                                                                                                     |
+| :-----------: | :------: | :----: | :----------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Alessia Luque |  3:21m   | 0:13m  | ![Evidencia_Entrevista](../assets/img/interviews/interview_alessia.jpeg) | [Click Aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e504_upc_edu_pe/IQDTSY8YUP-DT7YoqylJBb3jAWksMgbDf7lQ0mpIavfGdNI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ckg95p) |
+
+Resumen:
+
+- **Entrevistada:** Alessia Ximena Luque Carlos
+- **Formación:** Estudiante de Administración – Universidad de Lima
+- **Personalidad:** Curiosa y orientada al aprendizaje. Busca aprovechar al máximo su experiencia cultural. Valora la tecnología como herramienta para enriquecer la visita, siempre que sea accesible y sin fricción. Muestra interés por profundizar en obras que llaman su atención.
+- **Marcas e influencias:** Facebook, WhatsApp Business, Instagram, TikTok, Twitter (mencionadas como herramientas de su día a día).
+- **Tecnología:** Utiliza redes sociales y herramientas digitales de forma cotidiana. Propone el uso de códigos QR para acceder a información en tiempo real sobre obras. Valora soluciones que no requieran instalación de aplicaciones. Desea contenido multimedia, contexto histórico y material exclusivo accesible desde su dispositivo.
+- **Dispositivos:** Celular con iOS (uso principal), laptop con Windows.
+- **Browser:** [No mencionado en entrevista]
+- **Canales de interacción:** Redes sociales (Facebook, Instagram, TikTok, Twitter), WhatsApp Business, códigos QR, contenido web sin apps.
+- **Características objetivas:** Estudiante universitaria de Administración en la Universidad de Lima. Visitante frecuente de museos con experiencia limitada a descripciones físicas y guías generales. Usuario activo de dispositivos móviles y plataformas digitales.
+- **Características subjetivas:** Su experiencia museística actual depende únicamente de descripciones físicas o guías generales, lo que le impide profundizar en las obras de su interés. Su principal frustración surge cuando encuentra obras interesantes pero no dispone de información suficiente para entender su significado o importancia, generando que no aproveche completamente la visita. Desea acceso inmediato a contenido enriquecido sin instalar aplicaciones, con disponibilidad en varios idiomas. Actualmente no conoce soluciones que integren experiencia interactiva dentro de los museos que visita. Busca herramientas tecnológicas que hagan la experiencia más dinámica, accesible y enriquecedora.
+
+##### Registro de entrevistas del segmento objetivo 2:
+
+| Entrevista 5  | Duración | Inicio |                                         Imagen                                          |                                                                                                                                                                                                                                                                                                                                   URL                                                                                                                                                                                                                                                                   |
+| :-----------: | :------: | :----: | :-------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Gianmarco Correa |  8:00m   |  0:10m | ![Evidencia_Entrevista](../assets/img/interviews/interview_guianmarco.jpeg) | [Click Aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e504_upc_edu_pe/IQAmCXrnLqkgS73XjqgKV50vAWEm3DMw925zTRx9BXdNV18?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ljtZBd) |
+
+Resumen:
+
+- **Entrevistado:** Gianmarco Jair Correa
+- **Formación:** Médico de profesión (35 años)
+- **Personalidad:** Curioso, práctico y abierto al uso de tecnología que facilite el aprendizaje. Busca experiencias culturales completas, dinámicas e interesantes.
+- **Marcas e influencias:** WhatsApp, Instagram, TikTok, plataformas de búsqueda rápida de información.
+- **Tecnología:** Utiliza principalmente su teléfono celular. Propone el uso de códigos QR para acceder a contenido adicional sin necesidad de descargar aplicaciones. Desea contexto histórico, curiosidades, imágenes complementarias y contenido multimedia.
+- **Dispositivos:** Celular (uso principal), laptop con Windows (ocasional).
+- **Browser:** [No mencionado en entrevista]
+- **Canales de interacción:** Códigos QR, redes sociales (WhatsApp, Instagram, TikTok), contenido web sin apps.
+- **Características objetivas:** Médico de 35 años, residente cerca de Julio César Tello (Lima). Visita museos ocasionalmente como forma de relajación y aprendizaje cultural. Último museo visitado: MALI (Museo de Arte de Lima). Considera que en Perú no existe una costumbre muy marcada de visitar museos, por lo que generalmente no hay aglomeraciones.
+- **Características subjetivas:** Su experiencia actual en museos se ve limitada porque la información disponible junto a las obras es insuficiente para comprender su contexto, significado o importancia histórica. Su principal frustración es que obras interesantes no logran transmitir toda la historia detrás de ellas. Desea una solución digital mediante códigos QR que permita ampliar la información de manera rápida, accesible e intuitiva durante el recorrido. Nunca se ha sentido aglomerado en museos. Valora que la herramienta haga la experiencia más completa, dinámica e interesante, sin requerir instalación de aplicaciones adicionales.
+
 
 #### 2.2.3. Análisis de entrevistas
 
@@ -184,32 +221,6 @@ lo ejemplifica con el cuaderno físico del museo LUM como único registro dispon
 Donde más valor tiene el análisis conjunto es en el tema del mediador: los tres lo mencionan espontáneamente como el elemento que más agrega valor a la experiencia. Lincoln incluso da el detalle más rico al decir que la gente pregunta cosas "fuera del guión", eso es evidencia directa de que la exposición no satisface la demanda de contexto del visitante. Esa brecha entre lo que el montaje ofrece y lo que el público necesita es el problema de diseño central que emerge de las tres voces.
 La divergencia en tecnología es interesante porque no es superficial: Jesús habla desde la experiencia de mediador en contextos con poco presupuesto y un público heterogéneo, por lo que su escepticismo ante los QRs tiene base práctica. Sergio habla más desde una visión museográfica ideal. Lincoln resuelve la tensión sin decirlo explícitamente: el multilingüismo en Narihualá es la única "tecnología" que los tres coincidirían en validar, porque responde directamente a las características del público, no a una tendencia de innovación.
 </div>
-
-<strong>Visitantes al museo (estudiantes, turistas): </strong>
-
-<strong>Entrevista 1: Alessia Ximena Luque Carlos</strong>
-
-Captura:
-
-<img src="../assets/img/2_2_2-entrevista/interview_alessia.jpeg"></img>
-
-Duración: 3:21 minutos
-
-Línea de Tiempo: 0:00 - 3:21
-
-Enlace a la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e504_upc_edu_pe/IQDTSY8YUP-DT7YoqylJBb3jAWksMgbDf7lQ0mpIavfGdNI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ckg95p
-
-Resumen:
-
-Alessia Ximena Luque Carlos, una joven de 23 años que reside en Pueblo Libre, es estudiante de Administración en la Universidad de Lima.
-
-Gestión y Desafíos: Actualmente, su experiencia dentro del museo es limitada, ya que depende únicamente de las descripciones físicas o guías generales, lo que dificulta profundizar en las obras que más le llaman la atención. Esto genera que, en ocasiones, no aproveche completamente la visita ni comprenda el contexto de ciertas piezas. Su principal frustración surge cuando encuentra obras interesantes pero no dispone de suficiente información para entender su significado o importancia. Por ello, valora positivamente una solución digital que le permita acceder de manera rápida, interactiva y sin fricción a contenido enriquecido, mejorando así su experiencia cultural dentro del museo.
-
-Tecnología y Habilidades: En su día a día utiliza herramientas digitales como Facebook, WhatsApp Business, Instagram, Tiktok y Twitter. Utiliza principalmente su celular con sistema operativo IOS y su laptop con sistema operativo Windows.
-
-Expectativas y Necesidades: Alessia desearía contar con una solución digital que le permita acceder a información en tiempo real sobre las obras que está observando dentro del museo. Le gustaría que, al escanear un código QR, pueda obtener detalles precisos como el contexto histórico, el significado de la obra, contenido multimedia y material exclusivo que enriquezca su experiencia. Entre las funcionalidades que le gustaría encontrar, destacan: acceso inmediato al contenido sin necesidad de instalar aplicaciones, disponibilidad de información en varios idiomas. Actualmente, no conoce soluciones específicas que integren este tipo de experiencia interactiva dentro de los museos que visita. Sus respuestas reflejan una personalidad curiosa, interesada en el aprendizaje y orientada a aprovechar al máximo su visita cultural, valorando especialmente herramientas tecnológicas que hagan la experiencia más dinámica, accesible y enriquecedora.
-
-
 
 ### 2.3. Needfinding
 
