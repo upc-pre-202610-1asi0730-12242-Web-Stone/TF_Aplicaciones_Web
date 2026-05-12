@@ -59,7 +59,7 @@ Se consideraron dos segmentos:
 
 2. ¿Alguna vez tomaste una decisión de museografía o marketing basada en datos de comportamiento del visitante? ¿Cómo obtuviste los datos?
 
-3.Si pudieras ver un reporte de qué piezas de la exposición fueron las preferidas o generaron más tiempo de permanencia, ¿Cómo influiría eso en tu próximo proyecto de museografía?
+3. Si pudieras ver un reporte de qué piezas de la exposición fueron las preferidas o generaron más tiempo de permanencia, ¿Cómo influiría eso en tu próximo proyecto de museografía?
 
 4. ¿Qué herramientas usas hoy para medir el éxito de una exposición? ¿Con qué frecuencia las usas?
 
@@ -110,9 +110,9 @@ Se consideraron dos segmentos:
 **Resumen:**
 
 <div style = "text-align: justify">
-**Entrevistado:** Sergio  
-**Formación:** Historia y Gestión Cultural – UDEP
 
+- **Entrevistado:** Sergio
+- **Formación:** Historia y Gestión Cultural – UDEP
 - **Personalidad:** Reflexivo, crítico y humanista. Orientado al visitante, con una visión centrada en que "la cultura se debe a la ciudadanía."
 - **Marcas e influencias:** [No mencionado en entrevista]
 - **Tecnología:** Muestra preferencia por la realidad virtual y realidad aumentada como herramientas para enriquecer la experiencia museística.
@@ -133,9 +133,9 @@ Se consideraron dos segmentos:
 **Resumen:**
 
 <div style = "text-align: justify">
-**Entrevistado:** Lincoln  
-**Formación:** Historia y Gestión Cultural – UDEP
 
+- **Entrevistado:** Lincoln
+- **Formación:** Historia y Gestión Cultural – UDEP
 - **Personalidad:** Cercano y con sentido del humor (contó entre risas anécdotas de su experiencia como mediador). Orientado a la accesibilidad e inclusión, con una visión práctica de la museografía.
 - **Marcas e influencias:** Museo LUM (donde observó la metodología del cuaderno físico de opiniones). Museo de Narihualá de Piura (referenciado tanto en su trabajo universitario como en su reflexión sobre accesibilidad lingüística).
 - **Tecnología:** Reconoce que el sector privado tiene mayor capacidad de inversión en tecnología e innovación gracias a diversas fuentes de financiamiento. [No mencionó preferencias tecnológicas personales]
@@ -157,9 +157,8 @@ Se consideraron dos segmentos:
 
 <div style = "text-align: justify">
  
-**Entrevistado:** Jesús  
-**Formación:** Historia y Gestión Cultural – UDEP
-
+- **Entrevistado:** Jesús  
+- **Formación:** Historia y Gestión Cultural – UDEP
 - **Personalidad:** Pragmático y crítico. Prefiere soluciones tradicionales y accesibles sobre tecnología por el simple hecho de innovar. Muestra sensibilidad hacia la inclusión de personas con discapacidades.
 - **Marcas e influencias:** Google Forms (mencionado como herramienta de recolección de datos). Repositorios digitales de centros culturales (los menciona como ejemplo positivo de tecnología aplicada en museos).
 - **Tecnología:** Menciona Google Forms y cuadernos de visitantes como herramientas actuales de recolección de data. Propone material multimedia adicional para complementar exposiciones. Valora los repositorios digitales de centros culturales. Es escéptico respecto al uso de QRs, considerándolos inútiles en muchos casos para mejorar la experiencia inmersiva.
@@ -181,23 +180,29 @@ Se consideraron dos segmentos:
 
 Resumen:
 
-Alessia Ximena Luque Carlos, una joven de 23 años que reside en Pueblo Libre, es estudiante de Administración en la Universidad de Lima.
-
-Gestión y Desafíos: Actualmente, su experiencia dentro del museo es limitada, ya que depende únicamente de las descripciones físicas o guías generales, lo que dificulta profundizar en las obras que más le llaman la atención. Esto genera que, en ocasiones, no aproveche completamente la visita ni comprenda el contexto de ciertas piezas. Su principal frustración surge cuando encuentra obras interesantes pero no dispone de suficiente información para entender su significado o importancia. Por ello, valora positivamente una solución digital que le permita acceder de manera rápida, interactiva y sin fricción a contenido enriquecido, mejorando así su experiencia cultural dentro del museo.
-
-Tecnología y Habilidades: En su día a día utiliza herramientas digitales como Facebook, WhatsApp Business, Instagram, Tiktok y Twitter. Utiliza principalmente su celular con sistema operativo IOS y su laptop con sistema operativo Windows.
-
-Expectativas y Necesidades: Alessia desearía contar con una solución digital que le permita acceder a información en tiempo real sobre las obras que está observando dentro del museo. Le gustaría que, al escanear un código QR, pueda obtener detalles precisos como el contexto histórico, el significado de la obra, contenido multimedia y material exclusivo que enriquezca su experiencia. Entre las funcionalidades que le gustaría encontrar, destacan: acceso inmediato al contenido sin necesidad de instalar aplicaciones, disponibilidad de información en varios idiomas. Actualmente, no conoce soluciones específicas que integren este tipo de experiencia interactiva dentro de los museos que visita. Sus respuestas reflejan una personalidad curiosa, interesada en el aprendizaje y orientada a aprovechar al máximo su visita cultural, valorando especialmente herramientas tecnológicas que hagan la experiencia más dinámica, accesible y enriquecedora.
+- **Entrevistada:** Alessia Ximena Luque Carlos
+- **Formación:** Estudiante de Administración – Universidad de Lima
+- **Personalidad:** Curiosa y orientada al aprendizaje. Busca aprovechar al máximo su experiencia cultural. Valora la tecnología como herramienta para enriquecer la visita, siempre que sea accesible y sin fricción. Muestra interés por profundizar en obras que llaman su atención.
+- **Marcas e influencias:** Facebook, WhatsApp Business, Instagram, TikTok, Twitter (mencionadas como herramientas de su día a día).
+- **Tecnología:** Utiliza redes sociales y herramientas digitales de forma cotidiana. Propone el uso de códigos QR para acceder a información en tiempo real sobre obras. Valora soluciones que no requieran instalación de aplicaciones. Desea contenido multimedia, contexto histórico y material exclusivo accesible desde su dispositivo.
+- **Dispositivos:** Celular con iOS (uso principal), laptop con Windows.
+- **Browser:** [No mencionado en entrevista]
+- **Canales de interacción:** Redes sociales (Facebook, Instagram, TikTok, Twitter), WhatsApp Business, códigos QR, contenido web sin apps.
+- **Características objetivas:** Estudiante universitaria de Administración en la Universidad de Lima. Visitante frecuente de museos con experiencia limitada a descripciones físicas y guías generales. Usuario activo de dispositivos móviles y plataformas digitales.
+- **Características subjetivas:** Su experiencia museística actual depende únicamente de descripciones físicas o guías generales, lo que le impide profundizar en las obras de su interés. Su principal frustración surge cuando encuentra obras interesantes pero no dispone de información suficiente para entender su significado o importancia, generando que no aproveche completamente la visita. Desea acceso inmediato a contenido enriquecido sin instalar aplicaciones, con disponibilidad en varios idiomas. Actualmente no conoce soluciones que integren experiencia interactiva dentro de los museos que visita. Busca herramientas tecnológicas que hagan la experiencia más dinámica, accesible y enriquecedora.
 
 #### 2.2.3. Análisis de entrevistas
 
 <div style = "text-align: justify">
+**Segmento objetivo 1: Gestores culturales o conocedores de administración de museos:**
+
 Los tres señalan que no existe un mecanismo preciso para medir qué partes de una exposición
 funcionan mejor. Jesús lo dice explícitamente; Sergio lo describe como algo subjetivo; Lincoln
 lo ejemplifica con el cuaderno físico del museo LUM como único registro disponible. Sergio y Lincoln lo afirman directamente: el estudio de públicos es "paradójicamente dejado de lado" a pesar de ser fundamental. Jesús lo refuerza al valorar el análisis de preferencias para corregir errores futuros. Los tres mencionan herramientas actuales (encuestas, entrevistas, cuadernos físicos, observación no participante) como insuficientes o subutilizadas.Los tres coinciden en la brecha privado/público. Jesús señala que la mayoría de museos no tiene
 áreas de tecnología. Sergio describe los museos regionales como "desoladores" en ese aspecto (en el mejor caso, cámaras de seguridad). Lincoln confirma que el sector privado tiene más fuentes de financiamiento; el contexto estructural que condiciona cualquier propuesta tecnológica. Los tres valoran al mediador por encima de cualquier herramienta digital. Jesús lo señala como necesario para accesibilidad. Sergio lo describe como generador de experiencia profunda. Lincoln indica que la gente pregunta cosas "fuera del guión", evidenciando una demanda de contexto adicional que el montaje actual no cubre. En conclusión, Los tres entrevistados comparten el mismo diagnóstico de fondo: los museos peruanos, especialmente los regionales y públicos, operan sin sistemas de retroalimentación reales. Recopilan opiniones al final del recorrido (cuando ya no se puede hacer nada) y casi no investigan a sus públicos de manera sistemática. Eso no es un descuido aislado, es una carencia estructural.
 Donde más valor tiene el análisis conjunto es en el tema del mediador: los tres lo mencionan espontáneamente como el elemento que más agrega valor a la experiencia. Lincoln incluso da el detalle más rico al decir que la gente pregunta cosas "fuera del guión", eso es evidencia directa de que la exposición no satisface la demanda de contexto del visitante. Esa brecha entre lo que el montaje ofrece y lo que el público necesita es el problema de diseño central que emerge de las tres voces.
 La divergencia en tecnología es interesante porque no es superficial: Jesús habla desde la experiencia de mediador en contextos con poco presupuesto y un público heterogéneo, por lo que su escepticismo ante los QRs tiene base práctica. Sergio habla más desde una visión museográfica ideal. Lincoln resuelve la tensión sin decirlo explícitamente: el multilingüismo en Narihualá es la única "tecnología" que los tres coincidirían en validar, porque responde directamente a las características del público, no a una tendencia de innovación.
+
 </div>
 
 ### 2.3. Needfinding
