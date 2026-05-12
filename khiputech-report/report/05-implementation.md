@@ -77,19 +77,117 @@ Este enfoque permitió mantener la estabilidad del repositorio principal, al mis
 
 ##### 5.2.2.1. Sprint Planning 2
 
+### **Sprint Planning Background**
+
+| Campo           | Detalle                                                                                                                                   |
+| :-------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint #**    | Sprint 2                                                                                                                                  |
+| **Date**        | 2026-05-11                                                                                                                                |
+| **Time**        | 23:00                                                                                                                                     |
+| **Location**    | Google Meet (Virtual)                                                                                                                     |
+| **Prepared By** | Sandoval Cueto, Fabian                                                                                                                    |
+| **Attendees**   | Sandoval Cueto, Fabian / Huaco Oliva, Luis Alonso / Checa Burga, Oscar Diego / Correa Rodriguez, Andrea Khristina / Winnie Lisbeth Merino |
+
+---
+
+### **Sprint Review & Retrospective Summary**
+
+| Campo                              | Detalle                                                                                                                                                                                        |
+| :--------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint 1 Review Summary**        | Se finalizaron con éxito los entregables de diseño y validación: Landing Page (WO), Event Storming (FS), Mockups y User Flows (OB), e Inteligencia de Usuario con Entrevistas (LH).            |
+| **Sprint 1 Retrospective Summary** | El equipo logró consolidar el Event Storming y establecer los Bounded Contexts. Se detectó la necesidad de refactorizar la lógica de negocio para distinguir entre Museos Privados y Públicos. |
+
+---
+
+### **Sprint Goal & User Stories**
+
+| Campo                   | Detalle                                                                                                                           |
+| :---------------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint 2 Goal**       | Desarrollar las capacidades de análisis de engagement (US13), implementación de I18N (US04) y el monitoreo de interacción (US21). |
+| **Sprint 2 Velocity**   | 25 Story Points                                                                                                                   |
+| **Sum of Story Points** | 20 Story Points                                                                                                                   |
+
+#### **User Stories Incluidas:**
+
+- **US04 (WO):** Selección de idioma del contenido (I18N).
+- **US13 (Admin):** Detección de obras con poco interés para toma de decisiones (Ranking de engagement).
+- **US21 (Gestor):** Monitoreo de interacción con contenido digital.
+- **US37 (AR):** Sugerencias de recorrido personalizadas para visitantes.
+
 ##### 5.2.2.2. Aspect Leaders and Collaborators
 
 ##### 5.2.2.3. Sprint Backlog 2
 
+## **Sprint Backlog 2**
+
+El objetivo principal de este Sprint es consolidar la arquitectura de software mediante la implementación de los **Bounded Contexts** y el desarrollo de funcionalidades críticas de personalización. Esto incluye la gestión multi-idioma (I18N), el sistema de ranking de engagement para la toma de decisiones administrativas y el monitoreo de la interacción digital de los visitantes.
+
+d
+| User Story | | Work-Item / Task | | | | | |
+| :--------- | :------------------------------ | :--------------- | :--------------------------- | :------------------------------------------------------------------------- | :--------------------- | :------------------- | :----------- |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US04 | Idioma del contenido | T3 | I18N implementation | Implementación técnica de librerías para soporte multi-idioma. | 6 | Winnie Merino (WO) | Doing |
+| US13 | Detectar obras con poco interés | T1 | Implement engagement ranking | Desarrollar la lógica de backend para clasificar obras por interacción. | 8 | Oscar Checa (OB) | Stories Task |
+| US13 | Detectar obras con poco interés | T2 | Apply filter button | Crear interfaz de filtrado en el dashboard administrativo para el ranking. | 4 | Oscar Checa (OB) | Stories Task |
+| US37 | Sugerencias de recorrido | T1 | Routing logic | Definir algoritmos de sugerencia basados en la ubicación y flujo. | 8 | Andrea Correa (AR) | Stories Task |
+| N/A | Refactor General | T1 | Refactor Private/Public | Reestructuración de la lógica de negocio para diferenciar tipos de museo. | 10 | Fabian Sandoval (FS) | To-do |
+| N/A | Infraestructura | T2 | Firebase Routing | Configuración de rutas y navegación dentro de la plataforma Firebase. | 4 | Oscar Checa (OB) | To-do |
+
 ##### 5.2.2.4. Development Evidence for Sprint Review
 
 ##### 5.2.2.5. Execution Evidence for Sprint Review
+
+Durante este Sprint, el equipo logró consolidar la arquitectura del sistema mediante la definición técnica de los **Bounded Contexts** y la evolución del **Event Storming** hacia un nivel de diseño funcional. En términos de desarrollo, se implementaron las bases para la personalización y análisis de datos, logrando los siguientes hitos:
+
+- **Gestión Multi-idioma (I18N):** Se inició la implementación técnica para permitir al usuario elegir el idioma del contenido de forma variada (US04).
+- **Análisis de Engagement:** Se desarrolló la lógica de backend y el filtrado para el ranking de obras basado en la interacción, permitiendo detectar piezas de poco interés para decisiones administrativas (US13).
+- **Monitoreo de Interacción:** Se trabajó en la capacidad de supervisar cómo los visitantes interactúan con el contenido digital para mejorar la experiencia de usuario (US21).
+- **Infraestructura y Navegación:** Se configuró el enrutamiento mediante Firebase y se realizó una refactorización de la lógica para diferenciar entre museos públicos y privados.
+- **Validación y Diseño:** Se finalizaron los mockups, flujos de usuario y las entrevistas al segundo segmento objetivo para refinar las sugerencias de recorrido (US37).
+
+![landing 1](/khiputech-report/assets/img/4_3_2-Landing-Mock-up/landing-page-1.jpeg)
+
+![landing 2](/khiputech-report/assets/img/4_3_2-Landing-Mock-up/landing-page-2.jpeg)
+
+![landing 3](/khiputech-report/assets/img/4_3_2-Landing-Mock-up/landing-page-3.jpeg)
+
+![landing 4](/khiputech-report/assets/img/4_3_2-Landing-Mock-up/landing-page-4.jpeg)
+
+![landing 5](/khiputech-report/assets/img/4_3_2-Landing-Mock-up/landing-page-5.jpeg)
+
+![app web 1](/khiputech-report/assets/img/images/web-13.jpeg)
+
+![app web 2](/khiputech-report/assets/img/images/web-2.jpeg)
+
+![app web 3](/khiputech-report/assets/img/images/web-3.jpeg)
+
+![app web 4](/khiputech-report/assets/img/images/web-4.jpeg)
+
+![app web 5](/khiputech-report/assets/img/images/web-5.jpeg)
+
+![app web 6](/khiputech-report/assets/img/images/web-6.jpeg)
+
+![app web 7](/khiputech-report/assets/img/images/web-7.jpeg)
+
+![app web 8](/khiputech-report/assets/img/images/web-8.jpeg)
+
+![app web 9](/khiputech-report/assets/img/images/web-9.jpeg)
+
+![app web 10](/khiputech-report/assets/img/images/web-10.jpeg)
+
+![app web 11](/khiputech-report/assets/img/images/web-11.jpeg)
+
+![app web 12](/khiputech-report/assets/img/images/web-12.jpeg)
 
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 ##### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
 ##### 5.2.2.8. Team Collaboration Insights during Sprint
+
+![github-pulse-sprint-2](../assets/img/0_01-collaboration-insights/01-AV1/01-github-pulse-sprint-2.png)
+
+![github-network-sprint-2](../assets/img/0_01-collaboration-insights/01-AV1/02-github-network-sprint-2.png)
 
 ---
 
