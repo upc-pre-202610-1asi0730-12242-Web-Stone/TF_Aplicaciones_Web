@@ -1321,6 +1321,18 @@ Todos los mockups han sido diseñados siguiendo un enfoque mobile-first con brea
 - Tamaño de botones mínimo de 44×44px para touch targets
 - Iconografía complementada con texto descriptivo
 
+<img src="../assets/img/images/mockup.1.png" alt="Wireframe 3" style="width: 600px;" >
+
+<img src="../assets/img/images/mockup.2.png" alt="Wireframe 3" style="width: 600px;" >
+
+<img src="../assets/img/images/mockup.3.png" alt="Wireframe 3" style="width: 600px;" >
+
+<img src="../assets/img/images/mockup.4.png" alt="Wireframe 3" style="width: 600px;" >
+
+<img src="../assets/img/images/mockup.5.png" alt="Wireframe 3" style="width: 600px;" >
+
+<img src="../assets/img/images/mockup.6.png" alt="Wireframe 3" style="width: 600px;" >
+
 ---
 
 ### 4.4. Web Applications UX/UI Design
@@ -1535,6 +1547,9 @@ Acceder al contenido digital de una obra de forma rápida y sin fricción.
 
 El flujo inicia cuando el visitante escanea un código QR ubicado en la obra. El sistema redirige automáticamente a una vista web donde se presenta contenido multimedia. El usuario puede explorar información adicional o navegar a otras obras. En caso de errores, el sistema muestra mensajes claros para mantener la experiencia.
 
+
+<img src="../assets/img/images/user-flow.2.png" alt="Wireframe 3" style="width: 600px;" >
+
 #### 🟣 USER FLOW 2 — Administrador monitorea el museo
 
 #### User Persona
@@ -1567,6 +1582,9 @@ Supervisar en tiempo real el estado del museo para tomar decisiones rápidas.
 #### Explicación
 
 El flujo comienza cuando el administrador accede al sistema y visualiza el dashboard principal. Este presenta métricas clave como afluencia, interacción y alertas. El usuario puede identificar rápidamente situaciones críticas y tomar decisiones operativas. En caso de fallos en los datos, el sistema informa el problema sin afectar la navegación.
+
+
+<img src="../assets/img/images/user-flow.1.png" alt="Wireframe 3" style="width: 600px;" >
 
 #### 🟡 USER FLOW 3 — Acceso con suscripción
 
