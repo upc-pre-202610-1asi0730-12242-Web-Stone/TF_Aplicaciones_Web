@@ -103,8 +103,8 @@ Se consideraron dos segmentos:
 
 ##### Registro de entrevistas del segmento objetivo 1:
 
-|  Entrevista 1  | Duración | Inicio |                                     Imagen                                     |                                                                                                                                                                URL                                                                                                                                                                |
-| :------------: | :------: | :----: | :----------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|  Entrevista 1  | Duración | Inicio |                                        Imagen                                        |                                                                                                                                                                URL                                                                                                                                                                |
+| :------------: | :------: | :----: | :----------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Sergio Salgado |   20m    | 0:50m  | ![Evidencia_Entrevista](../assets/img/2_2_2-entrevista/interview_sergio_salgado.png) | [Click Aqui](https://upcedupe-my.sharepoint.com/personal/u20231e504_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231e504_upc_edu_pe%2FDocuments%2FAplicaciones+Web%2FEntrevista_SergioSalgado_GestorCultural.mp4&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.3d210264-2355-468b-9d6d-fd33ab30ed2f) |
 
 **Resumen:**
@@ -126,9 +126,8 @@ Se consideraron dos segmentos:
 
 ---
 
-
-|  Entrevista 2   | Duración | Inicio |                                     Imagen                                      |                                                                                                                                                                URL                                                                                                                                                                |
-| :-------------: | :------: | :----: | :-----------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|  Entrevista 2   | Duración | Inicio |                                        Imagen                                         |                                                                                                                                                                URL                                                                                                                                                                |
+| :-------------: | :------: | :----: | :-----------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Linconl Ramírez |   11m    | 0:30m  | ![Evidencia_de_entrevista](../assets/img/2_2_2-entrevista/interview_linconl_alex.png) | [Click Aqui](https://upcedupe-my.sharepoint.com/personal/u20231e504_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231e504_upc_edu_pe%2FDocuments%2FAplicaciones+Web%2FEntrevista_LiconlRamirez_GestorCultural.mp4&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.6f95e2ba-db5a-40f9-8852-81acc63fbf75) |
 
 **Resumen:**
@@ -150,9 +149,8 @@ Se consideraron dos segmentos:
 
 </div>
 
-
-| Entrevista 3  | Duración | Inicio |                                    Imagen                                     |                                                                                                                                                                             URL                                                                                                                                                                              |
-| :-----------: | :------: | :----: | :---------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Entrevista 3  | Duración | Inicio |                                       Imagen                                        |                                                                                                                                                                             URL                                                                                                                                                                              |
+| :-----------: | :------: | :----: | :---------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Jesus Hidalgo |   24m    | 0:10m  | ![Evidencia_Entrevista](../assets/img/2_2_2-entrevista/interview_jesus_hidalgo.png) | [Click Aqui](https://upcedupe-my.sharepoint.com/personal/u20231e504_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231e504%5Fupc%5Fedu%5Fpe%2FDocuments%2FAplicaciones%20Web%2FEntrevista%5FJesusHidalgo%5FGestorCultural%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E6f0d7de8%2D4ef8%2D48ae%2D9f74%2D9ca448555fea) |
 
 **Resumen:**
@@ -175,7 +173,7 @@ Se consideraron dos segmentos:
 ##### Registro de entrevistas del segmento objetivo 2:
 
 | Entrevista 4  | Duración | Inicio |                                     Imagen                                     |                                                                                                                                                                    URL                                                                                                                                                                     |
-| :-----------: | :------: | :----: |:------------------------------------------------------------------------------:| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| :-----------: | :------: | :----: | :----------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Alessia Luque |  3:21m   | 0:13m  | ![Evidencia_Entrevista](../assets/img/2_2_2-entrevista/interview_alessia.jpeg) | [Click Aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e504_upc_edu_pe/IQDTSY8YUP-DT7YoqylJBb3jAWksMgbDf7lQ0mpIavfGdNI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ckg95p) |
 
 Resumen:
@@ -193,9 +191,9 @@ Resumen:
 
 ##### Registro de entrevistas del segmento objetivo 2:
 
-| Entrevista 5  | Duración | Inicio |                                      Imagen                                       |                                                                                                                                                                                                                                                                                                                                   URL                                                                                                                                                                                                                                                                   |
-| :-----------: | :------: | :----: |:---------------------------------------------------------------------------------:| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Gianmarco Correa |  8:00m   |  0:10m | ![Evidencia_Entrevista](../assets/img/2_2_2-entrevista/interview_guianmarco.jpeg) | [Click Aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e504_upc_edu_pe/IQAmCXrnLqkgS73XjqgKV50vAWEm3DMw925zTRx9BXdNV18?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ljtZBd) |
+|   Entrevista 5   | Duración | Inicio |                                      Imagen                                       |                                                                                                                                                                  URL                                                                                                                                                                  |
+| :--------------: | :------: | :----: | :-------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Gianmarco Correa |  8:00m   | 0:10m  | ![Evidencia_Entrevista](../assets/img/2_2_2-entrevista/interview_guianmarco.jpeg) | [Click Aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e504_upc_edu_pe/IQAmCXrnLqkgS73XjqgKV50vAWEm3DMw925zTRx9BXdNV18?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ljtZBd) |
 
 Resumen:
 
@@ -209,7 +207,6 @@ Resumen:
 - **Canales de interacción:** Códigos QR, redes sociales (WhatsApp, Instagram, TikTok), contenido web sin apps.
 - **Características objetivas:** Médico de 35 años, residente cerca de Julio César Tello (Lima). Visita museos ocasionalmente como forma de relajación y aprendizaje cultural. Último museo visitado: MALI (Museo de Arte de Lima). Considera que en Perú no existe una costumbre muy marcada de visitar museos, por lo que generalmente no hay aglomeraciones.
 - **Características subjetivas:** Su experiencia actual en museos se ve limitada porque la información disponible junto a las obras es insuficiente para comprender su contexto, significado o importancia histórica. Su principal frustración es que obras interesantes no logran transmitir toda la historia detrás de ellas. Desea una solución digital mediante códigos QR que permita ampliar la información de manera rápida, accesible e intuitiva durante el recorrido. Nunca se ha sentido aglomerado en museos. Valora que la herramienta haga la experiencia más completa, dinámica e interesante, sin requerir instalación de aplicaciones adicionales.
-
 
 #### 2.2.3. Análisis de entrevistas
 
@@ -268,15 +265,11 @@ User Journey Map - Segmento 1 y 2 respectivamente
 
 Note: En este gráfico del User Journey Map para ambos segmentos, se observa que el personal del museo busca optimizar tareas manuales como la gestión de contenidos y reportes mediante herramientas digitales que generen datos automáticos. Por otro lado, los visitantes inician su recorrido con entusiasmo, pero su satisfacción decae al tener que buscar información externa, lo que representa una oportunidad para ofrecer contenido multimedia inmediato mediante códigos QR. En conjunto, la imagen destaca la necesidad de digitalizar procesos para mejorar la eficiencia operativa del museo y enriquecer la experiencia informativa del público.
 
-Note: En este gráfico del User Journey Map para ambos segmentos, se observa que el personal del museo busca optimizar tareas manuales como la gestión de contenidos y reportes mediante herramientas digitales que generen datos automáticos. Por otro lado, los visitantes inician su recorrido con entusiasmo, pero su satisfacción decae al tener que buscar información externa, lo que representa una oportunidad para ofrecer contenido multimedia inmediato mediante códigos QR. En conjunto, la imagen destaca la necesidad de digitalizar procesos para mejorar la eficiencia operativa del museo y enriquecer la experiencia informativa del público.
-
 #### 2.3.4. Empathy Mapping
 
 Empathy Mapping Segmento Objetivo 1:
 
 ![empathy mapping-01](../assets/img/2_3_4-Emphathy/empathy-mapping1.png)
-
-Note: En nuestro primer segmento tenemos al curador/gestor cultural, donde el mapa de empatía refleja que enfrenta limitaciones de recursos y falta de datos concretos, lo que lo lleva a tomar decisiones basadas en experiencia, aunque busca herramientas simples que le permitan medir mejor el impacto de sus exposiciones.
 
 Note: En nuestro primer segmento tenemos al curador/gestor cultural, donde el mapa de empatía refleja que enfrenta limitaciones de recursos y falta de datos concretos, lo que lo lleva a tomar decisiones basadas en experiencia, aunque busca herramientas simples que le permitan medir mejor el impacto de sus exposiciones.
 
@@ -286,71 +279,75 @@ Empathy Mapping Segmento Objetivo 2:
 
 Note: En nuestro segundo segmento tenemos a los visitantes del museo, donde el mapa de empatía muestra que buscan entender mejor las obras de forma rápida y sencilla, evitando herramientas complejas, y valoran experiencias que despierten su curiosidad sin interrumpir su recorrido.
 
-Note: En nuestro segundo segmento tenemos a los visitantes del museo, donde el mapa de empatía muestra que buscan entender mejor las obras de forma rápida y sencilla, evitando herramientas complejas, y valoran experiencias que despierten su curiosidad sin interrumpir su recorrido.
-
 ### 2.4. Big Picture Event Storming
 
 Para el desarrollo del Big Picture Event Storming de KhipuTech, se utilizó la herramienta Miro, que facilitó la colaboración y visualización de los diferentes elementos del proceso. A continuación, se presenta un resumen de los principales componentes identificados durante la sesión de Event Storming:
 
 Primero, se definieron las leyendas para los diferentes elementos que se van a usar en el Event Storming:
 
-![Leyenda Event Storming](../assets/img/2_4-Event-Storming/01-event-storming-legend.png)
+![Leyenda Event Storming](../assets/img/2_4-Event-Storming/event-storming-legend.png)
 
-- **Domain Events:** Representa un hecho del negocio que ya ocurrió y no puede cambiarse.
-- **Hotspot Question Improvement:** Señala un punto de incertidumbre, duda o posible conflicto en el proceso. Se utiliza para visibilizar preguntas que aún no tienen respuesta clara, de modo que el equipo pueda discutirlas y mejorarlas más adelante.
-- **Definition:** Aporta una explicación breve y precisa de un concepto clave dentro del dominio.
-- **Actor:** Es la persona, rol u organización que interactúa con el sistema o provoca eventos.
-- **Command:** Expresa la intención de realizar una acción en el sistema.
-- **Comment:** Sirve para añadir notas, aclaraciones o hipótesis que enriquecen el contexto. No alteran el flujo, pero ayudan a documentar observaciones útiles para futuras discusiones.
-- **Policy:** Define una regla de negocio que conecta automáticamente un evento con un comando.
-- **External System:** Representa servicios o plataformas externas que interactúan con tu sistema, aunque no las controles directamente.
+- **User Role / Actor (Amarillo pastel):** Es la persona, rol u organización que interactúa con el sistema o provoca eventos dentro del flujo.
+- **Command (Azul):** Expresa la intención de realizar una acción en el sistema. Es el "disparador" de un cambio de estado.
+
+- **Domain Event (Naranja):** Representa un hecho del negocio que ya ocurrió y no puede cambiarse. Siempre se escribe en tiempo pasado (Sustantivo + Verbo en pasado).
+
+- **Aggregate (Amarillo):** Representa la entidad o el conjunto de objetos de negocio (como el Art Catalog o Room) que recibe el comando y emite el evento, manteniendo la integridad de los datos.
+
+- **Business Process / Policy (Morado):** Define una regla de negocio que conecta automáticamente un evento con un comando ("Siempre que ocurre X, entonces hacer Y").
+
+- **Tertiary / External System (Rosa):** Representa servicios o plataformas externas (como GTM, Trello o WhatsApp API) que interactúan con tu sistema, aunque no las controles directamente.
+
+- **Reading Model (Verde):** Aporta una explicación breve o representación visual (como un Dashboard o Reporte) de un concepto clave o datos para que un actor pueda tomar una decisión.
 
 El Event Storming permitió identificar de forma colaborativa los eventos clave que marcan el flujo del sistema, desde las interacciones principales de los usuarios hasta los procesos internos que sostienen la experiencia. El proceso se desarrolló siguiendo pasos como el reconocimiento de los domain events, la incorporación de los actores que desencadenan acciones, la definición de los comandos que impulsan dichos eventos y la identificación de las políticas o reglas que guían la dinámica del sistema. A partir de esto se generaron ideas que ayudaron a visualizar cómo se conectan las acciones, qué actores participan en cada etapa y qué resultados se esperan, lo que facilitó comprender mejor la dinámica general y detectar oportunidades de mejora o innovación.
 
----
+<center> Leyenda de componentes para el Event Storming del ecosistema museístico </center>
 
-#### Big Picture Event Storming 1: Gestión de Visitantes
+![big-picture-event-storming](../assets/img/2_4-Event-Storming/big-picture-event-storming.png)
 
-Para el desarrollo del primer Event Storming se identifican los domain events relacionados con la experiencia del visitante en el museo, como el escaneo de códigos QR/NFC en obras, el acceso a contenido multimedia y la acumulación de puntos de gamificación. Luego se reconocen los pasos que ejecuta el actor principal (el visitante), como ingresar al museo, aproximarse a una obra, escanear el código QR y visualizar información adicional. También se muestran las validaciones del sistema, por ejemplo, cuando una obra no tiene contenido disponible, lo que genera una notificación. Finalmente, se plantean preguntas para mejorar el flujo, como cómo hacer más atractiva la gamificación o cómo personalizar recomendaciones de obras según el perfil del visitante.
-
-![Big Picture Event Storming 1](../assets/img/2_4-Event-Storming/02-big-picture-1.png)
-
----
-
-#### Big Picture Event Storming 2: Control de Aforo en Tiempo Real
-
-Para el desarrollo del segundo Event Storming se identifican los domain events relacionados con el monitoreo de aforo, como la detección de entrada/salida de visitantes mediante sensores IoT, el cálculo de ocupación en tiempo real y la generación de alertas cuando se superan umbrales. El actor principal (gestor cultural/administrador) realiza acciones como acceder al dashboard, visualizar métricas de aforo por sala y configurar umbrales de alerta. El sistema interviene validando los datos de sensores a través de algoritmos de conteo y actualizando el dashboard según el resultado. Además, se incluyen notificaciones push para informar al gestor y preguntas clave para manejar casos especiales, como qué sucede si los sensores fallan temporalmente o cómo ajustar umbrales dinámicamente según eventos especiales.
-
-![Big Picture Event Storming 2](../assets/img/2_4-Event-Storming/03-big-picture-2.png)
-
----
-
-#### Big Picture Event Storming 3: Gestión de Contenido de Obras
-
-Para el desarrollo del tercer Event Storming se identifican los domain events relacionados con la administración de contenido cultural en la plataforma. El actor principal (curador/gestor de contenido) inicia con la carga de información de una nueva obra: título, artista, descripción, imágenes de alta resolución y archivos de audio. Posteriormente, se asignan códigos QR/NFC únicos a cada obra y se valida que el contenido cumpla con estándares de calidad (resolución mínima, duración de audio, texto descriptivo). El sistema interviene en la generación automática de códigos, la compresión de imágenes para optimizar tiempos de carga y la sincronización con la base de datos central. Finalmente, se abordan preguntas como: ¿qué sucede si una obra tiene contenido multimedia en varios idiomas? ¿cómo gestionar versiones del contenido (por ejemplo, contenido infantil vs. adultos)?
-
-![Big Picture Event Storming 3](../assets/img/2_4-Event-Storming/04-big-picture-3.png)
-
----
-
-#### Big Picture Event Storming 4: Analítica y Generación de Reportes
-
-Para el desarrollo del cuarto Event Storming se identifican los domain events de análisis de datos y generación de insights, como la creación de reportes de afluencia semanal, la identificación de obras más populares y el envío de alertas por patrones anómalos. El actor principal (administrador del museo) realiza acciones como iniciar sesión en el dashboard, seleccionar filtros de fecha/sala, configurar parámetros de reporte y exportar datos a PDF/Excel. El sistema valida los datos históricos almacenados, procesa métricas mediante algoritmos de agregación y notifica automáticamente cuando se detectan tendencias relevantes (por ejemplo, caída drástica en interacciones con ciertas obras). Finalmente, surgen preguntas clave sobre métricas a considerar, detección de patrones estacionales y definición de KPIs críticos para la toma de decisiones.
-
-![Big Picture Event Storming 4](../assets/img/2_4-Event-Storming/05-big-picture-4.png)
-
----
-
-#### Big Picture Event Storming 5: Gamificación y Ranking de Visitantes
-
-Para el desarrollo del quinto Event Storming se identifican los domain events relacionados con el sistema de gamificación, como la acumulación de puntos XP por interacción con obras, el avance de nivel del visitante y la actualización del ranking semanal. El actor principal (visitante) inicia sesión mediante QR/NFC, escanea múltiples obras durante su recorrido y acumula experiencia según el tiempo de permanencia y la cantidad de contenido consumido. El sistema valida la acumulación de XP, verifica si el visitante alcanzó un nuevo nivel (umbrales: 10, 50, 100 obras) y actualiza su posición en el ranking público. Se notifica al visitante cuando obtiene una insignia o sube de nivel. Surgen preguntas clave sobre cómo evitar comportamientos fraudulentos (escaneos rápidos sin interacción real), qué recompensas ofrecer a los visitantes más activos y cómo incluir desafíos semanales para aumentar engagement.
-
-![Big Picture Event Storming 5](../assets/img/2_4-Event-Storming/06-big-picture-5.png)
-
----
-
-El Event Storming colaborativo permitió al equipo de KhipuTech identificar los flujos críticos del sistema, desde la experiencia del visitante hasta la gestión administrativa y analítica. Este ejercicio facilitó la detección temprana de puntos de fricción, oportunidades de automatización y necesidades de integración con sistemas externos (sensores IoT, pasarelas de pago para sponsors, APIs de redes sociales para compartir logros). Los insights obtenidos fueron fundamentales para definir los Bounded Contexts del diseño DDD y priorizar las User Stories en el Product Backlog.
+<center>Nota. La figura presenta la codificación cromática y funcional de los elementos utilizados en el modelado del dominio: los roles de usuario (amarillo), eventos de dominio (naranja), comandos (azul), sistemas externos (rosa), procesos de negocio (morado), modelos de lectura (verde) y agregados (amarillo grande). Elaboración propia.</center>
 
 ### 2.5. Ubiquitous Language
+
+## Ubiquitous Language
+
+En esta sección se detalla el glosario de términos y conceptos derivados directamente del **Big Picture Event Storming** (ver Figura de referencia). Este lenguaje común permite eliminar ambigüedades entre los miembros del equipo y los stakeholders del proyecto.
+
+### 1. Visitor Interactions (Interacciones del Visitante)
+
+Conceptos relacionados con el flujo de experiencia y acciones realizadas por el público.
+
+- **Registered Entry (Entrada Registrada):** Acto inicial donde se valida el acceso de un visitante al recinto.
+- **Reading Intent (Intención de Lectura):** Evento disparado cuando el sistema detecta que un visitante desea obtener información de una obra mediante el escaneo de su código.
+- **Digital Content (Contenido Digital):** Información multimedia desplegada en el dispositivo del visitante tras la interacción exitosa con una obra.
+- **Annotated Style Preference (Preferencia de Estilo Anotada):** Captura de los gustos estéticos o temáticos del visitante durante su recorrido.
+- **Satisfaction Form (Formulario de Satisfacción):** Encuesta completada al finalizar la visita para medir la experiencia del usuario.
+
+### 2. Operational Management (Gestión Operativa)
+
+Términos que definen el control del entorno físico y la infraestructura por parte del personal.
+
+- **Room Capacity (Capacidad de Sala):** Nivel de ocupación que, al llegar al máximo, genera una notificación y la pausa del flujo de entrada.
+- **Redistribution Protocol (Protocolo de Redistribución):** Acción iniciada por el Manager para equilibrar la densidad de visitantes en las salas y alcanzar una capacidad estabilizada.
+- **Maintenance Notice (Aviso de Mantenimiento):** Comunicación visual desplegada cuando una obra o sitio específico se encuentra bloqueado por reparaciones.
+- **Work Prepared (Obra Preparada):** Estado de una obra que ha finalizado su mantenimiento y está lista para ser reintegrada a la exhibición.
+
+### 3. Strategic Curation (Curaduría Estratégica)
+
+Definiciones sobre el análisis de datos y decisiones tácticas sobre la colección.
+
+- **Display Performance Report (Reporte de Rendimiento de Exhibición):** Documento generado y descargado por el Curador que resume el éxito de las obras expuestas.
+- **Friction Points (Puntos de Fricción):** Identificación de problemas o interrupciones en el recorrido del visitante detectados mediante analítica.
+- **Artwork Interest Level (Nivel de Interés de la Obra):** Categorización de piezas como de "Alto" o "Bajo" interés basada en la interacción recolectada.
+- **Exhibition Strategy (Estrategia de Exhibición):** Planificación de nuevas ubicaciones, promociones de obras destacadas o cambios en la configuración de formularios basada en hallazgos.
+
+### 4. Stakeholders / Actors (Actores del Dominio)
+
+Roles clave que provocan o gestionan los eventos dentro del sistema.
+
+- **Visitor (Visitante):** Usuario final que recorre el museo e interactúa con las obras.
+- **Manager (Gestor):** Responsable de la respuesta inmediata ante aforos, estados de sala y coordinación de mantenimientos.
+- **Curator (Curador):** Encargado de analizar los reportes de rendimiento y definir la estrategia comercial y de exhibición de la galería.
 
 ---
