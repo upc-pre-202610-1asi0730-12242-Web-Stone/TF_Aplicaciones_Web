@@ -82,8 +82,7 @@
     Optimización de la experiencia del visitante
     </td>
     <td style="text-align: center;">
-    Museo Público
-    </td>
+    Como museo público, quiero ofrecer a los visitantes contenido digital interactivo vía QR/NFC sin apps, para enriquecer su recorrido cultural y hacer la visita más dinámica y satisfactoria.
     <td style="text-align: center;">
     </td>
     <td style="text-align: center;">
@@ -98,7 +97,7 @@
     Toma de decisiones basada en datos
     </td>
     <td style="text-align: center;">
-    Museo Público
+    Como museo público, quiero acceder a analíticas de flujo y permanencia por sala, para justificar inversiones, optimizar presupuestos y mejorar la planificación de exposiciones.
     </td>
     <td style="text-align: center;">
     </td>
