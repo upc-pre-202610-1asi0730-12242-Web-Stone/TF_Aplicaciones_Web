@@ -195,9 +195,50 @@ Durante este Sprint, el equipo logró consolidar la arquitectura del sistema med
 
 ##### 5.2.3.1. Sprint Planning 3
 
+| Campo           | Detalle                                                                                                                                   |
+| :-------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint #**    | Sprint 2                                                                                                                                  |
+| **Date**        | 2026-06-17                                                                                                                                |
+| **Time**        | 23:00                                                                                                                                     |
+| **Location**    | Google Meet (Virtual)                                                                                                                     |
+| **Prepared By** | Sandoval Cueto, Fabian                                                                                                                    |
+| **Attendees**   | Sandoval Cueto, Fabian / Huaco Oliva, Luis Alonso / Checa Burga, Oscar Diego / Correa Rodriguez, Andrea Khristina / Winnie Lisbeth Merino |
+
 ##### 5.2.3.2. Aspect Leaders and Collaborators
 
+| Team Member<br>(Last Name, First Name) | GitHub Username | Operation | Maintenance | Visiting | Capacity | Analytics |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| Sandoval Cueto, Fabian | JFabianSandoval | **L** | C | C | | |
+| Huaco Oliva, Luis Alonso  | perghormaru-pixel | C | **L** | | C | C |
+| Checa Burga, Oscar Diego | OscarCheca| | C | **L** | | C |
+| Correa Rodriguez, Andrea Khristina | Daiko-07 | C | | | **L** | C |
+| Winnie Lisbeth Merino | winniemerino  | | | C | C | **L** |
+
 ##### 5.2.3.3. Sprint Backlog 3
+
+El objetivo principal de este Sprint es consolidar la arquitectura de software mediante la implementación de los **Bounded Contexts** y el desarrollo de funcionalidades críticas de personalización. Esto incluye la gestión multi-idioma (I18N), el sistema de ranking de engagement para la toma de decisiones administrativas y el monitoreo de la interacción digital de los visitantes.
+
+| User Story | | Work-Item / Task | | | | | |
+| :--------- | :------------------------------------- | :--------------- | :------------------------------------------- | :------------------------------------------------------------------------- | :--------------------- | :------------------- | :----------- |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| TS-VIS-US01 | Gestión de Obras e Integración | SCRUM-258 | Artwork model in database | Creación y migración del modelo de base de datos para las obras de arte. | 6 | Andrea Correa | Stories Task |
+| TS-VIS-US01 | Gestión de Obras e Integración | SCRUM-259 | endpoint GET /artifacts/{qr_id} | Desarrollo del endpoint para retornar el contenido de una obra mediante QR. | 8 | Andrea Correa | Stories Task |
+| TS-VIS-US01 | Gestión de Obras e Integración | SCRUM-260 | Unit and integration testing | Ejecución de pruebas unitarias y de integración para el endpoint de obras. | 6 | Andrea Correa  | Stories Task |
+| TS-VIS-US01 | Gestión de Obras e Integración | SCRUM-261 | Documenting an endpoint in Swagger | Documentación técnica del endpoint de obras de arte utilizando Swagger. | 4 | Andrea Correa | Stories Task |
+| TS-VIS-US02 | Compatibilidad con SPA | SCRUM-262 | JSON response compatible with SPA | Configuración de la respuesta JSON para interactuar correctamente con la SPA. | 6 | Andrea Correa | Stories Task |
+| TS-VIS-US02 | Compatibilidad con SPA | SCRUM-263 | JSON response compatible with SPA (Dupl) | Ajustes complementarios de estructura JSON orientada al frontend SPA. | 4 | Andrea Correa  | Stories Task |
+| TS-CAP-US22 | Modelo y Control de Capacidad de Salas | SCRUM-264 | RoomCapacity model | Definición del modelo RoomCapacity con sala, capacidad máxima y contador. | 8 | Winnie Merino | Stories Task |
+| TS-CAP-US22 | Modelo y Control de Capacidad de Salas | SCRUM-265 | RoomCapacity model (Refinement) | Ajustes de integridad en base de datos para el modelo de capacidad. | 4 | Winnie Merino | Stories Task |
+| TS-CAP-US22 | Modelo y Control de Capacidad de Salas | SCRUM-266 | GET /rooms/capacity | Implementación del endpoint para consultar el estado de capacidad de salas. | 6 | Winnie Merino | Stories Task |
+| TS-CAP-US22 | Modelo y Control de Capacidad de Salas | SCRUM-267 | Current-time counter update test | Pruebas funcionales de la actualización del contador de personas en tiempo real. | 4 | Winnie Merino | Stories Task |
+| TS-CAP-US22 | Modelo y Control de Capacidad de Salas | SCRUM-268 | Documenting endpoints with Swagger | Documentación formal de los endpoints de capacidad de salas en Swagger. | 4 | Winnie Merino | Stories Task |
+| TS-CAP-US23 | Lógica de Alertas por Exceso de Aforo | SCRUM-269 | Alert trigger logic | Desarrollo de la lógica de negocio: disparar alerta si contador >= max. | 8 | Winnie Merino (WO) | Stories Task |
+| TS-CAP-US23 | Lógica de Alertas por Exceso de Aforo | SCRUM-270 | Alert trigger logic (Validation) | Validación y control de excepciones en el disparador automático de alertas. | 4 | Winnie Merino | Stories Task |
+| TS-CAP-US23 | Lógica de Alertas por Exceso de Aforo | SCRUM-271 | GET /alerts - Active alerts list | Creación del endpoint para listar las alertas activas para el administrador. | 6 | Winnie Merino | Stories Task |
+| TS-CAP-US23 | Lógica de Alertas por Exceso de Aforo | SCRUM-272 | Alert test upon exceeding threshold | Pruebas de integración simulando el exceso del límite de aforo permitido. | 6 | Winnie Merino | Stories Task |
+| TS-CAP-US30 | Seguridad y Autenticación de Rutas | SCRUM-273 | Security test on role-protected routes | Implementación de pruebas de seguridad para la restricción de rutas por roles. | 8 | Winnie Merino | Stories Task |
+| TS-CAP-US30 | Seguridad y Autenticación de Rutas | SCRUM-274 | Documenting authentication flow | Documentación inicial del flujo completo de autenticación dentro de Swagger. | 4 | Winnie Merino | Stories Task |
+| TS-CAP-US30 | Seguridad y Autenticación de Rutas | SCRUM-275 | Documenting authentication flow (Rev) | Revisión y publicación final del flujo de autenticación en Swagger. | 4 | Winnie Merino| Stories Task |
 
 ##### 5.2.3.4. Development Evidence for Sprint Review
 
