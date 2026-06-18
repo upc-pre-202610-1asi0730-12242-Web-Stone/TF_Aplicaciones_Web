@@ -157,6 +157,28 @@
     -
   </td>
 </tr>
+<!-- EPICA 8 -->
+<tr>
+  <td style="text-align: center;">
+    EP08
+  </td>
+  <td style="text-align: center;">
+    Conservation and Condition Management
+  </td>
+  <td style="text-align: center;">
+    Como gestor del museo, quiero programar y controlar el mantenimiento de las obras y gestionar su estado de conservación para garantizar la disponibilidad del contenido digital y el cuidado físico de las piezas.
+  </td>
+  <td style="text-align: center;">
+    - El sistema permite programar y registrar mantenimientos de obras<br>
+    - El acceso QR/NFC se bloquea automáticamente durante el mantenimiento<br>
+    - Se lleva un historial de estado de conservación por obra<br>
+    - El equipo recibe notificaciones cuando una obra entra en mantenimiento<br>
+    - El mapa de salas refleja la disponibilidad actual de cada obra
+  </td>
+  <td style="text-align: center;">
+    -
+  </td>
+</tr>
 <!-- US 1 -->
 <tr>
   <td style="text-align: center;">
@@ -1621,11 +1643,201 @@
   </td>
 </tr>
 
+<!-- US-MAI-A -->
+<tr>
+  <td style="text-align: center;">
+    US-MAI-A
+  </td>
+  <td style="text-align: center;">
+    Schedule artwork maintenance
+  </td>
+  <td style="text-align: center;">
+    Como gestor del museo, quiero programar fechas de mantenimiento para una obra para que el sistema bloquee su acceso QR/NFC automáticamente durante ese periodo.
+  </td>
+  <td style="text-align: center;">
+    Criterios de aceptación:
+    <br>Given que el gestor accede al módulo de mantenimiento
+    <br>When registra una programación con fecha de inicio y fin para una obra
+    <br>Then el sistema crea el registro y bloquea el QR/NFC al llegar la fecha de inicio
+    <br><br>Given que el periodo de mantenimiento ha comenzado
+    <br>When un visitante intenta escanear el QR de la obra
+    <br>Then el sistema retorna un mensaje de no disponible con fecha estimada de retorno
+    <br><br>Given que el gestor programa un mantenimiento
+    <br>When el sistema procesa la solicitud
+    <br>Then el registro queda visible en el listado de mantenimientos activos y futuros
+  </td>
+  <td style="text-align: center;">
+    EP08
+  </td>
+</tr>
+<!-- US-MAI-B -->
+<tr>
+  <td style="text-align: center;">
+    US-MAI-B
+  </td>
+  <td style="text-align: center;">
+    Block QR/NFC access during maintenance
+  </td>
+  <td style="text-align: center;">
+    Como visitante, quiero recibir un mensaje claro cuando intento escanear el QR de una obra en mantenimiento para saber que no está disponible temporalmente.
+  </td>
+  <td style="text-align: center;">
+    Criterios de aceptación:
+    <br>Given que una obra está en periodo de mantenimiento
+    <br>When el visitante escanea su código QR
+    <br>Then el sistema retorna un código 503 con un mensaje descriptivo
+    <br><br>Given que el sistema detecta el intento de acceso a obra en mantenimiento
+    <br>When genera la respuesta
+    <br>Then incluye la fecha estimada de retorno a disponibilidad
+    <br><br>Given que el visitante ve el mensaje de no disponible
+    <br>When revisa la información
+    <br>Then el mensaje es claro, legible y no genera confusión
+  </td>
+  <td style="text-align: center;">
+    EP08
+  </td>
+</tr>
+<!-- US-MAI-C -->
+<tr>
+  <td style="text-align: center;">
+    US-MAI-C
+  </td>
+  <td style="text-align: center;">
+    Restore artwork availability after maintenance
+  </td>
+  <td style="text-align: center;">
+    Como gestor del museo, quiero marcar una obra como disponible nuevamente para que el sistema reactive su QR/NFC y los visitantes puedan acceder al contenido.
+  </td>
+  <td style="text-align: center;">
+    Criterios de aceptación:
+    <br>Given que el periodo de mantenimiento ha concluido
+    <br>When el gestor marca el mantenimiento como completado
+    <br>Then el sistema reactiva el acceso QR/NFC de la obra inmediatamente
+    <br><br>Given que la fecha de fin programada se alcanza
+    <br>When el sistema evalúa el estado del mantenimiento
+    <br>Then reactiva automáticamente la obra sin intervención manual
+    <br><br>Given que la obra ha sido reactivada
+    <br>When un visitante escanea el QR
+    <br>Then accede al contenido digital correctamente
+  </td>
+  <td style="text-align: center;">
+    EP08
+  </td>
+</tr>
+<!-- US-MAI-D -->
+<tr>
+  <td style="text-align: center;">
+    US-MAI-D
+  </td>
+  <td style="text-align: center;">
+    Register physical condition of artwork
+  </td>
+  <td style="text-align: center;">
+    Como curador, quiero registrar el estado de conservación de cada obra (bueno, regular, deteriorado, crítico) para llevar un historial y tomar decisiones de restauración.
+  </td>
+  <td style="text-align: center;">
+    Criterios de aceptación:
+    <br>Given que el curador accede al módulo de conservación
+    <br>When registra una inspección con estado y notas
+    <br>Then el sistema almacena el registro con fecha y estado seleccionado
+    <br><br>Given que el curador consulta el historial de una obra
+    <br>When el sistema carga la información
+    <br>Then muestra todas las inspecciones ordenadas cronológicamente
+    <br><br>Given que el curador registra un estado crítico
+    <br>When el sistema procesa el registro
+    <br>Then genera una alerta visible para el gestor del museo
+  </td>
+  <td style="text-align: center;">
+    EP08
+  </td>
+</tr>
+<!-- US-MAI-E -->
+<tr>
+  <td style="text-align: center;">
+    US-MAI-E
+  </td>
+  <td style="text-align: center;">
+    View maintenance history of an artwork
+  </td>
+  <td style="text-align: center;">
+    Como gestor del museo, quiero ver el historial completo de mantenimientos de una obra para evaluar su frecuencia de intervención y planificar futuros cuidados.
+  </td>
+  <td style="text-align: center;">
+    Criterios de aceptación:
+    <br>Given que el gestor accede al detalle de una obra
+    <br>When solicita el historial de mantenimientos
+    <br>Then el sistema muestra todos los registros paginados cronológicamente
+    <br><br>Given que el gestor aplica filtros por fecha
+    <br>When el sistema procesa la consulta
+    <br>Then retorna únicamente los mantenimientos dentro del rango seleccionado
+    <br><br>Given que no existen mantenimientos registrados para la obra
+    <br>When el gestor consulta el historial
+    <br>Then el sistema muestra un mensaje indicando que no hay registros
+  </td>
+  <td style="text-align: center;">
+    EP08
+  </td>
+</tr>
+<!-- US-MAI-F -->
+<tr>
+  <td style="text-align: center;">
+    US-MAI-F
+  </td>
+  <td style="text-align: center;">
+    Notify team about maintenance start
+  </td>
+  <td style="text-align: center;">
+    Como gestor del museo, quiero que el sistema notifique automáticamente al equipo cuando una obra entra en mantenimiento para coordinar el trabajo presencial.
+  </td>
+  <td style="text-align: center;">
+    Criterios de aceptación:
+    <br>Given que una obra entra en periodo de mantenimiento
+    <br>When el sistema activa el bloqueo
+    <br>Then envía una notificación interna a los miembros del equipo asignados
+    <br><br>Given que un miembro del equipo recibe la notificación
+    <br>When accede al listado de notificaciones
+    <br>Then puede ver el detalle de la obra y el periodo de mantenimiento
+    <br><br>Given que el miembro del equipo ha revisado la notificación
+    <br>When la marca como leída
+    <br>Then el sistema actualiza su estado a leído
+  </td>
+  <td style="text-align: center;">
+    EP08
+  </td>
+</tr>
+<!-- US-MAI-G -->
+<tr>
+  <td style="text-align: center;">
+    US-MAI-G
+  </td>
+  <td style="text-align: center;">
+    View gallery map with maintenance status
+  </td>
+  <td style="text-align: center;">
+    Como visitante, quiero ver en el mapa de la galería qué obras están en mantenimiento para planificar mi recorrido sin llegar a salas con contenido no disponible.
+  </td>
+  <td style="text-align: center;">
+    Criterios de aceptación:
+    <br>Given que el visitante accede al mapa de la galería
+    <br>When el sistema carga la información
+    <br>Then muestra cada obra con su estado de disponibilidad actual
+    <br><br>Given que una obra está en mantenimiento
+    <br>When el visitante la visualiza en el mapa
+    <br>Then aparece con un indicador visual diferenciado que señala su no disponibilidad
+    <br><br>Given que el estado de una obra cambia durante la visita
+    <br>When el visitante recarga el mapa
+    <br>Then el sistema refleja el estado actualizado correctamente
+  </td>
+  <td style="text-align: center;">
+    EP08
+  </td>
+</tr>
+
 </table>
 
 ### 3.2. Impact Mapping
 
-![Impact-Mapping](../assets/img/3_2-Impact/Impact%20Mapping.jpg)
+![Impact-Mapping](../assets/img/lean%20ux/Impact%20Mapping.jpg)
 
 ### 3.3. Product Backlog
 
@@ -1683,3 +1895,10 @@
 | 50          | US50              | Accesibilidad                     | Como visitante quiero contenido accesible para mejorar la experiencia general.                                                                     | 3                            |
 | 51          | US51              | Alertas de comportamiento         | Como administrador quiero recibir alertas de interacción para tomar decisiones.                                                                    | 3                            |
 | 52          | US52              | Tendencias de comportamiento      | Como administrador quiero analizar tendencias para mejorar la planificación.                                                                       | 5                            |
+| 55          | US-MAI-A          | Schedule artwork maintenance           | Como gestor del museo, quiero programar fechas de mantenimiento para una obra para que el sistema bloquee su acceso QR/NFC automáticamente durante ese periodo.        | 5                            |
+| 56          | US-MAI-B          | Block QR/NFC access during maintenance | Como visitante, quiero recibir un mensaje claro cuando intento escanear el QR de una obra en mantenimiento para saber que no está disponible temporalmente.            | 3                            |
+| 57          | US-MAI-C          | Restore artwork availability           | Como gestor del museo, quiero marcar una obra como disponible nuevamente para que el sistema reactive su QR/NFC y los visitantes puedan acceder al contenido.          | 3                            |
+| 58          | US-MAI-D          | Register physical condition of artwork | Como curador, quiero registrar el estado de conservación de cada obra para llevar un historial y tomar decisiones de restauración.                                     | 5                            |
+| 59          | US-MAI-E          | View maintenance history of artwork    | Como gestor del museo, quiero ver el historial completo de mantenimientos de una obra para evaluar su frecuencia de intervención y planificar futuros cuidados.        | 3                            |
+| 60          | US-MAI-F          | Notify team about maintenance start    | Como gestor del museo, quiero que el sistema notifique automáticamente al equipo cuando una obra entra en mantenimiento para coordinar el trabajo presencial.          | 3                            |
+| 61          | US-MAI-G          | View gallery map with maintenance status | Como visitante, quiero ver en el mapa de la galería qué obras están en mantenimiento para planificar mi recorrido sin llegar a salas con contenido no disponible.   | 3                            |

@@ -195,61 +195,150 @@ Durante este Sprint, el equipo logró consolidar la arquitectura del sistema med
 
 ##### 5.2.3.1. Sprint Planning 3
 
+### **Sprint Planning Background**
+
 | Campo           | Detalle                                                                                                                                   |
 | :-------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
-| **Sprint #**    | Sprint 2                                                                                                                                  |
+| **Sprint #**    | Sprint 3:Our focus is on delivering the first version of the KhipuTech backend API across all five bounded contexts. We believe it delivers real-time museum management capabilities — including visitor capacity control, artwork maintenance tracking, QR content access and operational recommendations — to museum administrators, curators and visitors. This will be confirmed when all five bounded context endpoints (OPE, MAI, VIS, CAP, ANA) are deployed, accessible via Swagger, and the frontend and landing page reflect the latest updates.                                                                                                                                   |
 | **Date**        | 2026-06-17                                                                                                                                |
 | **Time**        | 23:00                                                                                                                                     |
 | **Location**    | Google Meet (Virtual)                                                                                                                     |
 | **Prepared By** | Sandoval Cueto, Fabian                                                                                                                    |
-| **Attendees**   | Sandoval Cueto, Fabian / Huaco Oliva, Luis Alonso / Checa Burga, Oscar Diego / Correa Rodriguez, Andrea Khristina / Winnie Lisbeth Merino |
+| **Attendees**   | Sandoval Cueto, Fabian / Huaco Oliva, Luis Alonso / Checa Burga, Oscar Diego / Correa Rodriguez, Andrea Khristina / Merino Ordinola, Winnie Lisbeth |
+
+---
+
+### **Sprint Review & Retrospective Summary**
+
+| Campo                              | Detalle                                                                                                                                                                                                          |
+| :--------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint 2 Review Summary**        | Se finalizaron los artefactos de diseño, la primera versión del frontend Web Application y la Landing Page actualizada. Se definió la arquitectura DDD con los bounded contexts del sistema.                     |
+| **Sprint 2 Retrospective Summary** | El equipo identificó la necesidad de distribuir mejor las responsabilidades del backend por bounded context. Se acordó que cada integrante sería líder de un BC para el Sprint 3.                               |
+
+---
+
+### **Sprint Goal & User Stories**
+
+| Campo                   | Detalle                                                                                                                                                                                                          |
+| :---------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint 3 Goal**       | Our focus is on delivering the first version of the backend RESTful API for KhipuTech. We believe it delivers core museum management capabilities to administrators and curators. This will be confirmed when the endpoints for Operation, Maintenance, Visiting, Capacity and Analytics bounded contexts are deployed and accessible via Swagger. |
+| **Sprint 3 Velocity**   | 30 Story Points                                                                                                                                                                                                  |
+| **Sum of Story Points** | 28 Story Points                                                                                                                                                                                                  |
 
 ##### 5.2.3.2. Aspect Leaders and Collaborators
+
+En este Sprint, el equipo organizó su trabajo en torno a los cinco bounded contexts del backend de KhipuTech. Cada integrante asumió el liderazgo de un bounded context específico, siendo responsable de su implementación completa bajo la arquitectura DDD, mientras colaboraba en los demás aspectos según se requiriera.
 
 | Team Member<br>(Last Name, First Name) | GitHub Username | Operation | Maintenance | Visiting | Capacity | Analytics |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
 | Sandoval Cueto, Fabian | JFabianSandoval | **L** | C | C | | |
-| Huaco Oliva, Luis Alonso  | perghormaru-pixel | C | **L** | | C | C |
-| Checa Burga, Oscar Diego | OscarCheca| | C | **L** | | C |
-| Correa Rodriguez, Andrea Khristina | Daiko-07 | C | | | **L** | C |
-| Winnie Lisbeth Merino | winniemerino  | | | C | C | **L** |
+| Huaco Oliva, Luis Alonso | perghormaru-pixel | C | **L** | | C | C |
+| Checa Burga, Oscar Diego | OscarCheca | | C | | | **L** |
+| Correa Rodriguez, Andrea Khristina | Daiko-07 | C | | **L** | | C |
+| Merino Ordinola, Winnie Lisbeth | winniemerino | | | C | **L** | |
 
 ##### 5.2.3.3. Sprint Backlog 3
 
-El objetivo principal de este Sprint es consolidar la arquitectura de software mediante la implementación de los **Bounded Contexts** y el desarrollo de funcionalidades críticas de personalización. Esto incluye la gestión multi-idioma (I18N), el sistema de ranking de engagement para la toma de decisiones administrativas y el monitoreo de la interacción digital de los visitantes.
+El objetivo principal de este Sprint es implementar la primera versión del backend RESTful de KhipuTech, organizado bajo los cinco bounded contexts definidos en la arquitectura DDD: Operation (OPE), Maintenance (MAI), Visiting (VIS), Capacity (CAP) y Analytics (ANA). Cada integrante del equipo lideró su bounded context asignado.
+
+![foto-1-sprint-backlog-jira](../assets/img/5_2_3_3-sprint-backlog-3/)
+
+> **[FOTO 1]** Captura del tablero de Sprint 3 en Jira mostrando las columnas Goal → Stories → Task Stories → To-Do → In-Process → To-Review → To-Fix → Done con las tarjetas distribuidas. Tomar screenshot completo del board en Jira con el sprint activo.
+
+URL del board en Jira: [colocar URL público del board]
 
 | User Story | | Work-Item / Task | | | | | |
 | :--------- | :------------------------------------- | :--------------- | :------------------------------------------- | :------------------------------------------------------------------------- | :--------------------- | :------------------- | :----------- |
 | **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-| TS-VIS-US01 | Gestión de Obras e Integración | SCRUM-258 | Artwork model in database | Creación y migración del modelo de base de datos para las obras de arte. | 6 | Andrea Correa | Stories Task |
-| TS-VIS-US01 | Gestión de Obras e Integración | SCRUM-259 | endpoint GET /artifacts/{qr_id} | Desarrollo del endpoint para retornar el contenido de una obra mediante QR. | 8 | Andrea Correa | Stories Task |
-| TS-VIS-US01 | Gestión de Obras e Integración | SCRUM-260 | Unit and integration testing | Ejecución de pruebas unitarias y de integración para el endpoint de obras. | 6 | Andrea Correa  | Stories Task |
-| TS-VIS-US01 | Gestión de Obras e Integración | SCRUM-261 | Documenting an endpoint in Swagger | Documentación técnica del endpoint de obras de arte utilizando Swagger. | 4 | Andrea Correa | Stories Task |
-| TS-VIS-US02 | Compatibilidad con SPA | SCRUM-262 | JSON response compatible with SPA | Configuración de la respuesta JSON para interactuar correctamente con la SPA. | 6 | Andrea Correa | Stories Task |
-| TS-VIS-US02 | Compatibilidad con SPA | SCRUM-263 | JSON response compatible with SPA (Dupl) | Ajustes complementarios de estructura JSON orientada al frontend SPA. | 4 | Andrea Correa  | Stories Task |
-| TS-CAP-US22 | Modelo y Control de Capacidad de Salas | SCRUM-264 | RoomCapacity model | Definición del modelo RoomCapacity con sala, capacidad máxima y contador. | 8 | Winnie Merino | Stories Task |
-| TS-CAP-US22 | Modelo y Control de Capacidad de Salas | SCRUM-265 | RoomCapacity model (Refinement) | Ajustes de integridad en base de datos para el modelo de capacidad. | 4 | Winnie Merino | Stories Task |
-| TS-CAP-US22 | Modelo y Control de Capacidad de Salas | SCRUM-266 | GET /rooms/capacity | Implementación del endpoint para consultar el estado de capacidad de salas. | 6 | Winnie Merino | Stories Task |
-| TS-CAP-US22 | Modelo y Control de Capacidad de Salas | SCRUM-267 | Current-time counter update test | Pruebas funcionales de la actualización del contador de personas en tiempo real. | 4 | Winnie Merino | Stories Task |
-| TS-CAP-US22 | Modelo y Control de Capacidad de Salas | SCRUM-268 | Documenting endpoints with Swagger | Documentación formal de los endpoints de capacidad de salas en Swagger. | 4 | Winnie Merino | Stories Task |
-| TS-CAP-US23 | Lógica de Alertas por Exceso de Aforo | SCRUM-269 | Alert trigger logic | Desarrollo de la lógica de negocio: disparar alerta si contador >= max. | 8 | Winnie Merino (WO) | Stories Task |
-| TS-CAP-US23 | Lógica de Alertas por Exceso de Aforo | SCRUM-270 | Alert trigger logic (Validation) | Validación y control de excepciones en el disparador automático de alertas. | 4 | Winnie Merino | Stories Task |
-| TS-CAP-US23 | Lógica de Alertas por Exceso de Aforo | SCRUM-271 | GET /alerts - Active alerts list | Creación del endpoint para listar las alertas activas para el administrador. | 6 | Winnie Merino | Stories Task |
-| TS-CAP-US23 | Lógica de Alertas por Exceso de Aforo | SCRUM-272 | Alert test upon exceeding threshold | Pruebas de integración simulando el exceso del límite de aforo permitido. | 6 | Winnie Merino | Stories Task |
-| TS-CAP-US30 | Seguridad y Autenticación de Rutas | SCRUM-273 | Security test on role-protected routes | Implementación de pruebas de seguridad para la restricción de rutas por roles. | 8 | Winnie Merino | Stories Task |
-| TS-CAP-US30 | Seguridad y Autenticación de Rutas | SCRUM-274 | Documenting authentication flow | Documentación inicial del flujo completo de autenticación dentro de Swagger. | 4 | Winnie Merino | Stories Task |
-| TS-CAP-US30 | Seguridad y Autenticación de Rutas | SCRUM-275 | Documenting authentication flow (Rev) | Revisión y publicación final del flujo de autenticación en Swagger. | 4 | Winnie Merino| Stories Task |
+| TS-OPE-US26-01 | GET /recommendations/operations | SCRUM-258 | OperationRecommendation model in database | Definición del aggregate y configuración EF Core para recomendaciones operativas. | 4 | Sandoval Cueto, Fabian | Done |
+| TS-OPE-US26-02 | GET /recommendations/operations | SCRUM-259 | GET /recommendations/operations endpoint | Implementación del endpoint bajo arquitectura DDD con Query/Handler/Repository. | 6 | Sandoval Cueto, Fabian | Done |
+| TS-OPE-US26-03 | GET /recommendations/operations | SCRUM-260 | AppDbContext update for OPE | Registro del DbSet y ApplyOperationConfiguration en el AppDbContext compartido. | 2 | Sandoval Cueto, Fabian | Done |
+| TS-OPE-US26-04 | GET /recommendations/operations | SCRUM-261 | Swagger documentation for OPE endpoint | Documentación del endpoint con SwaggerOperation, ProducesResponseType y ejemplos. | 2 | Sandoval Cueto, Fabian | Done |
+| TS-MAI-USMA-01 | Schedule artwork maintenance | SCRUM-262 | MaintenanceSchedule model and migration | Modelo de programación de mantenimiento con fechas y FK a Artwork. | 5 | Huaco Oliva, Luis Alonso | Done |
+| TS-MAI-USMA-02 | Schedule artwork maintenance | SCRUM-263 | POST /maintenance endpoint | Endpoint para crear programaciones de mantenimiento. | 5 | Huaco Oliva, Luis Alonso | Done |
+| TS-MAI-USMA-03 | Schedule artwork maintenance | SCRUM-264 | Database update and release | Actualización de la base de datos con tablas de mantenimiento y release del proyecto. | 4 | Huaco Oliva, Luis Alonso | Done |
+| TS-VIS-US01-01 | GET /artifacts/{qr_id} | SCRUM-265 | Artwork model in database | Creación y migración del modelo de base de datos para obras de arte. | 6 | Correa Rodriguez, Andrea | Done |
+| TS-VIS-US01-02 | GET /artifacts/{qr_id} | SCRUM-266 | GET /artifacts/{qr_id} endpoint | Endpoint para retornar contenido de obra mediante QR bajo arquitectura DDD. | 8 | Correa Rodriguez, Andrea | Done |
+| TS-VIS-US01-03 | GET /artifacts/{qr_id} | SCRUM-267 | Unit and integration testing | Pruebas unitarias y de integración del endpoint de obras. | 4 | Correa Rodriguez, Andrea | Done |
+| TS-VIS-US01-04 | GET /artifacts/{qr_id} | SCRUM-268 | Swagger documentation for VIS endpoint | Documentación técnica del endpoint con Swagger. | 2 | Correa Rodriguez, Andrea | Done |
+| TS-CAP-US22-01 | GET /rooms/capacity | SCRUM-269 | RoomCapacity model | Definición del modelo con sala, capacidad máxima y contador actual. | 6 | Merino Ordinola, Winnie | Done |
+| TS-CAP-US22-02 | GET /rooms/capacity | SCRUM-270 | GET /rooms/capacity endpoint | Endpoint para consultar el estado de capacidad de salas en tiempo real. | 6 | Merino Ordinola, Winnie | Done |
+| TS-CAP-US22-03 | GET /rooms/capacity | SCRUM-271 | Alert trigger logic | Lógica de disparo de alerta cuando contador >= aforo máximo. | 4 | Merino Ordinola, Winnie | Done |
+| TS-CAP-US22-04 | GET /rooms/capacity | SCRUM-272 | Swagger documentation for CAP endpoints | Documentación formal de endpoints de capacidad en Swagger. | 2 | Merino Ordinola, Winnie | Done |
+| TS-ANA-US15-01 | GET /dashboard/metrics | SCRUM-273 | ArtworkStat and VisitorStat models | Definición de agregados de estadísticas para el dashboard analítico. | 5 | Checa Burga, Oscar | Done |
+| TS-ANA-US15-02 | GET /dashboard/metrics | SCRUM-274 | GET /dashboard/metrics endpoint | Endpoint de métricas con agregación por obra y sala. | 6 | Checa Burga, Oscar | Done |
+| TS-ANA-US15-03 | GET /dashboard/metrics | SCRUM-275 | Frontend updates for analytics | Actualización del frontend para consumir los endpoints del dashboard. | 5 | Checa Burga, Oscar | Done |
 
 ##### 5.2.3.4. Development Evidence for Sprint Review
 
+En este Sprint se implementó la primera versión del backend RESTful de KhipuTech. Los commits corresponden a los cinco bounded contexts desarrollados bajo arquitectura DDD en el repositorio de Web Services.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--------- | :----- | :-------- | :------------- | :------------------ | :------------------ |
+| khiputech-platform | feature/get-recommendations-operations | a1b2c3d | feat(operation): add get recommendations operations endpoint | Implementa GET /recommendations/operations con estructura DDD completa (Domain, Application, Infrastructure, Interfaces) | 2026-06-17 |
+| khiputech-platform | feature/get-recommendations-operations | e4f5g6h | feat(shared): update AppDbContext to register OperationRecommendation DbSet and apply operation configuration | Agrega DbSet<OperationRecommendation> y descomenta ApplyOperationConfiguration() | 2026-06-17 |
+| khiputech-platform | feature/post-maintenance | i7j8k9l | feat(maintenance): add schedule maintenance endpoint | Implementa POST /maintenance con modelo MaintenanceSchedule y lógica de bloqueo QR | 2026-06-17 |
+| khiputech-platform | feature/get-artifact-by-qr | m1n2o3p | feat(visiting): add get artifact by qr endpoint | Implementa GET /artifacts/{qr_id} con modelo Artwork y repositorio DDD | 2026-06-17 |
+| khiputech-platform | feature/get-rooms-capacity | q4r5s6t | feat(capacity): add get rooms capacity endpoint | Implementa GET /rooms/capacity con modelo RoomCapacity y lógica de alertas | 2026-06-17 |
+| khiputech-platform | feature/get-dashboard-metrics | u7v8w9x | feat(analytics): add get dashboard metrics endpoint | Implementa GET /dashboard/metrics con agregados ArtworkStat y VisitorStat | 2026-06-17 |
+| khiputech-platform | develop | y1z2a3b | feat(shared): update AppDbContext with all bounded context configurations | Activa ApplyCapacityConfiguration, ApplyMaintenanceConfiguration en OnModelCreating | 2026-06-17 |
+| TF_Aplicaciones_Web (frontend) | develop | c4d5e6f | fix(frontend): update routing and responsive fixes | Corrige routing SPA y breakpoints de dispositivos móviles | 2026-06-17 |
+| TF_Aplicaciones_Web (landing) | develop | g7h8i9j | fix(landing): optimize images and update QR redirect | Optimización de imágenes y corrección de URL de redirección QR | 2026-06-17 |
+
+> **Nota:** Reemplazar los Commit Ids con los IDs reales obtenidos desde GitHub (primeros 7 caracteres del hash de cada commit).
+
 ##### 5.2.3.5. Execution Evidence for Sprint Review
+
+En este Sprint se desplegó la primera versión del backend RESTful de KhipuTech. Los cinco bounded contexts (OPE, MAI, VIS, CAP, ANA) fueron implementados bajo arquitectura DDD y expuestos como endpoints REST documentados en Swagger. Adicionalmente se realizaron correcciones en el frontend y la landing page.
+
+![foto-2-swagger-ui-general](../assets/img/5_2_3_3-sprint-backlog-3/foto-2-swagger-ui-general.jpg)
+
+> **[FOTO 2]** Captura de la interfaz de Swagger UI mostrando todos los endpoints disponibles del backend agrupados por bounded context (Operation, Maintenance, Visiting, Capacity, Analytics). Acceder a `https://localhost:{puerto}/swagger` con el proyecto corriendo y tomar screenshot del listado completo de endpoints.
+
+![foto-3-endpoint-operation-alerts]
+
+> **[FOTO 3]** Captura de Swagger UI mostrando el endpoint `GET /api/v1/operation/alerts` expandido con su descripción, parámetros y respuesta de ejemplo. Hacer clic en el endpoint para expandirlo y ejecutar una prueba con "Try it out".
 
 ##### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
+En este Sprint se documentaron los endpoints del backend de KhipuTech utilizando OpenAPI Specification a través de Swagger. A continuación se presenta la relación de endpoints implementados y documentados durante el Sprint 3.
+
+| Bounded Context | Endpoint | HTTP Verb | Descripción | Parámetros | Response ejemplo |
+| :-------------- | :------- | :-------- | :---------- | :--------- | :--------------- |
+| Operation (OPE) | /api/v1/recommendations | GET | Retorna lista de recomendaciones operativas basadas en métricas actuales del museo | Ninguno | `[{"id":1,"roomName":"Sala A","issue":"Ocupación > 80%","suggestedAction":"Redistribuir visitantes","generatedAt":"2026-06-17T23:00:00Z"}]` |
+| Operation (OPE) | /api/v1/operation/alerts/active | GET | Retorna alertas activas del sistema | Ninguno | `[{"id":1,"roomName":"Sala B","type":"critica","message":"Aforo superado","status":"active"}]` |
+| Operation (OPE) | /api/v1/operation/configuration | GET | Retorna la configuración de umbrales de alerta | Ninguno | `{"moderateThreshold":80,"criticalThreshold":100,"notifyEmail":true}` |
+| Maintenance (MAI) | /api/v1/maintenance | POST | Crea una programación de mantenimiento para una obra | Body: `{artworkId, startDate, endDate, reason}` | `{"id":1,"artworkId":5,"startDate":"2026-06-20","endDate":"2026-06-25","status":"scheduled"}` |
+| Maintenance (MAI) | /api/v1/maintenance | GET | Lista mantenimientos activos y futuros | Ninguno | `[{"id":1,"artworkId":5,"startDate":"2026-06-20","status":"scheduled"}]` |
+| Visiting (VIS) | /api/v1/artifacts/{qr_id} | GET | Retorna contenido digital de una obra mediante su código QR | Path: `qr_id` (string) | `{"id":1,"title":"La Última Cena","artist":"Da Vinci","description":"...","mediaUrls":["..."]}` |
+| Capacity (CAP) | /api/v1/rooms/capacity | GET | Retorna estado de capacidad de todas las salas en tiempo real | Ninguno | `[{"roomName":"Sala A","maxCapacity":50,"currentCount":42,"occupancyRate":84}]` |
+| Analytics (ANA) | /api/v1/dashboard/metrics | GET | Retorna métricas agregadas del dashboard (visitas, ranking, engagement) | Ninguno | `{"totalVisits":1250,"topArtwork":"La Última Cena","avgDwellTime":180}` |
+
+URL del repositorio de Web Services: https://github.com/upc-pre-202610-1asi0730-12242-Web-Stone/khiputech-platform
+
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint se realizó el primer despliegue del backend de KhipuTech como Web Service RESTful. A continuación se describen las actividades realizadas para el despliegue de los tres productos: Landing Page, Web Application y Web Services.
+
+**Web Services (Backend)**
+
+El backend fue desarrollado con ASP.NET Core (.NET 10) y desplegado con conexión a una base de datos MySQL. El proceso de despliegue incluyó la configuración del entorno, la ejecución de migraciones de Entity Framework Core y la verificación de endpoints mediante Swagger UI.
+
+![foto-9-mysql-tables](../assets/img/5_2_3_3-sprint-backlog-3/foto-9-mysql-tables.png)
+
+> **[FOTO 9]** Captura de MySQL Workbench mostrando las tablas creadas por las migraciones de EF Core: `operation_recommendations`, `alerts`, `alert_configurations`, `maintenance_schedules`, `artworks`, entre otras. Abrir MySQL Workbench, conectarse a la BD y expandir el schema de KhipuTech.
 
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
 
+Durante el Sprint 3, el equipo mantuvo una colaboración activa en los repositorios de GitHub. Cada integrante realizó commits en su bounded context asignado, siguiendo las convenciones de Conventional Commits y el flujo GitFlow con feature branches individuales por endpoint.
+
+![foto-12-github-contributors](../assets/img/5_2_3_3-sprint-backlog-3/foto-12-github-contributors.png)
+
+> **[FOTO 12]** Captura de la pestaña "Contributors" o "Insights > Contributors" del repositorio `khiputech-platform` en GitHub, mostrando el gráfico de contribuciones por integrante con número de commits. Ir a https://github.com/upc-pre-202610-1asi0730-12242-Web-Stone/khiputech-platform > pestaña "Insights" > "Contributors" y tomar screenshot.
+
+![foto-13-github-network](../assets/img/5_2_3_3-sprint-backlog-3/foto-13-github-network.png)
+
+> **[FOTO 13]** Captura del gráfico de red (Network graph) del repositorio mostrando los feature branches de cada bounded context confluyendo hacia develop. Ir a GitHub > repositorio khiputech-platform > "Insights" > "Network" y tomar screenshot del grafo con los branches visibles.
 ---
 
 #### 5.2.4. Sprint 4
